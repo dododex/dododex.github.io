@@ -2,7 +2,7 @@
 var ctrlOn = true;
 var cat1 = null; // Top level cat
 var category = null;
-var noDataHTML = '<div class="light center marginTop2 marginBottom2"><b class="white">No results found.</b> Please <a href="https://github.com/dododex/dododex">add it</a>.</div>'
+var noDataHTML = '<div class="light center marginTop2 marginBottom2"><b class="white">No results found.</b> Please <a href="https://github.com/dododex/dododex.github.io">add it</a>.</div>'
 
 var cats = {
    "1":{

@@ -1,6 +1,6 @@
 # Dododex
-<a href="https://dododex.github.io/admin-commands/">Open the Admin Commands Tool</a>
-<a href="https://www.dododex.com">Taming Calculator for Ark: Survival Evolved</a>
+* <a href="https://dododex.github.io/admin-commands/">Open the Admin Commands Tool</a>
+* <a href="https://www.dododex.com">Taming Calculator for Ark: Survival Evolved</a>
 
 ## Editing Ark Creature/Item Spawn Codes
 
