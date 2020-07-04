@@ -687,7 +687,7 @@ $(document).ready(function() {
       document.title = cat.n + " | Spawn Codes | Dododex";
     }
     if(typeof event == "object"){
-      console.log("PREVENT");
+      // console.log("PREVENT");
       event.preventDefault()
     }
   })
@@ -784,7 +784,7 @@ function initFromURL(){
       // console.log('NEXT PARENT: ', lastParent)
       i--;
     }
-    console.log("Initialize these cats",initCats);
+    // console.log("Initialize these cats",initCats);
     for(var i in initCats){
       // console.log('triggering category',initCat[i])
       $('[data-cat=' + initCats[i] + ']').trigger('click')

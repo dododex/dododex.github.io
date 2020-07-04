@@ -125,12 +125,6 @@
 "id":"Coel_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP"
 },{
-"t":"Dinos",
-"cid":"compy",
-"label":"Compsognathus",
-"id":"Compy_Character_BP_C",
-"bp":"PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP"
-},{
 "t":"Bosses",
 "label":"Deathworm",
 "cid":"deathworm",
@@ -6571,7 +6565,6 @@
 },{
 "label":"Rockwell Tentacle",
 "cid":"rockwell",
-"cid":"tentacle",
 "t":"Bosses",
 "id":"RockwellTentacle_Character_BP_C",
 "bp":"Aberration/Boss/RockwellTentacle/RockwellTentacle_Character_BP.RockwellTentacle_Character_BP"
@@ -7725,83 +7718,88 @@
 "bp":"PrimalEarth/Dinos/Tropeognathus/Tropeognathus_Character_BP.Tropeognathus_Character_BP"
 },{
 "label":"Alpha Blood Crystal Wyvern",
-"type":"Alphas",
+"cid":"crystalwyvern",
+"t":"Alphas",
 "id":"CrystalWyvern_Character_BP_Mega_C",
 "bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_Mega.CrystalWyvern_Character_BP_Mega"
 },{
 "label":"Blood Crystal Wyvern",
-"type":"Dinos",
+"cid":"crystalwyvern",
+"t":"Dinos",
 "id":"CrystalWyvern_Character_BP_Blood_C",
 "bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_Blood.CrystalWyvern_Character_BP_Blood"
 },{
 "label":"Blood Crystal Wyvern Heir",
-"type":"Dinos",
+"cid":"crystalwyvern",
+"t":"Dinos",
 "id":"CrystalWyvern_Character_BP_Minion_Blood_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/Minions/CrystalWyvern_Character_BP_Minion_Blood.CrystalWyvern_Character_BP_Minion_Blood"
 },{
 "label":"Crystal Wyvern",
-"type":"Dinos",
+"cid":"crystalwyvern",
+"t":"Dinos",
 "id":"CrystalWyvern_Character_BP_C",
 "bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP.CrystalWyvern_Character_BP"
 },{
 "label":"Crystal Wyvern Queen",
-"type":"Bosses",
+"cid":"crystalwyvernqueen",
+"t":"Bosses",
 "id":"CrystalWyvern_Character_BP_Boss_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/CrystalWyvern_Character_BP_Boss.CrystalWyvern_Character_BP_Boss"
 },{
 "label":"Crystal Wyvern Queen (Gamma)",
 "cid":"crystalwyvernqueen",
-"type":"Bosses",
+"t":"Bosses",
 "id":"CrystalWyvern_Character_BP_Boss_Easy_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/CrystalWyvern_Character_BP_Boss_Easy.CrystalWyvern_Character_BP_Boss_Easy"
 },{
 "label":"Crystal Wyvern Queen (Beta)",
 "cid":"crystalwyvernqueen",
-"type":"Bosses",
+"t":"Bosses",
 "id":"CrystalWyvern_Character_BP_Boss_Medium_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/CrystalWyvern_Character_BP_Boss_Medium.CrystalWyvern_Character_BP_Boss_Medium"
 },{
 "label":"Crystal Wyvern Queen (Alpha)",
 "cid":"crystalwyvernqueen",
-"type":"Bosses",
+"t":"Bosses",
 "id":"CrystalWyvern_Character_BP_Boss_Hard_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/CrystalWyvern_Character_BP_Boss_Hard.CrystalWyvern_Character_BP_Boss_Hard"
 },{
 "label":"Ember Crystal Wyvern",
 "cid":"crystalwyvern",
-"type":"Dinos",
+"t":"Dinos",
 "id":"CrystalWyvern_Character_BP_Ember_C",
 "bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_Ember.CrystalWyvern_Character_BP_Ember"
 },{
 "label":"Ember Crystal Wyvern Heir",
 "cid":"crystalwyvern",
-"type":"Dinos",
+"t":"Dinos",
 "id":"CrystalWyvern_Character_BP_Minion_Ember_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/Minions/CrystalWyvern_Character_BP_Minion_Ember.CrystalWyvern_Character_BP_Minion_Ember"
 },{
 "label":"Giant Worker Bee",
-"type":"Dinos",
+"t":"Dinos",
 "id":"HoneyBee_Character_BP_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/HoneyBee/HoneyBee_Character_BP.HoneyBee_Character_BP"
 },{
 "label":"Tropeognathus",
 "cid":"tropeognathus",
-"type":"Dinos",
+"t":"Dinos",
 "id":"Tropeognathus_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Tropeognathus/Tropeognathus_Character_BP.Tropeognathus_Character_BP"
 },{
 "label":"Tropical Crystal Wyvern",
 "cid":"crystalwyvern",
-"type":"Dinos",
+"t":"Dinos",
 "id":"CrystalWyvern_Character_BP_WS_C",
 "bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_WS.CrystalWyvern_Character_BP_WS"
 },{
 "label":"Tropical Crystal Wyvern Heir",
 "cid":"crystalwyvern",
-"type":"Dinos",
+"t":"Dinos",
 "id":"CrystalWyvern_Character_BP_Minion_WS_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/Minions/CrystalWyvern_Character_BP_Minion_WS.CrystalWyvern_Character_BP_Minion_WS"
-
+}
 
 
 ]}
