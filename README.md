@@ -1,11 +1,12 @@
 # Dododex
-<a href="http://www.dododex.com">Taming Calculator for Ark: Survival Evolved</a>
+<a href="https://dododex.github.io/admin-commands/">Open the Admin Commands Tool</a>
+<a href="https://www.dododex.com">Taming Calculator for Ark: Survival Evolved</a>
 
 ## Editing Ark Creature/Item Spawn Codes
 
 **To contribute:**
 
-1. Open [bp.json](https://github.com/dododex/dododex/blob/master/bp.json)
+1. Open [bp.json](bp.json)
 2. Click "Edit"
 3. Add new blueprints to the end of the file matching the file's format. (Order does not matter)
 
@@ -24,7 +25,7 @@
 
 **To contribute:**
 
-1. Open [commands.json](https://github.com/dododex/dododex/blob/master/commands.json)
+1. Open [commands.json](commands.json)
 2. Click "Edit"
 3. Add new commands to the end of the file matching the file's format. (Order does not matter)
 
