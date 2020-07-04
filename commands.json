@@ -1,0 +1,823 @@
+{"BP":[{
+"id":"AddExperience",
+"c":"AddExperience <XP Quantity> <XP Came From Tribe?> <Share With Tribe?>",
+"e":"AddExperience 100 0 0",
+"t":"Player Status",
+"d":"Add experience to a player, and optionally make it apply as if it came from a tribemate and/or share the XP with the tribe. (0 = false, 1 = true)"
+},{
+"id":"AllowPlayerToJoinNoCheck",
+"c":"AllowPlayerToJoinNoCheck <Steam ID>",
+"e":"AllowPlayerToJoinNoCheck 12347890",
+"t":"Server",
+"d":"Whitelists a specific player using their Steam ID."
+},{
+"id":"AutoCycle",
+"c":"AutoCycle <Duration>",
+"e":"AutoCycle 1",
+"t":"Misc",
+"d":"Details on this command are unknown."
+},{
+"id":"BanPlayer",
+"c":"BanPlayer <Steam ID>",
+"e":"BanPlayer 12345890",
+"t":"Server",
+"d":"Bans a player from the server based on their player ID."
+},{
+"id":"Broadcast",
+"c":"Broadcast <Message Text>",
+"e":"Broadcast Please download Dododex!",
+"t":"Chat & Messaging",
+"d":"Broadcasts a message to all players."
+},{
+"id":"CE",
+"c":"CE <Start / Stop Weather Event>",
+"e":"CE start_superheat",
+"t":"Environment",
+"d":"Starts or stops a weather event. (start_superheat, stop_superheat, start_sandstorm, stop_sandstorm, start_electricalstorm, stop_electricalstorm, start_rain, stop_rain)"
+},{
+"id":"ChangeSize",
+"c":"ChangeSize <SizeMult>",
+"e":"ChangeSize 5",
+"t":"Player Cosmetics",
+"d":"Changes the size of a player."
+},{
+"id":"ClearPlayerInventory",
+"c":"ClearPlayerInventory <PlayerID> <Clear Inventory?> <Clear Slot Items?> <ClearEquippedItems>",
+"e":"ClearPlayerInventory 1234567890 1 1 1",
+"t":"Items",
+"d":"Clear a player's inventory and/or item slots. (0 = false, 1 = true)"
+},{
+"id":"ClearTutorials",
+"c":"ClearTutorials",
+"e":"ClearTutorials",
+"t":"Misc",
+"d":"Clears the game tutorial making it so they re-appear without being forced."
+},{
+"id":"DebugStructures",
+"c":"DebugStructures",
+"e":"DebugStructures",
+"t":"Misc",
+"d":"Debug information on structures."
+},{
+"id":"DestroyAll",
+"c":"DestroyAll <Type>",
+"e":"DestroyAll Dodo_Character_BP_C",
+"t":"Dinos",
+"d":"Destroy all creatures of a certain type."
+},{
+"id":"DestroyAllEnemies",
+"c":"DestroyAllEnemies",
+"e":"DestroyAllEnemies",
+"t":"Dinos",
+"d":"Destroys ALL creatures on the map. (WARNING: This command is incorrectly labeled; it will also killed TAMED dinos.)"
+},{
+"id":"DestroyMyTarget",
+"c":"DestroyMyTarget",
+"e":"DestroyMyTarget",
+"t":"Structures / Dinos",
+"d":"Kills or destroys the target creature or structure."
+},{
+"id":"DestroyStructures",
+"c":"DestroyStructures",
+"e":"DestroyStructures",
+"t":"Tribe & Player Administration",
+"d":"Destroys all structures on the map."
+},{
+"id":"DestroyTribeDinos",
+"c":"DestroyTribeDinos",
+"e":"DestroyTribeDinos",
+"t":"Tribe & Player Administration",
+"d":"Destroys all creatures in the tribe of the target (player/creature)."
+},{
+"id":"DestroyTribePlayers",
+"c":"DestroyTribePlayers",
+"e":"DestroyTribePlayers",
+"t":"Tribe & Player Administration",
+"d":"Kills all players in the tribe of the target (player/creature)."
+},{
+"id":"DestroyTribeStructure",
+"c":"DestroyTribeStructure",
+"e":"DestroyTribeStructure",
+"t":"Tribe & Player Administration",
+"d":"Destroys all structures in the tribe of the target (player/creature)."
+},{
+"id":"DestroyWildDinos",
+"c":"DestroyWildDinos",
+"e":"DestroyWildDinos",
+"t":"Dinos",
+"d":"Destroy all untamed creatures."
+},{
+"id":"DisableSpectator",
+"c":"DisableSpectator",
+"e":"DisableSpectator",
+"t":"Misc",
+"d":"Disables spectator mode for current player."
+},{
+"id":"DisallowPlayerToJoinNoCheck",
+"c":"DisallowPlayerToJoinNoCheck <Steam ID>",
+"e":"DisallowPlayerToJoinNoCheck 1234567890",
+"t":"Server",
+"d":"Removes a specific player from the server's whitelist using their Steam ID."
+},{
+"id":"DoExit",
+"c":"DoExit",
+"e":"DoExit",
+"t":"Server",
+"d":"Shuts down the server."
+},{
+"id":"DoRestartLevel",
+"c":"DoRestartLevel",
+"e":"DoRestartLevel",
+"t":"Server",
+"d":"Details on this command are unknown."
+},{
+"id":"DoTame",
+"c":"DoTame",
+"e":"DoTame",
+"t":"Dinos",
+"d":"Tames the target creature, but only if they can be tamed normally. (Use 'ForceTame' to force tame any creature.)"
+},{
+"id":"EnemyInvisible",
+"c":"EnemyInvisible <true | false>",
+"e":"EnemyInvisible true",
+"t":"Dinos",
+"d":"Makes the current player invisible to all creatures (preventing them from aggroing.)"
+},{
+"id":"EnableCheats",
+"c":"EnableCheats <Password>",
+"e":"EnableCheats Dodo123",
+"t":"Cheats",
+"d":"Enables cheats for a server that requires a password."
+},{
+"id":"EnableSpectator",
+"c":"EnableSpectator",
+"e":"EnableSpectator",
+"t":"Misc",
+"d":"Enables spectator mode for current player."
+},{
+"id":"ExecSetSleeping",
+"c":"ExecSetSleeping <true | false>",
+"e":"ExecSetSleeping true",
+"t":"Tribe & Player Administration",
+"d":"Puts the current player to sleep or wakes them up."
+},{
+"id":"Fly",
+"c":"Fly",
+"e":"Fly",
+"t":"Movement",
+"d":"Allows current player to fly. (Use 'Walk' to disable.)"
+},{
+"id":"ForcePlayerToJoinTargetTribe",
+"c":"ForcePlayerToJoinTargetTribe <Player ID>",
+"e":"ForcePlayerToJoinTargetTribe 1234567890",
+"t":"Tribe & Player Administration",
+"d":"Changes a player's tribe based on the player or structure that is being targeted."
+},{
+"id":"ForcePlayerToJoinTribe",
+"c":"ForcePlayerToJoinTribe <Player ID> <Tribe Name>",
+"e":"ForcePlayerToJoinTribe 1234567890 Dododex",
+"t":"Tribe & Player Administration",
+"d":"Forces a player (using their player ID) to join a specific tribe."
+},{
+"id":"ForceTame",
+"c":"ForceTame",
+"e":"ForceTame",
+"t":"Dinos",
+"d":"Tames the target dino."
+},{
+"id":"ForceTribes",
+"c":"ForceTribes <Player Name 1> <Player Name 2> <New Tribe Name>",
+"e":"ForceTribes 1234567890 1234567890 Dododex",
+"t":"Tribe & Player Administration",
+"d":"Details on this command are unknown."
+},{
+"id":"ForceTameAOE",
+"c":"ForceTameAOE <Radius>",
+"e":"ForceTameAOE 2500",
+"t":"Dinos",
+"d":"Tames all dinos within specified radius, defaults to 2000 if no number is given."
+},{
+"id":"GameCommand",
+"c":"GameCommand <TheCommand>",
+"e":"GameCommand test",
+"t":"Server",
+"d":"Executes a custom command."
+},{
+"id":"GetAllState",
+"c":"GetAllState <type>",
+"e":"GetAllState Dodo_Character_BP_C",
+"t":"Server",
+"d":"Returns the state of all dinos that are currently spawned on the map."
+},{
+"id":"GetChat",
+"c":"GetChat",
+"e":"GetChat",
+"t":"Chat & Messaging",
+"d":"Returns the most recent chat messages."
+},{
+"id":"GetGameLog",
+"c":"GetGameLog",
+"e":"GetGameLog",
+"t":"Server",
+"d":"Returns the most recent server logs."
+},{
+"id":"GetPlayerIDForSteamID",
+"c":"GetPlayerIDForSteamID <Steam ID>",
+"e":"GetPlayerIDForSteamID 12567890",
+"t":"Tribe & Player Administration",
+"d":"Returns the player ID for a player based on their Steam ID. This does not currently work."
+},{
+"id":"GetSteamIDForPlayerID",
+"c":"GetSteamIDForPlayerID <PlayerId>",
+"e":"GetSteamIDForPlayerID 12567890",
+"t":"Tribe & Player Administration",
+"d":"Returns the Steam ID for a player based on their player ID."
+},{
+"id":"GetTribeIdPlayerList",
+"c":"GetTribeIdPlayerList <TribeID>",
+"e":"GetTribeIdPlayerList 123",
+"t":"Tribe & Player Administration",
+"d":"Returns the list of players in a Tribe."
+},{
+"id":"GFI",
+"c":"GFI <Blueprint Path Part> <Quantity> <Quality> <Force Blueprint?>",
+"e":"GFI spy 1 0 0",
+"t":"Items",
+"d":"Adds an item to the current player's inventory. 'Blueprint Path Part' is a partial match. For example, you can use 'spy' to spawn the Spyglass."
+},{
+"id":"Ghost",
+"c":"Ghost",
+"e":"Ghost",
+"t":"Movement",
+"d":"Similar to 'fly', this command allows the current player to move through all objects. (Use 'walk' to disable.)"
+},{
+"id":"GiveAllStructure",
+"c":"GiveAllStructure",
+"e":"GiveAllStructure",
+"t":"Tribe & Player Administration",
+"d":"Gives the current player ownership of the target structure and all structures connected to it."
+},{
+"id":"GiveColors",
+"c":"GiveColors <Quantity>",
+"e":"GiveColors 5",
+"t":"Items",
+"d":"Gives current player a specificied quantity of every type of dye."
+},{
+"id":"GiveCreativeMode",
+"c":"GiveCreativeMode",
+"e":"GiveCreativeMode",
+"t":"Cheats",
+"d":"Enables Creative mode for yourself. Can be shortened as GCM"
+},{
+"id":"GiveCreativeModeToTarget",
+"c":"GiveCreativeModeToTarget",
+"e":"GiveCreativeModeToTarget",
+"t":"Cheats",
+"d":"Enables Creative mode for your target. Can be shortened as GCMT"
+},{
+"id":"GiveCreativeModeToPlayer",
+"c":"GiveCreativeModeToPlayer <PlayerID>",
+"e":"GiveCreativeModeToPlayer 1234567890",
+"t":"Cheats",
+"d":"Enables Creative mode for the specified player. Can be shortened as GCMP"
+},{
+"id":"GiveEngrams",
+"c":"GiveEngrams",
+"e":"GiveEngrams",
+"t":"Player Status",
+"d":"Unlocks all engrams for the current player."
+},{
+"id":"GiveExpToPlayer",
+"c":"GiveExpToPlayer <PlayerID> <Quantity of XP> <From Tribe Share?> <Prevent Sharing With Tribe?>",
+"e":"GiveExpToPlayer 123567890 500 1 0",
+"t":"Player Status",
+"d":"Gives XP to a specific player."
+},{
+"id":"GiveExpToTarget",
+"c":"GiveExpToTarget <Quantity of XP> <From Tribe Share?> <Prevent Sharing With Tribe?>",
+"e":"GiveExpToTarget 500 1 0",
+"t":"Player Status",
+"d":"Gives XP to the target player."
+},{
+"id":"GiveInfiniteStatsToTarget",
+"c":"GiveInfiniteStatsToTarget",
+"e":"GiveInfiniteStatsToTarget",
+"t":"Cheats",
+"d":"Gives Infinite Stats to targeted player or dino. Only works on dinos currently."
+},{
+"id":"GiveItem",
+"c":"GiveItem <Blueprint Path> <Quantity> <Quality> <Force Blueprint?>",
+"e":"GiveItem \"Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'\" 10 0 0",
+"t":"Items",
+"d":"Gives current player item(s) using a blueprint path (see 'Items' tab for interactive version)."
+},{
+"id":"GiveItemNum",
+"c":"GiveItemNum <ItemNum> <Quantity> <Quality> <Force Blueprint?>",
+"e":"GiveItemNum 294 10 0 0",
+"t":"Items",
+"d":"Gives current player item(s) using an item number (see 'Items' tab for interactive version)."
+},{
+"id":"GiveItemNumToPlayer",
+"c":"GiveItemNumToPlayer <PlayerID> <Item Number> <Quantity> <Quality> <Force Blueprint?>",
+"e":"GiveItemNumToPlayer 1234567890 294 10 0 0",
+"t":"Items",
+"d":"Gives a player item(s) using an item number."
+},{
+"id":"GiveItemToPlayer",
+"c":"GiveItemToPlayer <PlayerID> <Blueprint Path> <Quantity> <Quality> <Force Blueprint?>",
+"e":"GiveItemToPlayer 123567890 \"Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'\" 10 0 0",
+"t":"Items",
+"d":"Gives a player item(s) using a blueprint path."
+},{
+"id":"GiveResources",
+"c":"GiveResources",
+"e":"GiveResources",
+"t":"Items",
+"d":"Gives 50 of each item to the current player."
+},{
+"id":"GiveSlotItem",
+"c":"GiveSlotItem <Blueprint Path> <Slot Number> <Quantity>",
+"e":"GiveSlotItem \"Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'\" 1 20",
+"t":"Items",
+"d":"Gives an item to the target player in a specified slot number using a blueprint path."
+},{
+"id":"GiveSlotItemNum",
+"c":"GiveSlotItemNum <Item Number> <Slot Number> <Quantity>",
+"e":"GiveSlotItemNum 294 1 20",
+"t":"Items",
+"d":"Gives an item to the current player in a specified slot number using an item number."
+},{
+"id":"GiveToMe",
+"c":"GiveToMe",
+"e":"GiveToMe",
+"t":"Structures / Dinos",
+"d":"Changes the ownership of the target structure or creature to the current player."
+},{
+"id":"GMBuff",
+"c":"GMBuff",
+"e":"GMBuff",
+"t":"Cheats",
+"d":"Enables the God, InfiniteStats, and EnemyInvisible commands for the current player, and also gives a large quantity of XP."
+},{
+"id":"GMSummon",
+"c":"GMSummon \"<type>\" <level>",
+"e":"GMSummon \"Dodo_Character_BP_C\" 150",
+"t":"Dinos",
+"d":"Summons a specific dino."
+},{
+"id":"God",
+"c":"God",
+"e":"God",
+"t":"Cheats",
+"d":"Enables god mode, making the current player invincible and not able to receive damage. (Note: Player can still be affected by drowning.)"
+},{
+"id":"HideTutorial",
+"c":"HideTutorial <TutorialIndex>",
+"e":"HideTutorial 2",
+"t":"Misc",
+"d":"Hides the game tutorial."
+},{
+"id":"HurtMe",
+"c":"HurtMe <Amount>",
+"e":"HurtMe 40",
+"t":"Player Status",
+"d":"Inflicts damage to the current player."
+},{
+"id":"InfiniteStats",
+"c":"InfiniteStats",
+"e":"InfiniteStats",
+"t":"Cheats",
+"d":"Prevents your Health, Stamina, Oxygen, Food, and Water from decreasing."
+},{
+"id":"KickPlayer",
+"c":"KickPlayer <SteamID>",
+"e":"KickPlayer 12390",
+"t":"Tribe & Player Administration",
+"d":"Kicks a player from the server."
+},{
+"id":"Kill",
+"c":"Kill",
+"e":"Kill",
+"t":"Structures / Dinos",
+"d":"Kills the target dino or destroys the target structure."
+},{
+"id":"KillPlayer",
+"c":"KillPlayer <PlayerID>",
+"e":"KillPlayer 1234567890",
+"t":"Player Status",
+"d":"Kills a player based on their Player ID."
+},{
+"id":"KillAOE",
+"c":"KillAOE <Category> <Radius>",
+"e":"KillAOE wild 2500",
+"t":"Structures / Dinos",
+"d":"Kills or destroys all items of specified category within radius. Valid categories are pawns, dinos, wild, tamed, players, or structures."
+},{
+"id":"LeaveMeAlone",
+"c":"LeaveMeAlone",
+"e":"LeaveMeAlone",
+"t":"Cheats",
+"d":"Enables the commands God, InfiniteStats, and EnemyInvisible for the current player."
+},{
+"id":"ListPlayer",
+"c":"ListPlayer",
+"e":"ListPlayer",
+"t":"Tribe & Player Administration",
+"d":"List all active players."
+},{
+"id":"MakeTribeAdmin",
+"c":"MakeTribeAdmin",
+"e":"MakeTribeAdmin",
+"t":"Tribe & Player Administration",
+"d":"Makes current player an admin of their tribe."
+},{
+"id":"MakeTribeFounder",
+"c":"MakeTribeFounder",
+"e":"MakeTribeFounder",
+"t":"Tribe & Player Administration",
+"d":"Makes current player the founder of their tribe."
+},{
+"id":"OnToggleInGameMenu",
+"c":"OnToggleInGameMenu",
+"e":"OnToggleInGameMenu",
+"t":"Misc",
+"d":"Toggles the in-game menu."
+},{
+"id":"OpenMap",
+"c":"OpenMap <MapName>",
+"e":"OpenMap TheIsland",
+"t":"Server",
+"d":"Loads a map."
+},{
+"id":"PlayersOnly",
+"c":"PlayersOnly",
+"e":"PlayersOnly",
+"t":"Dinos",
+"d":"Disables all movement for both creatures and projectiles."
+},{
+"id":"PrintColors",
+"c":"PrintColors",
+"e":"PrintColors",
+"t":"Commands",
+"d":"Prints a list of colors."
+},{
+"id":"RainCritters",
+"c":"RainCritters <amount> <spread> <height>",
+"e":"RainCritters 30 300 200",
+"t":"Dinos",
+"d":"Spawns a mix of sheep and dodos above the player. Defaults values 30 300 200"
+},{
+"id":"RemoveTribeAdmin",
+"c":"RemoveTribeAdmin",
+"e":"RemoveTribeAdmin",
+"t":"Tribe & Player Administration",
+"d":"Details on this command are unknown."
+},{
+"id":"RenamePlayer",
+"c":"RenamePlayer <Player Name> <New Name>",
+"e":"RenamePlayer \"DiloLover\" DodoLover",
+"t":"Tribe & Player Administration",
+"d":"Renames a player."
+},{
+"id":"RenameTribe",
+"c":"RenameTribe <TribeName> <NewName>",
+"e":"RenameTribe DiloLovers DodoLovers",
+"t":"Tribe & Player Administration",
+"d":"Renames a tribe."
+},{
+"id":"ReportLeastSpawnManagers",
+"c":"ReportLeastSpawnManagers",
+"e":"ReportLeastSpawnManagers",
+"t":"Misc",
+"d":"Details on this command are unknown."
+},{
+"id":"ReportSpawnManagers",
+"c":"ReportSpawnManagers",
+"e":"ReportSpawnManagers",
+"t":"Misc",
+"d":"Details on this command are unknown."
+},{
+"id":"RequestSpectator",
+"c":"RequestSpectator <Password>",
+"e":"RequestSpectator Dodo123",
+"t":"Misc",
+"d":"Enables spectator mode for a server has been configured to require a password."
+},{
+"id":"SaveWorld",
+"c":"SaveWorld",
+"e":"SaveWorld",
+"t":"Server",
+"d":"Saves a server's state."
+},{
+"id":"ScriptCommand",
+"c":"ScriptCommand <CommandString>",
+"e":"ScriptCommand CommandString",
+"t":"Commands",
+"d":"Runs a mod script."
+},{
+"id":"SDF",
+"c":"SDF <NamePart> <Tamed>",
+"e":"SDF dodo 1",
+"t":"Dinos",
+"d":"Spawn a creature of specified type with a random level."
+},{
+"id":"ServerChat",
+"c":"ServerChat <MessageText>",
+"e":"ServerChat Hello!",
+"t":"Chat & Messaging",
+"d":"Sends a chat message to all players."
+},{
+"id":"ServerChatTo",
+"c":"ServerChatTo <SteamID> <MessageText>",
+"e":"ServerChatTo 1234567890 Hello",
+"t":"Chat & Messaging",
+"d":"Sends a private chat message to a specific player using their Steam ID."
+},{
+"id":"ServerChatToPlayer",
+"c":"ServerChatToPlayer <PlayerName> <MessageText>",
+"e":"ServerChatToPlayer Dododex Hello",
+"t":"Chat & Messaging",
+"d":"Sends a private chat message to a specific player using their user name."
+},{
+"id":"SetAdminIcon",
+"c":"SetAdminIcon <true | false>",
+"e":"SetAdminIcon true",
+"t":"Chat & Messaging",
+"d":"Enables or disables the admin icon in chat."
+},{
+"id":"SetBabyAge",
+"c":"SetBabyAge <AgeValue>",
+"e":"SetBabyAge 0.4",
+"t":"Dinos",
+"d":"Changes maturation progress of baby (between 0 and 1)."
+},{
+"id":"SetCheatPlayer",
+"c":"SetCheatPlayer <true | false>",
+"e":"SetCheatPlayer true",
+"t":"Cheats",
+"d":"Enables cheats for the current player."
+},{
+"id":"SetFacialHairPercent",
+"c":"SetFacialHairPercent <Length>",
+"e":"SetFacialHairPercent 0.5",
+"t":"Player Cosmetics",
+"d":"Changes facial hair growth of current player."
+},{
+"id":"SetFacialHairStyle",
+"c":"SetFacialHairStyle <Number>",
+"e":"SetFacialHairStyle <Number>",
+"t":"Player Cosmetics",
+"d":"Sets facial hair style of current player (0: Default, 1: Mohawk, 2: Afro, 3: Romantic, 4: Dreadlocks, 5: Ponytail, 6: Braids, 7: Viking)."
+},{
+"id":"SetGlobalPause",
+"c":"SetGlobalPause <true | false>",
+"e":"SetGlobalPause true",
+"t":"Server",
+"d":"Pauses everything."
+},{
+"id":"SetGodMode",
+"c":"SetGodMode <Enable>",
+"e":"SetGodMode <Enable>",
+"t":"Cheats",
+"d":"Enables or disables God mode for current player."
+},{
+"id":"SetGraphicsQuality",
+"c":"SetGraphicsQuality <Quality>",
+"e":"SetGraphicsQuality 3",
+"t":"Visual",
+"d":"Sets the graphics quality of your client (0 = low, 3 = high)."
+},{
+"id":"SetHeadHairPercent",
+"c":"SetHeadHairPercent <Length>",
+"e":"SetHeadHairPercent 0.5",
+"t":"Player Cosmetics",
+"d":"Changes head hair growth of current player."
+},{
+"id":"SetHeadHairStyle",
+"c":"SetHeadHairStyle <Number>",
+"e":"SetHeadHairStyle 3",
+"t":"Player Cosmetics",
+"d":"Sets head hair style of current player (0: Default, 1: Mohawk, 2: Afro, 3: Romantic, 4: Dreadlocks, 5: Ponytail, 6: Braids, 7: Viking)."
+},{
+"id":"SetImprintQuality",
+"c":"SetImprintQuality <ImprintValue>",
+"e":"SetImprintQuality 1",
+"t":"Dinos",
+"d":"Changes the target baby's imprint quality (from 0 to 1)"
+},{
+"id":"SetMessageOfTheDay",
+"c":"SetMessageOfTheDay <Message>",
+"e":"SetMessageOfTheDay <Message>",
+"t":"Chat & Messaging",
+"d":"Sets a message of the day to appear when new players join the server."
+},{
+"id":"SetPlayerPos",
+"c":"SetPlayerPos <x> <y> <z>",
+"e":"SetPlayerPos setplayerpos -260544 238951 -10847",
+"t":"Movement",
+"d":"Telepors the player to a specified position on the map."
+},{
+"id":"SetShowAllPlayers",
+"c":"SetShowAllPlayers <true | false>",
+"e":"SetShowAllPlayers true",
+"t":"Spectator",
+"d":"Enables all player names in spectator mode."
+},{
+"id":"SetTargetDinoColor",
+"c":"SetTargetDinoColor <ColorRegion> <ColorID>",
+"e":"SetTargetDinoColor 1 4",
+"t":"Dinos",
+"d":"Changes the target creature's color using a region number and color ID (1-56)."
+},{
+"id":"SetTargetPlayerBodyVal",
+"c":"SetTargetPlayerBodyVal <BodyValIndex> <BodyVal>",
+"e":"SetTargetPlayerBodyVal 1 0.5",
+"t":"Player Cosmetics",
+"d":"Changes the size of a specific region of the target player's body (0: Head Size, 1: Neck Size, 2: Neck Length, 3: Chest, 4: Shoulders (Width), 5: Arm Length, 6: Upper Arm (Width), 7: Lower Arm (Width), 8: Hand Size, 9: Leg Length, 10: Upper Leg (Width), 11: Lower Leg (Width), 12: Foot Size, 13: Hip Width, 14: Torso Width, 15: Upper Face Size, 16: Lower Face Size, 17: Torso Depth, 18: Head Height, 19: Head Width, 20: Head Depth, 21: Torso Height)"
+},{
+"id":"SetTargetPlayerColorVal",
+"c":"SetTargetPlayerColorVal <ColorValIndex> <ColorVal>",
+"e":"SetTargetPlayerColorVal <ColorValIndex> <ColorVal>",
+"t":"Player Cosmetics",
+"d":"Sets the target player's color. (0 = body, 1 = hair, 2 = eyes)"
+},{
+"id":"SetTimeOfDay",
+"c":"SetTimeOfDay <Hours>:<Minutes>:<Seconds>",
+"e":"SetTimeOfDay 10:00:00",
+"t":"Environment",
+"d":"Changes the time of day."
+},{
+"id":"ShowDebug",
+"c":"ShowDebug <value>",
+"e":"ShowDebug <value>",
+"t":"Misc",
+"d":"Shows debugging information."
+},{
+"id":"ShowInGameMenu",
+"c":"ShowInGameMenu",
+"e":"ShowInGameMenu",
+"t":"Misc",
+"d":"Toggles in-game menu."
+},{
+"id":"ShowMessageOfTheDay",
+"c":"ShowMessageOfTheDay",
+"e":"ShowMessageOfTheDay",
+"t":"Chat & Messaging",
+"d":"Shows message of the day."
+},{
+"id":"ShowMyAdminManager",
+"c":"ShowMyAdminManager",
+"e":"ShowMyAdminManager",
+"t":"Misc",
+"d":"Toggles the admin manager."
+},{
+"id":"ShowTutorial",
+"c":"ShowTutorial <TutorialIndex> <ForceDisplay>",
+"e":"ShowTutorial 1 true",
+"t":"Misc",
+"d":"Shows a specific game tutorial."
+},{
+"id":"Slomo",
+"c":"Slomo <SpeedMult>",
+"e":"Slomo 0.5",
+"t":"Misc",
+"d":"Puts game in slow motion mode."
+},{
+"id":"SpawnActor",
+"c":"SpawnActor <Blueprint Path> <Distance> <Y Offset> <Z Offset>",
+"e":"SpawnActor \"Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'\" 500 0 0",
+"t":"Dinos",
+"d":"Spawns a creature or entity."
+},{
+"id":"SpawnActorSpread",
+"c":"SpawnActorSpread <Blueprint Path> <Distance> <Y Offset> <Z Offset> <Quantity> <Spread Amount>",
+"e":"SpawnActor \"Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'\" 500 0 0 10 0",
+"t":"Dinos",
+"d":"Spawns a custom number of creatures or entities."
+},{
+"id":"SpawnDino",
+"c":"SpawnDino <Blueprint Path> <Distance> <Y Offset> <Z Offset> <DinoLevel>",
+"e":"SpawnDino Dodo_Character_BP_C 500 0 0 150",
+"t":"Dinos",
+"d":"Spawns a specific dino (see 'Dinos' tab for interactive version)."
+},{
+"id":"Stat",
+"c":"Stat <Command>",
+"e":"Stat fps",
+"t":"Misc",
+"d":"Shows debugging information. (Commands: 'fps', 'levels', 'unit', 'unitgraph')"
+},{
+"id":"StopSpectating",
+"c":"StopSpectating",
+"e":"StopSpectating",
+"t":"Spectator",
+"d":"Disables Spectator Mode for the current player."
+},{
+"id":"Suicide",
+"c":"Suicide",
+"e":"Suicide",
+"t":"Player Status",
+"d":"Kills current player."
+},{
+"id":"Summon",
+"c":"Summon <type>",
+"e":"Summon Dodo_Character_BP_C",
+"t":"Dinos",
+"d":"Spawns a specific creature."
+},{
+"id":"SummonTamed",
+"c":"SummonTamed <type>",
+"e":"SummonTamed Dodo_Character_BP_C",
+"t":"Dinos",
+"d":"Spawns a specific creature tamed."
+},{
+"id":"TakeAllDino",
+"c":"TakeAllDino",
+"e":"TakeAllDino",
+"t":"Tribe & Player Administration",
+"d":"Takes all dinos owned by the target player's tribe and transfers ownership to the current player."
+},{
+"id":"TakeAllStructure",
+"c":"TakeAllStructure",
+"e":"TakeAllStructure",
+"t":"Tribe & Player Administration",
+"d":"Takes all structures owned by the target player's tribe and transfers ownership to the current player."
+},{
+"id":"Teleport",
+"c":"Teleport",
+"e":"Teleport",
+"t":"Movement",
+"d":"Teleports the player to the target location (or teleports them to 0,0 if no valid target is in view.)"
+},{
+"id":"TeleportPlayerIDToMe",
+"c":"TeleportPlayerIDToMe <PlayerID>",
+"e":"TeleportPlayerIDToMe 1234567890",
+"t":"Movement",
+"d":"Teleports a player (based on their player ID) to the current player."
+},{
+"id":"TeleportPlayerNameToMe",
+"c":"TeleportPlayerNameToMe <PlayerName>",
+"e":"TeleportPlayerNameToMe Dododex",
+"t":"Movement",
+"d":"Teleports a player (based on their name) to the current player."
+},{
+"id":"TeleportToPlayer",
+"c":"TeleportToPlayer <PlayerID>",
+"e":"TeleportToPlayer 1234567890",
+"t":"Movement",
+"d":"Teleports the current player to another player based on their player ID."
+},{
+"id":"TPCoords",
+"c":"TPCoords <Latitude> <Longitude>",
+"e":"TPCoords 50 60",
+"t":"Movement",
+"d":"Teleports the current player to a specific GPS coordinate."
+},{
+"id":"TestSteamRefreshItems",
+"c":"TestSteamRefreshItems",
+"e":"TestSteamRefreshItems",
+"t":"Misc",
+"d":"Details on this command are unknown."
+},{
+"id":"ToggleGun",
+"c":"ToggleGun",
+"e":"ToggleGun",
+"t":"Visual",
+"d":"Hides weapons or hands of current player in first-person mode."
+},{
+"id":"ToggleInfiniteAmmo",
+"c":"ToggleInfiniteAmmo",
+"e":"ToggleInfiniteAmmo",
+"t":"Cheats",
+"d":"Enables or disables infinite ammo."
+},{
+"id":"UnbanPlayer",
+"c":"UnbanPlayer <SteamID>",
+"e":"UnbanPlayer 123567890",
+"t":"Server",
+"d":"Unbans a player from a server."
+},{
+"id":"UnlockEngram",
+"c":"UnlockEngram <Blueprint Path>",
+"e":"UnlockEngram \"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle'\"",
+"t":"Player Status",
+"d":"Unlocks a specific engram for the current player."
+},{
+"id":"Walk",
+"c":"Walk",
+"e":"Walk",
+"t":"Movement",
+"d":"Disables Fly mode."
+},{
+"id":"ShowMyAdminManager",
+"c":"ShowMyAdminManager",
+"e":"ShowMyAdminManager",
+"t":"Tribe & Player Administration",
+"d":"Opens the admin manager GUI."
+},{
+"id":"EnableSpectator",
+"c":"EnableSpectator",
+"e":"EnableSpectator",
+"t":"Misc",
+"d":"Enables spectator mode (destroys inventory)."
+}]}
