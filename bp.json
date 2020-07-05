@@ -8824,7 +8824,8 @@
 },{
 "l":"Artifact of the Void",
 "t":"Artifacts",
-"bp":"Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_IceKaiju.PrimalItemArtifact_Extinction_IceKaiju"
+"bp":"Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_IceKaiju.PrimalItemArtifact_Extinction_IceKaiju",
+"g":"Extinction_IceKaiju"
 },{
 "l":"Allosaurus Brain",
 "t":"Artifacts",
