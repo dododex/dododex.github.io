@@ -369,7 +369,12 @@ function searchBP(category = null, searchCat = false){
   } else { // Dinos & Items
     // TODO: SWITCH TO JQUERY .FILTER() FOR ELEMENTS SO THEY DONT DELETE
     var res = bp.filter(function(item) {
-      var searchMatch = item.label.toUpperCase().includes(bpQuery.toUpperCase());
+      if(typeof item.l === "string"){
+        var searchMatch = item.l.toUpperCase().includes(bpQuery.toUpperCase());
+      } else {
+        // Output error if item is missing label
+        console.log("NO LABEL",item)
+      }
 
       // Search only applies to one top level category at a time.
       var level1match = true;
@@ -416,12 +421,12 @@ function searchBP(category = null, searchCat = false){
           var rowHeader = '';
           var rowClass = '';
         }
-        var theLabel = item.label;
+        var theLabel = item.l;
         if(item.t=='Dinos' || item.t=='Aberration' || item.t=='Extinction' || item.t=='Genesis' || item.t=='Bosses' || item.t=='Alphas' || item.t=='Tek Creatures' || item.t=='Event Creatures') {
           var theBP = "admincheat SpawnDino \"Blueprint'/Game/" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
           rowClass += 'bprd';
           if(item.cid){
-            var theLabel = '<a href="https://www.dododex.com/taming/' + item.cid + '">' + item.label + '</a>';
+            var theLabel = '<a href="https://www.dododex.com/taming/' + item.cid + '">' + item.l + '</a>';
           }
         } else if (gfi && item.g){
           var theBP = 'admincheat GFI ' + (item.g) + ' <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
@@ -802,9 +807,9 @@ function sortByType(a, b) { /* Dinos / Weapons */
     var nameA = a.t.toUpperCase();
     var nameB = b.t.toUpperCase();
     if(nameA == nameB){
-      if(a.label && b.label){
-        nameA = a.label.toUpperCase();
-        nameB = b.label.toUpperCase();
+      if(a.l && b.l){
+        nameA = a.l.toUpperCase();
+        nameB = b.l.toUpperCase();
       }
     }
     if (nameA > nameB) {
