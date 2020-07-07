@@ -453,6 +453,13 @@ function searchBP(category = null, searchCat = false){
 }
 
 $(document).ready(function() {
+  // Display the header only if user is not in app
+  var urlParams = new URLSearchParams(window.location.search);
+  if(urlParams.get('app') != "1"){
+    $('body').addClass('isNotApp')
+  }
+
+
   var slugs = [];
   var level = $("#admin-search input[name=level]").val();
   var distance = $("#admin-search input[name=distance]").val();
@@ -720,6 +727,9 @@ function getCatBySlug(slug, level, parent){
 function initFromURL(){
   var urlParams = new URLSearchParams(window.location.search);
   var commandPathString = urlParams.get('commands')
+  if(typeof commandPathString != "string"){
+    return;
+  }
   var commandPath = commandPathString.split("/");
 
   if(commandPath[0] == 'dinos'){

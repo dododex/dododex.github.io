@@ -5590,12 +5590,6 @@
 "bp":"PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP",
 "g":"Megatherium_Character_BP"
 },{
-"l":"Therizinosaur",
-"cid":"therizinosaur",
-"t":"Dinos",
-"id":"Therizino_Character_BP_C",
-"bp":"PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP"
-},{
 "l":"Tyrannosaurus",
 "cid":"tyrannosaurus",
 "t":"Dinos",
@@ -6163,7 +6157,7 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_ARKLogo.PrimalItemTrophy_ARKLogo",
 "g":"ARKLogo"
 },{
-"l":"Plant Species Z Seed (SpeedHack)",
+"l":"Plant Species Z Seed (instant grow)",
 "t":"Seeds",
 "bp":"Aberration/WeaponPlantSpeciesZ/PrimalItemConsumable_Seed_PlantSpeciesZ_SpeedHack.PrimalItemConsumable_Seed_PlantSpeciesZ_SpeedHack",
 "g":"Seed_PlantSpeciesZ_SpeedHack"
@@ -7029,27 +7023,27 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItem_FishBasketFilled.PrimalItem_FishBasketFilled"
 },{
 "l":"Extra Small Advanced Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "bp":"Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall_EX.PrimalItemConsumable_Kibble_Base_XSmall_EX"
 },{
 "l":"Small Advanced Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "bp":"Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small_EX.PrimalItemConsumable_Kibble_Base_Small_EX"
 },{
 "l":"Regular Augmented Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "bp":"Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium_EX.PrimalItemConsumable_Kibble_Base_Medium_EX"
 },{
 "l":"Superior Augmented Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "bp":"Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large_EX.PrimalItemConsumable_Kibble_Base_Large_EX"
 },{
 "l":"Exceptional Augmented Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "bp":"Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge_EX.PrimalItemConsumable_Kibble_Base_XLarge_EX"
 },{
 "l":"Extraordinary Augmented Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "bp":"Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special_EX.PrimalItemConsumable_Kibble_Base_Special_EX"
 },{
 "l":"Gacha Crystal",
@@ -7357,11 +7351,11 @@
 "g":"ShardRefined"
 },{
 "l":"Basic Augmented Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "bp":"Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall_EX.PrimalItemConsumable_Kibble_Base_XSmall_EX"
 },{
 "l":"Simple Augmented Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "bp":"Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small_EX.PrimalItemConsumable_Kibble_Base_Small_EX"
 },{
 "l":"Large Egg",
@@ -7394,37 +7388,37 @@
 "bp":"Valguero/Dinos/Deinonychus/PrimalItemArmor_DeinonychusSaddle.PrimalItemArmor_DeinonychusSaddle"
 },{
 "l":"Basic Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "id":"PrimalItemConsumable_Kibble_Base_XSmall",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall",
 "g":"Kibble_Base_XSmall"
 },{
 "l":"Simple Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "id":"PrimalItemConsumable_Kibble_Base_Small",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small.PrimalItemConsumable_Kibble_Base_Small",
 "g":"Kibble_Base_Small"
 },{
 "l":"Regular Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "id":"PrimalItemConsumable_Kibble_Base_Medium",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium",
 "g":"Kibble_Base_Medium"
 },{
 "l":"Superior Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "id":"PrimalItemConsumable_Kibble_Base_Large",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large",
 "g":"Kibble_Base_Large"
 },{
 "l":"Exceptional Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "id":"PrimalItemConsumable_Kibble_Base_XLarge",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge.PrimalItemConsumable_Kibble_Base_XLarge",
 "g":"Kibble_Base_XLarge"
 },{
 "l":"Extraordinary Kibble",
-"t":"Consumables",
+"t":"Kibble",
 "id":"PrimalItemConsumable_Kibble_Base_Special",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special",
 "g":"Kibble_Base_Special"
@@ -8929,11 +8923,6 @@
 "l":"Reaper King Pheromone Gland",
 "t":"Artifacts",
 "bp":"Genesis/Missions/Retrieve/RetrieveItems/ReaperGland/PrimalItemResource_RetrieveReaperGland.PrimalItemResource_RetrieveReaperGland"
-},{
-"l":"Reaper Pheromone Gland",
-"t":"Artifacts",
-"bp":"Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland",
-"g":"Gland"
 },{
 "l":"Rock Drake Feather",
 "t":"Artifacts",
