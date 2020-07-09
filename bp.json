@@ -7776,12 +7776,6 @@
 "id":"HoneyBee_Character_BP_C",
 "bp":"Mods/CrystalIsles/Assets/Dinos/HoneyBee/HoneyBee_Character_BP.HoneyBee_Character_BP"
 },{
-"l":"Tropeognathus",
-"cid":"tropeognathus",
-"t":"Dinos",
-"id":"Tropeognathus_Character_BP_C",
-"bp":"PrimalEarth/Dinos/Tropeognathus/Tropeognathus_Character_BP.Tropeognathus_Character_BP"
-},{
 "l":"Tropical Crystal Wyvern",
 "cid":"crystalwyvern",
 "t":"Dinos",
@@ -7796,7 +7790,8 @@
 },{
 "l":"Ambergris",
 "t":"Resources",
-"bp":"Genesis/Dinos/SpaceWhale/PrimalItemResource_Ambergris.PrimalItemResource_Ambergris"
+"bp":"Genesis/Dinos/SpaceWhale/PrimalItemResource_Ambergris.PrimalItemResource_Ambergris",
+"g":"Ambergris"
 },{
 "l":"Golden Nugget",
 "t":"Resources",
@@ -7850,15 +7845,18 @@
 },{
 "l":"Magmasaur Saddle",
 "t":"Saddles",
-"bp":"Genesis/Dinos/Cherufe/PrimalItemArmor_CherufeSaddle.PrimalItemArmor_CherufeSaddle"
+"bp":"Genesis/Dinos/Cherufe/PrimalItemArmor_CherufeSaddle.PrimalItemArmor_CherufeSaddle",
+"g":"CherufeSaddle"
 },{
 "l":"Megachelon Platform Saddle",
 "t":"Saddles",
-"bp":"Genesis/Dinos/GiantTurtle/PrimalItemArmor_GiantTurtleSaddle.PrimalItemArmor_GiantTurtleSaddle"
+"bp":"Genesis/Dinos/GiantTurtle/PrimalItemArmor_GiantTurtleSaddle.PrimalItemArmor_GiantTurtleSaddle",
+"g":"GiantTurtleSaddle"
 },{
 "l":"Tropeognathus Saddle",
 "t":"Saddles",
-"bp":"PrimalEarth/Dinos/Tropeognathus/PrimalItemArmor_TropeSaddle.PrimalItemArmor_TropeSaddle"
+"bp":"PrimalEarth/Dinos/Tropeognathus/PrimalItemArmor_TropeSaddle.PrimalItemArmor_TropeSaddle",
+"g":"TropeSaddle"
 },{
 "l":"Adobe Double Doorframe",
 "t":"Structures",

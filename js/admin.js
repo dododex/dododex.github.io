@@ -302,7 +302,7 @@ function updateAttr() {
 
 function searchBP(category = null, searchCat = false){
   //TODO: first parameter is event, when called without any paramters
-  // console.log('searchBP',category,searchCat)
+  //console.log('searchBP',category,searchCat)
   $(resultsEl).html('')
   
   var listItem = $('#list').children('li');
@@ -318,21 +318,31 @@ function searchBP(category = null, searchCat = false){
     $('*[data-level=2] .selected, *[data-level=3] .selected').removeClass('selected')
     $('*[data-level=3]').addClass('hidden')
   }
+      //console.log('searchBP', category, searchCat)
 
   if(cat1 == 3){ // Admin Commands
-    var res = commands.filter(function(item) {
-      var searchMatch = item.c.toUpperCase().includes(bpQuery.toUpperCase());
 
-      var match = searchMatch;
+    // Search admin commands
+    if(category == null){
+      // If no subcat is provided, just return all commands
+      var res = commands;
+    } else {
+      // If subcat IS provided, return them
+      var res = commands.filter(function(item) {
+        var searchMatch = item.c.toUpperCase().includes(bpQuery.toUpperCase());
 
-      //If category is defined, search only in the category.
-      if(typeof category == 'string' && item.t){
-        var categoryMatch = item.t.toUpperCase().includes(category.toUpperCase());
-        match = searchMatch && categoryMatch; // Both must be true
-      }
-      return match;
-    });
+        var match = searchMatch;
 
+        //If category is defined, search only in the category.
+        if(typeof category == 'string' && item.t){
+          var categoryMatch = item.t.toUpperCase().includes(category.toUpperCase());
+          match = searchMatch && categoryMatch; // Both must be true
+        }
+        return match;
+      });
+    }
+
+    // Contains results
     if(res.length > 0){
       lastType ='';
       for(var i in res){
@@ -377,6 +387,7 @@ function searchBP(category = null, searchCat = false){
       }
 
       // Search only applies to one top level category at a time.
+      // TODO: Support mixed results
       var level1match = true;
       var isDino = item.t.toUpperCase() == "DINOS" || item.t.toUpperCase() == "ABERRATION" || item.t.toUpperCase() == "GENESIS" || item.t.toUpperCase() == "EXTINCTION" || item.t.toUpperCase() == "ALPHAS" || item.t.toUpperCase() == "TEK CREATURES" || item.t.toUpperCase() == "BOSSES" || item.t.toUpperCase() == "EVENT CREATURES";
       if(cat1 == 1 && isDino){
@@ -456,7 +467,7 @@ $(document).ready(function() {
   // Display the header only if user is not in app
   var urlParams = new URLSearchParams(window.location.search);
   if(urlParams.get('app') != "1"){
-    $('body').addClass('isNotApp')
+    $('body').addClass('isweb')
   }
 
 
@@ -528,8 +539,6 @@ $(document).ready(function() {
   //   event.preventDefault();
   //     console.log("PREVENT DEFAULT");
   // });
-
-
 
 
 
@@ -619,12 +628,13 @@ $(document).ready(function() {
 
 
 
-
+  // User clicks on category
   $("*[data-cat]").on("click",function(event) {
     $('#bpQuery').val('')
     catID = $(this).data("cat");
     var cat = cats[catID];
-    // console.log(cat);
+    // console.log("THIS",$(this));
+    // console.log("THIS",$(this).data());
 
     $("*[data-level=" + cat.l + "] *[data-cat]").removeClass('selected');
     $(this).addClass('selected');
@@ -656,6 +666,7 @@ $(document).ready(function() {
       }
     } else if (cat.l == 2){
       $("*[data-catholder][data-catholder!='"+cat.p+"']").addClass('hidden');
+      cat1 = cat.p;
     } else if (cat.l == 3){
 
     }
@@ -666,18 +677,24 @@ $(document).ready(function() {
     //   $("*[data-pcat='Resources'").trigger( "click" );
     // }
 
+
+    //console.log('click on category',cat1,catID,cat)
+
     // For Dinos top level cat, default to Dinos subcat
     if(catID == 1){
       $('*[data-cat="4"]').trigger("click");
     }
 
     // cat = 'Dinos';
-    if(cat.l == 3 || (cat.l == 2 && (cat1 == 1 || cat1 == 3))){
+    if(catID == 3){
+      // Return all admin commands
+      searchBP();
+    } else if(cat.l == 3 || (cat.l == 2 && (cat1 == 1 || cat1 == 3))){
       // console.log('searching1')
       searchBP(cat.n);
     } else if ($('#bpQuery').val() != ""){
       // console.log('searching2')
-      // User switched categories, but already had query already filled. Search it
+      // TODO Maybe? User switched categories, but already had query already filled. Search it
       // searchBP(cat.n);
     }
 
