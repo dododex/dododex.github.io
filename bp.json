@@ -5612,7 +5612,8 @@
 "l":"Daeodon Saddle",
 "t":"Saddles",
 "id":"PrimalItemArmor_DaeodonSaddle_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle",
+"g":"Daeodon"
 },{
 "l":"Phoenix",
 "cid":"phoenix",
@@ -6439,7 +6440,7 @@
 },{
 "l":"Alpha Basilisk",
 "cid":"basilisk",
-"t":"Alpha",
+"t":"Alphas",
 "id":"MegaBasilisk_Character_BP_C",
 "bp":"Aberration/Dinos/Basilisk/MegaBasilisk_Character_BP.MegaBasilisk_Character_BP"
 },{
@@ -6621,7 +6622,7 @@
 },{
 "l":"Phoenix",
 "cid":"phoenix",
-"t":"Fantasy",
+"t":"Dinos",
 "id":"Phoenix_Character_BP_C",
 "bp":"ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP"
 },{
@@ -6633,7 +6634,7 @@
 },{
 "l":"Sarco",
 "cid":"sarco",
-"t":"Reptiles",
+"t":"Dinos",
 "id":"Sarco_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP"
 },{
@@ -6696,7 +6697,7 @@
 },{
 "l":"Alpha Surface Reaper King",
 "cid":"Alphas",
-"t":"Alpha Predators",
+"t":"Alphas",
 "id":"MegaXenomorph_Character_BP_Male_Surface_C",
 "bp":"Aberration/Dinos/Nameless/MegaXenomorph_Character_BP_Male_Surface.MegaXenomorph_Character_BP_Male_Surface"
 },{
@@ -6892,7 +6893,8 @@
 },{
 "l":"Empty Cryopod",
 "t":"Tools",
-"bp":"Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod"
+"bp":"Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod",
+"g":"WeaponEmptyCryopod"
 },{
 "l":"Taxidermy Tool",
 "t":"Tools",
@@ -6916,87 +6918,108 @@
 },{
 "l":"Basilisk Saddle",
 "t":"Saddles",
-"bp":"Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle"
+"bp":"Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle",
+"g":"BasiliskSaddle"
 },{
 "l":"Gacha Saddle",
 "t":"Saddles",
-"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GachaSaddle.PrimalItemArmor_GachaSaddle"
+"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GachaSaddle.PrimalItemArmor_GachaSaddle",
+"g":"GachaSaddle"
 },{
 "l":"Gasbags Saddle",
 "t":"Saddles",
-"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GasBagsSaddle.PrimalItemArmor_GasBagsSaddle"
+"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GasBagsSaddle.PrimalItemArmor_GasBagsSaddle",
+"g":"GasBagsSaddle"
 },{
 "l":"Hyaenodon Meatpack",
 "t":"Saddles",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_HyaenodonSaddle.PrimalItemArmor_HyaenodonSaddle"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_HyaenodonSaddle.PrimalItemArmor_HyaenodonSaddle",
+"g":"Hyaenodon"
 },{
 "l":"Karkinos Saddle",
 "t":"Saddles",
-"bp":"Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle"
+"bp":"Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle",
+"g":"CrabSaddle"
 },{
 "l":"Managarmr Saddle",
 "t":"Saddles",
-"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle"
+"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle",
+"g":"IceJumper"
 },{
 "l":"Megalania Saddle",
 "t":"Saddles",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalaniaSaddle.PrimalItemArmor_MegalaniaSaddle"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalaniaSaddle.PrimalItemArmor_MegalaniaSaddle",
+"g":"Megalania"
 },{
 "l":"Megalodon Tek Saddle",
 "t":"Saddles",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek",
+"g":"MegalodonSaddle_Tek"
 },{
 "l":"Megatherium Saddle",
 "t":"Saddles",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle",
+"g":"Megatherium"
 },{
 "l":"Ravager Saddle",
 "t":"Saddles",
-"bp":"Aberration/Dinos/CaveWolf/PrimalItemArmor_CavewolfSaddle.PrimalItemArmor_CavewolfSaddle"
+"bp":"Aberration/Dinos/CaveWolf/PrimalItemArmor_CavewolfSaddle.PrimalItemArmor_CavewolfSaddle",
+"g":"Cavewolf"
 },{
 "l":"Rock Drake Saddle",
 "t":"Saddles",
-"bp":"Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle"
+"bp":"Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle.PrimalItemArmor_RockDrakeSaddle",
+"g":"RockDrake"
 },{
 "l":"Rock Drake Tek Saddle",
 "t":"Saddles",
-"bp":"Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek"
+"bp":"Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek",
+"g":"RockDrakeSaddle_Tek"
 },{
 "l":"Roll Rat Saddle",
 "t":"Saddles",
-"bp":"Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle"
+"bp":"Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle",
+"g":"MoleRatSaddle"
 },{
 "l":"Snow Owl Saddle",
 "t":"Saddles",
-"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_OwlSaddle.PrimalItemArmor_OwlSaddle"
+"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_OwlSaddle.PrimalItemArmor_OwlSaddle",
+"g":"OwlSaddle"
 },{
 "l":"Tapejara Tek Saddle",
 "t":"Saddles",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek",
+"g":"Tapejara_Tek"
 },{
 "l":"Velonasaur Saddle",
 "t":"Saddles",
-"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle"
+"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle",
+"g":"SpindlesSaddle"
 },{
 "l":"Yutyrannus Saddle",
 "t":"Saddles",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle",
+"g":"Yuty"
 },{
 "l":"Cryofridge",
 "t":"Structures",
-"bp":"Extinction/CoreBlueprints/Items/PrimalItemStructure_CryoFridge.PrimalItemStructure_CryoFridge"
+"bp":"Extinction/CoreBlueprints/Items/PrimalItemStructure_CryoFridge.PrimalItemStructure_CryoFridge",
+"g":"CryoFridge"
 },{
 "l":"Delivery Crate",
 "t":"Structures",
-"bp":"Extinction/Structures/ItemBalloon/PrimalItemStructure_StorageBox_Balloon.PrimalItemStructure_StorageBox_Balloon"
+"bp":"Extinction/Structures/ItemBalloon/PrimalItemStructure_StorageBox_Balloon.PrimalItemStructure_StorageBox_Balloon",
+"g":"StorageBox_Balloon"
 },{
 "l":"Dino Leash",
 "t":"Structures",
-"bp":"Extinction/Structures/DinoLeash/PrimalItemStructure_DinoLeash.PrimalItemStructure_DinoLeash"
+"bp":"Extinction/Structures/DinoLeash/PrimalItemStructure_DinoLeash.PrimalItemStructure_DinoLeash",
+"g":"DinoLeash"
 },{
 "l":"King Titan Flag",
 "t":"Structures",
-"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaiju.PrimalItemStructure_Flag_KingKaiju"
+"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaiju.PrimalItemStructure_Flag_KingKaiju",
+"g":"Flag_KingKaiju"
 },{
 "l":"King Titan Flag (Mecha)",
 "t":"Structures",
@@ -7016,11 +7039,13 @@
 },{
 "l":"Tek Bridge",
 "t":"Tek",
-"bp":"Extinction/Structures/TekBridge/PrimalItemStructure_TekBridge.PrimalItemStructure_TekBridge"
+"bp":"Extinction/Structures/TekBridge/PrimalItemStructure_TekBridge.PrimalItemStructure_TekBridge",
+"g":"TekBridge"
 },{
 "l":"Filled Fish Basket",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/PrimalItem_FishBasketFilled.PrimalItem_FishBasketFilled"
+"bp":"PrimalEarth/CoreBlueprints/Items/PrimalItem_FishBasketFilled.PrimalItem_FishBasketFilled",
+"g":"FishBasketFilled"
 },{
 "l":"Extra Small Advanced Kibble",
 "t":"Kibble",
@@ -7048,23 +7073,28 @@
 },{
 "l":"Gacha Crystal",
 "t":"Consumables",
-"bp":"Extinction/Dinos/Gacha/PrimalItemConsumable_GachaPod.PrimalItemConsumable_GachaPod"
+"bp":"Extinction/Dinos/Gacha/PrimalItemConsumable_GachaPod.PrimalItemConsumable_GachaPod",
+"g":"GachaPod"
 },{
 "l":"Unassembled Enforcer",
 "t":"Consumables",
-"bp":"Extinction/CoreBlueprints/Items/PrimalItem_Spawner_Enforcer.PrimalItem_Spawner_Enforcer"
+"bp":"Extinction/CoreBlueprints/Items/PrimalItem_Spawner_Enforcer.PrimalItem_Spawner_Enforcer",
+"g":"Spawner_Enforcer"
 },{
 "l":"Unassembled Mek",
 "t":"Consumables",
-"bp":"Extinction/CoreBlueprints/Items/PrimalItem_Spawner_Mek.PrimalItem_Spawner_Mek"
+"bp":"Extinction/CoreBlueprints/Items/PrimalItem_Spawner_Mek.PrimalItem_Spawner_Mek",
+"g":"Spawner_Mek"
 },{
 "l":"Basilisk Egg",
 "t":"Eggs",
-"bp":"Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_Basilisk.PrimalItemConsumable_Egg_Basilisk"
+"bp":"Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_Basilisk.PrimalItemConsumable_Egg_Basilisk",
+"g":"Egg_Basilisk"
 },{
 "l":"Snow Owl Egg",
 "t":"Eggs",
-"bp":"Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl.PrimalItemConsumable_Egg_Owl"
+"bp":"Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl.PrimalItemConsumable_Egg_Owl",
+"g":"Egg_Owl"
 },{
 "l":"Tek Parasaur Egg",
 "t":"Eggs",
@@ -7084,11 +7114,13 @@
 },{
 "l":"Tek Stego Egg",
 "t":"Eggs",
-"bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Stego_Bionic.PrimalItemConsumable_Egg_Stego_Bionic"
+"bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Stego_Bionic.PrimalItemConsumable_Egg_Stego_Bionic",
+"g":"Egg_Stego_Bionic"
 },{
 "l":"Velonasaur Egg",
 "t":"Eggs",
-"bp":"Extinction/Dinos/Spindles/PrimalItemConsumable_Egg_Spindles.PrimalItemConsumable_Egg_Spindles"
+"bp":"Extinction/Dinos/Spindles/PrimalItemConsumable_Egg_Spindles.PrimalItemConsumable_Egg_Spindles",
+"g":"Egg_Spindles"
 },{
 "l":"Dinosaur Egg",
 "t":"Eggs",
@@ -7119,36 +7151,43 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Egg_XSmall.PrimalItemConsumable_Egg_XSmall"
 },{
 "l":"Snow Owl Pellet",
-"t":"Farming",
+"t":"Consumables",
 "bp":"Extinction/Dinos/Owl/Pellet/PrimalItemConsumable_OwlPellet.PrimalItemConsumable_OwlPellet"
 },{
 "l":"Admin Blink Rifle",
 "t":"Weapons",
-"bp":"Extinction/Weapon_AdminBlinkRifle/PrimalItem_WeaponAdminBlinkRifle.PrimalItem_WeaponAdminBlinkRifle"
+"bp":"Extinction/Weapon_AdminBlinkRifle/PrimalItem_WeaponAdminBlinkRifle.PrimalItem_WeaponAdminBlinkRifle",
+"g":"Weapon_AdminBlinkRifle"
 },{
 "l":"Scout Remote",
 "t":"Weapons",
-"bp":"Extinction/Dinos/Scout/PrimalItem_WeaponScoutRemote.PrimalItem_WeaponScoutRemote"
+"bp":"Extinction/Dinos/Scout/PrimalItem_WeaponScoutRemote.PrimalItem_WeaponScoutRemote",
+"g":"WeaponScoutRemote"
 },{
 "l":"Tek Gravity Grenade",
 "t":"Weapons",
-"bp":"Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponTekGravityGrenade.PrimalItem_WeaponTekGravityGrenade"
+"bp":"Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponTekGravityGrenade.PrimalItem_WeaponTekGravityGrenade",
+"g":"TekGravityGrenade"
 },{
 "l":"Aberrant Helmet Skin (Aberration)",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_AberrationHelmet.PrimalItemSkin_AberrationHelmet"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_AberrationHelmet.PrimalItemSkin_AberrationHelmet",
+"g":"AberrationHelmet"
 },{
 "l":"Aberrant Sword Skin (Aberration)",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword",
+"g":"d.AberrationSword"
 },{
 "l":"Brachiosaurus Costume",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Brachiosaurus.PrimalItemCostume_Brachiosaurus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Brachiosaurus.PrimalItemCostume_Brachiosaurus",
+"g":"Costume_Brachiosaurus"
 },{
 "l":"Bulbdog Mask Skin (Aberration)",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PugMask.PrimalItemSkin_PugMask"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PugMask.PrimalItemSkin_PugMask",
+"g":"PugMask"
 },{
 "l":"Corrupted Boots Skin",
 "t":"Skins",
@@ -7201,80 +7240,99 @@
 },{
 "l":"Easter Egg Hat",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_EasterEggHat.PrimalItemSkin_EasterEggHat"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_EasterEggHat.PrimalItemSkin_EasterEggHat",
+"g":"EasterEggHat"
 },{
 "l":"HomoDeus Boots Skin",
 "t":"Skins",
-"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusBoots.PrimalItemSkin_HomoDeusBoots"
+"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusBoots.PrimalItemSkin_HomoDeusBoots",
+"g":"HomoDeusBoots"
 },{
 "l":"HomoDeus Gloves Skin",
 "t":"Skins",
-"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusGloves.PrimalItemSkin_HomoDeusGloves"
+"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusGloves.PrimalItemSkin_HomoDeusGloves",
+"g":"HomoDeusGloves"
 },{
 "l":"HomoDeus Helmet Skin",
 "t":"Skins",
-"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusHelmet.PrimalItemSkin_HomoDeusHelmet"
+"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusHelmet.PrimalItemSkin_HomoDeusHelmet",
+"g":"HomoDeusHelmet"
 },{
 "l":"HomoDeus Pants Skin",
 "t":"Skins",
-"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusPants.PrimalItemSkin_HomoDeusPants"
+"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusPants.PrimalItemSkin_HomoDeusPants",
+"g":"HomoDeusPants"
 },{
 "l":"HomoDeus Shirt Skin",
 "t":"Skins",
-"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusShirt.PrimalItemSkin_HomoDeusShirt"
+"bp":"Extinction/CoreBlueprints/Items/Skin/PrimalItemSkin_HomoDeusShirt.PrimalItemSkin_HomoDeusShirt",
+"g":"HomoDeusShirt"
 },{
 "l":"Nerdry Glasses Skin",
 "t":"Skins",
 "id":300,
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_Glasses.PrimalItemSkin_Glasses"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_Glasses.PrimalItemSkin_Glasses",
+"g":"Skin_Glasses"
 },{
 "l":"Reaper Helmet Skin (Aberration)",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ReaperHelmet.PrimalItemSkin_ReaperHelmet"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ReaperHelmet.PrimalItemSkin_ReaperHelmet",
+"g":"Skin_ReaperHelmet"
 },{
 "l":"Stygimoloch Costume",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Stygimoloch.PrimalItemCostume_Stygimoloch"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Stygimoloch.PrimalItemCostume_Stygimoloch",
+"g":"Costume_Stygimoloch"
 },{
 "l":"Styracosaurus Costume",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Styracosaurus.PrimalItemCostume_Styracosaurus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemCostume_Styracosaurus.PrimalItemCostume_Styracosaurus",
+"g":"Styracosaurus"
 },{
 "l":"Desert Titan Trophy",
 "t":"Trophies",
-"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert"
+"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert",
+"g":"Kaiju_Desert"
 },{
 "l":"Forest Titan Trophy",
 "t":"Trophies",
-"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Forest.PrimalItemTrophy_Kaiju_Forest"
+"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Forest.PrimalItemTrophy_Kaiju_Forest",
+"g":"Kaiju_Forest"
 },{
 "l":"Ice Titan Trophy",
 "t":"Trophies",
-"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Ice.PrimalItemTrophy_Kaiju_Ice"
+"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Ice.PrimalItemTrophy_Kaiju_Ice",
+"g":"Kaiju_Ice"
 },{
 "l":"King Titan Trophy (Alpha)",
 "t":"Trophies",
-"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Alpha.PrimalItemTrophy_Kaiju_King_Alpha"
+"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Alpha.PrimalItemTrophy_Kaiju_King_Alpha",
+"g":"Kaiju_King_Alpha"
 },{
 "l":"King Titan Trophy (Beta)",
 "t":"Trophies",
-"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Beta.PrimalItemTrophy_Kaiju_King_Beta"
+"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Beta.PrimalItemTrophy_Kaiju_King_Beta",
+"g":"Kaiju_King_Beta"
 },{
 "l":"King Titan Trophy (Gamma)",
 "t":"Trophies",
-"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Gamma.PrimalItemTrophy_Kaiju_King_Gamma"
+"bp":"Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Gamma.PrimalItemTrophy_Kaiju_King_Gamma",
+"g":"Kaiju_King_Gamma"
 },{
 "l":"Desert Titan Saddle",
 "t":"Saddles",
-"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_DesertKaiju.PrimalItemArmor_DesertKaiju"
+"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_DesertKaiju.PrimalItemArmor_DesertKaiju",
+"g":"DesertKaiju"
 },{
 "l":"Forest Titan Saddle",
 "t":"Saddles",
-"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_ForestKaiju.PrimalItemArmor_ForestKaiju"
+"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_ForestKaiju.PrimalItemArmor_ForestKaiju",
+"g":"ForestKaiju"
 },{
 "l":"Ice Titan Saddle",
 "t":"Saddles",
-"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceKaiju.PrimalItemArmor_IceKaiju"
+"bp":"Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceKaiju.PrimalItemArmor_IceKaiju",
+"g":"IceKaiju"
 },{
 "l":"Blue Crystalized Sap",
 "t":"Resources",
@@ -7385,7 +7443,8 @@
 "l":"Deinonychus Saddle",
 "t":"Saddles",
 "id":"PrimalItemArmor_DeinonychusSaddle_C",
-"bp":"Valguero/Dinos/Deinonychus/PrimalItemArmor_DeinonychusSaddle.PrimalItemArmor_DeinonychusSaddle"
+"bp":"Valguero/Dinos/Deinonychus/PrimalItemArmor_DeinonychusSaddle.PrimalItemArmor_DeinonychusSaddle",
+"g":"Deinonychus"
 },{
 "l":"Basic Kibble",
 "t":"Kibble",
@@ -7431,27 +7490,32 @@
 "l":"Deinonychus Egg (Valguero)",
 "t":"Eggs",
 "id":"PrimalItemConsumable_Egg_Deinonychus_Fertilized_C",
-"bp":"Valguero/Dinos/Deinonychus/PrimalItemConsumable_Egg_Deinonychus_Fertilized.PrimalItemConsumable_Egg_Deinonychus_Fertilized"
+"bp":"Valguero/Dinos/Deinonychus/PrimalItemConsumable_Egg_Deinonychus_Fertilized.PrimalItemConsumable_Egg_Deinonychus_Fertilized",
+"g":"Egg_Deinonychus_Fertilized"
 },{
 "l":"Alpha Raptor Swim Bottom Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimPants_Alpha_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Alpha.PrimalItemSkin_SummerSwimPants_Alpha"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Alpha.PrimalItemSkin_SummerSwimPants_Alpha",
+"g":"SummerSwimPants_Alpha"
 },{
 "l":"Alpha Raptor Swim Top Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimShirt_Alpha_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Alpha.PrimalItemSkin_SummerSwimShirt_Alpha"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Alpha.PrimalItemSkin_SummerSwimShirt_Alpha",
+"g":"SummerSwimShirt_Alpha"
 },{
 "l":"Chocolate Rabbit Club Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_Club_ChocolateRabbit_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Club_ChocolateRabbit.PrimalItemSkin_Club_ChocolateRabbit"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_Club_ChocolateRabbit.PrimalItemSkin_Club_ChocolateRabbit",
+"g":"Club_ChocolateRabbit"
 },{
 "l":"Dino Marshmallow Hat Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_DinoMarshmallowHat_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoMarshmallowHat.PrimalItemSkin_DinoMarshmallowHat"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_DinoMarshmallowHat.PrimalItemSkin_DinoMarshmallowHat",
+"g":"DinoMarshmallowHat"
 },{
 "l":"Dino Uncle Sam Hat Skin",
 "t":"Skins",
@@ -7461,52 +7525,62 @@
 "l":"Floral Swim Bottom Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimPants_Flowers_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Flowers.PrimalItemSkin_SummerSwimPants_Flowers"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Flowers.PrimalItemSkin_SummerSwimPants_Flowers",
+"g":"SummerSwimPants_Flowers"
 },{
 "l":"Floral Swim Top Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimShirt_Flowers_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Flowers.PrimalItemSkin_SummerSwimShirt_Flowers"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Flowers.PrimalItemSkin_SummerSwimShirt_Flowers",
+"g":"SummerSwimShirt_Flowers"
 },{
 "l":"Giga Poop Swim Bottom Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimPants_Carno_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Carno.PrimalItemSkin_SummerSwimPants_Carno"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Carno.PrimalItemSkin_SummerSwimPants_Carno",
+"g":"SummerSwimPants_Carno"
 },{
 "l":"Giga Poop Swim Top Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimShirt_Carno_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Carno.PrimalItemSkin_SummerSwimShirt_Carno"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Carno.PrimalItemSkin_SummerSwimShirt_Carno",
+"g":"SummerSwimShirt_Carno"
 },{
 "l":"Marshmallow Hat Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_MarshmallowHat_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_MarshmallowHat.PrimalItemSkin_MarshmallowHat"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_MarshmallowHat.PrimalItemSkin_MarshmallowHat",
+"g":"MarshmallowHat"
 },{
 "l":"Mini-HLNA",
 "t":"Skins",
 "id":"PrimalItemSkin_MiniHLNA_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_MiniHLNA.PrimalItemSkin_MiniHLNA"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_MiniHLNA.PrimalItemSkin_MiniHLNA",
+"g":"MiniHLNA"
 },{
 "l":"Summer Swimsuit Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimPants_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants.PrimalItemSkin_SummerSwimPants"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants.PrimalItemSkin_SummerSwimPants",
+"g":"SummerSwimPants"
 },{
 "l":"T-Rex Swim Bottom Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimPants_Arthro_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Arthro.PrimalItemSkin_SummerSwimPants_Arthro"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimPants_Arthro.PrimalItemSkin_SummerSwimPants_Arthro",
+"g":"SummerSwimPants_Arthro"
 },{
 "l":"T-Rex Swim Top Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_SummerSwimShirt_Arthro_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Arthro.PrimalItemSkin_SummerSwimShirt_Arthro"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_SummerSwimShirt_Arthro.PrimalItemSkin_SummerSwimShirt_Arthro",
+"g":"SummerSwimShirt_Arthro"
 },{
 "l":"Uncle Sam Hat Skin",
 "t":"Skins",
 "id":"PrimalItemSkin_TopHat_Summer_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TopHat_Summer.PrimalItemSkin_TopHat_Summer"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TopHat_Summer.PrimalItemSkin_TopHat_Summer",
+"g":"TopHat_Summer"
 },{
 "l":"Megachelon",
 "cid":"megachelon",
@@ -7733,7 +7807,7 @@
 "cid":"crystalwyvern",
 "t":"Dinos",
 "id":"CrystalWyvern_Character_BP_C",
-"bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP.CrystalWyvern_Character_BP"
+"bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalWyvern_Character_BP_Base.CrystalWyvern_Character_BP_Base"
 },{
 "l":"Crystal Wyvern Queen",
 "cid":"crystalwyvernqueen",
@@ -7795,31 +7869,38 @@
 },{
 "l":"Golden Nugget",
 "t":"Resources",
-"bp":"Genesis/Missions/Retrieve/RetrieveItems/GoldenNugget/PrimalItemResource_GoldenNugget.PrimalItemResource_GoldenNugget"
+"bp":"Genesis/Missions/Retrieve/RetrieveItems/GoldenNugget/PrimalItemResource_GoldenNugget.PrimalItemResource_GoldenNugget",
+"g":"GoldenNugget"
 },{
 "l":"High Quality Pollen",
 "t":"Resources",
-"bp":"Genesis/Missions/Retrieve/RetrieveItems/HighQualityPollen/PrimalItemResource_HighQualityPollen.PrimalItemResource_HighQualityPollen"
+"bp":"Genesis/Missions/Retrieve/RetrieveItems/HighQualityPollen/PrimalItemResource_HighQualityPollen.PrimalItemResource_HighQualityPollen",
+"g":"HighQualityPollen"
 },{
 "l":"Primal Crystal",
 "t":"Resources",
-"bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalResources/Primal/PrimalItemResource_Crystal_IslesPrimal.PrimalItemResource_Crystal_IslesPrimal"
+"bp":"PrimalEarth/Dinos/CrystalWyvern/CrystalResources/Primal/PrimalItemResource_Crystal_IslesPrimal.PrimalItemResource_Crystal_IslesPrimal",
+"g":"Crystal_IslesPrimal"
 },{
 "l":"Shell Fragment",
 "t":"Resources",
-"bp":"Genesis/CoreBlueprints/Resources/PrimalItemResource_TurtleShell.PrimalItemResource_TurtleShell"
+"bp":"Genesis/CoreBlueprints/Resources/PrimalItemResource_TurtleShell.PrimalItemResource_TurtleShell",
+"g":"TurtleShell"
 },{
 "l":"Electronic Binoculars",
 "t":"Tools",
-"bp":"ScorchedEarth/WeaponElectronicBinoculars/PrimalItem_WeaponElectronicBinoculars.PrimalItem_WeaponElectronicBinoculars"
+"bp":"ScorchedEarth/WeaponElectronicBinoculars/PrimalItem_WeaponElectronicBinoculars.PrimalItem_WeaponElectronicBinoculars",
+"g":"WeaponElectronicBinoculars"
 },{
 "l":"Fish Net",
 "t":"Tools",
-"bp":"Genesis/Weapons/FishingNet/PrimalItem_WeaponFishingNet.PrimalItem_WeaponFishingNet"
+"bp":"Genesis/Weapons/FishingNet/PrimalItem_WeaponFishingNet.PrimalItem_WeaponFishingNet",
+"g":"WeaponFishingNet"
 },{
 "l":"Mining Drill",
 "t":"Tools",
-"bp":"Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill"
+"bp":"Genesis/Weapons/MiningDrill/PrimalItem_WeaponMiningDrill.PrimalItem_WeaponMiningDrill",
+"g":"WeaponMiningDrill"
 },{
 "l":"Tier 1 Lootcrate",
 "t":"Tools",
@@ -7836,12 +7917,14 @@
 "l":"Tek Shoulder Cannon",
 "t":"Armor",
 "id":497,
-"bp":"Genesis/Items/Armor/PrimalItemArmor_ShoulderCannon.PrimalItemArmor_ShoulderCannon"
+"bp":"Genesis/Items/Armor/PrimalItemArmor_ShoulderCannon.PrimalItemArmor_ShoulderCannon",
+"g":"ShoulderCannon"
 },{
 "l":"Astrocetus Tek Saddle",
 "t":"Saddles",
 "id":498,
-"bp":"Genesis/Dinos/SpaceWhale/PrimalItemArmor_SpaceWhaleSaddle_Tek.PrimalItemArmor_SpaceWhaleSaddle_Tek"
+"bp":"Genesis/Dinos/SpaceWhale/PrimalItemArmor_SpaceWhaleSaddle_Tek.PrimalItemArmor_SpaceWhaleSaddle_Tek",
+"g":"PrimalItemArmor_SpaceWhaleSaddle_Tek"
 },{
 "l":"Magmasaur Saddle",
 "t":"Saddles",
@@ -7861,17 +7944,20 @@
 "l":"Adobe Double Doorframe",
 "t":"Structures",
 "id":456,
-"bp":"PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Adobe/PrimalItemStructure_DoubleDoorframe_Adobe.PrimalItemStructure_DoubleDoorframe_Adobe"
+"bp":"PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Adobe/PrimalItemStructure_DoubleDoorframe_Adobe.PrimalItemStructure_DoubleDoorframe_Adobe",
+"g":"DoubleDoorframe_Adobe"
 },{
 "l":"Adobe Double Door",
 "t":"Structures",
 "id":450,
-"bp":"PrimalEarth/StructuresPlus/Doors/Doors_Double/Adobe/PrimalItemStructure_DoubleDoor_Adobe.PrimalItemStructure_DoubleDoor_Adobe"
+"bp":"PrimalEarth/StructuresPlus/Doors/Doors_Double/Adobe/PrimalItemStructure_DoubleDoor_Adobe.PrimalItemStructure_DoubleDoor_Adobe",
+"g":"DoubleDoor_Adobe"
 },{
 "l":"Adobe Fence Support",
 "t":"Structures",
 "id":462,
-"bp":"PrimalEarth/StructuresPlus/Structures/FenceSupports/Adobe/PrimalItemStructure_FenceSupport_Adobe.PrimalItemStructure_FenceSupport_Adobe"
+"bp":"PrimalEarth/StructuresPlus/Structures/FenceSupports/Adobe/PrimalItemStructure_FenceSupport_Adobe.PrimalItemStructure_FenceSupport_Adobe",
+"g":"FenceSupport_Adobe"
 },{
 "l":"Adobe Stairs",
 "t":"Structures",
@@ -7882,21 +7968,25 @@
 "l":"Adobe Triangle Ceiling",
 "t":"Structures",
 "id":479,
-"bp":"PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Adobe/PrimalItemStructure_TriCeiling_Adobe.PrimalItemStructure_TriCeiling_Adobe"
+"bp":"PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Adobe/PrimalItemStructure_TriCeiling_Adobe.PrimalItemStructure_TriCeiling_Adobe",
+"g":"TriCeiling_Adobe"
 },{
 "l":"Adobe Triangle Foundation",
 "t":"Structures",
 "id":485,
-"bp":"PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Adobe/PrimalItemStructure_TriFoundation_Adobe.PrimalItemStructure_TriFoundation_Adobe"
+"bp":"PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Adobe/PrimalItemStructure_TriFoundation_Adobe.PrimalItemStructure_TriFoundation_Adobe",
+"g":"TriFoundation_Adobe"
 },{
 "l":"Adobe Triangle Roof",
 "t":"Structures",
 "id":490,
-"bp":"PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Adobe/PrimalItemStructure_TriRoof_Adobe.PrimalItemStructure_TriRoof_Adobe"
+"bp":"PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Adobe/PrimalItemStructure_TriRoof_Adobe.PrimalItemStructure_TriRoof_Adobe",
+"g":"PrimalItemStructure_TriRoof_Adobe"
 },{
 "l":"Crystal Wyvern Queen Flag",
 "t":"Structures",
-"bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemStructure_Flag_CIBoss.PrimalItemStructure_Flag_CIBoss"
+"bp":"Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemStructure_Flag_CIBoss.PrimalItemStructure_Flag_CIBoss",
+"g":"Flag_CIBoss"
 },{
 "l":"Flexible Electrical Cable",
 "t":"Structures",
@@ -7919,52 +8009,62 @@
 "l":"Greenhouse Triangle Ceiling",
 "t":"Structures",
 "id":480,
-"bp":"PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Greenhouse/PrimalItemStructure_TriCeiling_Greenhouse.PrimalItemStructure_TriCeiling_Greenhouse"
+"bp":"PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Greenhouse/PrimalItemStructure_TriCeiling_Greenhouse.PrimalItemStructure_TriCeiling_Greenhouse",
+"g":"TriCeiling_Greenhouse"
 },{
 "l":"Greenhouse Triangle Roof",
 "t":"Structures",
 "id":491,
-"bp":"PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Greenhouse/PrimalItemStructure_TriRoof_Greenhouse.PrimalItemStructure_TriRoof_Greenhouse"
+"bp":"PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Greenhouse/PrimalItemStructure_TriRoof_Greenhouse.PrimalItemStructure_TriRoof_Greenhouse",
+"g":"TriRoof_Greenhouse"
 },{
 "l":"Large Adobe Wall",
 "t":"Structures",
 "id":467,
-"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Adobe/PrimalItemStructure_LargeWall_Adobe.PrimalItemStructure_LargeWall_Adobe"
+"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Adobe/PrimalItemStructure_LargeWall_Adobe.PrimalItemStructure_LargeWall_Adobe",
+"g":"LargeWall_Adobe"
 },{
 "l":"Large Metal Wall",
 "t":"Structures",
 "id":468,
-"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Metal/PrimalItemStructure_LargeWall_Metal.PrimalItemStructure_LargeWall_Metal"
+"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Metal/PrimalItemStructure_LargeWall_Metal.PrimalItemStructure_LargeWall_Metal",
+"g":"LargeWall_Metal"
 },{
 "l":"Large Stone Wall",
 "t":"Structures",
 "id":469,
-"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Stone/PrimalItemStructure_LargeWall_Stone.PrimalItemStructure_LargeWall_Stone"
+"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Stone/PrimalItemStructure_LargeWall_Stone.PrimalItemStructure_LargeWall_Stone",
+"g":"LargeWall_Stone"
 },{
 "l":"Large Tek Wall",
 "t":"Structures",
 "id":470,
-"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Tek/PrimalItemStructure_LargeWall_Tek.PrimalItemStructure_LargeWall_Tek"
+"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Tek/PrimalItemStructure_LargeWall_Tek.PrimalItemStructure_LargeWall_Tek",
+"g":"LargeWall_Tek"
 },{
 "l":"Large Wooden Wall",
 "t":"Structures",
 "id":471,
-"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Wood/PrimalItemStructure_LargeWall_Wood.PrimalItemStructure_LargeWall_Wood"
+"bp":"PrimalEarth/StructuresPlus/Structures/Walls_L/Wood/PrimalItemStructure_LargeWall_Wood.PrimalItemStructure_LargeWall_Wood",
+"g":"LargeWall_Wood"
 },{
 "l":"Metal Double Doorframe",
 "t":"Structures",
 "id":458,
-"bp":"PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Metal/PrimalItemStructure_DoubleDoorframe_Metal.PrimalItemStructure_DoubleDoorframe_Metal"
+"bp":"PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Metal/PrimalItemStructure_DoubleDoorframe_Metal.PrimalItemStructure_DoubleDoorframe_Metal",
+"g":"DoubleDoorframe_Metal"
 },{
 "l":"Metal Double Door",
 "t":"Structures",
 "id":452,
-"bp":"PrimalEarth/StructuresPlus/Doors/Doors_Double/Metal/PrimalItemStructure_DoubleDoor_Metal.PrimalItemStructure_DoubleDoor_Metal"
+"bp":"PrimalEarth/StructuresPlus/Doors/Doors_Double/Metal/PrimalItemStructure_DoubleDoor_Metal.PrimalItemStructure_DoubleDoor_Metal",
+"g":"DoubleDoor_Metal"
 },{
 "l":"Metal Fence Support",
 "t":"Structures",
 "id":463,
-"bp":"PrimalEarth/StructuresPlus/Structures/FenceSupports/Metal/PrimalItemStructure_FenceSupport_Metal.PrimalItemStructure_FenceSupport_Metal"
+"bp":"PrimalEarth/StructuresPlus/Structures/FenceSupports/Metal/PrimalItemStructure_FenceSupport_Metal.PrimalItemStructure_FenceSupport_Metal",
+"g":"FenceSupport_Metal"
 },{
 "l":"Metal Irrigation Pipe - Flexible",
 "t":"Structures",
@@ -7974,7 +8074,8 @@
 },{
 "l":"Metal Ocean Platform",
 "t":"Structures",
-"bp":"Genesis/Structures/OceanPlatform/OceanPlatform_Wood/PrimalItemStructure_Metal_OceanPlatform.PrimalItemStructure_Metal_OceanPlatform"
+"bp":"Genesis/Structures/OceanPlatform/OceanPlatform_Wood/PrimalItemStructure_Metal_OceanPlatform.PrimalItemStructure_Metal_OceanPlatform",
+"g":"Metal_OceanPlatform"
 },{
 "l":"Metal Stairs",
 "t":"Structures",
@@ -8039,55 +8140,66 @@
 "l":"Stone Triangle Foundation",
 "t":"Structures",
 "id":487,
-"bp":"PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Stone/PrimalItemStructure_TriFoundation_Stone.PrimalItemStructure_TriFoundation_Stone"
+"bp":"PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Stone/PrimalItemStructure_TriFoundation_Stone.PrimalItemStructure_TriFoundation_Stone",
+"g":"TriFoundation_Stone"
 },{
 "l":"Stone Triangle Roof",
 "t":"Structures",
 "id":493,
-"bp":"PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Stone/PrimalItemStructure_TriRoof_Stone.PrimalItemStructure_TriRoof_Stone"
+"bp":"PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Stone/PrimalItemStructure_TriRoof_Stone.PrimalItemStructure_TriRoof_Stone",
+"g":"TriRoof_Stone"
 },{
 "l":"Tek Dedicated Storage",
 "t":"Structures",
 "id":449,
-"bp":"PrimalEarth/StructuresPlus/Misc/DedicatedStorage/PrimalItemStructure_DedicatedStorage.PrimalItemStructure_DedicatedStorage"
+"bp":"PrimalEarth/StructuresPlus/Misc/DedicatedStorage/PrimalItemStructure_DedicatedStorage.PrimalItemStructure_DedicatedStorage",
+"g":"DedicatedStorage"
 },{
 "l":"Tek Double Doorframe",
 "t":"Structures",
 "id":460,
-"bp":"PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Tek/PrimalItemStructure_DoubleDoorframe_Tek.PrimalItemStructure_DoubleDoorframe_Tek"
+"bp":"PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Tek/PrimalItemStructure_DoubleDoorframe_Tek.PrimalItemStructure_DoubleDoorframe_Tek",
+"g":"DoubleDoorframe_Tek"
 },{
 "l":"Tek Double Door",
 "t":"Structures",
 "id":454,
-"bp":"PrimalEarth/StructuresPlus/Doors/Doors_Double/Tek/PrimalItemStructure_DoubleDoor_Tek.PrimalItemStructure_DoubleDoor_Tek"
+"bp":"PrimalEarth/StructuresPlus/Doors/Doors_Double/Tek/PrimalItemStructure_DoubleDoor_Tek.PrimalItemStructure_DoubleDoor_Tek",
+"g":"DoubleDoor_Tek"
 },{
 "l":"Tek Fence Support",
 "t":"Structures",
 "id":465,
-"bp":"PrimalEarth/StructuresPlus/Structures/FenceSupports/Tek/PrimalItemStructure_FenceSupport_Tek.PrimalItemStructure_FenceSupport_Tek"
+"bp":"PrimalEarth/StructuresPlus/Structures/FenceSupports/Tek/PrimalItemStructure_FenceSupport_Tek.PrimalItemStructure_FenceSupport_Tek",
+"g":"FenceSupport_Tek"
 },{
 "l":"Tek Jump Pad",
 "t":"Structures",
-"bp":"Genesis/Structures/TekJumpPad/PrimalItemStructure_TekJumpPad.PrimalItemStructure_TekJumpPad"
+"bp":"Genesis/Structures/TekJumpPad/PrimalItemStructure_TekJumpPad.PrimalItemStructure_TekJumpPad",
+"g":"TekJumpPad"
 },{
 "l":"Tek Sensor",
 "t":"Structures",
-"bp":"Genesis/Structures/TekAlarm/PrimalItemStructure_TekAlarm.PrimalItemStructure_TekAlarm"
+"bp":"Genesis/Structures/TekAlarm/PrimalItemStructure_TekAlarm.PrimalItemStructure_TekAlarm",
+"g":"TekAlarm"
 },{
 "l":"Tek Stairs",
 "t":"Structures",
 "id":477,
-"bp":"PrimalEarth/StructuresPlus/Structures/Ramps/Tek/PrimalItemStructure_Ramp_Tek.PrimalItemStructure_Ramp_Tek"
+"bp":"PrimalEarth/StructuresPlus/Structures/Ramps/Tek/PrimalItemStructure_Ramp_Tek.PrimalItemStructure_Ramp_Tek",
+"g":"PrimalItemStructure_Ramp_Tek"
 },{
 "l":"Tek Triangle Ceiling",
 "t":"Structures",
 "id":483,
-"bp":"PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Tek/PrimalItemStructure_TriCeiling_Tek.PrimalItemStructure_TriCeiling_Tek"
+"bp":"PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Tek/PrimalItemStructure_TriCeiling_Tek.PrimalItemStructure_TriCeiling_Tek",
+"g":"TriCeiling_Tek"
 },{
 "l":"Tek Triangle Foundation",
 "t":"Structures",
 "id":488,
-"bp":"PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Tek/PrimalItemStructure_TriFoundation_Tek.PrimalItemStructure_TriFoundation_Tek"
+"bp":"PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Tek/PrimalItemStructure_TriFoundation_Tek.PrimalItemStructure_TriFoundation_Tek",
+"g":"TriFoundation_Tek"
 },{
 "l":"Tek Triangle Roof",
 "t":"Structures",
@@ -8150,105 +8262,124 @@
 },{
 "l":"Blood Crystal Wyvern Egg",
 "t":"Eggs",
-"bp":"PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Bloodfall.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Bloodfall"
+"bp":"PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Bloodfall.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Bloodfall",
+"g":"Egg_CrystalWyvern_Fertilized_Bloodfall"
 },{
 "l":"Bloodstalker Egg",
 "t":"Eggs",
-"bp":"Genesis/Dinos/BogSpider/PrimalItemConsumable_Egg_BogSpider.PrimalItemConsumable_Egg_BogSpider"
+"bp":"Genesis/Dinos/BogSpider/PrimalItemConsumable_Egg_BogSpider.PrimalItemConsumable_Egg_BogSpider",
+"g":"Egg_BogSpider"
 },{
 "l":"Crystal Wyvern Egg",
 "t":"Eggs",
-"bp":"PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern.PrimalItemConsumable_Egg_CrystalWyvern"
+"bp":"PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern.PrimalItemConsumable_Egg_CrystalWyvern",
+"g":"Egg_CrystalWyvern"
 },{
 "l":"Deinonychus Egg",
 "t":"Eggs",
-"bp":"Valguero/Dinos/Deinonychus/PrimalItemConsumable_Egg_Deinonychus_Fertilized.PrimalItemConsumable_Egg_Deinonychus_Fertilized"
+"bp":"Valguero/Dinos/Deinonychus/PrimalItemConsumable_Egg_Deinonychus_Fertilized.PrimalItemConsumable_Egg_Deinonychus_Fertilized",
+"g":"Egg_Deinonychus_Fertilized"
 },{
 "l":"Ember Crystal Wyvern Egg",
 "t":"Eggs",
-"bp":"PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Ember.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Ember"
+"bp":"PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Ember.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_Ember",
+"g":"Egg_CrystalWyvern_Fertilized_Ember"
 },{
 "l":"Magmasaur Egg",
 "t":"Eggs",
-"bp":"Genesis/Dinos/Cherufe/PrimalItemConsumable_Egg_Cherufe.PrimalItemConsumable_Egg_Cherufe"
+"bp":"Genesis/Dinos/Cherufe/PrimalItemConsumable_Egg_Cherufe.PrimalItemConsumable_Egg_Cherufe",
+"g":"Egg_Cherufe"
 },{
 "l":"Megachelon Egg",
 "t":"Eggs",
-"bp":"Genesis/Dinos/GiantTurtle/PrimalItemConsumable_Egg_GiantTurtle.PrimalItemConsumable_Egg_GiantTurtle"
+"bp":"Genesis/Dinos/GiantTurtle/PrimalItemConsumable_Egg_GiantTurtle.PrimalItemConsumable_Egg_GiantTurtle",
+"g":"Egg_GiantTurtle"
 },{
 "l":"Tek Trike Egg",
 "t":"Eggs",
-"bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Trike_Bionic.PrimalItemConsumable_Egg_Trike_Bionic"
+"bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Trike_Bionic.PrimalItemConsumable_Egg_Trike_Bionic",
+"g":"Egg_Trike_Bionic"
 },{
 "l":"Tropical Crystal Wyvern Egg",
 "t":"Eggs",
-"bp":"PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_WS.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_WS"
+"bp":"PrimalEarth/Dinos/CrystalWyvern/Eggs/PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_WS.PrimalItemConsumable_Egg_CrystalWyvern_Fertilized_WS",
+"g":"Consumable_Egg_CrystalWyvern_Fertilized_WS"
 },{
 "l":"Tropeognathus Egg",
 "t":"Eggs",
-"bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Tropeognathus.PrimalItemConsumable_Egg_Tropeognathus"
+"bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Tropeognathus.PrimalItemConsumable_Egg_Tropeognathus",
+"g":"Egg_Tropeognathus"
 },{
 "l":"Tek Cruise Missile",
 "t":"Weapons",
-"bp":"Genesis/Weapons/CruiseMissile/PrimalItem_WeaponTekCruiseMissile.PrimalItem_WeaponTekCruiseMissile"
+"bp":"Genesis/Weapons/CruiseMissile/PrimalItem_WeaponTekCruiseMissile.PrimalItem_WeaponTekCruiseMissile",
+"g":"WeaponTekCruiseMissile"
 },{
 "l":"Flaming Spear",
 "t":"Weapons",
-"bp":"Genesis/CoreBlueprints/Weapons/Mission/PrimalItem_WeaponSpear_Flame_Gauntlet.PrimalItem_WeaponSpear_Flame_Gauntlet"
+"bp":"Genesis/CoreBlueprints/Weapons/Mission/PrimalItem_WeaponSpear_Flame_Gauntlet.PrimalItem_WeaponSpear_Flame_Gauntlet",
+"g":"Flame_Gauntlet"
 },{
 "l":"Tek Claws",
 "t":"Weapons",
-"bp":"Genesis/Weapons/TekHandBlades/PrimalItem_WeaponTekClaws.PrimalItem_WeaponTekClaws"
+"bp":"Genesis/Weapons/TekHandBlades/PrimalItem_WeaponTekClaws.PrimalItem_WeaponTekClaws",
+"g":"WeaponTekClaws"
 },{
 "l":"Tek Grenade Launcher",
 "t":"Weapons",
-"bp":"Genesis/Weapons/TekGrenadeLauncher/PrimalItem_WeaponTekGrenadeLauncher.PrimalItem_WeaponTekGrenadeLauncher"
+"bp":"Genesis/Weapons/TekGrenadeLauncher/PrimalItem_WeaponTekGrenadeLauncher.PrimalItem_WeaponTekGrenadeLauncher",
+"g":"PrimalItem_WeaponTekGrenadeLauncher"
 },{
 "l":"Cannon Shell",
 "t":"Ammunition",
-"bp":"Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_CannonShell.PrimalItemAmmo_CannonShell"
+"bp":"Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_CannonShell.PrimalItemAmmo_CannonShell",
+"g":"CannonShell"
 },{
 "l":"Rocket Pod",
 "t":"Ammunition",
-"bp":"Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_RocketPod.PrimalItemAmmo_RocketPod"
+"bp":"Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_RocketPod.PrimalItemAmmo_RocketPod",
+"g":"RocketPod"
 },{
 "l":"Tranq Arrow",
 "t":"Ammunition",
 "id":70,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq",
-"g":"ArrowTranq"
+"g":"Ammo_ArrowTranq"
 },{
 "l":"Aberrant Helmet Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_AberrationHelmet.PrimalItemSkin_AberrationHelmet"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_AberrationHelmet.PrimalItemSkin_AberrationHelmet",
+"g":"AberrationHelmet"
 },{
 "l":"Aberrant Sword Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword",
+"g":"in_AberrationSword"
 },{
 "l":"Araneo Swim Bottom Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_Underwear_Araneo.PrimalItemSkin_FE_Underwear_Araneo"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_Underwear_Araneo.PrimalItemSkin_FE_Underwear_Araneo",
+"g":"FE_Underwear_Araneo"
 },{
 "l":"Araneo Swim Top Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_SwimShirt_Araneo.PrimalItemSkin_FE_SwimShirt_Araneo"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_FE_SwimShirt_Araneo.PrimalItemSkin_FE_SwimShirt_Araneo",
+"g":"FE_SwimShirt_Araneo"
 },{
 "l":"Bonnet Hat Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_BonnetHat.PrimalItemSkin_TT_BonnetHat"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_TT_BonnetHat.PrimalItemSkin_TT_BonnetHat",
+"g":"TT_BonnetHat"
 },{
 "l":"Bow & Eros Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CupidBow.PrimalItemSkin_CupidBow"
-},{
-"l":"Bulbdog Mask Skin",
-"t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PugMask.PrimalItemSkin_PugMask"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_CupidBow.PrimalItemSkin_CupidBow",
+"g":"CupidBow"
 },{
 "l":"Bulbdog-Print Shirt Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Bulbdog.PrimalItemSkin_HawaiianShirt_Bulbdog"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_HawaiianShirt_Bulbdog.PrimalItemSkin_HawaiianShirt_Bulbdog",
+"g":"HawaiianShirt_Bulbdog"
 },{
 "l":"Chibi-Allosaurus",
 "t":"Skins",
@@ -8880,7 +9011,8 @@
 },{
 "l":"Alpha X-Triceratops Skull",
 "t":"Artifacts",
-"bp":"Genesis/Missions/Retrieve/RetrieveItems/TrikeSkull/PrimalItemSkin_TrikeSkullHelmet_Retrieve.PrimalItemSkin_TrikeSkullHelmet_Retrieve"
+"bp":"Genesis/Missions/Retrieve/RetrieveItems/TrikeSkull/PrimalItemSkin_TrikeSkullHelmet_Retrieve.PrimalItemSkin_TrikeSkullHelmet_Retrieve",
+"g":"TrikeSkullHelmet_Retrieve"
 },{
 "l":"Basilisk Scale",
 "t":"Artifacts",
@@ -8894,15 +9026,18 @@
 },{
 "l":"Corrupt Heart",
 "t":"Artifacts",
-"bp":"Extinction/CoreBlueprints/Resources/PrimalItemResource_RareDrop_CorruptHeart.PrimalItemResource_RareDrop_CorruptHeart"
+"bp":"Extinction/CoreBlueprints/Resources/PrimalItemResource_RareDrop_CorruptHeart.PrimalItemResource_RareDrop_CorruptHeart",
+"g":"RareDrop_CorruptHeart"
 },{
 "l":"Crystal Talon",
 "t":"Artifacts",
-"bp":"PrimalEarth/Dinos/CrystalWyvern/PrimalItemResource_ApexDrop_CrystalWyvern.PrimalItemResource_ApexDrop_CrystalWyvern"
+"bp":"PrimalEarth/Dinos/CrystalWyvern/PrimalItemResource_ApexDrop_CrystalWyvern.PrimalItemResource_ApexDrop_CrystalWyvern",
+"g":"ApexDrop_CrystalWyvern"
 },{
 "l":"Gasbags bladder",
 "t":"Artifacts",
-"bp":"Extinction/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_GasBag.PrimalItemResource_ApexDrop_GasBag"
+"bp":"Extinction/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_GasBag.PrimalItemResource_ApexDrop_GasBag",
+"g":"ApexDrop_GasBag"
 },{
 "l":"Giganotosaurus Heart",
 "t":"Artifacts",
@@ -8911,7 +9046,8 @@
 },{
 "l":"Golden Striped Megalodon Tooth",
 "t":"Artifacts",
-"bp":"Genesis/Missions/Retrieve/RetrieveItems/MegTeeth/PrimalItemResource_RetrieveMegTooth.PrimalItemResource_RetrieveMegTooth"
+"bp":"Genesis/Missions/Retrieve/RetrieveItems/MegTeeth/PrimalItemResource_RetrieveMegTooth.PrimalItemResource_RetrieveMegTooth",
+"g":"RetrieveMegTooth"
 },{
 "l":"Megalania Toxin",
 "t":"Artifacts",
@@ -8920,7 +9056,8 @@
 },{
 "l":"Reaper King Pheromone Gland",
 "t":"Artifacts",
-"bp":"Genesis/Missions/Retrieve/RetrieveItems/ReaperGland/PrimalItemResource_RetrieveReaperGland.PrimalItemResource_RetrieveReaperGland"
+"bp":"Genesis/Missions/Retrieve/RetrieveItems/ReaperGland/PrimalItemResource_RetrieveReaperGland.PrimalItemResource_RetrieveReaperGland",
+"g":"RetrieveReaperGland"
 },{
 "l":"Rock Drake Feather",
 "t":"Artifacts",
@@ -8995,19 +9132,23 @@
 },{
 "l":"Pumpkin",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_Pumpkin.PrimalItemStructure_Pumpkin"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_Pumpkin.PrimalItemStructure_Pumpkin",
+"g":"Pumpkin"
 },{
 "l":"Scarecrow",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_Scarecrow.PrimalItemStructure_Scarecrow"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_Scarecrow.PrimalItemStructure_Scarecrow",
+"g":"Scarecrow"
 },{
 "l":"Stolen Headstone",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_HW_Grave.PrimalItemStructure_HW_Grave"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_HW_Grave.PrimalItemStructure_HW_Grave",
+"g":"HW_Grave"
 },{
 "l":"Wishbone",
 "t":"Resources",
-"bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wishbone.PrimalItemResource_Wishbone"
+"bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wishbone.PrimalItemResource_Wishbone",
+"g":"Wishbone"
 },{
 "l":"\"Turkey\" Emote",
 "t":"Consumables",
@@ -9027,27 +9168,33 @@
 },{
 "l":"Wreath",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Wreath.PrimalItemStructure_Wreath"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Wreath.PrimalItemStructure_Wreath",
+"g":"Wreath"
 },{
 "l":"Holiday Lights",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_XmasLights.PrimalItemStructure_XmasLights"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_XmasLights.PrimalItemStructure_XmasLights",
+"g":"XmasLights"
 },{
 "l":"Holiday Stocking",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Stocking.PrimalItemStructure_Stocking"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Stocking.PrimalItemStructure_Stocking",
+"g":"Stocking"
 },{
 "l":"Holiday Tree",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_ChristmasTree.PrimalItemStructure_ChristmasTree"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_ChristmasTree.PrimalItemStructure_ChristmasTree",
+"g":"ChristmasTree"
 },{
 "l":"Snowman",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Snowman.PrimalItemStructure_Snowman"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_Snowman.PrimalItemStructure_Snowman",
+"g":"Snowman"
 },{
 "l":"Gift Box",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_StorageBox_ChristmasGift.PrimalItemStructure_StorageBox_ChristmasGift"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_StorageBox_ChristmasGift.PrimalItemStructure_StorageBox_ChristmasGift",
+"g":"StorageBox_ChristmasGift"
 },{
 "l":"Snowball Emote",
 "t":"Consumables",
@@ -9055,31 +9202,38 @@
 },{
 "l":"Festive Dino Candy",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_FestiveDinoCandy.PrimalItemConsumable_FestiveDinoCandy"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_FestiveDinoCandy.PrimalItemConsumable_FestiveDinoCandy",
+"g":"FestiveDinoCandy"
 },{
 "l":"Box o' Chocolates",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/Vday/PrimalItemConsumable_ValentinesChocolate.PrimalItemConsumable_ValentinesChocolate"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/Vday/PrimalItemConsumable_ValentinesChocolate.PrimalItemConsumable_ValentinesChocolate",
+"g":"ValentinesChocolate"
 },{
 "l":"Valentines Dino Candy",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/Vday/PrimalItemConsumable_ValentinesDinoCandy.PrimalItemConsumable_ValentinesDinoCandy"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/Vday/PrimalItemConsumable_ValentinesDinoCandy.PrimalItemConsumable_ValentinesDinoCandy",
+"g":"ValentinesDinoCandy"
 },{
 "l":"\"Heart\" Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Heart.PrimalItemConsumable_UnlockEmote_Heart"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Heart.PrimalItemConsumable_UnlockEmote_Heart",
+"g":"UnlockEmote_Heart"
 },{
 "l":"Romantic Head Hair Style",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Head_Romantic.PrimalItemConsumable_UnlockHairstyle_Head_Romantic"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Head_Romantic.PrimalItemConsumable_UnlockHairstyle_Head_Romantic",
+"g":"UnlockHairstyle_Head_Romantic"
 },{
 "l":"Romantic Facial Hair Style",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Facial_Romantic.PrimalItemConsumable_UnlockHairstyle_Facial_Romantic"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Facial_Romantic.PrimalItemConsumable_UnlockHairstyle_Facial_Romantic",
+"g":"UnlockHairstyle_Facial_Romantic"
 },{
 "l":"Bunny Egg",
 "t":"Structures",
-"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_EasterEgg.PrimalItemStructure_EasterEgg"
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_EasterEgg.PrimalItemStructure_EasterEgg",
+"g":"EasterEgg"
 },{
 "l":"Birthday Cake",
 "t":"Structures",
@@ -9091,91 +9245,113 @@
 },{
 "l":"Festive Dino Candy (Easter)",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_EasterDinoCandy.PrimalItemConsumable_EasterDinoCandy"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_EasterDinoCandy.PrimalItemConsumable_EasterDinoCandy",
+"g":"EasterDinoCandy"
 },{
 "l":"Archer Flex Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex2.PrimalItemConsumable_UnlockEmote_Flex2"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex2.PrimalItemConsumable_UnlockEmote_Flex2",
+"g":"UnlockEmote_Flex2"
 },{
 "l":"Bicep Smooch Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex1.PrimalItemConsumable_UnlockEmote_Flex1"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex1.PrimalItemConsumable_UnlockEmote_Flex1",
+"g":"UnlockEmote_Flex1"
 },{
 "l":"Summer Swirl Taffy",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Crafted_FourthOfJulyDinoCandy.PrimalItemConsumable_Crafted_FourthOfJulyDinoCandy"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Crafted_FourthOfJulyDinoCandy.PrimalItemConsumable_Crafted_FourthOfJulyDinoCandy",
+"g":"FourthOfJulyDinoCandy"
 },{
 "l":"Dance Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Dance.PrimalItemConsumable_UnlockEmote_Dance"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Dance.PrimalItemConsumable_UnlockEmote_Dance",
+"g":"UnlockEmote_Dance"
 },{
 "l":"Panic Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Panic.PrimalItemConsumable_UnlockEmote_Panic"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Panic.PrimalItemConsumable_UnlockEmote_Panic",
+"g":"UnlockEmote_Panic"
 },{
 "l":"\"Zombie\" Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Zombie.PrimalItemConsumable_UnlockEmote_Zombie"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Zombie.PrimalItemConsumable_UnlockEmote_Zombie",
+"g":"UnlockEmote_Zombie"
 },{
 "l":"Dino Candy Corn",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_FE_Crafted_CandyCorn.PrimalItemConsumable_FE_Crafted_CandyCorn"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_FE_Crafted_CandyCorn.PrimalItemConsumable_FE_Crafted_CandyCorn",
+"g":"CandyCorn"
 },{
 "l":"Belly Rub Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BellyRub.PrimalItemConsumable_UnlockEmote_BellyRub"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BellyRub.PrimalItemConsumable_UnlockEmote_BellyRub",
+"g":"UnlockEmote_BellyRub"
 },{
 "l":"Food Coma Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_FoodComa.PrimalItemConsumable_UnlockEmote_FoodComa"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_FoodComa.PrimalItemConsumable_UnlockEmote_FoodComa",
+"g":"UnlockEmote_FoodComa"
 },{
 "l":"Hungry Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Hungry.PrimalItemConsumable_UnlockEmote_Hungry"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Hungry.PrimalItemConsumable_UnlockEmote_Hungry",
+"g":"UnlockEmote_Hungry"
 },{
 "l":"Thanksgiving Candy",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_TT_Crafted_ThanksgivingCandy.PrimalItemConsumable_TT_Crafted_ThanksgivingCandy"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_TT_Crafted_ThanksgivingCandy.PrimalItemConsumable_TT_Crafted_ThanksgivingCandy",
+"g":"ThanksgivingCandy"
 },{
 "l":"Caroling Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Caroling.PrimalItemConsumable_UnlockEmote_Caroling"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Caroling.PrimalItemConsumable_UnlockEmote_Caroling",
+"g":"UnlockEmote_Caroling"
 },{
 "l":"Happy Clap Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_HappyClap.PrimalItemConsumable_UnlockEmote_HappyClap"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_HappyClap.PrimalItemConsumable_UnlockEmote_HappyClap",
+"g":"UnlockEmote_HappyClap"
 },{
 "l":"Nutcracker Dance Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_NutcrackerDance.PrimalItemConsumable_UnlockEmote_NutcrackerDance"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_NutcrackerDance.PrimalItemConsumable_UnlockEmote_NutcrackerDance",
+"g":"UnlockEmote_NutcrackerDance"
 },{
 "l":"Flirty Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flirt.PrimalItemConsumable_UnlockEmote_Flirt"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flirt.PrimalItemConsumable_UnlockEmote_Flirt",
+"g":"UnlockEmote_Flirt"
 },{
 "l":"Bunny Hop Dance Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BunnyHopDance.PrimalItemConsumable_UnlockEmote_BunnyHopDance"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BunnyHopDance.PrimalItemConsumable_UnlockEmote_BunnyHopDance",
+"g":"UnlockEmote_BunnyHopDance"
 },{
 "l":"ARK Anniversary Surprise Cake",
 "t":"Resources",
-"bp":"PrimalEarth/Structures/PopOutCake/PrimalItemStructure_BirthdayCake.PrimalItemStructure_BirthdayCake"
+"bp":"PrimalEarth/Structures/PopOutCake/PrimalItemStructure_BirthdayCake.PrimalItemStructure_BirthdayCake",
+"g":"BirthdayCake"
 },{
 "l":"Cake Slice",
 "t":"Resources",
-"bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_CakeSlice.PrimalItemResource_CakeSlice"
+"bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_CakeSlice.PrimalItemResource_CakeSlice",
+"g":"CakeSlice"
 },{
 "l":"Air Drums Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirDrum.PrimalItemConsumable_UnlockEmote_AirDrum"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirDrum.PrimalItemConsumable_UnlockEmote_AirDrum",
+"g":"UnlockEmote_AirDrum"
 },{
 "l":"Air Guitar Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirGuitar.PrimalItemConsumable_UnlockEmote_AirGuitar"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirGuitar.PrimalItemConsumable_UnlockEmote_AirGuitar",
+"g":"UnlockEmote_AirGuitar"
 },{
 "l":"Mosh Pit Emote",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_MoshPit.PrimalItemConsumable_UnlockEmote_MoshPit"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_MoshPit.PrimalItemConsumable_UnlockEmote_MoshPit",
+"g":"UnlockEmote_MoshPit"
 }
 
 ]}
