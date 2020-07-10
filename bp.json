@@ -7483,9 +7483,10 @@
 "g":"Kibble_Base_Special"
 },{
 "l":"\"Evil\" Emote",
-"t":"Consumables",
+"t":"Emotes",
 "id":"PrimalItemConsumable_UnlockEmote_Evil_C",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Evil.PrimalItemConsumable_UnlockEmote_Evil"
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Evil.PrimalItemConsumable_UnlockEmote_Evil",
+"g":"UnlockEmote_Evil"
 },{
 "l":"Deinonychus Egg (Valguero)",
 "t":"Eggs",
@@ -9151,8 +9152,9 @@
 "g":"Wishbone"
 },{
 "l":"\"Turkey\" Emote",
-"t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Turkey.PrimalItemConsumable_UnlockEmote_Turkey"
+"t":"Emotes",
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Turkey.PrimalItemConsumable_UnlockEmote_Turkey",
+"g":"UnlockEmote_Turkey"
 },{
 "l":"Summon DodoRex",
 "t":"Consumables",
@@ -9160,11 +9162,13 @@
 },{
 "l":"Mistletoe",
 "t":"Resources",
-"bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MistleToe.PrimalItemResource_MistleToe"
+"bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MistleToe.PrimalItemResource_MistleToe",
+"g":"MistleToe"
 },{
 "l":"Coal",
 "t":"Resources",
-"bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Coal.PrimalItemResource_Coal"
+"bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Coal.PrimalItemResource_Coal",
+"g":"PrimalItemResource_Coal"
 },{
 "l":"Wreath",
 "t":"Structures",
@@ -9197,8 +9201,9 @@
 "g":"StorageBox_ChristmasGift"
 },{
 "l":"Snowball Emote",
-"t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Snowball.PrimalItemConsumable_UnlockEmote_Snowball"
+"t":"Emotes",
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Snowball.PrimalItemConsumable_UnlockEmote_Snowball",
+"g":"UnlockEmote_Snowball"
 },{
 "l":"Festive Dino Candy",
 "t":"Consumables",
@@ -9216,7 +9221,7 @@
 "g":"ValentinesDinoCandy"
 },{
 "l":"\"Heart\" Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Heart.PrimalItemConsumable_UnlockEmote_Heart",
 "g":"UnlockEmote_Heart"
 },{
@@ -9249,12 +9254,12 @@
 "g":"EasterDinoCandy"
 },{
 "l":"Archer Flex Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex2.PrimalItemConsumable_UnlockEmote_Flex2",
 "g":"UnlockEmote_Flex2"
 },{
 "l":"Bicep Smooch Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex1.PrimalItemConsumable_UnlockEmote_Flex1",
 "g":"UnlockEmote_Flex1"
 },{
@@ -9264,17 +9269,17 @@
 "g":"FourthOfJulyDinoCandy"
 },{
 "l":"Dance Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Dance.PrimalItemConsumable_UnlockEmote_Dance",
 "g":"UnlockEmote_Dance"
 },{
 "l":"Panic Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Panic.PrimalItemConsumable_UnlockEmote_Panic",
 "g":"UnlockEmote_Panic"
 },{
 "l":"\"Zombie\" Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Zombie.PrimalItemConsumable_UnlockEmote_Zombie",
 "g":"UnlockEmote_Zombie"
 },{
@@ -9284,17 +9289,17 @@
 "g":"CandyCorn"
 },{
 "l":"Belly Rub Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BellyRub.PrimalItemConsumable_UnlockEmote_BellyRub",
 "g":"UnlockEmote_BellyRub"
 },{
 "l":"Food Coma Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_FoodComa.PrimalItemConsumable_UnlockEmote_FoodComa",
 "g":"UnlockEmote_FoodComa"
 },{
 "l":"Hungry Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Hungry.PrimalItemConsumable_UnlockEmote_Hungry",
 "g":"UnlockEmote_Hungry"
 },{
@@ -9304,27 +9309,27 @@
 "g":"ThanksgivingCandy"
 },{
 "l":"Caroling Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Caroling.PrimalItemConsumable_UnlockEmote_Caroling",
 "g":"UnlockEmote_Caroling"
 },{
 "l":"Happy Clap Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_HappyClap.PrimalItemConsumable_UnlockEmote_HappyClap",
 "g":"UnlockEmote_HappyClap"
 },{
 "l":"Nutcracker Dance Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_NutcrackerDance.PrimalItemConsumable_UnlockEmote_NutcrackerDance",
 "g":"UnlockEmote_NutcrackerDance"
 },{
 "l":"Flirty Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flirt.PrimalItemConsumable_UnlockEmote_Flirt",
 "g":"UnlockEmote_Flirt"
 },{
 "l":"Bunny Hop Dance Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BunnyHopDance.PrimalItemConsumable_UnlockEmote_BunnyHopDance",
 "g":"UnlockEmote_BunnyHopDance"
 },{
@@ -9339,17 +9344,17 @@
 "g":"CakeSlice"
 },{
 "l":"Air Drums Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirDrum.PrimalItemConsumable_UnlockEmote_AirDrum",
 "g":"UnlockEmote_AirDrum"
 },{
 "l":"Air Guitar Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirGuitar.PrimalItemConsumable_UnlockEmote_AirGuitar",
 "g":"UnlockEmote_AirGuitar"
 },{
 "l":"Mosh Pit Emote",
-"t":"Consumables",
+"t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_MoshPit.PrimalItemConsumable_UnlockEmote_MoshPit",
 "g":"UnlockEmote_MoshPit"
 }

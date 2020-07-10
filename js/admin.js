@@ -195,6 +195,11 @@ var cats = {
       "p":11,
       "l":3
    },
+   "47":{
+      "n":"Emotes",
+      "p":11,
+      "l":3
+   },
    "33":{
       "n":"Tribe & Player Administration",
       "p":3,
