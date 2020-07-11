@@ -5982,16 +5982,6 @@
 "bp":"Aberration/CoreBlueprints/Weapons/PrimalItemAmmo_Zipline.PrimalItemAmmo_Zipline",
 "g":"Ammo_Zipline"
 },{
-"l":"Aberrant Helmet",
-"t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_AberrationHelmet.PrimalItemSkin_AberrationHelmet",
-"g":"AberrationHelmet"
-},{
-"l":"Aberrant Sword",
-"t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword",
-"g":"AberrationSword"
-},{
 "l":"Bulbdog Mask",
 "t":"Skins",
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_PugMask.PrimalItemSkin_PugMask",
@@ -7168,16 +7158,6 @@
 "t":"Weapons",
 "bp":"Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponTekGravityGrenade.PrimalItem_WeaponTekGravityGrenade",
 "g":"TekGravityGrenade"
-},{
-"l":"Aberrant Helmet Skin (Aberration)",
-"t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_AberrationHelmet.PrimalItemSkin_AberrationHelmet",
-"g":"AberrationHelmet"
-},{
-"l":"Aberrant Sword Skin (Aberration)",
-"t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_AberrationSword.PrimalItemSkin_AberrationSword",
-"g":"d.AberrationSword"
 },{
 "l":"Brachiosaurus Costume",
 "t":"Skins",

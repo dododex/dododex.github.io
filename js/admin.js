@@ -282,6 +282,7 @@ function getCatNavHTML(parentID){
 
 
 function updateAttr() {
+  // Get all the new attributes
   level = $("#admin-search input[name=level]").val();
   distance = $("#admin-search input[name=distance]").val();
   distancey = $("#admin-search input[name=distancey]").val();
@@ -290,9 +291,15 @@ function updateAttr() {
   quality = $("#admin-search input[name=quality]").val();
   blueprint = $("#admin-search input[name=blueprint]")[0].checked == true ? 1 : 0;
   xbox = $("#admin-search input[name=xbox]")[0].checked == true ? 1 : 0;
-  gfi = $("#admin-search input[name=gfi]")[0].checked == true ? 1 : 0;
   tame = $("#admin-search input[name=tame]")[0].checked == true ? " | admincheat forcetame" : "";
   
+  // If GFI toggle changes, we need to refresh the search results since it's a whole new command
+  var previousGFI = gfi;
+  gfi = $("#admin-search input[name=gfi]")[0].checked == true ? 1 : 0;
+  if(previousGFI != gfi){
+    searchBP(cats[catID].n);
+  }
+
   jQuery.each($('.bprd .bpb .bpbe'), function( i, val ) {
     $(val).text(distance + " " + distancey + " " + distancez + " " + level + " " + tame);
   });
@@ -361,18 +368,21 @@ function searchBP(category = null, searchCat = false){
         }
 
         var theLabel = item.id;
-        var commandFormatted = item.c.replace(/<(.*?)>/g, '<span class="pillH">$1</span>'); // Pill each attribute
-        commandFormatted = commandFormatted.replace(/^([\w\-]+)/,'<b class="white">$1</b>') // Bold first word
+        var commandFormatted = item.c.replace(/<(.*?)>/g, '<span class="pillH">$1</span>'); // Put each attribute in a pill
+        commandFormatted = commandFormatted.replace(/^([\w\-]+)/,'<a class="white">$1</b>') // Bold first word
 
         rowClass += 'bprc';
         // console.log(theBP);
         lastType = item.t;
+
+        // Generate the HTML
         var theHTML = rowHeader + '<div class="bpb">' + commandFormatted;
         if(item.d){
           theHTML += '<div class="marginTopS"><em>' + item.d + '</em></div>';
         }
         theHTML += '<div class="marginTop"><div class="whiteinputwb"><input type="text" size="50" value="' + item.e + '" /><a class="whiteinputb">COPY</a></div></div></div>';
-        // console.log(theHTML);
+        
+        // Append the HTML to the results element
         $('<li class="bpr ' + rowClass + '">')
         .append(theHTML)
         .appendTo(resultsEl);
@@ -485,7 +495,7 @@ $(document).ready(function() {
   var quality = $("#admin-search input[name=quality]").val();
   var blueprint = $("#admin-search input[name=blueprint]")[0].checked == true ? 1 : 0;
   var xbox = $("#admin-search input[name=xbox]")[0].checked; // -1 for Xbox
-  var gfi = $("#admin-search input[name=gfi]")[0].checked; // -1 for Xbox
+  var gfi = $("#admin-search input[name=gfi]")[0].checked;
   var tame = $("#admin-search input[name=tame]")[0].checked == true ? " | admincheat forcetame" : "";
  
   resultsEl = $("#admin-results");
@@ -577,6 +587,8 @@ $(document).ready(function() {
   $( "input[name=distancez]" ).spinner({min:0,step:100,stop:spinStop});
   $( "input[name=quantity]" ).spinner({min:0,max:100,step:1,stop:spinStop});
   $( "input[name=quality]" ).spinner({min:0,max:100,step:1,stop:spinStop});
+
+  // Update results whenever a user changes a config
   $("#bpConfig input").change("change paste keyup", function() {
     updateAttr();
   })
