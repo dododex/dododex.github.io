@@ -624,10 +624,13 @@ $(document).ready(function() {
     if(cats[i].l===2){
       // Find all subcats for this category.
       var subCatHTML = '';
+      var parentCat = cats[i];
+      var grandParentCat = cats[parentCat.p];
       for(var j in cats){
+        // Find matching children
         if(cats[j].p==i){
-            subCatHTML += '<a href="/admin-commands/' + slugify(cats[cats[j]['p']]['n']) + '/' + slugify(cats[j].n) + '" class="boxIcon bpCat" data-cat="' + j + '">' + cats[j].n + '</a>';
-          // numCats++;
+          var commandSlug = slugify(grandParentCat['n']) + '/' + slugify(parentCat['n']) + '/' + slugify(cats[j].n)
+          subCatHTML += '<a href="/admin-commands/?commands=' + commandSlug + '" class="boxIcon bpCat" data-cat="' + j + '">' + cats[j].n + '</a>';
         }
       }
       // If there are subcats, add it to the HTML
