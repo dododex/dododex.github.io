@@ -7,7 +7,7 @@
 },{
 "t":"Alphas",
 "cid":"carno",
-"l":"Alpha Carno",
+"l":"Alpha Carnotaurus",
 "id":"MegaCarno_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP"
 },{
@@ -82,14 +82,6 @@
 "id":"Toad_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP"
 },{
-"t":"Event Creatures",
-"l":"BunnyDodo",
-"bp":"PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Bunny.Dodo_Character_BP_Bunny"
-},{
-"t":"Event Creatures",
-"l":"BunnyOviraptor",
-"bp":"PrimalEarth/Dinos/oviRaptor/BunnyoviRaptor_Character_BP.BunnyOviRaptor_Character_BP"
-},{
 "t":"Dinos",
 "cid":"brontosaurus",
 "l":"Brontosaurus",
@@ -121,6 +113,7 @@
 "bp":"PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP"
 },{
 "t":"Dinos",
+"cid":"Coelacanth",
 "l":"Coelacanth",
 "id":"Coel_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP"
@@ -484,6 +477,7 @@
 },{
 "t":"Event Creatures",
 "l":"Skeletal Triceratops",
+"cid":"triceratops",
 "id":"Bone_Trike_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Trike/Bone_Trike_Character_BP"
 },{
@@ -550,7 +544,7 @@
 "bp":"PrimalEarth/Dinos/titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP"
 },{
 "t":"Dinos",
-"cid":"trike",
+"cid":"triceratops",
 "l":"Triceratops",
 "id":"Trike_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP"
@@ -4966,7 +4960,7 @@
 "l":"Tek Shield",
 "t":"Armor",
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_TekShield.PrimalItemArmor_TekShield",
-"g":"TekShield"
+"g":"ShieldTek"
 },{
 "l":"Tek Shirt",
 "t":"Armor",
@@ -5613,7 +5607,7 @@
 "t":"Saddles",
 "id":"PrimalItemArmor_DaeodonSaddle_C",
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle",
-"g":"Daeodon"
+"g":"DaeodonSaddle"
 },{
 "l":"Phoenix",
 "cid":"phoenix",
@@ -6592,10 +6586,12 @@
 },{
 "l":"Bunny Dodo",
 "t":"Event Creatures",
+"id":"Dodo_Character_BP_Bunny_C",
 "bp":"PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Bunny.Dodo_Character_BP_Bunny"
 },{
 "l":"Bunny Oviraptor",
 "t":"Event Creatures",
+"id":"BunnyOviraptor_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Oviraptor/BunnyOviraptor_Character_BP.BunnyOviraptor_Character_BP"
 },{
 "l":"Compy",
@@ -6664,11 +6660,6 @@
 "id":"Ragnarok_Wyvern_Override_Ice_C",
 "bp":"Mods/Ragnarok/Custom_Assets/Dinos/Wyvern/Ice_Wyvern/Ragnarok_Wyvern_Override_Ice.Ragnarok_Wyvern_Override_Ice"
 },{
-"l":"Aberrant Anglerfish",
-"t":"Aberration",
-"id":"Angler_Character_BP_Aberrant_C",
-"bp":"PrimalEarth/Dinos/Anglerfish/Angler_Character_BP_Aberrant.Angler_Character_BP_Aberrant"
-},{
 "l":"Aberrant Direbear",
 "t":"Aberration",
 "id":"Direbear_Character_BP_Aberrant_C",
@@ -6676,6 +6667,7 @@
 },{
 "l":"Aberrant Gigantopithecus",
 "t":"Aberration",
+"cid":"gigantopithecus",
 "id":"Bigfoot_Character_BP_Aberrant_C",
 "bp":"PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP_Aberrant.Bigfoot_Character_BP_Aberrant"
 },{
@@ -6707,21 +6699,25 @@
 "bp":"Extinction/Dinos/KingKaiju/CorruptTumor_Character_BP.CorruptTumor_Character_BP"
 },{
 "l":"Corrupted Arthropluera",
+"cid":"arthropluera",
 "t":"Extinction",
 "id":"Arthro_Character_BP_Corrupt_C",
 "bp":"Extinction/Dinos/Corrupt/Arthropluera/Arthro_Character_BP_Corrupt.Arthro_Character_BP_Corrupt"
 },{
 "l":"Corrupted Carnotaurus",
+"cid":"carnotaurus",
 "t":"Extinction",
 "id":"Carno_Character_BP_Corrupt_C",
 "bp":"Extinction/Dinos/Corrupt/Carno/Carno_Character_BP_Corrupt.Carno_Character_BP_Corrupt"
 },{
 "l":"Corrupted Chalicotherium",
+"cid":"chalicotherium",
 "t":"Extinction",
 "id":"Chalico_Character_BP_Corrupt_C",
 "bp":"Extinction/Dinos/Corrupt/Chalicotherium/Chalico_Character_BP_Corrupt.Chalico_Character_BP_Corrupt"
 },{
 "l":"Corrupted Deathworm",
+"cid":"deathworm",
 "t":"Extinction",
 "id":"Deathworm_Character_BP_Corrupt_C",
 "bp":"Extinction/Dinos/Corrupt/Deathworm/Deathworm_Character_BP_Corrupt.Deathworm_Character_BP_Corrupt"
@@ -6783,6 +6779,7 @@
 },{
 "l":"Corrupted Triceratops",
 "t":"Extinction",
+"cid":"triceratops",
 "id":"Trike_Character_BP_Corrupt_C",
 "bp":"Extinction/Dinos/Corrupt/Trike/Trike_Character_BP_Corrupt.Trike_Character_BP_Corrupt"
 },{
@@ -6792,6 +6789,7 @@
 "bp":"Extinction/Dinos/Corrupt/Wyvern/Wyvern_Character_BP_Fire_Corrupt.Wyvern_Character_BP_Fire_Corrupt"
 },{
 "l":"Defense Unit",
+"cid":"defenseunit",
 "t":"Extinction",
 "id":"Defender_Character_BP_C",
 "bp":"Extinction/Dinos/Tank/Defender_Character_BP.Defender_Character_BP"
@@ -6808,75 +6806,90 @@
 },{
 "l":"Enforcer",
 "t":"Extinction",
+"cid":"enforcer",
 "id":"Enforcer_Character_BP_C",
 "bp":"Extinction/Dinos/Enforcer/Enforcer_Character_BP.Enforcer_Character_BP"
 },{
 "l":"Enraged Corrupted Rex",
 "t":"Extinction",
+"cid":"rex",
 "id":"MegaRex_Character_BP_Corrupt_C",
 "bp":"Extinction/Dinos/Corrupt/Rex/MegaRex_Character_BP_Corrupt.MegaRex_Character_BP_Corrupt"
 },{
 "l":"Enraged Triceratops",
+"cid":"triceratops",
 "t":"Extinction",
 "id":"MegaTrike_Character_BP_Corrupt_C",
 "bp":"Extinction/Dinos/Corrupt/Trike/MegaTrike_Character_BP_Corrupt.MegaTrike_Character_BP_Corrupt"
 },{
 "l":"Forest Titan",
 "t":"Extinction",
+"cid":"foresttitan",
 "id":"ForestKaiju_Character_BP_C",
 "bp":"Extinction/Dinos/ForestKaiju/ForestKaiju_Character_BP.ForestKaiju_Character_BP"
 },{
 "l":"Forest Wyvern",
 "t":"Extinction",
+"cid":"wyvern",
 "id":"Wyvern_Character_BP_Fire_Minion_C",
 "bp":"Extinction/Dinos/ForestKaiju/Minion/Wyvern_Character_BP_Fire_Minion.Wyvern_Character_BP_Fire_Minion"
 },{
 "l":"Gacha",
 "t":"Extinction",
+"cid":"gacha",
 "id":"Gacha_Character_BP_C",
 "bp":"Extinction/Dinos/Gacha/Gacha_Character_BP.Gacha_Character_BP"
 },{
 "l":"Gamma King Titan",
 "t":"Extinction",
+"cid":"kingtitan",
 "id":"KingKaiju_Character_BP_C",
 "bp":"Extinction/Dinos/KingKaiju/KingKaiju_Character_BP.KingKaiju_Character_BP"
 },{
 "l":"Gasbags",
 "t":"Extinction",
+"cid":"gasbags",
 "id":"GasBags_Character_BP_C",
 "bp":"Extinction/Dinos/GasBag/GasBags_Character_BP.GasBags_Character_BP"
 },{
 "l":"Ice Titan",
 "t":"Extinction",
+"cid":"icetitan",
 "id":"IceKaiju_Character_BP_C",
 "bp":"Extinction/Dinos/IceKaiju/IceKaiju_Character_BP.IceKaiju_Character_BP"
 },{
 "l":"Managarmr",
 "t":"Extinction",
+"cid":"managarmr",
 "id":"IceJumper_Character_BP_C",
 "bp":"Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP"
 },{
 "l":"Mega Mek",
 "t":"Extinction",
+"cid":"megamek",
 "id":"M_Character_BP_C",
 "bp":"Extinction/Dinos/Mek/M_Character_BP.M_Character_BP"
 },{
 "l":"Mek",
 "t":"Extinction",
+"cid":"mek",
 "id":"Mek_Character_BP_C",
 "bp":"Extinction/Dinos/Mek/Mek_Character_BP.Mek_Character_BP"
 },{
 "l":"Scout",
 "t":"Extinction",
+"l":"scout",
 "id":"Scout_Character_BP_C",
 "bp":"Extinction/Dinos/Scout/Scout_Character_BP.Scout_Character_BP"
 },{
 "l":"Snow Owl",
+"cid":"snowowl",
 "t":"Extinction",
 "id":"Owl_Character_BP_C",
 "bp":"Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP"
 },{
 "l":"Velonasaur",
+"cid":"velonasaur",
 "t":"Extinction",
 "id":"Spindles_Character_BP_C",
 "bp":"Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP"
@@ -7596,31 +7609,31 @@
 "l":"Eel Minion",
 "cid":"minion",
 "t":"Genesis",
-"id":"EelMinion_Character_BP",
+"id":"EelMinion_Character_BP_C",
 "bp":"Genesis/Dinos/EelMinion_Character_BP/EelMinion_Character_BP.EelMinion_Character_BP"
 },{
 "l":"Moeder",
 "cid":"Moeder",
 "t":"Genesis",
-"id":"EelBoss_Character_BP",
+"id":"EelBoss_Character_BP_C",
 "bp":"Genesis/Dinos/EelBoss_Character_BP/EelBoss_Character_BP.EelBoss_Character_BP"
 },{
 "l":"Astrocetus",
 "cid":"astrocetus",
 "t":"Genesis",
-"id":"SpaceWhale_Character_BP",
+"id":"SpaceWhale_Character_BP_C",
 "bp":"Genesis/Dinos/SpaceWhale/SpaceWhale_Character_BP.SpaceWhale_Character_BP"
 },{
 "l":"Ferox (Small)",
 "cid":"ferox",
 "t":"Genesis",
-"id":"Shapeshifter_Small_Character_BP",
+"id":"Shapeshifter_Small_Character_BP_C",
 "bp":"Genesis/Dinos/Shapeshifter/Shapeshifter_Small/Shapeshifter_Small_Character_BP.Shapeshifter_Small_Character_BP"
 },{
 "l":"Ferox (Large)",
 "cid":"ferox",
 "t":"Genesis",
-"id":"Shapeshifter_Small_Character_BP",
+"id":"Shapeshifter_Small_Character_BP_C",
 "bp":"Genesis/Dinos/Shapeshifter/Shapeshifter_Small/Shapeshifter_Small_Character_BP.Shapeshifter_Small_Character_BP"
 },{
 "l":"X-Parasaur",
@@ -7721,13 +7734,13 @@
 },{
 "l":"HoverSkiff",
 "t":"Genesis",
-"id":"TekHoverSkiff_Character_BP",
+"id":"TekHoverSkiff_Character_BP_C",
 "bp":"Genesis/Dinos/TekHoverSkiff/TekHoverSkiff_Character_BP.TekHoverSkiff_Character_BP"
 },{
 "l":"X-Dragon",
 "cid":"dragon",
 "t":"Genesis",
-"id":"Volcanic_Dragon_Character_BP",
+"id":"Volcanic_Dragon_Character_BP_C",
 "bp":"Genesis/Dinos/BiomeVariants/Volcanic_Dragon/Volcanic_Dragon_Character_BP.Volcanic_Dragon_Character_BP"
 },{
 "l":"X-Allosaurus",
@@ -7763,7 +7776,7 @@
 "l":"Tropeognathus",
 "cid":"tropeognathus",
 "t":"Dinos",
-"id":"Tropeognathus_Character_BP",
+"id":"Tropeognathus_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Tropeognathus/Tropeognathus_Character_BP.Tropeognathus_Character_BP"
 },{
 "l":"Alpha Blood Crystal Wyvern",
@@ -8320,12 +8333,6 @@
 "t":"Ammunition",
 "bp":"Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_RocketPod.PrimalItemAmmo_RocketPod",
 "g":"RocketPod"
-},{
-"l":"Tranq Arrow",
-"t":"Ammunition",
-"id":70,
-"bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowTranq.PrimalItemAmmo_ArrowTranq",
-"g":"Ammo_ArrowTranq"
 },{
 "l":"Aberrant Helmet Skin",
 "t":"Skins",

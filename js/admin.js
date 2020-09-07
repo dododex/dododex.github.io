@@ -291,35 +291,49 @@ function updateAttr() {
   quality = $("#admin-search input[name=quality]").val();
   blueprint = $("#admin-search input[name=blueprint]")[0].checked == true ? 1 : 0;
   xbox = $("#admin-search input[name=xbox]")[0].checked == true ? 1 : 0;
-  tame = $("#admin-search input[name=tame]")[0].checked == true ? " | admincheat forcetame" : "";
-  
-  // If GFI toggle changes, we need to refresh the search results since it's a whole new command
+
+  // Save the last state of these attributes so we can check if they swaped.
+  var previousTamed = tamed;
+  tamed = $("#admin-search input[name=tame]")[0].checked
   var previousGFI = gfi;
   gfi = $("#admin-search input[name=gfi]")[0].checked == true ? 1 : 0;
-  if(previousGFI != gfi){
+
+  tame = tamed ? " | admincheat forcetame" : "";
+
+  // If GFI toggle changes, we need to refresh the search results since it's a whole new command
+  if(previousGFI != gfi || previousTamed != tamed){
     searchBP(cats[catID].n);
+  } else {
+    jQuery.each($('.bprd .bpb .bpbe'), function( i, val ) {
+      if(tamed){
+        var theBP = level;
+      } else {
+        var theBP = distance + " " + distancey + " " + distancez + " " + level + "" + tame;
+      }
+      $(val).text(theBP);
+    });
+    jQuery.each($('.bprw .bpb .bpbe'), function( i, val ) {
+      $(val).text(quantity + " " + quality + " " + blueprint);
+    });
+    jQuery.each($('.bprw .bpb .bpbi'), function( i, val ) {
+      var id = $(val).data("id")
+      $(val).text(xbox ? (id-1) : id);
+    });
   }
 
-  jQuery.each($('.bprd .bpb .bpbe'), function( i, val ) {
-    $(val).text(distance + " " + distancey + " " + distancez + " " + level + " " + tame);
-  });
-  jQuery.each($('.bprw .bpb .bpbe'), function( i, val ) {
-    $(val).text(quantity + " " + quality + " " + blueprint);
-  });
-  jQuery.each($('.bprw .bpb .bpbi'), function( i, val ) {
-    var id = $(val).data("id")
-    $(val).text(xbox ? (id-1) : id);
-  });
+
+
+
 }
 
 function searchBP(category = null, searchCat = false){
   //TODO: first parameter is event, when called without any paramters
-  //console.log('searchBP',category,searchCat)
+  console.log('searchBP',category,searchCat)
   $(resultsEl).html('')
   
   var listItem = $('#list').children('li');
   var bpQuery = $('#bpQuery').val();
-  if(bpQuery.length <= 1 && typeof category != 'string' && cat1 != 3){
+  if(bpQuery.length <= 0 && typeof category != 'string' && cat1 != 3){
     return;
   }
 
@@ -434,7 +448,9 @@ function searchBP(category = null, searchCat = false){
     blueprint = $("#admin-search input[name=blueprint]")[0].checked == true ? 1 : 0;
     gfi = $("#admin-search input[name=gfi]")[0].checked;
     xbox = $("#admin-search input[name=xbox]")[0].checked; // -1 for Xbox
-    tame = $("#admin-search input[name=tame]")[0].checked == true ? " | admincheat forcetame" : "";
+
+    tamed = $("#admin-search input[name=tame]")[0].checked
+    tame = tamed ? " | admincheat forcetame" : "";
 
     if(res.length > 0){
       lastType ='';
@@ -449,7 +465,11 @@ function searchBP(category = null, searchCat = false){
         }
         var theLabel = item.l;
         if(item.t=='Dinos' || item.t=='Aberration' || item.t=='Extinction' || item.t=='Genesis' || item.t=='Bosses' || item.t=='Alphas' || item.t=='Tek Creatures' || item.t=='Event Creatures') {
-          var theBP = "admincheat SpawnDino \"Blueprint'/Game/" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
+          if(tamed){
+            var theBP = 'admincheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
+          } else {
+            var theBP = "admincheat SpawnDino \"Blueprint'/Game/" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
+          }
           rowClass += 'bprd';
           if(item.cid){
             var theLabel = '<a href="https://www.dododex.com/taming/' + item.cid + '">' + item.l + '</a>';
@@ -496,10 +516,16 @@ $(document).ready(function() {
   var blueprint = $("#admin-search input[name=blueprint]")[0].checked == true ? 1 : 0;
   var xbox = $("#admin-search input[name=xbox]")[0].checked; // -1 for Xbox
   var gfi = $("#admin-search input[name=gfi]")[0].checked;
-  var tame = $("#admin-search input[name=tame]")[0].checked == true ? " | admincheat forcetame" : "";
+  var tamed = $("#admin-search input[name=tame]")[0].checked;
+  var tame = tamed ? " | admincheat forcetame" : "";
  
   resultsEl = $("#admin-results");
-  $("#bpQuery").keyup(searchBP)    
+
+  // User types to search
+  $("#bpQuery").keyup(function(){
+    catID = cat1; // When user searches, reset the cat to the level 1 cat (de-selecting subcategories)
+    searchBP()
+  });    
 
   // $("#admin-results").on("click",'.bpr input',function(event) {
   //   event.stopPropagation()
@@ -514,50 +540,6 @@ $(document).ready(function() {
   //   category = $(this).data("cat");
   //   var categoryName = $(this).text()
   //   var categorySlug = categoryName.replace(/\s+/g, '-').toLowerCase();
-
-
-  //   if(typeof $(this).data("pcat") != 'undefined'){
-  //     console.log('child is clicked');
-  //     // If child cat is clicked
-  //     $("*[data-psec]").addClass('hidden');
-  //     $("*[data-psec='"+categoryName+"']").removeClass('hidden');
-  //     $("*[data-pcat]").removeClass('selected');
-  //     var searchable = categoryName;
-  //   } else {
-  //     console.log('parent is clicked');
-  //     // If parent cat is clicked
-  //     $("*[data-cat]").removeClass('selected');
-  //     if(tcat == "dinos" || tcat == "commands"){
-  //       var searchable = "Dinos";
-  //     }
-  //   }
-  //   $(this).addClass('selected');
-
-  //   //If a user has searched, and is trying to filter results
-  //   var filterSearch = false; 
-  //   if($('#bpQuery').val() != ''){
-  //     filterSearch = true;
-  //   }
-
-  //   // category = 'Dinos';
-  //   searchBP(categoryName, filterSearch);
-  //   window.history.pushState(null, categoryName + " | Admin Commands", "/admin-commands2/" + categorySlug);
-  //   event.preventDefault()
-  // // })
-  // $("a").on("click",function(event) {
-  //     console.log("PREVENT");
-  //     event.preventDefault()
-  //   })
-
-
-  // $( "a" ).click(function( event ) {
-  //   event.preventDefault();
-  //     console.log("PREVENT DEFAULT");
-  // });
-
-
-
-
 
 
  // Load blueprints
