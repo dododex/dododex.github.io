@@ -1,7 +1,7 @@
 # Dododex's Admin Commands
 This tool is completely open source! Feel free to add missing commands, fix errors, or add completely new features. If you want to help, but aren't sure where to start, see the [top feature requests](https://dododex.canny.io/feature-requests?category=admin-commands&sort=top)!
 
-[Open the Admin Commands Tool](https://dododex.github.io/admin-commands/)
+**[Open the Admin Commands Tool](https://dododex.github.io/admin-commands/)**
 
 ## Editing Ark Creature/Item Spawn Codes
 
