@@ -383,7 +383,7 @@ function searchBP(category = null, searchCat = false){
 
         var theLabel = item.id;
         var commandFormatted = item.c.replace(/<(.*?)>/g, '<span class="pillH">$1</span>'); // Put each attribute in a pill
-        commandFormatted = commandFormatted.replace(/^([\w\-]+)/,'<a class="white">$1</b>') // Bold first word
+        commandFormatted = commandFormatted.replace(/^([\w\-]+)/,'<b class="white">$1</b>') // Bold first word
 
         rowClass += 'bprc';
         // console.log(theBP);
