@@ -394,7 +394,7 @@ function searchBP(category = null, searchCat = false){
         if(item.d){
           theHTML += '<div class="marginTopS"><em>' + item.d + '</em></div>';
         }
-        theHTML += '<div class="marginTop"><div class="whiteinputwb"><input type="text" size="50" value="' + item.e + '" /><a class="whiteinputb">COPY</a></div></div></div>';
+        theHTML += '<div class="marginTop"><div class="whiteinputwb"><input type="text" size="52" value="admincheat ' + item.e + '" /><a class="whiteinputb">COPY</a></div></div></div>';
         
         // Append the HTML to the results element
         $('<li class="bpr ' + rowClass + '">')
