@@ -398,7 +398,7 @@ function searchBP(category = null, searchCat = false){
         // Escape entities
         var eEscaped = item.e.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-        theHTML += '<div class="marginTop"><div class="whiteinputwb"><input type="text" size="52" value="admincheat ' + eEscaped + '" /><a class="whiteinputb">COPY</a></div></div></div>';
+        theHTML += '<div class="marginTop"><div class="whiteinputwb"><input type="text" size="52" value="' + eEscaped + '" /><a class="whiteinputb">COPY</a></div></div></div>';
         
         // Append the HTML to the results element
         $('<li class="bpr ' + rowClass + '">')
