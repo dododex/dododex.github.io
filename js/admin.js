@@ -328,7 +328,7 @@ function updateAttr() {
 
 function searchBP(category = null, searchCat = false){
   //TODO: first parameter is event, when called without any paramters
-  console.log('searchBP',category,searchCat)
+  console.log('searchBP',category,searchCat,cat1)
   $(resultsEl).html('')
   
   var listItem = $('#list').children('li');
@@ -349,7 +349,7 @@ function searchBP(category = null, searchCat = false){
   if(cat1 == 3){ // Admin Commands
 
     // Search admin commands
-    if(category == null){
+    if(category == null && bpQuery.length == 0){
       // If no subcat is provided, just return all commands
       var res = commands;
     } else {
@@ -394,7 +394,11 @@ function searchBP(category = null, searchCat = false){
         if(item.d){
           theHTML += '<div class="marginTopS"><em>' + item.d + '</em></div>';
         }
-        theHTML += '<div class="marginTop"><div class="whiteinputwb"><input type="text" size="52" value="admincheat ' + item.e + '" /><a class="whiteinputb">COPY</a></div></div></div>';
+
+        // Escape entities
+        var eEscaped = item.e.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+        theHTML += '<div class="marginTop"><div class="whiteinputwb"><input type="text" size="52" value="admincheat ' + eEscaped + '" /><a class="whiteinputb">COPY</a></div></div></div>';
         
         // Append the HTML to the results element
         $('<li class="bpr ' + rowClass + '">')

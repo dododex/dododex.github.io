@@ -360,10 +360,10 @@
 "d":"Enables the God, InfiniteStats, and EnemyInvisible commands for the current player, and also gives a large quantity of XP."
 },{
 "id":"GMSummon",
-"c":"GMSummon \"<type>\" <level>",
+"c":"GMSummon \"<Creature Entity Name>\" <Level>",
 "e":"GMSummon \"Dodo_Character_BP_C\" 150",
 "t":"Dinos",
-"d":"Summons a specific dino."
+"d":"Summons a specific tamed dino at a specified level. (Quotes around the entity name are required.)"
 },{
 "id":"God",
 "c":"God",
