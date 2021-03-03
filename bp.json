@@ -1504,7 +1504,7 @@
 },{
 "l":"Spino Saddle",
 "t":"Saddles",
-"id":303,
+"id":299,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpinoSaddle.PrimalItemArmor_SpinoSaddle",
 "g":"SpinoSaddle"
 },{
@@ -4167,7 +4167,7 @@
 },{
 "l":"Rex Bone Helmet",
 "t":"Skins",
-"id":299,
+"id":295,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_BoneHelmet.PrimalItemSkin_BoneHelmet",
 "g":"BoneHelmet"
 },{
@@ -5628,7 +5628,7 @@
 "l":"Congealed Gas Ball",
 "t":"Resources",
 "bp":"Aberration/CoreBlueprints/Resources/PrimalItemResource_Gas.PrimalItemResource_Gas",
-"g":"Gas"
+"g":"Resource_Gas"
 },{
 "l":"Element Ore",
 "t":"Resources",
