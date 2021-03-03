@@ -95,9 +95,9 @@
 "t":"Tribe & Player Administration",
 "d":"Kills all players in the tribe of the target (player/creature)."
 },{
-"id":"DestroyTribeStructure",
-"c":"DestroyTribeStructure",
-"e":"admincheat DestroyTribeStructure",
+"id":"DestroyTribeStructures",
+"c":"DestroyTribeStructures",
+"e":"admincheat DestroyTribeStructures",
 "t":"Tribe & Player Administration",
 "d":"Destroys all structures in the tribe of the target (player/creature)."
 },{
