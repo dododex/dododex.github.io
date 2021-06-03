@@ -9682,195 +9682,195 @@
 "c":"maewing",
 "l":"Maewing",
 "id":"MilkGlider_Character_BP",
-"bp":"Genesis2/Genesis 2/MilkGlider/MilkGlider_Character_BP.MilkGlider_Character_BP",
+"bp":"Genesis2/Dinos/MilkGlider/MilkGlider_Character_BP.MilkGlider_Character_BP",
 "g":"lkg"
 },{
 "t":"Genesis 2",
 "c":"astrodelphis",
 "l":"Astrodelphis",
 "id":"SpaceDolphin_Character_BP",
-"bp":"Genesis2/Genesis 2/SpaceDolphin/SpaceDolphin_Character_BP.SpaceDolphin_Character_BP",
+"bp":"Genesis2/Dinos/SpaceDolphin/SpaceDolphin_Character_BP.SpaceDolphin_Character_BP",
 "g":"cedo"
 },{
 "t":"Genesis 2",
 "c":"shadowmane",
 "l":"ShadowMane",
 "id":"LionfishLion_Character_BP",
-"bp":"Genesis2/Genesis 2/LionfishLion/LionfishLion_Character_BP.LionfishLion_Character_BP",
+"bp":"Genesis2/Dinos/LionfishLion/LionfishLion_Character_BP.LionfishLion_Character_BP",
 "g":"lionfi"
 },{
 "t":"Genesis 2",
 "c":"noglin",
 "l":"Noglin",
 "id":"BrainSlug_Character_BP",
-"bp":"Genesis2/Genesis 2/BrainSlug/BrainSlug_Character_BP.BrainSlug_Character_BP",
+"bp":"Genesis2/Dinos/BrainSlug/BrainSlug_Character_BP.BrainSlug_Character_BP",
 "g":"brainslug"
 },{
 "t":"Genesis 2",
 "c":"stryder",
 "l":"Stryder",
 "id":"TekStrider_Character_BP",
-"bp":"Genesis2/Genesis 2/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP",
+"bp":"Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP",
 "g":"strider"
 },{
 "t":"Genesis 2",
 "c":"summoner",
 "l":"Summoner",
 "id":"Summoner_Character_BP",
-"bp":"Genesis2/Genesis 2/Summoner/Summoner_Character_BP.Summoner_Character_BP",
+"bp":"Genesis2/Dinos/Summoner/Summoner_Character_BP.Summoner_Character_BP",
 "g":"summon"
 },{
 "t":"Genesis 2",
 "c":"macrophage",
 "l":"Macrophage",
 "id":"Macrophage_Swarm_Character",
-"bp":"Genesis2/Genesis 2/Macrophage/Macrophage_Swarm_Character.Macrophage_Swarm_Character",
+"bp":"Genesis2/Dinos/Macrophage/Macrophage_Swarm_Character.Macrophage_Swarm_Character",
 "g":"macro"
 },{
 "t":"Genesis 2",
 "c":"wyvern",
 "l":"Tek Wyvern",
 "id":"TekWyvern_Character_BP",
-"bp":"Genesis2/Genesis 2/TekWyvern/TekWyvern_Character_BP.TekWyvern_Character_BP",
+"bp":"Genesis2/Dinos/TekWyvern/TekWyvern_Character_BP.TekWyvern_Character_BP",
 "g":"tekwyv"
 },{
 "t":"Genesis 2",
 "l":"Exo-Mek",
 "id":"Exosuit_Character_BP",
-"bp":"Genesis2/Genesis 2/Exosuit/Exosuit_Character_BP.Exosuit_Character_BP",
+"bp":"Genesis2/Dinos/Exosuit/Exosuit_Character_BP.Exosuit_Character_BP",
 "g":"exos"
 },{
 "t":"Genesis 2",
 "c":"allosaurus",
 "l":"Rockwell Allosaurus",
 "id":"Allo_Character_BP_Rockwell",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Allo_Character_BP_Rockwell.Allo_Character_BP_Rockwell",
+"bp":"Genesis2/Dinos/BiomeVariants/Allo_Character_BP_Rockwell.Allo_Character_BP_Rockwell",
 "g":"allo_character_bp_r"
 },{
 "t":"Genesis 2",
 "c":"carno",
 "l":"Rockwell Carno",
 "id":"Carno_Character_BP_Rockwell",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Carno_Character_BP_Rockwell.Carno_Character_BP_Rockwell",
+"bp":"Genesis2/Dinos/BiomeVariants/Carno_Character_BP_Rockwell.Carno_Character_BP_Rockwell",
 "g":"carno_character_bp_r"
 },{
 "t":"Genesis 2",
 "c":"dilo",
 "l":"Rockwell Dilo",
 "id":"Dilo_Character_BP_Rockwell",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Dilo_Character_BP_Rockwell.Dilo_Character_BP_Rockwell",
+"bp":"Genesis2/Dinos/BiomeVariants/Dilo_Character_BP_Rockwell.Dilo_Character_BP_Rockwell",
 "g":"dilo_character_bp_r"
 },{
 "t":"Genesis 2",
 "c":"reaper",
 "l":"Rockwell Reaper Male",
 "id":"Xenomorph_Character_Male_BP_Gen2",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Xenomorph_Character_Male_BP_Gen2.Xenomorph_Character_BP_Male_Gen2",
+"bp":"Genesis2/Dinos/BiomeVariants/Xenomorph_Character_Male_BP_Gen2.Xenomorph_Character_BP_Male_Gen2",
 "g":"xenomorph_character_BP_male_gen2"
 },{
 "t":"Genesis 2",
 "c":"reaper",
 "l":"Rockwell Reaper Female",
 "id":"Xenomorph_Character_Female_BP_Gen2",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Xenomorph_Character_Female_BP_Gen2.Xenomorph_Character_BP_Female_Gen2",
+"bp":"Genesis2/Dinos/BiomeVariants/Xenomorph_Character_Female_BP_Gen2.Xenomorph_Character_BP_Female_Gen2",
 "g":"xenomorph_character_BP_female_gen2"
 },{
 "t":"Genesis 2",
 "c":"brontosaurus",
 "l":"Rockwell Bronto",
 "id":"Sauropod_Character_BP_Rockwell",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Sauropod_Character_BP_Rockwell.Sauropod_Character_BP_Rockwell",
+"bp":"Genesis2/Dinos/BiomeVariants/Sauropod_Character_BP_Rockwell.Sauropod_Character_BP_Rockwell",
 "g":"sauropod_character_bp_r"
 },{
 "t":"Genesis 2",
 "c":"velonasaur",
 "l":"Rockwell Velonasaur",
 "id":"Spindles_Character_BP_Rockwell",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Spindles_Character_BP_Rockwell.Spindles_Character_BP_Rockwell",
+"bp":"Genesis2/Dinos/BiomeVariants/Spindles_Character_BP_Rockwell.Spindles_Character_BP_Rockwell",
 "g":"spindles_character_bp_r"
 },{
 "t":"Genesis 2",
 "c":"carbonemys",
 "l":"Rockwell Turtle",
 "id":"Turtle_Character_BP_Rockwell",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Turtle_Character_BP_Rockwell.Turtle_Character_BP_Rockwell",
+"bp":"Genesis2/Dinos/BiomeVariants/Turtle_Character_BP_Rockwell.Turtle_Character_BP_Rockwell",
 "g":"turtle_character_bp_r"
 },{
 "t":"Genesis 2",
 "c":"giga",
 "l":"Rockwell Giga",
 "id":"Gigant_Character_BP_Rockwell",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Gigant_Character_BP_Rockwell.Gigant_Character_BP_Rockwell",
+"bp":"Genesis2/Dinos/BiomeVariants/Gigant_Character_BP_Rockwell.Gigant_Character_BP_Rockwell",
 "g":"gigant_character_bp_r"
 },{
 "t":"Genesis 2",
 "c":"quetzal",
 "l":"Rockwell Quetzal",
 "id":"Quetz_Character_BP_Rockwell",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Quetz_Character_BP_Rockwell.Quetz_Character_BP_Rockwell"	,
+"bp":"Genesis2/Dinos/BiomeVariants/Quetz_Character_BP_Rockwell.Quetz_Character_BP_Rockwell"	,
 "g":"quetz_character_bp_r"
 },{
 "t":"Genesis 2",
 "c":"daeodon",
 "l":"Eden Daeodon",
 "id":"Daeodon_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Daeodon_Character_BP_Eden.Daeodon_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/Daeodon_Character_BP_Eden.Daeodon_Character_BP_Eden",
 "g":"daeodon_character_bp_e"
 },{
 "t":"Genesis 2",
 "c":"direwolf",
 "l":"Eden Direwolf",
 "id":"Direwolf_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Direwolf_Character_BP_Eden.Direwolf_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/Direwolf_Character_BP_Eden.Direwolf_Character_BP_Eden",
 "g":"direwolf_character_bp_e"
 },{
 "t":"Genesis 2",
 "c":"equus",
 "l":"Eden Equus",
 "id":"Equus_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Equus_Character_BP_Eden.Equus_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/Equus_Character_BP_Eden.Equus_Character_BP_Eden",
 "g":"equus_character_bp_e"
 },{
 "t":"Genesis 2",
 "c":"gasbag",
 "l":"Eden Gasbag",
 "id":"GasBags_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/GasBags_Character_BP_Eden.GasBags_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/GasBags_Character_BP_Eden.GasBags_Character_BP_Eden",
 "g":"gasbags_character_bp_e"
 },{
 "t":"Genesis 2",
 "c":"megatherium",
 "l":"Eden Megatherium",
 "id":"Megatherium_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Megatherium_Character_BP_Eden.Megatherium_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/Megatherium_Character_BP_Eden.Megatherium_Character_BP_Eden",
 "g":"megatherium_character_bp_e"
 },{
 "t":"Genesis 2",
 "c":"owl",
 "l":"Eden Owl",
 "id":"Owl_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Owl_Character_BP_Eden.Owl_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/Owl_Character_BP_Eden.Owl_Character_BP_Eden",
 "g":"owl_character_bp_e"
 },{
 "t":"Genesis 2",
 "c":"parasaur",
 "l":"Eden Parasaur",
 "id":"Para_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Para_Character_BP_Eden.Para_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/Para_Character_BP_Eden.Para_Character_BP_Eden",
 "g":"para_character_bp_e"
 },{
 "t":"Genesis 2",
 "c":"procoptodon",
 "l":"Eden Procoptodon",
 "id":"Procoptodon_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Procoptodon_Character_BP_Eden.Procoptodon_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/Procoptodon_Character_BP_Eden.Procoptodon_Character_BP_Eden",
 "g":"procoptodon_character_bp_e"
 },{
 "t":"Genesis 2",
 "c":"thylacoleo",
 "l":"Eden Thylacoleo",
 "id":"Thylacoleo_Character_BP_Eden",
-"bp":"Genesis2/Genesis 2/BiomeVariants/Thylacoleo_Character_BP_Eden.Thylacoleo_Character_BP_Eden",
+"bp":"Genesis2/Dinos/BiomeVariants/Thylacoleo_Character_BP_Eden.Thylacoleo_Character_BP_Eden",
 "g":"thylacoleo_character_bp_e"
 }
 ]}
