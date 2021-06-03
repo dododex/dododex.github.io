@@ -9352,329 +9352,329 @@
 "g":"UnlockEmote_MoshPit"
 },{
 "l":"Alpha Carno",
-"type":"Alphas",
+"t":"Alphas",
 "id":"MegaCarno_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP"
 },{
 "l":"Direwolf Ghost",
-"type":"Event Creatures",
+"t":"Event Creatures",
 "id":"Ghost_Direwolf_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Direwolf/Ghost_Direwolf_Character_BP.Ghost_Direwolf_Character_BP"
 },{
 "l":"Rex Ghost",
 "id":"Rex",
-"type":"Event Creatures",
+"t":"Event Creatures",
 "id":"Ghost_Rex_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Rex/Ghost_Rex_Character_BP.Ghost_Rex_Character_BP"
 },{
 "l":"Aberrant Anglerfish",
-"type":"Aberration",
+"t":"Aberration",
 "id":"Angler_Character_BP_Aberrant_C",
 "bp":"/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP_Aberrant.Angler_Character_BP_Aberrant"
 },{
 "l":"Aberrant Dire Bear",
-"type":"Aberration",
+"t":"Aberration",
 "id":"Direbear_Character_BP_Aberrant_C",
 "bp":"/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP_Aberrant.Direbear_Character_BP_Aberrant"
 },{
 "l":"Basilisk Ghost",
-"type":"Event Creatures",
+"t":"Event Creatures",
 "id":"Ghost_Basilisk_Character_BP_C",
 "bp":"/Game/Aberration/Dinos/Basilisk/Ghost_Basilisk_Character_BP.Ghost_Basilisk_Character_BP"
 },{
 "l":"Bulbdog Ghost",
-"type":"Event Creatures",
+"t":"Event Creatures",
 "id":"Ghost_LanternPug_Character_BP_C",
 "bp":"/Game/Aberration/Dinos/LanternPug/Ghost_LanternPug_Character_BP.Ghost_LanternPug_Character_BP"
 },{
 "l":"Surface Reaper King Ghost",
-"type":"Event Creatures",
+"t":"Event Creatures",
 "id":"Ghost_Xenomorph_Character_BP_Male_Surface_C",
 "bp":"/Game/Aberration/Dinos/Nameless/Ghost_Xenomorph_Character_BP_Male_Surface.Ghost_Xenomorph_Character_BP_Male_Surface"
 },{
 "l":"GachaClaus",
-"type":"Event Creatures",
+"t":"Event Creatures",
 "id":"Gacha_Claus_Character_BP_C",
 "bp":"/Game/Extinction/Dinos/Gacha/Gacha_Claus_Character_BP.Gacha_Claus_Character_BP"
 },{
 "l":"Snow Owl Ghost",
-"type":"Event Creatures",
+"t":"Event Creatures",
 "id":"Ghost_Owl_Character_BP_C",
 "bp":"/Game/Extinction/Dinos/Owl/Ghost_Owl_Character_BP.Ghost_Owl_Character_BP"
 },{
 "l":"Chalk Golem",
 "id":"rockelemental",
-"type":"Genesis",
+"t":"Genesis",
 "id":"ChalkGolem_Character_BP_C",
 "bp":"/Game/Mods/Valguero/Assets/Dinos/RockGolem/ChalkGolem/ChalkGolem_Character_BP.ChalkGolem_Character_BP"
 },{
 "l":"Deinonychus",
-"type":"Dinosaurs",
+"t":"Dinosaurs",
 "id":"deinonychus",
 "id":"Deinonychus_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Raptor/Uberraptor/Deinonychus_Character_BP.Deinonychus_Character_BP"
 },{
 "l":"Ice Golem",
 "id":"rockelemental",
-"type":"Genesis",
+"t":"Genesis",
 "id":"IceGolem_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/IceGolem/IceGolem_Character_BP.IceGolem_Character_BP"
 },{
 "l":"Alpha Corrupted Master Controller",
-"type":"Bosses",
+"t":"Bosses",
 "id":"VRMainBoss_Character_Hard_C",
 "bp":"/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Hard.VRMainBoss_Character_Hard"
 },{
 "l":"Alpha Moeder, Master of the Ocean",
-"type":"Bosses",
+"t":"Bosses",
 "id":"EelBoss_Character_BP_Hard_C",
 "bp":"/Game/Genesis/Dinos/EelBoss/EelBoss_Character_BP_Hard.EelBoss_Character_BP_Hard"
 },{
 "l":"Alpha X-Triceratops",
 "id":"triceratops",
-"type":"Alphas",
+"t":"Alphas",
 "id":"Volcano_Trike_Character_BP_Retrieve_Alpha_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Retrieve/Volcanic/Volcano_Trike_Character_BP_Retrieve_Alpha.Volcano_Trike_Character_BP_Retrieve_Alpha"
 },{
 "l":"Beta Corrupted Master Controller",
-"type":"Bosses",
+"t":"Bosses",
 "id":"VRMainBoss_Character_Medium_C",
 "bp":"/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Medium.VRMainBoss_Character_Medium"
 },{
 "l":"Beta Moeder, Master of the Ocean",
 "id":"moeder",
-"type":"Bosses",
+"t":"Bosses",
 "id":"EelBoss_Character_BP_Medium_C",
 "bp":"/Game/Genesis/Dinos/EelBoss/EelBoss_Character_BP_Medium.EelBoss_Character_BP_Medium"
 },{
 "l":"Brute Araneo",
 "id":"araneo",
-"type":"Genesis",
+"t":"Genesis",
 "id":"SpiderS_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/SpiderS_Character_BP_Hunt.SpiderS_Character_BP_Hunt"
 },{
 "l":"Brute Astrocetus",
 "id":"astrocetus",
-"type":"Genesis",
+"t":"Genesis",
 "id":"SpaceWhale_Character_BP_Brute_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/SpaceWhale_Character_BP_Brute.SpaceWhale_Character_BP_Brute"
 },{
 "l":"Brute Basilosaurus",
 "id":"basilosaurus",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Basilosaurus_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Basilosaurus_Character_BP_Hunt.Basilosaurus_Character_BP_Hunt"
 },{
 "l":"Brute Bloodstalker",
 "id":"bloodstalker",
-"type":"Genesis",
+"t":"Genesis",
 "id":"BogSpider_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/BogSpider_Character_BP_Hunt.BogSpider_Character_BP_Hunt"
 },{
 "l":"Brute Ferox",
 "id":"ferox",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Shapeshifter_Large_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Arctic/Shapeshifter_Large_Character_BP_Hunt.Shapeshifter_Large_Character_BP_Hunt"
 },{
 "l":"Brute Fire Wyvern",
 "id":"wyvern",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Wyvern_Character_BP_Fire_GauntletBoss_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Gauntlet/Volcanic/Wyvern_Character_BP_Fire_GauntletBoss.Wyvern_Character_BP_Fire_GauntletBoss"
 },{
 "l":"Brute Leedsichthys",
 "id":"leedsichthys",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Leedsichthys_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Leedsichthys_Character_BP_Hunt.Leedsichthys_Character_BP_Hunt"
 },{
 "l":"Brute Magmasaur",
 "id":"magmasaur",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Cherufe_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Volcanic/Cherufe_Character_BP_Hunt.Cherufe_Character_BP_Hunt"
 },{
 "l":"Brute Malfunctioned Tek Giganotosaurus",
 "id":"giganotosaurus",
-"type":"Genesis",
+"t":"Genesis",
 "id":"BionicGigant_Character_BP_Malfunctioned_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/BionicGigant_Character_BP_Malfunctioned_Hunt.BionicGigant_Character_BP_Malfunctioned_Hunt"
 },{
 "l":"Brute Malfunctioned Tek Rex",
 "id":"rex",
-"type":"Genesis",
+"t":"Genesis",
 "id":"BionicRex_Character_BP_Malfunctioned_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/BionicRex_Character_BP_Malfunctioned_Hunt.BionicRex_Character_BP_Malfunctioned_Hunt"
 },{
 "l":"Brute Mammoth",
 "id":"mammoth",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Mammoth_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Arctic/Mammoth_Character_BP_Hunt.Mammoth_Character_BP_Hunt"
 },{
 "l":"Brute Megaloceros",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Stag_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Arctic/Stag_Character_BP_Hunt.Stag_Character_BP_Hunt"
 },{
 "l":"Brute Plesiosaur",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Plesiosaur_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Plesiosaur_Character_BP_Hunt.Plesiosaur_Character_BP_Hunt"
 },{
 "l":"Brute Reaper King",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt.Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt"
 },{
 "l":"Brute Sarco",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Sarco_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/Sarco_Character_BP_Hunt.Sarco_Character_BP_Hunt"
 },{
 "l":"Brute Seeker",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Pteroteuthis_Char_BP_HuntFollower_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/Pteroteuthis_Char_BP_HuntFollower.Pteroteuthis_Char_BP_HuntFollower"
 },{
 "l":"Brute Tusoteuthis",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Tusoteuthis_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Tusoteuthis_Character_BP_Hunt.Tusoteuthis_Character_BP_Hunt"
 },{
 "l":"Brute X-Allosaurus",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Volcano_Allo_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Volcanic/Volcano_Allo_Character_BP_Hunt.Volcano_Allo_Character_BP_Hunt"
 },{
 "l":"Brute X-Megalodon",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Ocean_Megalodon_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Ocean_Megalodon_Character_BP_Hunt.Ocean_Megalodon_Character_BP_Hunt"
 },{
 "l":"Brute X-Mosasaurus",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Ocean_Mosa_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Ocean_Mosa_Character_BP_Hunt.Ocean_Mosa_Character_BP_Hunt"
 },{
 "l":"Brute X-Raptor",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Bog_Raptor_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/Bog_Raptor_Character_BP_Hunt.Bog_Raptor_Character_BP_Hunt"
 },{
 "l":"Brute X-Rex",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Volcano_Rex_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Volcanic/Volcano_Rex_Character_BP_Hunt.Volcano_Rex_Character_BP_Hunt"
 },{
 "l":"Brute X-Rock Elemental",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Volcano_Golem_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Volcanic/Volcano_Golem_Character_BP_Hunt.Volcano_Golem_Character_BP_Hunt"
 },{
 "l":"Brute X-Spino",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Bog_Spino_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Bog/Bog_Spino_Character_BP_Hunt.Bog_Spino_Character_BP_Hunt"
 },{
 "l":"Brute X-Yutyrannus",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Snow_Yutyrannus_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Arctic/Snow_Yutyrannus_Character_BP_Hunt.Snow_Yutyrannus_Character_BP_Hunt"
 },{
 "l":"Corrupted Avatar",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Bot_Character_BP_C",
 "bp":"/Game/Genesis/Dinos/Bots/Bot_Character_BP.Bot_Character_BP"
 },{
 "l":"Corrupted Master Controller",
-"type":"Bosses",
+"t":"Bosses",
 "id":"VRMainBoss_Character_C",
 "bp":"/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character.VRMainBoss_Character"
 },{
 "l":"Gamma Corrupted Master Controller",
-"type":"Bosses",
+"t":"Bosses",
 "id":"VRMainBoss_Character_Easy_C",
 "bp":"/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Easy.VRMainBoss_Character_Easy"
 },{
 "l":"Gamma Moeder, Master of the Ocean",
-"type":"Bosses",
+"t":"Bosses",
 "id":"EelBoss_Character_BP_Easy_C",
 "bp":"/Game/Genesis/Dinos/EelBoss/EelBoss_Character_BP_Easy.EelBoss_Character_BP_Easy"
 },{
 "l":"Golden Striped Brute Megalodon",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Ocean_Megalodon_Character_BP_Retrieve_Brute_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Retrieve/Ocean/Ocean_Megalodon_Character_BP_Retrieve_Brute.Ocean_Megalodon_Character_BP_Retrieve_Brute"
 },{
 "l":"Golden Striped Megalodon",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Ocean_Megalodon_Character_BP_Retrieve_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Retrieve/Ocean/Ocean_Megalodon_Character_BP_Retrieve.Ocean_Megalodon_Character_BP_Retrieve"
 },{
 "l":"Injured Brute Reaper King",
-"type":"Genesis",
+"t":"Genesis",
 "id":"Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Retrieve/Lunar/Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve.Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve"
 },{
 "l":"Malfunctioned Tek Giganotosaurus",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicGigant_Character_BP_Malfunctioned_Gauntlet_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Gauntlet/Lunar/BionicGigant_Character_BP_Malfunctioned_Gauntlet.BionicGigant_Character_BP_Malfunctioned_Gauntlet"
 },{
 "l":"Malfunctioned Tek Giganotosaurus",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicGigant_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP_Malfunctioned.BionicGigant_Character_BP_Malfunctioned"
 },{
 "l":"Malfunctioned Tek Parasaur",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicPara_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP_Malfunctioned.BionicPara_Character_BP_Malfunctioned"
 },{
 "l":"Malfunctioned Tek Quetzal",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicQuetz_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP_Malfunctioned.BionicQuetz_Character_BP_Malfunctioned"
 },{
 "l":"Malfunctioned Tek Raptor",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicRaptor_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Raptor/BionicRaptor_Character_BP_Malfunctioned.BionicRaptor_Character_BP_Malfunctioned"
 },{
 "l":"Malfunctioned Tek Rex",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicRex_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP_Malfunctioned.BionicRex_Character_BP_Malfunctioned"
 },{
 "l":"Malfunctioned Tek Stegosaurus",
 "id":"stegosaurus",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicStego_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP_Malfunctioned.BionicStego_Character_BP_Malfunctioned"
 },{
 "l":"Malfunctioned Tek Triceratops",
 "id":"triceratops",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicTrike_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP_Malfunctioned.BionicTrike_Character_BP_Malfunctioned"
 },{
 "l":"Parakeet Fish School",
 "id":"parakeetfishschool",
-"type":"Dinos",
+"t":"Dinos",
 "id":"MicrobeSwarmChar_BP_C",
 "bp":"/Game/Genesis/Dinos/Swarms/MicrobeSwarmChar_BP.MicrobeSwarmChar_BP"
 },{
 "l":"Reaper Prince",
 "id":"reaper",
-"type":"Aberration",
+"t":"Aberration",
 "id":"Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent_C",
 "bp":"/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent.Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent"
 },{
 "l":"Tek Triceratops",
 "id":"Triceatops",
-"type":"Tek Creatures",
+"t":"Tek Creatures",
 "id":"BionicTrike_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP"
 },{

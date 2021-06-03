@@ -333,7 +333,7 @@ function updateAttr() {
 
 function searchBP(category = null, searchCat = false){
   //TODO: first parameter is event, when called without any paramters
-  console.log('searchBP',category,searchCat,cat1)
+  // console.log('searchBP',category,searchCat,cat1)
   $(resultsEl).html('')
   
   var listItem = $('#list').children('li');
