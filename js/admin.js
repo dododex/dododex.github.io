@@ -427,7 +427,7 @@ function searchBP(category = null, searchCat = false){
       // Search only applies to one top level category at a time.
       // TODO: Support mixed results
       var level1match = true;
-      var isDino = item.t.toUpperCase() == "DINOS" || item.t.toUpperCase() == "ABERRATION" || item.t.toUpperCase() == "GENESIS" || item.t.toUpperCase() == "EXTINCTION" || item.t.toUpperCase() == "ALPHAS" || item.t.toUpperCase() == "TEK CREATURES" || item.t.toUpperCase() == "BOSSES" || item.t.toUpperCase() == "EVENT CREATURES";
+      var isDino = item.t.toUpperCase() == "DINOS" || item.t.toUpperCase() == "ABERRATION" || item.t.toUpperCase() == "GENESIS" || item.t.toUpperCase() == "GENESIS 2" || item.t.toUpperCase() == "EXTINCTION" || item.t.toUpperCase() == "ALPHAS" || item.t.toUpperCase() == "TEK CREATURES" || item.t.toUpperCase() == "BOSSES" || item.t.toUpperCase() == "EVENT CREATURES";
       if(cat1 == 1 && isDino){
         level1match = true;
       } else if(cat1 == 2 && !isDino){
@@ -473,7 +473,7 @@ function searchBP(category = null, searchCat = false){
           var rowClass = '';
         }
         var theLabel = item.l;
-        if(item.t=='Dinos' || item.t=='Aberration' || item.t=='Extinction' || item.t=='Genesis' || item.t=='Bosses' || item.t=='Alphas' || item.t=='Tek Creatures' || item.t=='Event Creatures') {
+        if(item.t=='Dinos' || item.t=='Aberration' || item.t=='Extinction' || item.t=='Genesis' || item.t=='Genesis 2' || item.t=='Bosses' || item.t=='Alphas' || item.t=='Tek Creatures' || item.t=='Event Creatures') {
           if(tamed){
             var theBP = 'admincheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
           } else {
