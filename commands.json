@@ -41,6 +41,12 @@
 "t":"Player Cosmetics",
 "d":"Changes the size of a player."
 },{
+"id":"ClearCryoSickness",
+"c":"ClearCryoSickness",
+"e":"admincheat ClearCryoSickness",
+"t":"Dinos",
+"d":"Clears the Cryo Sickness status effect from targeted dino.(Wakes dino up)"
+},{
 "id":"ClearPlayerInventory",
 "c":"ClearPlayerInventory <PlayerID> <Clear Inventory?> <Clear Slot Items?> <ClearEquippedItems>",
 "e":"admincheat ClearPlayerInventory 1234567890 1 1 1",
