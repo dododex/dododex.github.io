@@ -2081,25 +2081,25 @@
 },{
 "l":"Wooden Spike Wall",
 "t":"Wood",
-"id":307,
+"id":303,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSpikeWall.PrimalItemStructure_WoodSpikeWall",
 "g":"WoodSpikeWall"
 },{
 "l":"Bookshelf",
 "t":"Structures",
-"id":309,
+"id":305,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bookshelf.PrimalItemStructure_Bookshelf",
 "g":"Bookshelf"
 },{
 "l":"Stone Fence Foundation",
 "t":"Stone",
-"id":310,
+"id":306,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneFenceFoundation.PrimalItemStructure_StoneFenceFoundation",
 "g":"StoneFenceFoundation"
 },{
 "l":"Stone Wall",
 "t":"Stone",
-"id":311,
+"id":307,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWall.PrimalItemStructure_StoneWall",
 "g":"StoneWall"
 },{
@@ -9679,56 +9679,56 @@
 "bp":"/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP"
 },{
 "t":"Genesis 2",
-"c":"maewing",
+"cid":"maewing",
 "l":"Maewing",
 "id":"MilkGlider_Character_BP_C",
 "bp":"Genesis2/Dinos/MilkGlider/MilkGlider_Character_BP.MilkGlider_Character_BP",
 "g":"lkg"
 },{
 "t":"Genesis 2",
-"c":"astrodelphis",
+"cid":"astrodelphis",
 "l":"Astrodelphis",
 "id":"SpaceDolphin_Character_BP_C",
 "bp":"Genesis2/Dinos/SpaceDolphin/SpaceDolphin_Character_BP.SpaceDolphin_Character_BP",
 "g":"cedo"
 },{
 "t":"Genesis 2",
-"c":"shadowmane",
+"cid":"shadowmane",
 "l":"ShadowMane",
 "id":"LionfishLion_Character_BP_C",
 "bp":"Genesis2/Dinos/LionfishLion/LionfishLion_Character_BP.LionfishLion_Character_BP",
 "g":"lionfi"
 },{
 "t":"Genesis 2",
-"c":"noglin",
+"cid":"noglin",
 "l":"Noglin",
 "id":"BrainSlug_Character_BP_C",
 "bp":"Genesis2/Dinos/BrainSlug/BrainSlug_Character_BP.BrainSlug_Character_BP",
 "g":"brainslug"
 },{
 "t":"Genesis 2",
-"c":"stryder",
+"cid":"stryder",
 "l":"Stryder",
 "id":"TekStrider_Character_BP_C",
 "bp":"Genesis2/Dinos/TekStrider/TekStrider_Character_BP.TekStrider_Character_BP",
 "g":"strider"
 },{
 "t":"Genesis 2",
-"c":"summoner",
+"cid":"summoner",
 "l":"Summoner",
 "id":"Summoner_Character_BP_C",
 "bp":"Genesis2/Dinos/Summoner/Summoner_Character_BP.Summoner_Character_BP",
 "g":"summon"
 },{
 "t":"Genesis 2",
-"c":"macrophage",
+"cid":"macrophage",
 "l":"Macrophage",
 "id":"Macrophage_Swarm_Character_C",
 "bp":"Genesis2/Dinos/Macrophage/Macrophage_Swarm_Character.Macrophage_Swarm_Character",
 "g":"macro"
 },{
 "t":"Genesis 2",
-"c":"wyvern",
+"cid":"wyvern",
 "l":"Tek Wyvern",
 "id":"TekWyvern_Character_BP_C",
 "bp":"Genesis2/Dinos/TekWyvern/TekWyvern_Character_BP.TekWyvern_Character_BP",
@@ -9741,136 +9741,356 @@
 "g":"exos"
 },{
 "t":"Genesis 2",
-"c":"allosaurus",
+"cid":"allosaurus",
 "l":"Rockwell Allosaurus",
 "id":"Allo_Character_BP_Rockwell_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Allo_Character_BP_Rockwell.Allo_Character_BP_Rockwell",
 "g":"allo_character_bp_r"
 },{
 "t":"Genesis 2",
-"c":"carno",
+"cid":"carno",
 "l":"Rockwell Carno",
 "id":"Carno_Character_BP_Rockwell_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Carno_Character_BP_Rockwell.Carno_Character_BP_Rockwell",
 "g":"carno_character_bp_r"
 },{
 "t":"Genesis 2",
-"c":"dilo",
+"cid":"dilo",
 "l":"Rockwell Dilo",
 "id":"Dilo_Character_BP_Rockwell_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Dilo_Character_BP_Rockwell.Dilo_Character_BP_Rockwell",
 "g":"dilo_character_bp_r"
 },{
 "t":"Genesis 2",
-"c":"reaper",
+"cid":"reaper",
 "l":"Rockwell Reaper Male",
 "id":"Xenomorph_Character_Male_BP_Gen2_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Xenomorph_Character_Male_BP_Gen2.Xenomorph_Character_BP_Male_Gen2",
 "g":"xenomorph_character_BP_male_gen2"
 },{
 "t":"Genesis 2",
-"c":"reaper",
+"cid":"reaper",
 "l":"Rockwell Reaper Female",
 "id":"Xenomorph_Character_Female_BP_Gen2_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Xenomorph_Character_Female_BP_Gen2.Xenomorph_Character_BP_Female_Gen2",
 "g":"xenomorph_character_BP_female_gen2"
 },{
 "t":"Genesis 2",
-"c":"brontosaurus",
+"cid":"brontosaurus",
 "l":"Rockwell Bronto",
 "id":"Sauropod_Character_BP_Rockwell_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Sauropod_Character_BP_Rockwell.Sauropod_Character_BP_Rockwell",
 "g":"sauropod_character_bp_r"
 },{
 "t":"Genesis 2",
-"c":"velonasaur",
+"cid":"velonasaur",
 "l":"Rockwell Velonasaur",
 "id":"Spindles_Character_BP_Rockwell_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Spindles_Character_BP_Rockwell.Spindles_Character_BP_Rockwell",
 "g":"spindles_character_bp_r"
 },{
 "t":"Genesis 2",
-"c":"carbonemys",
+"cid":"carbonemys",
 "l":"Rockwell Turtle",
 "id":"Turtle_Character_BP_Rockwell_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Turtle_Character_BP_Rockwell.Turtle_Character_BP_Rockwell",
 "g":"turtle_character_bp_r"
 },{
 "t":"Genesis 2",
-"c":"giga",
+"cid":"giga",
 "l":"Rockwell Giga",
 "id":"Gigant_Character_BP_Rockwell_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Gigant_Character_BP_Rockwell.Gigant_Character_BP_Rockwell",
 "g":"gigant_character_bp_r"
 },{
 "t":"Genesis 2",
-"c":"quetzal",
+"cid":"quetzal",
 "l":"Rockwell Quetzal",
 "id":"Quetz_Character_BP_Rockwell_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Quetz_Character_BP_Rockwell.Quetz_Character_BP_Rockwell"	,
 "g":"quetz_character_bp_r"
 },{
 "t":"Genesis 2",
-"c":"daeodon",
+"cid":"daeodon",
 "l":"Eden Daeodon",
 "id":"Daeodon_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Daeodon_Character_BP_Eden.Daeodon_Character_BP_Eden",
 "g":"daeodon_character_bp_e"
 },{
 "t":"Genesis 2",
-"c":"direwolf",
+"cid":"direwolf",
 "l":"Eden Direwolf",
 "id":"Direwolf_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Direwolf_Character_BP_Eden.Direwolf_Character_BP_Eden",
 "g":"direwolf_character_bp_e"
 },{
 "t":"Genesis 2",
-"c":"equus",
+"cid":"equus",
 "l":"Eden Equus",
 "id":"Equus_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Equus_Character_BP_Eden.Equus_Character_BP_Eden",
 "g":"equus_character_bp_e"
 },{
 "t":"Genesis 2",
-"c":"gasbag",
+"cid":"gasbag",
 "l":"Eden Gasbag",
 "id":"GasBags_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/GasBags_Character_BP_Eden.GasBags_Character_BP_Eden",
 "g":"gasbags_character_bp_e"
 },{
 "t":"Genesis 2",
-"c":"megatherium",
+"cid":"megatherium",
 "l":"Eden Megatherium",
 "id":"Megatherium_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Megatherium_Character_BP_Eden.Megatherium_Character_BP_Eden",
 "g":"megatherium_character_bp_e"
 },{
 "t":"Genesis 2",
-"c":"owl",
+"cid":"owl",
 "l":"Eden Owl",
 "id":"Owl_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Owl_Character_BP_Eden.Owl_Character_BP_Eden",
 "g":"owl_character_bp_e"
 },{
 "t":"Genesis 2",
-"c":"parasaur",
+"cid":"parasaur",
 "l":"Eden Parasaur",
 "id":"Para_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Para_Character_BP_Eden.Para_Character_BP_Eden",
 "g":"para_character_bp_e"
 },{
 "t":"Genesis 2",
-"c":"procoptodon",
+"cid":"procoptodon",
 "l":"Eden Procoptodon",
 "id":"Procoptodon_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Procoptodon_Character_BP_Eden.Procoptodon_Character_BP_Eden",
 "g":"procoptodon_character_bp_e"
 },{
 "t":"Genesis 2",
-"c":"thylacoleo",
+"cid":"thylacoleo",
 "l":"Eden Thylacoleo",
 "id":"Thylacoleo_Character_BP_Eden_C",
 "bp":"Genesis2/Dinos/BiomeVariants/Thylacoleo_Character_BP_Eden.Thylacoleo_Character_BP_Eden",
 "g":"thylacoleo_character_bp_e"
+},{
+"l":"Minigun",
+"t":"Weapons",
+"bp":"Genesis2/Weapons/Minigun/PrimalItem_WeaponMinigun.PrimalItem_WeaponMinigun",
+"g":"minig"
+},{
+"l":"Net Ammo (Harpoon)",
+"t":"Weapons",
+"bp":"Genesis2/Weapons/NetAmmo/PrimalItemAmmo_ArrowNet.PrimalItemAmmo_ArrowNet",
+"g":"owne"
+},{
+"l":"Tek Pistol",
+"t":"Weapons",
+"bp":"Genesis2/Weapons/TekPistol/PrimalItem_WeaponTekPistol.PrimalItem_WeaponTekPistol",
+"g":"kpist"
+},{
+"l":"Tek Bow",
+"t":"Weapons",
+"bp":"Genesis2/Weapons/TekBow/PrimalItem_WeaponTekBow.PrimalItem_WeaponTekBow",
+"g":"tekbow"
+},{
+"l":"Fire Boulders",
+"t":"Ammunition",
+"bp":"Genesis2/Weapons/FireBoulder/PrimalItemAmmo_Boulder_Fire.PrimalItemAmmo_Boulder_Fire",
+"g":"er_f"		
+},{
+"l":"Tek Canteen",
+"t":"Consumables",
+"bp":"Genesis2/CoreBlueprints/Items/PrimalItemConsumable_TekCanteenRefill.PrimalItemConsumable_TekCanteenRefill",
+"g":"kcanteenr"
+},{
+"l":"Unassembled Exo-mek",
+"t":"Tek",
+"bp":"Genesis2/Dinos/Exosuit/PrimalItem_Spawner_Exosuit.PrimalItem_Spawner_Exosuit",
+"g":"exos"
+},{
+"l":"Unassembled Hoversail",
+"t":"Tek",
+"bp":"Genesis2/Dinos/TekHoverSail/PrimalItem_Spawner_HoverSail.PrimalItem_Spawner_HoverSail",
+"g":"hoversail"
+},{
+"l":"Mutagen ",
+"t":"Resources",
+"bp":"Genesis2/CoreBlueprints/Environment/Mutagen/PrimalItemConsumable_Mutagen.PrimalItemConsumable_Mutagen",
+"g":"le_mut"
+},{
+"l":"Mutagel",
+"t":"Resources",
+"bp":"Genesis2/CoreBlueprints/Environment/Mutagen/PrimalItemConsumable_Mutagel.PrimalItemConsumable_Mutagel",
+"g":"mutagel"
+},{
+"l":"Canoe",
+"t":"Wood",
+"bp":"Genesis2/Dinos/Canoe/PrimalItemCanoe.PrimalItemCanoe",
+"g":"canoe"
+},{
+"l":"Plant Species R-1 Seed",
+"t":"Seeds",
+"bp":"Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_RawMeat.PrimalItemConsumable_Seed_PlantSpeciesR_RawMeat",
+"g":"r_rawmeat"
+},{
+"l":"Plant Species R-2 Seed",
+"t":"Seeds",
+"bp":"Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_RawFish.PrimalItemConsumable_Seed_PlantSpeciesR_RawFish",
+"g":"r_rawfish"
+},{
+"l":"Plant Species R-3 Seed",
+"t":"Seeds",
+"bp":"Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_SpoiledMeat.PrimalItemConsumable_Seed_PlantSpeciesR_SpoiledMeat",
+"g":"r_spoiledmeat"
+},{
+"l":"Plant Species R-4 Seed",
+"t":"Seeds",
+"bp":"Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_PrimeMeat.PrimalItemConsumable_Seed_PlantSpeciesR_PrimeMeat",
+"g":"r_primemeat"
+},{
+"l":"Plant Species R-5 Seed",
+"t":"Seeds",
+"bp":"Genesis2/Structures/PlantSpeciesR/PrimalItemConsumable_Seed_PlantSpeciesR_PrimeFish.PrimalItemConsumable_Seed_PlantSpeciesR_PrimeFish",
+"g":"r_primefish"
+},{
+"l":"Ammo box",
+"t":"Structures",
+"bp":"Genesis2/Structures/AmmoBox/PrimalItemStructure_AmmoContainer.PrimalItemStructure_AmmoContainer",
+"g":"moco"
+},{
+"l":"Tek Crop Plot",
+"t":"Structures",
+"bp":"Genesis2/Structures/CropPlotTek/PrimalItemStructure_CropPlot_Tek.PrimalItemStructure_CropPlot_Tek",
+"g":"ot_tek"
+},{
+"l":"Egg Incubator",
+"t":"Structures",
+"bp":"Genesis2/Structures/EggIncubator/PrimalItemStructure_EggIncubator.PrimalItemStructure_EggIncubator",
+"g":"ggincu"
+},{
+"l":"Loadout Mannequin",
+"t":"Structures",
+"bp":"Genesis2/Structures/LoadoutMannequin/PrimalItemStructure_LoadoutDummy.PrimalItemStructure_LoadoutDummy",
+"g":"tdummy"
+},{
+"l":"Remote Camera *",
+"t":"Structures",
+"bp":"Genesis2/Structures/RemoteCamera/PrimalItemStructure_SecurityCamera.PrimalItemStructure_SecurityCamera",
+"g":"tycam"
+},{
+"l":"Remote Cam console",
+"t":"Structures",
+"bp":"Genesis2/Structures/RemoteCamera/PrimalItemStructure_TekSecurityConsole.PrimalItemStructure_TekSecurityConsole",
+"g":"tycon"
+},{
+"l":"MilkGlider",
+"t":"Saddles",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemArmor_MilkGliderSaddle.PrimalItemArmor_MilkGliderSaddle",
+"g":"lkg"
+},{
+"l":"Astrodelphis",
+"t":"Saddles",
+"bp":"Genesis2/Dinos/SpaceDolphin/PrimalItemArmor_SpaceDolphinSaddle_Tek.PrimalItemArmor_SpaceDolphinSaddle_Tek",
+"g":"cedo"
+},{
+"l":"Extraordinary Maewing Egg",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Special.PrimalItemConsumable_Egg_MilkGlider_Special",
+"g":"kglider_sp"
+},{
+"l":"Exceptional Maewing Egg",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_XLarge.PrimalItemConsumable_Egg_MilkGlider_XLarge",
+"g":"kglider_xl"
+},{
+"l":"Superior Maewing Egg",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Large.PrimalItemConsumable_Egg_MilkGlider_Large",
+"g":"kglider_L"
+},{
+"l":"Regular Maewing Egg",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Medium.PrimalItemConsumable_Egg_MilkGlider_Medium",
+"g":"kglider_M"
+},{
+"l":"Simple Maewing Egg",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Small.PrimalItemConsumable_Egg_MilkGlider_Small",
+"g":"kglider_sm"
+},{
+"l":"Basic Maewing Egg",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_XSmall.PrimalItemConsumable_Egg_MilkGlider_XSmall",
+"g":"kglider_xs"
+},{
+"l":"Extraordinary Maewing Egg (F)",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Special_Fertilized.PrimalItemConsumable_Egg_MilkGlider_Special_Fertilized",
+"g":"er_special_f"
+},{
+"l":"Exceptional Maewing Egg (F)",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_XLarge_Fertilized.PrimalItemConsumable_Egg_MilkGlider_XLarge_Fertilized",
+"g":"er_xlarge_f"
+},{
+"l":"Superior Maewing Egg (F)",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Large_Fertilized.PrimalItemConsumable_Egg_MilkGlider_Large_Fertilized",
+"g":"er_large_f"
+},{
+"l":"Regular Maewing Egg (F)",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Medium_Fertilized.PrimalItemConsumable_Egg_MilkGlider_Medium_Fertilized",
+"g":"er_medium_f"
+},{
+"l":"Simple Maewing Egg (F)",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Small_Fertilized.PrimalItemConsumable_Egg_MilkGlider_Small_Fertilized",
+"g":"er_small_f"
+},{
+"l":"Basic Maewing Egg (F)",
+"t":"Eggs",
+"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_XSmall_Fertilized.PrimalItemConsumable_Egg_MilkGlider_XSmall_Fertilized",
+"g":"er_xsmall_f"
+},{
+"l":"Federation Exo-Helm Skin",
+"t":"Skins",
+"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekHelmet_Gen2",
+"g":"met_g"
+},{
+"l":"Federation Exo-Chest Skin",
+"t":"Skins",
+"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekShirt_Gen2.PrimalItemArmor_TekShirt_Gen2",
+"g":"irt_g"
+},{
+"l":"Federation Exo-Gloves Skin",
+"t":"Skins",
+"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekGloves_Gen2.PrimalItemArmor_TekGloves_Gen2",
+"g":"ves_g"
+},{
+"l":"Federation Exo-Leggings Skin",
+"t":"Skins",
+"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekPants_Gen2.PrimalItemArmor_TekPants_Gen2",
+"g":"nts_g"
+},{
+"l":"Federation Exo-Boots Skin",
+"t":"Skins",
+"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekBoots_Gen2.PrimalItemArmor_TekBoots_Gen2",
+"g":"ots_g"
+},{
+"l":"Viking Canoe skin",
+"t":"Skins",
+"bp":"Genesis2/Dinos/Canoe/PrimalItemCostume_Canoe_Viking.PrimalItemCostume_Canoe_Viking",
+"g":"oe_vi"
+},{
+"l":"Tek Canoe skin",
+"t":"Skins",
+"bp":"Genesis2/Dinos/Canoe/PrimalItemCostume_Canoe_Tek.PrimalItemCostume_Canoe_Tek",
+"g":"oe_te"
+},{
+"l":"Modern Canoe skin",
+"t":"Skins",
+"bp":"Genesis2/Dinos/Canoe/PrimalItemCostume_Canoe_Modern.PrimalItemCostume_Canoe_Modern",
+"g":"oe_mo"
 }
 ]}
