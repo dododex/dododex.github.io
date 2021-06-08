@@ -1,4 +1,10 @@
 {"BP":[{
+"id":"AddEquipmentDurability",
+"c":"AddEquipmentDurability <amount>",
+"e":"admincheat AddEquipmentDurability 99999",
+"t":"Items",
+"d":"Add specific amount of durability/water/energy to items in hotbar and equipped armor. (Will charge batteries)"
+},{
 "id":"AddExperience",
 "c":"AddExperience <XP Quantity> <XP Came From Tribe?> <Share With Tribe?>",
 "e":"admincheat AddExperience 100 0 0",
