@@ -939,7 +939,7 @@ function initFromID(id){
 
         <p class="light">The item ID for ${currentBP.l} is <b>${currentBP.id}</b>.</p>
 
-        <div class="whiteinputwb"><input type="text" size="52" value="cheat GiveItemNum ${currentBP.id} 1 0 0" /><a class="whiteinputb">COPY</a></div>
+        <div class="whiteinputwb"><input type="text" size="52" value="cheat GiveItemNum ${currentBP.id} 1 0 0" /><a class="whiteinputb copy">COPY</a></div>
 
         <div class="cmdi lightbox marginTop row">
           <div class="cmdi_td">
