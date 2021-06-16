@@ -1,13 +1,13 @@
 <html>
 <head>
-	<title>Admin Commands | Dododex Taming Calculator | Ark: Survival Evolved</title>
+	<title>ARK Admin Commands | Dododex Taming Calculator | ARK: Survival Evolved</title>
 	<link href="https://www.dododex.com/css/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="https://www.dododex.com/favicon.ico" type="image/x-icon">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@dododexapp">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Admin Commands | Dododex Taming Calculator | Ark: Survival Evolved">
-	<meta property="og:description" content="ARK Admin Commands, creature IDs, entity IDs, and cheats.">
+	<meta property="og:title" content="Admin Commands | Dododex Taming Calculator | ARK: Survival Evolved">
+	<meta property="og:description" content="ARK Admin Commands, creature IDs, entity IDs, spawn commands, and cheats.">
 	<meta property="og:image" content="https://www.dododex.com/media/promo.png">
 	<link rel="apple-touch-icon" href="https://www.dododex.com/media/logo.png">
 	<meta name="apple-itunes-app" content="app-id=1071311292, affiliate-data=10lrJz">
@@ -28,6 +28,38 @@
 	<style>
 		.webonly {display:none;}
 		body.isWeb .webonly {display:block !important;}
+
+.cmdi {
+	width:fit-content;
+	flex-wrap: wrap;
+}
+
+.cmdi_d {
+    margin:0.7em 0.2em 0;
+    padding-top: 0.3em;
+    border-top: 1px solid;
+    color: #ffffff66;
+    font-size: 0.9em;
+}
+.cmdi_t {
+	font-weight:bold;
+	margin:0 0.2em;
+    text-overflow: ellipsis;
+    overflow:hidden;
+}
+.cmdi_td {
+    margin-right: 0.5em;
+    text-align: center;
+    max-width:12em;
+}
+.cmdi_td:last-child {
+    margin-right:0em;
+}
+
+p {
+	word-break: break-word;
+}
+
 	</style>
 </head>
 <body>
@@ -160,6 +192,12 @@
 			    }
 			});
 			new Clipboard('.bprc .whiteinputb', {
+			    text: function(trigger) {
+			      return $(trigger).parent().find('input').val();
+			      this.destroy();
+			    }
+			});
+			new Clipboard('.copy', {
 			    text: function(trigger) {
 			      return $(trigger).parent().find('input').val();
 			      this.destroy();

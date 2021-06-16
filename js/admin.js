@@ -287,6 +287,7 @@ function getCatNavHTML(parentID){
 
 
 function updateAttr() {
+  // console.log('updateAttr')
   // Get all the new attributes
   level = $("#admin-search input[name=level]").val();
   distance = $("#admin-search input[name=distance]").val();
@@ -307,7 +308,12 @@ function updateAttr() {
 
   // If GFI toggle changes, we need to refresh the search results since it's a whole new command
   if(previousGFI != gfi || previousTamed != tamed){
-    searchBP(cats[catID].n);
+    // console.log('GFI OR TAMED CHANGED')
+    // if(cats[catID].n){
+    //   searchBP(cats[catID].n);
+    // } else {
+      searchBP();
+    // }
   } else {
     jQuery.each($('.bprd .bpb .bpbe'), function( i, val ) {
       if(tamed){
@@ -331,25 +337,36 @@ function updateAttr() {
 
 }
 
+
+function isDinoCat(category){
+  // Checks if a category (string) is a dino category
+  // Returns true or false
+  return category.toUpperCase() == "DINOS" || category.toUpperCase() == "ABERRATION" || category.toUpperCase() == "GENESIS" || category.toUpperCase() == "GENESIS 2" || category.toUpperCase() == "EXTINCTION" || category.toUpperCase() == "ALPHAS" || category.toUpperCase() == "TEK CREATURES" || category.toUpperCase() == "BOSSES" || category.toUpperCase() == "EVENT CREATURES";
+
+}
+
+
 function searchBP(category = null, searchCat = false){
   //TODO: first parameter is event, when called without any paramters
-  // console.log('searchBP',category,searchCat,cat1)
+  // console.log('searchBP',category,cats[catID].n,searchCat,cat1)
   $(resultsEl).html('')
   
   var listItem = $('#list').children('li');
   var bpQuery = $('#bpQuery').val();
-  if(bpQuery.length <= 0 && typeof category != 'string' && cat1 != 3){
+  if(bpQuery.length <= 0 && typeof catID != 'number' && cat1 != 3){
     return;
   }
 
+  // console.log('searchBP bpQuery =',bpQuery)
+
   // If a category is being searched, deselect any subcategories.
     // console.log('SEARCHBP O',category)
-  if(typeof category != "string"){
+  if(typeof catID != "number"){
     // console.log('SEARCHBP',category)
     $('*[data-level=2] .selected, *[data-level=3] .selected').removeClass('selected')
     $('*[data-level=3]').addClass('hidden')
   }
-      //console.log('searchBP', category, searchCat)
+      // console.log('searchBP', category, searchCat)
 
   if(cat1 == 3){ // Admin Commands
 
@@ -416,18 +433,23 @@ function searchBP(category = null, searchCat = false){
 
   } else { // Dinos & Items
     // TODO: SWITCH TO JQUERY .FILTER() FOR ELEMENTS SO THEY DONT DELETE
+
+    // console.log('bp',bp)
+
     var res = bp.filter(function(item) {
       if(typeof item.l === "string"){
         var searchMatch = item.l.toUpperCase().includes(bpQuery.toUpperCase());
       } else {
         // Output error if item is missing label
-        console.log("NO LABEL",item)
+        // console.log("NO LABEL",item)
       }
 
+
+      // console.log('searchMatch',searchMatch)
       // Search only applies to one top level category at a time.
       // TODO: Support mixed results
       var level1match = true;
-      var isDino = item.t.toUpperCase() == "DINOS" || item.t.toUpperCase() == "ABERRATION" || item.t.toUpperCase() == "GENESIS" || item.t.toUpperCase() == "GENESIS 2" || item.t.toUpperCase() == "EXTINCTION" || item.t.toUpperCase() == "ALPHAS" || item.t.toUpperCase() == "TEK CREATURES" || item.t.toUpperCase() == "BOSSES" || item.t.toUpperCase() == "EVENT CREATURES";
+      var isDino = isDinoCat(item.t)
       if(cat1 == 1 && isDino){
         level1match = true;
       } else if(cat1 == 2 && !isDino){
@@ -441,8 +463,8 @@ function searchBP(category = null, searchCat = false){
       var match = searchMatch && level1match;
 
       //If category is defined, search only in the category.
-      if(typeof category == 'string'){
-        var categoryMatch = item.t.toUpperCase().includes(category.toUpperCase());
+      if(typeof catID == 'number'){
+        var categoryMatch = item.t.toUpperCase().includes(cats[catID].n.toUpperCase());
         match = searchMatch && categoryMatch; // Both must be true
       }
       return match;
@@ -461,6 +483,8 @@ function searchBP(category = null, searchCat = false){
     tamed = $("#admin-search input[name=tame]")[0].checked
     tame = tamed ? " | admincheat forcetame" : "";
 
+    // console.log('res',res)
+
     if(res.length > 0){
       lastType ='';
       for(var i in res){
@@ -473,16 +497,16 @@ function searchBP(category = null, searchCat = false){
           var rowClass = '';
         }
         var theLabel = item.l;
-        if(item.t=='Dinos' || item.t=='Aberration' || item.t=='Extinction' || item.t=='Genesis' || item.t=='Genesis 2' || item.t=='Bosses' || item.t=='Alphas' || item.t=='Tek Creatures' || item.t=='Event Creatures') {
+        if(isDinoCat(item.t)) {
           if(tamed){
             var theBP = 'admincheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
           } else {
             var theBP = "admincheat SpawnDino \"Blueprint'/Game/" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
           }
           rowClass += 'bprd';
-          if(item.cid){
-            var theLabel = '<a href="https://www.dododex.com/taming/' + item.cid + '">' + item.l + '</a>';
-          }
+          // if(item.cid){
+          //   var theLabel = '<a href="https://www.dododex.com/taming/' + item.cid + '">' + item.l + '</a>';
+          // }
         } else if (gfi && item.g){
           var theBP = 'admincheat GFI ' + (item.g) + ' <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
           rowClass += 'bprw';
@@ -495,13 +519,14 @@ function searchBP(category = null, searchCat = false){
         }
         // console.log(theBP);
         lastType = item.t;
-        var theHTML = rowHeader + '<div class="bpl">' + theLabel + '</div><div class="bpb">' + theBP + '</div>';
+        var theHTML = rowHeader + '<div class="bpl"><a href="?id=' + slugify(theLabel) + '">' + theLabel + '</a></div><div class="bpb">' + theBP + '</div>';
         // console.log(theHTML);
         $('<li class="bpr ' + rowClass + '">')
         .append(theHTML)
         .appendTo(resultsEl);
       }
     } else {
+      // console.log("NO RESULTS");
       $(resultsEl).html(noDataHTML)
     }
   }
@@ -539,6 +564,9 @@ $(document).ready(function() {
   // $("#admin-results").on("click",'.bpr input',function(event) {
   //   event.stopPropagation()
   // })
+  $("#admin-results").on("click",'.copy',function() {
+    $("<div style=\"position:absolute;bottom:0;width:100%;padding:1em;box-sizing:border-box\"><div class=\"copied\">Copied!</div></div>").appendTo('body').hide().slideDown(200).delay(1000).slideUp("slow",function(){$(this).remove();});
+  })
   $("#admin-results").on("click",'.bpr:not(.bprc)',function() {
     $("<div class=\"copied\">").html("Copied!").insertAfter(this).hide().slideDown(200).delay(1000).slideUp("slow",function(){$(this).remove();});
   })
@@ -702,7 +730,7 @@ $(document).ready(function() {
       searchBP();
     } else if(cat.l == 3 || (cat.l == 2 && (cat1 == 1 || cat1 == 3))){
       // console.log('searching1')
-      searchBP(cat.n);
+      searchBP();
     } else if ($('#bpQuery').val() != ""){
       // console.log('searching2')
       // TODO Maybe? User switched categories, but already had query already filled. Search it
@@ -751,11 +779,263 @@ function getCatBySlug(slug, level, parent){
   }
 }
 
+function getBPByID(id){
+  var IDSlug = slugify(id);
+
+  $.each(bp, function(k,v) {
+    // console.log(IDSlug,slugify(v.l),slugify(v.l) == IDSlug)
+    if(v.l && slugify(v.l) == IDSlug){
+      matchedBP = v;
+    }
+  });
+
+  return matchedBP;
+
+}
+
+function initFromID(id){
+  currentBP = getBPByID(id);
+  // console.log('currentBP',currentBP)
+  if(currentBP){
+    document.title = currentBP.l + " Admin Command ID & GFI | Dododex";
+
+
+// "l":"Malfunctioned Tek Triceratops",
+// "id":"triceratops",
+// "t":"Tek Creatures",
+// "id":"BionicTrike_Character_BP_Malfunctioned_C",
+// "bp":"/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP_Malfunctioned.BionicTrike_Character_BP_Malfunctioned"
+
+
+  
+
+
+    $(resultsEl).html('');
+
+
+    if(isDinoCat(currentBP.t)){
+
+      $(resultsEl).html(`
+        <h1 class="marginBottom0">${currentBP.l} Spawn Commands</h1>
+        ${currentBP.t ?
+        `<p class="marginTop0">Type: <em class="light">${currentBP.t}</em></p>`
+        : ``}
+
+        ${currentBP.id ?
+          `<p class="light">To spawn a ${currentBP.l}, you can use the GMSummon command "${currentBP.id}". To spawn a wild ${currentBP.l}, use SpawnDino.</p>`
+        : ``}
+
+        ${currentBP.id ?
+        `<h2 class="marginTop2">${currentBP.l} Spawn Command (Tamed)</h2>
+        <p class="light">The spawn command for the ${currentBP.l} is "${currentBP.id}".</p>
+        
+        <div class="whiteinputwb"><input type="text" size="100" value="cheat gmsummon &quot;${currentBP.id}&quot; 60" /><a class="whiteinputb copy">COPY</a></div></div>
+
+
+        <div class="cmdi lightbox marginTop row">
+          <div class="cmdi_td">
+            <div class="cmdi_t">GMSummon</div>
+            <div class="cmdi_d"></div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">"${currentBP.id}"</div>
+            <div class="cmdi_d">Blueprint ID</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">150</div>
+            <div class="cmdi_d">${currentBP.l} Level</div>
+          </div>
+        </div>
+        ` : ``}
+
+        ${currentBP.bp ?
+        `<h2 class="marginTop2">${currentBP.l} Spawn Command (Wild)</h2>
+        <p class="light">The blueprint path for the ${currentBP.l} is "Blueprint'/Game/${currentBP.bp}'"</p>
+        
+        <div class="whiteinputwb"><input type="text" size="100" value="cheat SpawnDino &quot;Blueprint'/Game/${currentBP.bp}'&quot; 500 0 0 150" /><a class="whiteinputb copy">COPY</a></div></div>
+
+
+        <div class="cmdi lightbox marginTop row">
+          <div class="cmdi_td">
+            <div class="cmdi_t">SpawnDino</div>
+            <div class="cmdi_d"></div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">"Blueprint'/Game/${currentBP.bp}'"</div>
+            <div class="cmdi_d">Blueprint Path</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">500</div>
+            <div class="cmdi_d">Spawn Distance (X) (larger number = further away from you)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Spawn Distance (Y) (negative number = left, positive number = right)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Spawn Distance (Z) (negative number = lower, positive number = higher)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">150</div>
+            <div class="cmdi_d">${currentBP.l} Level</div>
+          </div>
+        </div>
+        ` : ``}
+
+
+        ${currentBP.cid ?
+          `<div class="marginTop2"><a class="actionButton" href="https://www.dododex.com/taming/${currentBP.cid}">${currentBP.l} on Dododex &raquo;</a></div>`
+        : ``}
+
+
+
+      `)
+
+
+    } else {
+      $(resultsEl).html(`
+        <h1 class="marginBottom0">${currentBP.l}</h1>
+        ${currentBP.t ?
+        `<p class="marginTop0">Type: <em class="light">${currentBP.t}</em></p>`
+        : ``}
+
+
+
+        ${currentBP.g ?
+        `<h2 class="marginTop2">${currentBP.l} GFI</h2>
+
+        <p class="light">The GFI code for ${currentBP.l} is <b>${currentBP.g}</b>.</p>
+
+        <div class="whiteinputwb"><input type="text" size="52" value="cheat gfi ${currentBP.g} 1 0 0" /><a class="whiteinputb copy">COPY</a></div>
+        
+        <div class="cmdi lightbox marginTop row">
+          <div class="cmdi_td">
+            <div class="cmdi_t">gfi</div>
+            <div class="cmdi_d"></div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">${currentBP.g}</div>
+            <div class="cmdi_d">Part of Blueprint Path</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">1</div>
+            <div class="cmdi_d">Quantity</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Quality</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Item Blueprint? (0=No, 1=Yes)</div>
+          </div>
+        </div>
+        ` : ``}
+
+
+        ${currentBP.id ?
+        `<h2 class="marginTop2">${currentBP.l} ID</h2>
+
+        <p class="light">The item ID for ${currentBP.l} is <b>${currentBP.id}</b>.</p>
+
+        <div class="whiteinputwb"><input type="text" size="52" value="cheat GiveItemNum ${currentBP.id} 1 0 0" /><a class="whiteinputb">COPY</a></div>
+
+        <div class="cmdi lightbox marginTop row">
+          <div class="cmdi_td">
+            <div class="cmdi_t">GiveItemNum</div>
+            <div class="cmdi_d"></div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">${currentBP.id}</div>
+            <div class="cmdi_d">Item ID (increase by 1 for Xbox)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">1</div>
+            <div class="cmdi_d">Quantity</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Quality</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Item Blueprint? (0=No, 1=Yes)</div>
+          </div>
+        </div>` : ``}
+
+
+        ${currentBP.bp ?
+        `<h2 class="marginTop2">${currentBP.l} Blueprint Path</h2>
+        <p class="light">The blueprint path for ${currentBP.l} is "Blueprint'/Game/${currentBP.bp}'"</p>
+        
+        <div class="whiteinputwb"><input type="text" size="100" value="cheat giveitem &quot;Blueprint'/Game/${currentBP.bp}'&quot; 1 0 0 " /><a class="whiteinputb copy">COPY</a></div></div>
+
+        <div class="cmdi lightbox marginTop row">
+          <div class="cmdi_td">
+            <div class="cmdi_t">giveitem</div>
+            <div class="cmdi_d"></div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">"Blueprint'/Game/${currentBP.bp}'"</div>
+            <div class="cmdi_d">Part of Blueprint Path</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">1</div>
+            <div class="cmdi_d">Quantity</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Quality</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Item Blueprint? (0=No, 1=Yes)</div>
+          </div>
+        </div>
+        ` : ``}
+
+        `
+      );
+    }
+  }
+
+  var related = filterItems(currentBP.t);
+  var relatedHTML = '';
+  $.each(related, function(k, v) {
+    relatedHTML += `<li><a href="?id=${slugify(v.l)}" class="crLink">${v.l}</a></li>`
+  });
+
+
+  $(resultsEl).append(`
+    <h2 class="marginTop2">More ${currentBP.t}</h2>
+    <ul class="creaturelist col3 light">
+      ${relatedHTML}
+    </ul>
+  `);
+
+}
+
+
+function filterItems(category, commands = false){
+
+  var res = bp.filter(function(item) {
+    if(typeof category == 'string'){
+      return item.t.toUpperCase().includes(category.toUpperCase());
+    }
+    return match;
+  });
+  return res;
+}
 
 function initFromURL(){
   var urlParams = new URLSearchParams(window.location.search);
+  var id = urlParams.get('id')
   var commandPathString = urlParams.get('commands')
-  if(typeof commandPathString != "string"){
+  if(typeof id == "string"){
+    initFromID(id);
+    return;
+  } else if(typeof commandPathString != "string"){
     return;
   }
   var commandPath = commandPathString.split("/");
