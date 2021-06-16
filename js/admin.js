@@ -458,12 +458,12 @@ function searchBP(category = null, searchCat = false){
         level1match = false;
       }
 
-      // console.log(item.label,searchMatch,level1match);
+      // console.log(item.l,searchMatch,level1match);
       // Check if search is a match AND top level category is a match
       var match = searchMatch && level1match;
 
-      //If category is defined, search only in the category.
-      if(typeof catID == 'number'){
+      //If category is defined (and it's not a level-1 cat), search only in the category.
+      if(typeof catID == 'number' && cats[catID]['p'] != null){
         var categoryMatch = item.t.toUpperCase().includes(cats[catID].n.toUpperCase());
         match = searchMatch && categoryMatch; // Both must be true
       }
