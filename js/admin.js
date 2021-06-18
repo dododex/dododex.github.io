@@ -565,7 +565,7 @@ $(document).ready(function() {
   //   event.stopPropagation()
   // })
   $("#admin-results").on("click",'.copy',function() {
-    $("<div style=\"position:absolute;bottom:0;width:100%;padding:1em;box-sizing:border-box\"><div class=\"copied\">Copied!</div></div>").appendTo('body').hide().slideDown(200).delay(1000).slideUp("slow",function(){$(this).remove();});
+    $("<div style=\"position:fixed;bottom:0;width:100%;padding:1em;box-sizing:border-box\"><div class=\"copied\">Copied!</div></div>").appendTo('body').hide().slideDown(200).delay(1000).slideUp("slow",function(){$(this).remove();});
   })
   $("#admin-results").on("click",'.bpr:not(.bprc)',function() {
     $("<div class=\"copied\">").html("Copied!").insertAfter(this).hide().slideDown(200).delay(1000).slideUp("slow",function(){$(this).remove();});
@@ -669,18 +669,24 @@ $(document).ready(function() {
 
   // User clicks on category
   $("*[data-cat]").on("click",function(event) {
+
     $('#bpQuery').val('')
     catID = $(this).data("cat");
     var cat = cats[catID];
     // console.log("THIS",$(this));
     // console.log("THIS",$(this).data());
 
-    $("*[data-level=" + cat.l + "] *[data-cat]").removeClass('selected');
+    $("*[data-level=" + cat.l + "] .selected").removeClass('selected');
     $(this).addClass('selected');
 
     // TODO: At curent level or lower level
     if(cat.l == 1){
       // show 2, hide 3
+
+      if($('.admin-subnav').is(':hidden')){
+        $('.admin-subnav').show()
+      }
+
       $("#admin-results").html(''); // Clear results on level 1 switch.
       $("*[data-level=" + cat.l + "] *[data-cat]").addClass('fadedImage');
       $(this).removeClass('fadedImage');
@@ -816,9 +822,9 @@ function initFromID(id){
     if(isDinoCat(currentBP.t)){
 
       $(resultsEl).html(`
-        <h1 class="marginBottom0">${currentBP.l} Spawn Commands</h1>
+        <h1 class="marginBottom0 center">${currentBP.l} Spawn Commands</h1>
         ${currentBP.t ?
-        `<p class="marginTop0">Type: <em class="light">${currentBP.t}</em></p>`
+        `<p class="marginTop0 center">Type: <em class="light">${currentBP.t}</em></p>`
         : ``}
 
         ${currentBP.id ?
