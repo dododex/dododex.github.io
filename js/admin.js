@@ -277,7 +277,7 @@ function getCatNavHTML(parentID){
   var catHTML = ''
   for(var i in cats){
     if(cats[i].p===parentID){
-        catHTML += '<a href="/admin-commands/?commands=' + slugify(cats[cats[i]['p']]['n']) + '/' + slugify(cats[i].n) + '" class="boxIcon bpCat" data-cat="' + i + '">' + cats[i].n + '</a>';
+        catHTML += '<a href="/admin-commands/?commands=' + slugify(cats[cats[i]['p']]['n']) + '/' + slugify(cats[i].n) + '" class="boxIcon bpCat" data-cat="' + i + '">' + cats[i].n + '</a> ';
     }
   }
   return catHTML;
@@ -371,7 +371,7 @@ function searchBP(category = null, searchCat = false){
   if(cat1 == 3){ // Admin Commands
 
     // Search admin commands
-    if(category == null && bpQuery.length == 0){
+    if(catID == null && bpQuery.length == 0){
       // If no subcat is provided, just return all commands
       var res = commands;
     } else {
@@ -382,8 +382,8 @@ function searchBP(category = null, searchCat = false){
         var match = searchMatch;
 
         //If category is defined, search only in the category.
-        if(typeof category == 'string' && item.t){
-          var categoryMatch = item.t.toUpperCase().includes(category.toUpperCase());
+        if(typeof cats[catID].n == 'string' && item.t){
+          var categoryMatch = item.t.toUpperCase().includes(cats[catID].n.toUpperCase());
           match = searchMatch && categoryMatch; // Both must be true
         }
         return match;
@@ -1042,6 +1042,8 @@ function initFromURL(){
     initFromID(id);
     return;
   } else if(typeof commandPathString != "string"){
+    // On main landing page, load the subnav.
+    $('.admin-subnav').show()
     return;
   }
   var commandPath = commandPathString.split("/");
