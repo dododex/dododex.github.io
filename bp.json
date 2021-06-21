@@ -630,7 +630,7 @@
 },{
 "l":"Charcoal",
 "t":"Resources",
-"id":77,
+"id":76,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Charcoal.PrimalItemResource_Charcoal",
 "g":"Charcoal"
 },{
@@ -653,7 +653,7 @@
 },{
 "l":"Crystal",
 "t":"Resources",
-"id":78,
+"id":77,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal",
 "g":"Crystal"
 },{
@@ -676,9 +676,9 @@
 },{
 "l":"Fiber",
 "t":"Resources",
-"id":76,
+"id":75,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Fibers.PrimalItemResource_Fibers",
-"g":"Fibers"
+"g":"Fiber"
 },{
 "l":"Flint",
 "t":"Resources",
@@ -722,7 +722,7 @@
 },{
 "l":"Metal Ingot",
 "t":"Resources",
-"id":74,
+"id":73,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_MetalIngot.PrimalItemResource_MetalIngot",
 "g":"MetalIngot"
 },{
@@ -846,7 +846,7 @@
 },{
 "l":"Thatch",
 "t":"Resources",
-"id":75,
+"id":74,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Thatch.PrimalItemResource_Thatch",
 "g":"Thatch"
 },{
@@ -910,7 +910,7 @@
 },{
 "l":"GPS",
 "t":"Tools",
-"id":72,
+"id":71,
 "bp":"PrimalEarth/Test/PrimalItem_WeaponGPS.PrimalItem_WeaponGPS",
 "g":"WeaponGPS"
 },{
