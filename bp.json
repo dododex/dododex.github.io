@@ -9983,12 +9983,12 @@
 "bp":"Genesis2/Structures/RemoteCamera/PrimalItemStructure_TekSecurityConsole.PrimalItemStructure_TekSecurityConsole",
 "g":"tycon"
 },{
-"l":"MilkGlider",
+"l":"Maewing Saddle",
 "t":"Saddles",
 "bp":"Genesis2/Dinos/MilkGlider/PrimalItemArmor_MilkGliderSaddle.PrimalItemArmor_MilkGliderSaddle",
 "g":"lkg"
 },{
-"l":"Astrodelphis",
+"l":"Astrodelphis Saddle",
 "t":"Saddles",
 "bp":"Genesis2/Dinos/SpaceDolphin/PrimalItemArmor_SpaceDolphinSaddle_Tek.PrimalItemArmor_SpaceDolphinSaddle_Tek",
 "g":"cedo"
