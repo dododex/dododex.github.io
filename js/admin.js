@@ -1,6 +1,6 @@
 
 var ctrlOn = true;
-var cat1 = null; // Top level cat
+var cat1 = 3; // Top level cat
 var category = null;
 var noDataHTML = '<div class="light center marginTop2 marginBottom2"><b class="white">No results found.</b> Please <a href="https://github.com/dododex/dododex.github.io">add it</a>.</div>'
 
@@ -346,7 +346,7 @@ function isDinoCat(category){
 }
 
 
-function searchBP(category = null, searchCat = false){
+function searchBP(){
   //TODO: first parameter is event, when called without any paramters
   // console.log('searchBP',category,cats[catID].n,searchCat,cat1)
   $(resultsEl).html('')
@@ -366,9 +366,14 @@ function searchBP(category = null, searchCat = false){
     $('*[data-level=2] .selected, *[data-level=3] .selected').removeClass('selected')
     $('*[data-level=3]').addClass('hidden')
   }
-      // console.log('searchBP', category, searchCat)
 
   if(cat1 == 3){ // Admin Commands
+
+    // De-select subcategories when searching
+    if($('*[data-level=2] .selected, *[data-level=3] .selected').length > 0){
+      $('*[data-level=2] .selected, *[data-level=3] .selected').removeClass('selected')
+    }
+
 
     // Search admin commands
     if(catID == null && bpQuery.length == 0){
@@ -379,14 +384,14 @@ function searchBP(category = null, searchCat = false){
       var res = commands.filter(function(item) {
         var searchMatch = item.c.toUpperCase().includes(bpQuery.toUpperCase());
 
-        var match = searchMatch;
+        // var match = searchMatch;
 
         //If category is defined, search only in the category.
-        if(typeof cats[catID].n == 'string' && item.t){
-          var categoryMatch = item.t.toUpperCase().includes(cats[catID].n.toUpperCase());
-          match = searchMatch && categoryMatch; // Both must be true
-        }
-        return match;
+        // if(typeof cats[catID].n == 'string' && item.t){
+        //   var categoryMatch = item.t.toUpperCase().includes(cats[catID].n.toUpperCase());
+        //   match = searchMatch && categoryMatch; // Both must be true
+        // }
+        return searchMatch;
       });
     }
 
@@ -1043,8 +1048,8 @@ function initFromURL(){
     return;
   } else if(typeof commandPathString != "string"){
     // On main landing page, load the subnav.
-    $('.admin-subnav').show()
-    return;
+    commandPathString = "commands=commands"
+    // return;
   }
   var commandPath = commandPathString.split("/");
 
