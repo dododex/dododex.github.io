@@ -838,4 +838,16 @@
 "e":"admincheat Cheat RepairArea 2500",
 "t":"Misc",
 "d":"Repairs all strucutres in given radius around player. (Only seems to work on structures that have been damaged since last server/session restart.)"
+},{   
+"id":"deeppockets",
+"c":"deeppockets",
+"e":"admincheat deeppockets",
+"t":"Cheats",
+"d":"Overrides the weight limit"
+},{
+"id":"InfiniteWeight",
+"c":"infiniteweight",
+"e":"admincheat infiniteweight",
+"t":"Cheats",
+"d":"Overrides the weight limit" 
 }]}
