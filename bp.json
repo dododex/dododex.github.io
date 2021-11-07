@@ -655,7 +655,7 @@
 "t":"Resources",
 "id":77,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Crystal.PrimalItemResource_Crystal",
-"g":"Crystal"
+"g":"PrimalItemResource_Crystal"
 },{
 "l":"Deathworm Horn",
 "t":"Resources",
