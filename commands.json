@@ -839,9 +839,9 @@
 "t":"Misc",
 "d":"Repairs all strucutres in given radius around player. (Only seems to work on structures that have been damaged since last server/session restart.)"
 },{   
-"id":"deeppocket",
-"c":"deeppocket",
-"e":"admincheat deeppocket",
+"id":"deeppockets",
+"c":"deeppockets",
+"e":"admincheat deeppockets",
 "t":"Cheats",
 "d":"Overrides the weight limit"
 },{
