@@ -50,6 +50,11 @@ var cats = {
       "p":1,
       "l":2
    },
+   "58":{
+      "n":"Lost Island",
+      "p":1,
+      "l":2
+   },
    "52":{
       "n":"Alphas",
       "p":1,
@@ -341,7 +346,7 @@ function updateAttr() {
 function isDinoCat(category){
   // Checks if a category (string) is a dino category
   // Returns true or false
-  return category.toUpperCase() == "DINOS" || category.toUpperCase() == "ABERRATION" || category.toUpperCase() == "GENESIS" || category.toUpperCase() == "GENESIS 2" || category.toUpperCase() == "EXTINCTION" || category.toUpperCase() == "ALPHAS" || category.toUpperCase() == "TEK CREATURES" || category.toUpperCase() == "BOSSES" || category.toUpperCase() == "EVENT CREATURES";
+  return category.toUpperCase() == "DINOS" || category.toUpperCase() == "ABERRATION" || category.toUpperCase() == "GENESIS" || category.toUpperCase() == "GENESIS 2" || category.toUpperCase() == "EXTINCTION" || category.toUpperCase() == "LOST ISLAND" || category.toUpperCase() == "ALPHAS" || category.toUpperCase() == "TEK CREATURES" || category.toUpperCase() == "BOSSES" || category.toUpperCase() == "EVENT CREATURES";
 
 }
 

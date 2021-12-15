@@ -10092,5 +10092,23 @@
 "t":"Skins",
 "bp":"Genesis2/Dinos/Canoe/PrimalItemCostume_Canoe_Modern.PrimalItemCostume_Canoe_Modern",
 "g":"oe_mo"
+},{
+"l":"Amargasaurus",
+"cid":"amargasaurus",
+"t":"Lost Island",
+"id":"Amargasaurus_Character_BP_C",
+"bp":"LostIsland/Dinos/Amargasaurus/Amargasaurus_Character_BP.Amargasaurus_Character_BP"
+},{
+"l":"Dinopithecus",
+"cid":"dinopithecus",
+"t":"Lost Island",
+"id":"Dinopithecus_Character_BP_C",
+"bp":"LostIsland/Dinos/Dinopithecus/Dinopithecus_Character_BP.Dinopithecus_Character_BP"
+},{
+"l":"Sinomacrops",
+"cid":"sinomacrops",
+"t":"Lost Island",
+"id":"Sinomacrops_Character_BP_C",
+"bp":"LostIsland/Dinos/Sinomacrops/Sinomacrops_Character_BP.Sinomacrops_Character_BP"
 }
 ]}
