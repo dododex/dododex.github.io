@@ -470,7 +470,7 @@
 "id":"PrintColors",
 "c":"PrintColors",
 "e":"admincheat PrintColors",
-"t":"Commands",
+"t":"Misc",
 "d":"Prints a list of colors."
 },{
 "id":"RainCritters",
@@ -524,7 +524,7 @@
 "id":"ScriptCommand",
 "c":"ScriptCommand <CommandString>",
 "e":"admincheat ScriptCommand CommandString",
-"t":"Commands",
+"t":"Misc",
 "d":"Runs a mod script."
 },{
 "id":"SDF",

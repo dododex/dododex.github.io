@@ -353,11 +353,13 @@ function isDinoCat(category){
 
 function searchBP(){
   //TODO: first parameter is event, when called without any paramters
-  // console.log('searchBP',category,cats[catID].n,searchCat,cat1)
   $(resultsEl).html('')
   
   var listItem = $('#list').children('li');
   var bpQuery = $('#bpQuery').val();
+
+  // console.log('searchBP',cats[catID].n,cat1,bpQuery)
+
   if(bpQuery.length <= 0 && typeof catID != 'number' && cat1 != 3){
     return;
   }
@@ -372,7 +374,8 @@ function searchBP(){
     $('*[data-level=3]').addClass('hidden')
   }
 
-  if(cat1 == 3){ // Admin Commands
+  
+  if(cat1 == 3){ // ADMIN COMMANDS
 
     // De-select subcategories when searching
     if($('*[data-level=2] .selected, *[data-level=3] .selected').length > 0){
@@ -381,24 +384,26 @@ function searchBP(){
 
 
     // Search admin commands
-    if(catID == null && bpQuery.length == 0){
+    if(catID == 3 && bpQuery.length == 0){
       // If no subcat is provided, just return all commands
       var res = commands;
     } else {
       // If subcat IS provided, return them
       var res = commands.filter(function(item) {
+        // Check if QUERY matches the COMMAND 
         var searchMatch = item.c.toUpperCase().includes(bpQuery.toUpperCase());
 
-        // var match = searchMatch;
+        // Check if SELECTED CATEGORY also matches the CATEGORY (if one is selected)
+        if(bpQuery.length == 0 && typeof cats[catID].n == 'string' && item.t){
+          var categoryMatch = item.t.toUpperCase().includes(cats[catID].n.toUpperCase());
+        } else {
+          var categoryMatch = true; // Ignore categories
+        }
 
-        //If category is defined, search only in the category.
-        // if(typeof cats[catID].n == 'string' && item.t){
-        //   var categoryMatch = item.t.toUpperCase().includes(cats[catID].n.toUpperCase());
-        //   match = searchMatch && categoryMatch; // Both must be true
-        // }
-        return searchMatch;
+        return searchMatch && categoryMatch;
       });
     }
+    // console.log('res',res)
 
     // Contains results
     if(res.length > 0){
@@ -441,7 +446,7 @@ function searchBP(){
       $(resultsEl).html(noDataHTML)
     }
 
-  } else { // Dinos & Items
+  } else { // DINOS & ITEMS
     // TODO: SWITCH TO JQUERY .FILTER() FOR ELEMENTS SO THEY DONT DELETE
 
     // console.log('bp',bp)
