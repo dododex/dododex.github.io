@@ -22,7 +22,6 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-
 	  gtag('config', 'UA-246960-18');
 	</script>
 	<style>
@@ -64,6 +63,8 @@ p {
 }
 
 	</style>
+	<script>window.nitroAds=window.nitroAds||{createAd:function(){window.nitroAds.queue.push(["createAd",arguments])},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
+	<script async src="https://s.nitropay.com/ads-50.js"></script>
 </head>
 <body>
 <div id="contentwrap">
@@ -182,6 +183,25 @@ p {
 		<div class="marginTop2 marginBottom2 light center">
 			Please help keep these commands up-to-date. <a href="https://github.com/dododex/dododex.github.io" target="_blank">Add and Edit Blueprints</a>
 		</div>
+
+		<div class="marginBottom"><div id="ad_admincommands" class="center"></div></div>
+		<script type="text/javascript">
+
+		var urlParams2 = new URLSearchParams(window.location.search);
+		if(urlParams2.get('app') != "1"){
+			window["nitroAds"].createAd('ad_admincommands', {
+			  "floor": 0.05,
+			  "refreshLimit": 10,
+			  "refreshTime": 90,
+			  "report": {
+			    "enabled": true,
+			    "wording": "Report Ad",
+			    "position": "fixed-bottom-right"
+			  }
+			});
+		}
+		</script>
+
 		<script src="https://www.dododex.com/js/clipboard.min.js" data-cfasync="false"></script>
 		<script type="text/javascript">
 			new Clipboard('.bprw', {
