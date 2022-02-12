@@ -842,8 +842,12 @@ function initFromID(id){
         `<p class="marginTop0 center">Type: <em class="light">${currentBP.t}</em></p>`
         : ``}
 
+        ${currentBP.cid ?
+          `<div class="marginTop2"><img src="https://www.dododex.com/media/creature/${currentBP.cid}.png" alt="ARK ${currentBP.l}" height="200" /></div>`
+        : ``}
+
         ${currentBP.id ?
-          `<p class="light">To spawn a ${currentBP.l}, you can use the GMSummon command "${currentBP.id}". To spawn a wild ${currentBP.l}, use SpawnDino.</p>`
+          `<p class="light">To spawn a ${currentBP.l}, you can use the GMSummon command "${currentBP.id}".</p>`
         : ``}
 
         ${currentBP.id ?
