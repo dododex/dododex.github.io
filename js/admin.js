@@ -1025,19 +1025,25 @@ function initFromID(id){
     }
   }
 
-  var related = filterItems(currentBP.t);
-  var relatedHTML = '';
-  $.each(related, function(k, v) {
-    relatedHTML += `<li><a href="?id=${slugify(v.l)}" class="crLink">${v.l}</a></li>`
-  });
+  // REMOVING THIS BECAUSE GOOGLE THOUGHT IT WAS SPAMMY?
+  // var related = filterItems(currentBP.t);
+  // var relatedHTML = '';
+  // var i = 0;
+  // $.each(related, function(k, v) {
+  //   // if(i > 10){
+  //   //   return false;
+  //   // }
+  //   relatedHTML += `<li><a href="?id=${slugify(v.l)}" class="crLink">${v.l}</a></li>`
+  //   i++;
+  // });
 
 
-  $(resultsEl).append(`
-    <h2 class="marginTop2">More ${currentBP.t}</h2>
-    <ul class="creaturelist col3 light">
-      ${relatedHTML}
-    </ul>
-  `);
+  // $(resultsEl).append(`
+  //   <h2 class="marginTop2">More ${currentBP.t}</h2>
+  //   <ul class="creaturelist col3 light">
+  //     ${relatedHTML}
+  //   </ul>
+  // `);
 
 }
 
