@@ -624,7 +624,7 @@
 },{
 "l":"Cementing Paste",
 "t":"Resources",
-"id":146,
+"id":144,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste",
 "g":"ChitinPaste"
 },{
@@ -664,7 +664,7 @@
 },{
 "l":"Electronics",
 "t":"Resources",
-"id":165,
+"id":162,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics",
 "g":"Electronics"
 },{
@@ -688,7 +688,7 @@
 },{
 "l":"Gasoline",
 "t":"Resources",
-"id":164,
+"id":161,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gasoline.PrimalItemResource_Gasoline",
 "g":"Gasoline"
 },{
@@ -706,7 +706,7 @@
 },{
 "l":"Keratin",
 "t":"Resources",
-"id":217,
+"id":213,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Keratin.PrimalItemResource_Keratin",
 "g":"Keratin"
 },{
@@ -734,19 +734,19 @@
 },{
 "l":"Narcotic",
 "t":"Resources",
-"id":123,
+"id":122,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Narcotic.PrimalItemConsumable_Narcotic",
 "g":"Narcotic"
 },{
 "l":"Obsidian",
 "t":"Resources",
-"id":142,
+"id":141,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Obsidian.PrimalItemResource_Obsidian",
 "g":"Obsidian"
 },{
 "l":"Oil",
 "t":"Resources",
-"id":162,
+"id":159,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
 "g":"Oil"
 },{
@@ -757,7 +757,7 @@
 },{
 "l":"Pelt",
 "t":"Resources",
-"id":424,
+"id":419,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt",
 "g":"Pelt"
 },{
@@ -779,13 +779,13 @@
 },{
 "l":"Rare Flower",
 "t":"Resources",
-"id":250,
+"id":246,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower",
 "g":"RareFlower"
 },{
 "l":"Rare Mushroom",
 "t":"Resources",
-"id":251,
+"id":247,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom",
 "g":"RareMushroom"
 },{
@@ -796,7 +796,7 @@
 },{
 "l":"Re-Fertilizer",
 "t":"Resources",
-"id":386,
+"id":382,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableMiracleGro.PrimalItemConsumableMiracleGro",
 "g":"ConsumableMiracleGro"
 },{
@@ -812,7 +812,7 @@
 },{
 "l":"Silica Pearls",
 "t":"Resources",
-"id":163,
+"id":160,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon",
 "g":"Silicon"
 },{
@@ -823,13 +823,13 @@
 },{
 "l":"Sparkpowder",
 "t":"Resources",
-"id":108,
+"id":107,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sparkpowder.PrimalItemResource_Sparkpowder",
 "g":"Sparkpowder"
 },{
 "l":"Stimulant",
 "t":"Resources",
-"id":124,
+"id":123,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Stimulant.PrimalItemConsumable_Stimulant",
 "g":"Stimulant"
 },{
@@ -928,13 +928,13 @@
 },{
 "l":"Spyglass",
 "t":"Tools",
-"id":283,
+"id":279,
 "bp":"PrimalEarth/Test/PrimalItem_WeaponSpyglass.PrimalItem_WeaponSpyglass",
 "g":"WeaponSpyglass"
 },{
 "l":"Metal Sickle",
 "t":"Tools",
-"id":380,
+"id":376,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSickle.PrimalItem_WeaponSickle",
 "g":"WeaponSickle"
 },{
@@ -1074,13 +1074,13 @@
 },{
 "l":"Flak Boots",
 "t":"Armor",
-"id":225,
+"id":221,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots",
 "g":"MetalBoots"
 },{
 "l":"Flak Gauntlets",
 "t":"Armor",
-"id":226,
+"id":222,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves",
 "g":"MetalGloves"
 },{
@@ -1271,7 +1271,7 @@
 },{
 "l":"Argentavis Saddle",
 "t":"Saddles",
-"id":214,
+"id":211,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArgentavisSaddle.PrimalItemArmor_ArgentavisSaddle",
 "g":"ArgentavisSaddle"
 },{
@@ -1282,31 +1282,31 @@
 },{
 "l":"Beelzebufo Saddle",
 "t":"Saddles",
-"id":427,
+"id":422,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle",
 "g":"ToadSaddle"
 },{
 "l":"Bronto Platform Saddle",
 "t":"Saddles",
-"id":415,
+"id":411,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle_Platform.PrimalItemArmor_SauroSaddle_Platform",
 "g":"SauroSaddle_Platform"
 },{
 "l":"Bronto Saddle",
 "t":"Saddles",
-"id":135,
+"id":134,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SauroSaddle.PrimalItemArmor_SauroSaddle",
 "g":"SauroSaddle"
 },{
 "l":"Carbonemys Saddle",
 "t":"Saddles",
-"id":207,
+"id":204,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TurtleSaddle.PrimalItemArmor_TurtleSaddle",
 "g":"TurtleSaddle"
 },{
 "l":"Carno Saddle",
 "t":"Saddles",
-"id":213,
+"id":210,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_CarnoSaddle.PrimalItemArmor_CarnoSaddle",
 "g":"CarnoSaddle"
 },{
@@ -1327,7 +1327,7 @@
 },{
 "l":"Doedicurus Saddle",
 "t":"Saddles",
-"id":393,
+"id":389,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DoedSaddle.PrimalItemArmor_DoedSaddle",
 "g":"DoedSaddle"
 },{
@@ -1359,7 +1359,7 @@
 },{
 "l":"Mammoth Saddle",
 "t":"Saddles",
-"id":210,
+"id":207,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MammothSaddle.PrimalItemArmor_MammothSaddle",
 "g":"MammothSaddle"
 },{
@@ -1375,13 +1375,13 @@
 },{
 "l":"Megaloceros Saddle",
 "t":"Saddles",
-"id":428,
+"id":423,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StagSaddle.PrimalItemArmor_StagSaddle",
 "g":"StagSaddle"
 },{
 "l":"Megalodon Saddle",
 "t":"Saddles",
-"id":211,
+"id":208,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle.PrimalItemArmor_MegalodonSaddle",
 "g":"MegalodonSaddle"
 },{
@@ -1402,25 +1402,25 @@
 },{
 "l":"Pachy Saddle",
 "t":"Saddles",
-"id":417,
+"id":412,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachySaddle.PrimalItemArmor_PachySaddle",
 "g":"PachySaddle"
 },{
 "l":"Paracer Platform Saddle",
 "t":"Saddles",
-"id":423,
+"id":418,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParacerSaddle_Platform.PrimalItemArmor_ParacerSaddle_Platform",
 "g":"ParacerSaddle_Platform"
 },{
 "l":"Paracer Saddle",
 "t":"Saddles",
-"id":422,
+"id":417,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Paracer_Saddle.PrimalItemArmor_Paracer_Saddle",
 "g":"Paracer_Saddle"
 },{
 "l":"Parasaur Saddle",
 "t":"Saddles",
-"id":100,
+"id":99,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle.PrimalItemArmor_ParaSaddle",
 "g":"ParaSaddle"
 },{
@@ -1431,7 +1431,7 @@
 },{
 "l":"Phiomia Saddle",
 "t":"Saddles",
-"id":285,
+"id":281,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PhiomiaSaddle.PrimalItemArmor_PhiomiaSaddle",
 "g":"PhiomiaSaddle"
 },{
@@ -1442,7 +1442,7 @@
 },{
 "l":"Plesiosaur Saddle",
 "t":"Saddles",
-"id":313,
+"id":309,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiaSaddle.PrimalItemArmor_PlesiaSaddle",
 "g":"PlesiaSaddle"
 },{
@@ -1453,13 +1453,13 @@
 },{
 "l":"Pteranodon Saddle",
 "t":"Saddles",
-"id":131,
+"id":130,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle",
 "g":"PteroSaddle"
 },{
 "l":"Pulmonoscorpius Saddle",
 "t":"Saddles",
-"id":104,
+"id":103,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ScorpionSaddle.PrimalItemArmor_ScorpionSaddle",
 "g":"ScorpionSaddle"
 },{
@@ -1475,7 +1475,7 @@
 },{
 "l":"Raptor Saddle",
 "t":"Saddles",
-"id":101,
+"id":100,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RaptorSaddle.PrimalItemArmor_RaptorSaddle",
 "g":"RaptorSaddle"
 },{
@@ -1625,73 +1625,73 @@
 },{
 "l":"Wooden Ladder",
 "t":"Wood",
-"id":89,
+"id":88,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodLadder.PrimalItemStructure_WoodLadder",
 "g":"WoodLadder"
 },{
 "l":"Wooden Pillar",
 "t":"Wood",
-"id":90,
+"id":89,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodPillar.PrimalItemStructure_WoodPillar",
 "g":"WoodPillar"
 },{
 "l":"Wooden Ramp",
 "t":"Wood",
-"id":91,
+"id":90,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodRamp.PrimalItemStructure_WoodRamp",
 "g":"WoodRamp"
 },{
 "l":"Wooden Trapdoor",
 "t":"Wood",
-"id":92,
+"id":93,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodTrapdoor.PrimalItemStructure_WoodTrapdoor",
 "g":"WoodTrapdoor"
 },{
 "l":"Wooden Wall",
 "t":"Wood",
-"id":93,
+"id":94,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWall.PrimalItemStructure_WoodWall",
 "g":"WoodWall"
 },{
 "l":"Wooden Doorframe",
 "t":"Wood",
-"id":94,
+"id":95,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWallWithDoor.PrimalItemStructure_WoodWallWithDoor",
 "g":"WoodWallWithDoor"
 },{
 "l":"Wooden Windowframe",
 "t":"Wood",
-"id":95,
+"id":96,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWallWithWindow.PrimalItemStructure_WoodWallWithWindow",
 "g":"WoodWallWithWindow"
 },{
 "l":"Wooden Window",
 "t":"Wood",
-"id":96,
+"id":97,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodWindow.PrimalItemStructure_WoodWindow",
 "g":"WoodWindow"
 },{
 "l":"Wooden Sign",
 "t":"Wood",
-"id":97,
+"id":98,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign.PrimalItemStructure_WoodSign",
 "g":"WoodSign"
 },{
 "l":"Storage Box",
 "t":"Structures",
-"id":105,
+"id":104,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Small.PrimalItemStructure_StorageBox_Small",
 "g":"StorageBox_Small"
 },{
 "l":"Large Storage Box",
 "t":"Structures",
-"id":106,
+"id":105,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Large.PrimalItemStructure_StorageBox_Large",
 "g":"StorageBox_Large"
 },{
 "l":"Mortar and Pestle",
 "t":"Structures",
-"id":107,
+"id":106,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_MortarAndPestle.PrimalItemStructure_MortarAndPestle",
 "g":"MortarAndPestle"
 },{
@@ -1889,193 +1889,193 @@
 },{
 "l":"Water Reservoir",
 "t":"Structures",
-"id":186,
+"id":183,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_WaterTank.PrimalItemStructure_WaterTank",
 "g":"WaterTank"
 },{
 "l":"Air Conditioner",
 "t":"Structures",
-"id":188,
+"id":185,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AirConditioner.PrimalItemStructure_AirConditioner",
 "g":"AirConditioner"
 },{
 "l":"Electrical Generator",
 "t":"Structures",
-"id":189,
+"id":186,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerGenerator.PrimalItemStructure_PowerGenerator",
 "g":"PowerGenerator"
 },{
 "l":"Electrical Outlet",
 "t":"Structures",
-"id":190,
+"id":187,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerOutlet.PrimalItemStructure_PowerOutlet",
 "g":"PowerOutlet"
 },{
 "l":"Inclined Electrical Cable",
 "t":"Structures",
-"id":191,
+"id":188,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableIncline.PrimalItemStructure_PowerCableIncline",
 "g":"PowerCableIncline"
 },{
 "l":"Electrical Cable Intersection",
 "t":"Structures",
-"id":192,
+"id":189,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableIntersection.PrimalItemStructure_PowerCableIntersection",
 "g":"PowerCableIntersection"
 },{
 "l":"Straight Electrical Cable",
 "t":"Structures",
-"id":193,
+"id":190,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableStraight.PrimalItemStructure_PowerCableStraight",
 "g":"PowerCableStraight"
 },{
 "l":"Vertical Electrical Cable",
 "t":"Structures",
-"id":194,
+"id":191,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_PowerCableVertical.PrimalItemStructure_PowerCableVertical",
 "g":"PowerCableVertical"
 },{
 "l":"Lamppost",
 "t":"Structures",
-"id":195,
+"id":192,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Lamppost.PrimalItemStructure_Lamppost",
 "g":"Lamppost"
 },{
 "l":"Refrigerator",
 "t":"Structures",
-"id":196,
+"id":193,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IceBox.PrimalItemStructure_IceBox",
 "g":"IceBox"
 },{
 "l":"Auto Turret",
 "t":"Structures",
-"id":197,
+"id":194,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Turret.PrimalItemStructure_Turret",
 "g":"Turret"
 },{
 "l":"Remote Keypad",
 "t":"Structures",
-"id":198,
+"id":195,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Keypad.PrimalItemStructure_Keypad",
 "g":"Keypad"
 },{
 "l":"Metal Irrigation Pipe - Inclined",
 "t":"Metal",
-"id":199,
+"id":196,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIncline.PrimalItemStructure_MetalPipeIncline",
 "g":"MetalPipeIncline"
 },{
 "l":"Metal Irrigation Pipe - Intake",
 "t":"Metal",
-"id":200,
+"id":197,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIntake.PrimalItemStructure_MetalPipeIntake",
 "g":"MetalPipeIntake"
 },{
 "l":"Metal Irrigation Pipe - Intersection",
 "t":"Metal",
-"id":201,
+"id":198,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeIntersection.PrimalItemStructure_MetalPipeIntersection",
 "g":"MetalPipeIntersection"
 },{
 "l":"Metal Irrigation Pipe - Straight",
 "t":"Metal",
-"id":202,
+"id":199,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeStraight.PrimalItemStructure_MetalPipeStraight",
 "g":"MetalPipeStraight"
 },{
 "l":"Metal Irrigation Pipe - Tap",
 "t":"Metal",
-"id":203,
+"id":200,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeTap.PrimalItemStructure_MetalPipeTap",
 "g":"MetalPipeTap"
 },{
 "l":"Metal Irrigation Pipe - Vertical",
 "t":"Metal",
-"id":204,
+"id":201,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_MetalPipeVertical.PrimalItemStructure_MetalPipeVertical",
 "g":"MetalPipeVertical"
 },{
 "l":"Metal Sign",
 "t":"Metal",
-"id":218,
+"id":215,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign.PrimalItemStructure_MetalSign",
 "g":"MetalSign"
 },{
 "l":"Wooden Billboard",
 "t":"Wood",
-"id":221,
+"id":218,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign_Large.PrimalItemStructure_WoodSign_Large",
 "g":"WoodSign_Large"
 },{
 "l":"Metal Billboard",
 "t":"Metal",
-"id":243,
+"id":239,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Large.PrimalItemStructure_MetalSign_Large",
 "g":"MetalSign_Large"
 },{
 "l":"Medium Crop Plot",
 "t":"Structures",
-"id":248,
+"id":244,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Medium.PrimalItemStructure_CropPlot_Medium",
 "g":"CropPlot_Medium"
 },{
 "l":"Large Crop Plot",
 "t":"Structures",
-"id":249,
+"id":245,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_CropPlot_Large.PrimalItemStructure_CropPlot_Large",
 "g":"CropPlot_Large"
 },{
 "l":"Wooden Wall Sign",
 "t":"Structures",
-"id":264,
+"id":260,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodSign_Wall.PrimalItemStructure_WoodSign_Wall",
 "g":"WoodSign_Wall"
 },{
 "l":"Metal Dinosaur Gateway",
 "t":"Metal",
-"id":265,
+"id":261,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGateframe.PrimalItemStructure_MetalGateframe",
 "g":"MetalGateframe"
 },{
 "l":"Metal Dinosaur Gate",
 "t":"Metal",
-"id":266,
+"id":262,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalGate.PrimalItemStructure_MetalGate",
 "g":"MetalGate"
 },{
 "l":"Metal Wall Sign",
 "t":"Metal",
-"id":269,
+"id":265,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSign_Wall.PrimalItemStructure_MetalSign_Wall",
 "g":"MetalSign_Wall"
 },{
 "l":"Multi-Panel Flag",
 "t":"Structures",
-"id":280,
+"id":276,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag.PrimalItemStructure_Flag",
 "g":"Flag"
 },{
 "l":"Spider Flag",
 "t":"Structures",
-"id":284,
+"id":280,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Spider.PrimalItemStructure_Flag_Spider",
 "g":"Flag_Spider"
 },{
 "l":"Preserving Bin",
 "t":"Structures",
-"id":295,
+"id":291,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_PreservingBin.PrimalItemStructure_PreservingBin",
 "g":"PreservingBin"
 },{
 "l":"Metal Spike Wall",
 "t":"Metal",
-"id":296,
+"id":292,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalSpikeWall.PrimalItemStructure_MetalSpikeWall",
 "g":"MetalSpikeWall"
 },{
 "l":"Vault",
 "t":"Structures",
-"id":306,
+"id":302,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_StorageBox_Huge.PrimalItemStructure_StorageBox_Huge",
 "g":"StorageBox_Huge"
 },{
@@ -2111,235 +2111,235 @@
 },{
 "l":"Stone Ceiling",
 "t":"Stone",
-"id":315,
+"id":311,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeiling.PrimalItemStructure_StoneCeiling",
 "g":"StoneCeiling"
 },{
 "l":"Stone Hatchframe",
 "t":"Stone",
-"id":316,
+"id":312,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingWithTrapdoor.PrimalItemStructure_StoneCeilingWithTrapdoor",
 "g":"StoneCeilingWithTrapdoor"
 },{
 "l":"Reinforced Wooden Door",
 "t":"Stone",
-"id":317,
+"id":313,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneDoor.PrimalItemStructure_StoneDoor",
 "g":"StoneDoor"
 },{
 "l":"Stone Foundation",
 "t":"Stone",
-"id":318,
+"id":314,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneFloor.PrimalItemStructure_StoneFloor",
 "g":"StoneFloor"
 },{
 "l":"Reinforced Dinosaur Gate",
 "t":"Stone",
-"id":319,
+"id":315,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGate.PrimalItemStructure_StoneGate",
 "g":"StoneGate"
 },{
 "l":"Stone Dinosaur Gateway",
 "t":"Stone",
-"id":320,
+"id":316,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateframe.PrimalItemStructure_StoneGateframe",
 "g":"StoneGateframe"
 },{
 "l":"Stone Pillar",
 "t":"Stone",
-"id":321,
+"id":317,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StonePillar.PrimalItemStructure_StonePillar",
 "g":"StonePillar"
 },{
 "l":"Stone Doorframe",
 "t":"Stone",
-"id":322,
+"id":318,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithDoor.PrimalItemStructure_StoneWallWithDoor",
 "g":"StoneWallWithDoor"
 },{
 "l":"Stone Windowframe",
 "t":"Stone",
-"id":323,
+"id":319,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneWallWithWindow.PrimalItemStructure_StoneWallWithWindow",
 "g":"StoneWallWithWindow"
 },{
 "l":"Reinforced Window",
 "t":"Stone",
-"id":357,
+"id":353,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_StoneWindow.PrimalItemStructure_StoneWindow",
 "g":"StoneWindow"
 },{
 "l":"Reinforced Trapdoor",
 "t":"Stone",
-"id":358,
+"id":354,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_StoneTrapdoor.PrimalItemStructure_StoneTrapdoor",
 "g":"StoneTrapdoor"
 },{
 "l":"Omnidirectional Lamppost",
 "t":"Structures",
-"id":359,
+"id":355,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_LamppostOmni.PrimalItemStructure_LamppostOmni",
 "g":"LamppostOmni"
 },{
 "l":"Industrial Grill",
 "t":"Structures",
-"id":360,
+"id":356,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Grill.PrimalItemStructure_Grill",
 "g":"Grill"
 },{
 "l":"Single Panel Flag",
 "t":"Structures",
-"id":374,
+"id":370,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Single.PrimalItemStructure_Flag_Single",
 "g":"Flag_Single"
 },{
 "l":"Feeding Trough",
 "t":"Structures",
-"id":375,
+"id":371,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_FeedingTrough.PrimalItemStructure_FeedingTrough",
 "g":"FeedingTrough"
 },{
 "l":"Behemoth Stone Dinosaur Gateway",
 "t":"Stone",
-"id":381,
+"id":377,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateframe_Large.PrimalItemStructure_StoneGateframe_Large",
 "g":"StoneGateframe_Large"
 },{
 "l":"Behemoth Reinforced Dinosaur Gate",
 "t":"Stone",
-"id":382,
+"id":378,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneGateLarge.PrimalItemStructure_StoneGateLarge",
 "g":"StoneGateLarge"
 },{
 "l":"Sloped Thatch Roof",
 "t":"Thatch",
-"id":394,
+"id":390,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchRoof.PrimalItemStructure_ThatchRoof",
 "g":"ThatchRoof"
 },{
 "l":"Sloped Thatch Wall Left",
 "t":"Thatch",
-"id":395,
+"id":391,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchWall_Sloped_Left.PrimalItemStructure_ThatchWall_Sloped_Left",
 "g":"ThatchWall_Sloped_Left"
 },{
 "l":"Sloped Thatch Wall Right",
 "t":"Thatch",
-"id":396,
+"id":392,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Thatch/PrimalItemStructure_ThatchWall_Sloped_Right.PrimalItemStructure_ThatchWall_Sloped_Right",
 "g":"ThatchWall_Sloped_Right"
 },{
 "l":"Sloped Wooden Roof",
 "t":"Wood",
-"id":397,
+"id":393,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodRoof.PrimalItemStructure_WoodRoof",
 "g":"WoodRoof"
 },{
 "l":"Sloped Wood Wall Left",
 "t":"Wood",
-"id":398,
+"id":394,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodWall_Sloped_Left.PrimalItemStructure_WoodWall_Sloped_Left",
 "g":"WoodWall_Sloped_Left"
 },{
 "l":"Sloped Wood Wall Right",
 "t":"Wood",
-"id":399,
+"id":395,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Wood/PrimalItemStructure_WoodWall_Sloped_Right.PrimalItemStructure_WoodWall_Sloped_Right",
 "g":"WoodWall_Sloped_Right"
 },{
 "l":"Sloped Stone Roof",
 "t":"Stone",
-"id":400,
+"id":396,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneRoof.PrimalItemStructure_StoneRoof",
 "g":"StoneRoof"
 },{
 "l":"Sloped Stone Wall Left",
 "t":"Stone",
-"id":401,
+"id":397,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneWall_Sloped_Left.PrimalItemStructure_StoneWall_Sloped_Left",
 "g":"StoneWall_Sloped_Left"
 },{
 "l":"Sloped Stone Wall Right",
 "t":"Stone",
-"id":402,
+"id":398,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Stone/PrimalItemStructure_StoneWall_Sloped_Right.PrimalItemStructure_StoneWall_Sloped_Right",
 "g":"StoneWall_Sloped_Right"
 },{
 "l":"Sloped Metal Roof",
 "t":"Metal",
-"id":403,
+"id":399,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalRoof.PrimalItemStructure_MetalRoof",
 "g":"MetalRoof"
 },{
 "l":"Sloped Metal Wall Left",
 "t":"Metal",
-"id":404,
+"id":400,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalWall_Sloped_Left.PrimalItemStructure_MetalWall_Sloped_Left",
 "g":"MetalWall_Sloped_Left"
 },{
 "l":"Sloped Metal Wall Right",
 "t":"Metal",
-"id":405,
+"id":401,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Roofs/Metal/PrimalItemStructure_MetalWall_Sloped_Right.PrimalItemStructure_MetalWall_Sloped_Right",
 "g":"MetalWall_Sloped_Right"
 },{
 "l":"Wooden Raft",
 "t":"Wood",
-"id":414,
+"id":410,
 "bp":"PrimalEarth/Items/Raft/PrimalItemRaft.PrimalItemRaft",
 "g":"Raft"
 },{
 "l":"Painting Canvas",
 "t":"Structures",
-"id":421,
+"id":417,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_PaintingCanvas.PrimalItemStructure_PaintingCanvas",
 "g":"PaintingCanvas"
 },{
 "l":"Greenhouse Wall",
 "t":"Structures",
-"id":438,
+"id":434,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall.PrimalItemStructure_GreenhouseWall",
 "g":"GreenhouseWall"
 },{
 "l":"Greenhouse Ceiling",
 "t":"Structures",
-"id":439,
+"id":435,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseCeiling.PrimalItemStructure_GreenhouseCeiling",
 "g":"GreenhouseCeiling"
 },{
 "l":"Greenhouse Doorframe",
 "t":"Structures",
-"id":440,
+"id":436,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWallWithDoor.PrimalItemStructure_GreenhouseWallWithDoor",
 "g":"GreenhouseWallWithDoor"
 },{
 "l":"Greenhouse Door",
 "t":"Structures",
-"id":441,
+"id":435,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseDoor.PrimalItemStructure_GreenhouseDoor",
 "g":"GreenhouseDoor"
 },{
 "l":"Sloped Greenhouse Wall Left",
 "t":"Structures",
-"id":442,
+"id":437,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall_Sloped_Left.PrimalItemStructure_GreenhouseWall_Sloped_Left",
 "g":"GreenhouseWall_Sloped_Left"
 },{
 "l":"Sloped Greenhouse Wall Right",
 "t":"Structures",
-"id":443,
+"id":438,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWall_Sloped_Right.PrimalItemStructure_GreenhouseWall_Sloped_Right",
 "g":"GreenhouseWall_Sloped_Right"
 },{
 "l":"Sloped Greenhouse Roof",
 "t":"Structures",
-"id":444,
+"id":439,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseRoof.PrimalItemStructure_GreenhouseRoof",
 "g":"GreenhouseRoof"
 },{
 "l":"Greenhouse Window",
 "t":"Structures",
-"id":445,
+"id":440,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Greenhouse/PrimalItemStructure_GreenhouseWindow.PrimalItemStructure_GreenhouseWindow",
 "g":"GreenhouseWindow"
 },{
@@ -2798,79 +2798,79 @@
 },{
 "l":"Pink Coloring",
 "t":"Dyes",
-"id":365,
+"id":361,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Pink.PrimalItemDye_Pink",
 "g":"Dye_Pink"
 },{
 "l":"Royalty Coloring",
 "t":"Dyes",
-"id":366,
+"id":362,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Royalty.PrimalItemDye_Royalty",
 "g":"Dye_Royalty"
 },{
 "l":"Silver Coloring",
 "t":"Dyes",
-"id":367,
+"id":363,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Silver.PrimalItemDye_Silver",
 "g":"Dye_Silver"
 },{
 "l":"Sky Coloring",
 "t":"Dyes",
-"id":368,
+"id":364,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Sky.PrimalItemDye_Sky",
 "g":"Dye_Sky"
 },{
 "l":"Tan Coloring",
 "t":"Dyes",
-"id":369,
+"id":365,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Tan.PrimalItemDye_Tan",
 "g":"Dye_Tan"
 },{
 "l":"Tangerine Coloring",
 "t":"Dyes",
-"id":370,
+"id":366,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Tangerine.PrimalItemDye_Tangerine",
 "g":"Dye_Tangerine"
 },{
 "l":"Magenta Coloring",
 "t":"Dyes",
-"id":406,
+"id":402,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_ActuallyMagenta.PrimalItemDye_ActuallyMagenta",
 "g":"Dye_ActuallyMagenta"
 },{
 "l":"Brick Coloring",
 "t":"Dyes",
-"id":407,
+"id":403,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Brick.PrimalItemDye_Brick",
 "g":"Dye_Brick"
 },{
 "l":"Cantaloupe Coloring",
 "t":"Dyes",
-"id":408,
+"id":404,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Cantaloupe.PrimalItemDye_Cantaloupe",
 "g":"Dye_Cantaloupe"
 },{
 "l":"Mud Coloring",
 "t":"Dyes",
-"id":409,
+"id":405,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Mud.PrimalItemDye_Mud",
 "g":"Dye_Mud"
 },{
 "l":"Navy Coloring",
 "t":"Dyes",
-"id":410,
+"id":406,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Navy.PrimalItemDye_Navy",
 "g":"Dye_Navy"
 },{
 "l":"Olive Coloring",
 "t":"Dyes",
-"id":411,
+"id":407,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Olive.PrimalItemDye_Olive",
 "g":"Dye_Olive"
 },{
 "l":"Slate Coloring",
 "t":"Dyes",
-"id":412,
+"id":408,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Slate.PrimalItemDye_Slate",
 "g":"Dye_Slate"
 },{
@@ -2894,25 +2894,25 @@
 },{
 "l":"Raw Prime Meat",
 "t":"Consumables",
-"id":252,
+"id":248,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
 "g":"RawPrimeMeat"
 },{
 "l":"Cooked Prime Meat",
 "t":"Consumables",
-"id":253,
+"id":249,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat.PrimalItemConsumable_CookedPrimeMeat",
 "g":"CookedPrimeMeat"
 },{
 "l":"Cooked Meat Jerky",
 "t":"Consumables",
-"id":297,
+"id":293,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Jerky.PrimalItemConsumable_CookedMeat_Jerky",
 "g":"CookedMeat_Jerky"
 },{
 "l":"Prime Meat Jerky",
 "t":"Consumables",
-"id":298,
+"id":294,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Jerky.PrimalItemConsumable_CookedPrimeMeat_Jerky",
 "g":"CookedPrimeMeat_Jerky"
 },{
@@ -2943,37 +2943,37 @@
 },{
 "l":"Amarberry",
 "t":"Consumables",
-"id":117,
+"id":116,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry",
 "g":"Berry_Amarberry"
 },{
 "l":"Azulberry",
 "t":"Consumables",
-"id":118,
+"id":117,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry",
 "g":"Berry_Azulberry"
 },{
 "l":"Mejoberry",
 "t":"Consumables",
-"id":120,
+"id":119,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
 "g":"Berry_Mejoberry"
 },{
 "l":"Narcoberry",
 "t":"Consumables",
-"id":121,
+"id":120,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry",
 "g":"Berry_Narcoberry"
 },{
 "l":"Stimberry",
 "t":"Consumables",
-"id":122,
+"id":121,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry",
 "g":"Berry_Stimberry"
 },{
 "l":"Tintoberry",
 "t":"Consumables",
-"id":119,
+"id":118,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry",
 "g":"Berry_Tintoberry"
 },{
@@ -2984,25 +2984,25 @@
 },{
 "l":"Citronal",
 "t":"Consumables",
-"id":99,
+"id":98,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Citronal.PrimalItemConsumable_Veggie_Citronal",
 "g":"Veggie_Citronal"
 },{
 "l":"Longrass",
 "t":"Consumables",
-"id":233,
+"id":229,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Longrass.PrimalItemConsumable_Veggie_Longrass",
 "g":"Veggie_Longrass"
 },{
 "l":"Rockarrot",
 "t":"Consumables",
-"id":234,
+"id":230,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot",
 "g":"Veggie_Rockarrot"
 },{
 "l":"Savoroot",
 "t":"Consumables",
-"id":232,
+"id":228,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot",
 "g":"Veggie_Savoroot"
 },{
@@ -3091,13 +3091,13 @@
 },{
 "l":"Battle Tartare",
 "t":"Consumables",
-"id":254,
+"id":250,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_BattleTartare.PrimalItemConsumable_Soup_BattleTartare",
 "g":"Soup_BattleTartare"
 },{
 "l":"Broth of Enlightenment",
 "t":"Consumables",
-"id":453,
+"id":448,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_TheHorn.PrimalItemConsumable_TheHorn",
 "g":"TheHorn"
 },{
@@ -3113,31 +3113,31 @@
 },{
 "l":"Calien Soup",
 "t":"Consumables",
-"id":229,
+"id":225,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_CalienSoup.PrimalItemConsumable_Soup_CalienSoup",
 "g":"Soup_CalienSoup"
 },{
 "l":"Enduro Stew",
 "t":"Consumables",
-"id":227,
+"id":223,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_EnduroStew.PrimalItemConsumable_Soup_EnduroStew",
 "g":"Soup_EnduroStew"
 },{
 "l":"Focal Chili",
 "t":"Consumables",
-"id":231,
+"id":227,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FocalChili.PrimalItemConsumable_Soup_FocalChili",
 "g":"Soup_FocalChili"
 },{
 "l":"Fria Curry",
 "t":"Consumables",
-"id":230,
+"id":226,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FriaCurry.PrimalItemConsumable_Soup_FriaCurry",
 "g":"Soup_FriaCurry"
 },{
 "l":"Lazarus Chowder",
 "t":"Consumables",
-"id":228,
+"id":224,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_LazarusChowder.PrimalItemConsumable_Soup_LazarusChowder",
 "g":"Soup_LazarusChowder"
 },{
@@ -3148,13 +3148,13 @@
 },{
 "l":"Mindwipe Tonic",
 "t":"Consumables",
-"id":413,
+"id":409,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup",
 "g":"ConsumableRespecSoup"
 },{
 "l":"Shadow Steak Saute",
 "t":"Consumables",
-"id":255,
+"id":251,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_ShadowSteak.PrimalItemConsumable_Soup_ShadowSteak",
 "g":"Soup_ShadowSteak"
 },{
@@ -3195,37 +3195,37 @@
 },{
 "l":"Kibble (Ankylo Egg)",
 "t":"Kibble",
-"id":327,
+"id":323,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_AnkyloEgg.PrimalItemConsumable_Kibble_AnkyloEgg",
 "g":"Kibble_AnkyloEgg"
 },{
 "l":"Kibble (Araneo Egg)",
 "t":"Kibble",
-"id":340,
+"id":336,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SpiderEgg.PrimalItemConsumable_Kibble_SpiderEgg",
 "g":"Kibble_SpiderEgg"
 },{
 "l":"Kibble (Argentavis Egg)",
 "t":"Kibble",
-"id":328,
+"id":324,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ArgentEgg.PrimalItemConsumable_Kibble_ArgentEgg",
 "g":"Kibble_ArgentEgg"
 },{
 "l":"Kibble (Bronto Egg)",
 "t":"Kibble",
-"id":338,
+"id":334,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SauroEgg.PrimalItemConsumable_Kibble_SauroEgg",
 "g":"Kibble_SauroEgg"
 },{
 "l":"Kibble (Carbonemys Egg)",
 "t":"Kibble",
-"id":344,
+"id":340,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TurtleEgg.PrimalItemConsumable_Kibble_TurtleEgg",
 "g":"Kibble_TurtleEgg"
 },{
 "l":"Kibble (Carno Egg)",
 "t":"Kibble",
-"id":330,
+"id":326,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_CarnoEgg.PrimalItemConsumable_Kibble_CarnoEgg",
 "g":"Kibble_CarnoEgg"
 },{
@@ -3241,7 +3241,7 @@
 },{
 "l":"Kibble (Dilo Egg)",
 "t":"Kibble",
-"id":331,
+"id":327,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiloEgg.PrimalItemConsumable_Kibble_DiloEgg",
 "g":"Kibble_DiloEgg"
 },{
@@ -3252,7 +3252,7 @@
 },{
 "l":"Kibble (Dimorph Egg)",
 "t":"Kibble",
-"id":426,
+"id":421,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimorphEgg.PrimalItemConsumable_Kibble_DimorphEgg",
 "g":"Kibble_DimorphEgg"
 },{
@@ -3294,13 +3294,13 @@
 },{
 "l":"Kibble (Pachy Egg)",
 "t":"Kibble",
-"id":419,
+"id":414,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PachyEgg.PrimalItemConsumable_Kibble_PachyEgg",
 "g":"Kibble_PachyEgg"
 },{
 "l":"Kibble (Parasaur Egg)",
 "t":"Kibble",
-"id":333,
+"id":329,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ParaEgg.PrimalItemConsumable_Kibble_ParaEgg",
 "g":"Kibble_ParaEgg"
 },{
@@ -3311,13 +3311,13 @@
 },{
 "l":"Kibble (Pteranodon Egg)",
 "t":"Kibble",
-"id":334,
+"id":330,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PteroEgg.PrimalItemConsumable_Kibble_PteroEgg",
 "g":"Kibble_PteroEgg"
 },{
 "l":"Kibble (Pulmonoscorpius Egg)",
 "t":"Kibble",
-"id":339,
+"id":335,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ScorpionEgg.PrimalItemConsumable_Kibble_ScorpionEgg",
 "g":"Kibble_ScorpionEgg"
 },{
@@ -3328,31 +3328,31 @@
 },{
 "l":"Kibble (Raptor Egg)",
 "t":"Kibble",
-"id":335,
+"id":331,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_RaptorEgg.PrimalItemConsumable_Kibble_RaptorEgg",
 "g":"Kibble_RaptorEgg"
 },{
 "l":"Kibble (Rex Egg)",
 "t":"Kibble",
-"id":336,
+"id":332,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_RexEgg.PrimalItemConsumable_Kibble_RexEgg",
 "g":"Kibble_RexEgg"
 },{
 "l":"Kibble (Sarco Egg)",
 "t":"Kibble",
-"id":337,
+"id":333,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SarcoEgg.PrimalItemConsumable_Kibble_SarcoEgg",
 "g":"Kibble_SarcoEgg"
 },{
 "l":"Kibble (Spino Egg)",
 "t":"Kibble",
-"id":341,
+"id":337,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_SpinoEgg.PrimalItemConsumable_Kibble_SpinoEgg",
 "g":"Kibble_SpinoEgg"
 },{
 "l":"Kibble (Stego Egg)",
 "t":"Kibble",
-"id":342,
+"id":338,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_StegoEgg.PrimalItemConsumable_Kibble_StegoEgg",
 "g":"Kibble_StegoEgg"
 },{
@@ -3368,13 +3368,13 @@
 },{
 "l":"Kibble (Titanboa Egg)",
 "t":"Kibble",
-"id":329,
+"id":325,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_BoaEgg.PrimalItemConsumable_Kibble_BoaEgg",
 "g":"Kibble_BoaEgg"
 },{
 "l":"Kibble (Trike Egg)",
 "t":"Kibble",
-"id":343,
+"id":339,
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TrikeEgg.PrimalItemConsumable_Kibble_TrikeEgg",
 "g":"Kibble_TrikeEgg"
 },{
@@ -3849,13 +3849,13 @@
 },{
 "l":"Slingshot",
 "t":"Weapons",
-"id":139,
+"id":138,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSlingshot.PrimalItem_WeaponSlingshot",
 "g":"WeaponSlingshot"
 },{
 "l":"Pike",
 "t":"Weapons",
-"id":140,
+"id":139,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPike.PrimalItem_WeaponPike",
 "g":"WeaponPike"
 },{
@@ -3873,91 +3873,91 @@
 },{
 "l":"Shotgun",
 "t":"Weapons",
-"id":267,
+"id":263,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponShotgun.PrimalItem_WeaponShotgun",
 "g":"WeaponShotgun"
 },{
 "l":"Tripwire Narcotic Trap",
 "t":"Weapons",
-"id":325,
+"id":321,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponPoisonTrap.PrimalItem_WeaponPoisonTrap",
 "g":"WeaponPoisonTrap"
 },{
 "l":"Tripwire Alarm Trap",
 "t":"Weapons",
-"id":326,
+"id":322,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponAlarmTrap.PrimalItem_WeaponAlarmTrap",
 "g":"WeaponAlarmTrap"
 },{
 "l":"Pump-Action Shotgun",
 "t":"Weapons",
-"id":361,
+"id":357,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedShotgun.PrimalItem_WeaponMachinedShotgun",
 "g":"WeaponMachinedShotgun"
 },{
 "l":"Crossbow",
 "t":"Weapons",
-"id":362,
+"id":358,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow",
 "g":"WeaponCrossbow"
 },{
 "l":"Transponder Tracker",
 "t":"Weapons",
-"id":372,
+"id":368,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTransGPS.PrimalItem_WeaponTransGPS",
 "g":"WeaponTransGPS"
 },{
 "l":"Compound Bow",
 "t":"Weapons",
-"id":376,
+"id":372,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCompoundBow.PrimalItem_WeaponCompoundBow",
 "g":"WeaponCompoundBow"
 },{
 "l":"Bear Trap",
 "t":"Weapons",
-"id":383,
+"id":379,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BearTrap.PrimalItemStructure_BearTrap",
 "g":"BearTrap"
 },{
 "l":"Large Bear Trap",
 "t":"Weapons",
-"id":384,
+"id":380,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BearTrap_Large.PrimalItemStructure_BearTrap_Large",
 "g":"BearTrap_Large"
 },{
 "l":"Spray Painter",
 "t":"Weapons",
-"id":392,
+"id":388,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSprayPaint.PrimalItem_WeaponSprayPaint",
 "g":"WeaponSprayPaint"
 },{
 "l":"Wooden Club",
 "t":"Weapons",
-"id":434,
+"id":430,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponStoneClub.PrimalItem_WeaponStoneClub",
 "g":"WeaponStoneClub"
 },{
 "l":"Poison Grenade",
 "t":"Weapons",
-"id":435,
+"id":426,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_PoisonGrenade.PrimalItem_PoisonGrenade",
 "g":"PoisonGrenade"
 },{
 "l":"Fabricated Sniper Rifle",
 "t":"Weapons",
-"id":436,
+"id":427,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMachinedSniper.PrimalItem_WeaponMachinedSniper",
 "g":"WeaponMachinedSniper"
 },{
 "l":"Electric Prod",
 "t":"Weapons",
-"id":451,
+"id":445,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponProd.PrimalItem_WeaponProd",
 "g":"WeaponProd"
 },{
 "l":"Handcuffs",
 "t":"Weapons",
-"id":452,
+"id":448,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponHandcuffs.PrimalItem_WeaponHandcuffs",
 "g":"WeaponHandcuffs"
 },{
@@ -4014,25 +4014,25 @@
 },{
 "l":"Flashlight Attachment",
 "t":"Attachments",
-"id":205,
+"id":202,
 "bp":"PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Flashlight.PrimalItemWeaponAttachment_Flashlight",
 "g":"Flashlight"
 },{
 "l":"Silencer Attachment",
 "t":"Attachments",
-"id":206,
+"id":203,
 "bp":"PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Silencer.PrimalItemWeaponAttachment_Silencer",
 "g":"Silencer"
 },{
 "l":"Holo-Scope Attachment",
 "t":"Attachments",
-"id":219,
+"id":216,
 "bp":"PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_HoloScope.PrimalItemWeaponAttachment_HoloScope",
 "g":"HoloScope"
 },{
 "l":"Laser Attachment",
 "t":"Attachments",
-"id":220,
+"id":217,
 "bp":"PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Laser.PrimalItemWeaponAttachment_Laser",
 "g":"Laser"
 },{
@@ -4068,13 +4068,13 @@
 },{
 "l":"Advanced Bullet",
 "t":"Ammunition",
-"id":245,
+"id":241,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedBullet.PrimalItemAmmo_AdvancedBullet",
 "g":"Ammo_AdvancedBullet"
 },{
 "l":"Advanced Rifle Bullet",
 "t":"Ammunition",
-"id":246,
+"id":242,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedRifleBullet.PrimalItemAmmo_AdvancedRifleBullet",
 "g":"Ammo_AdvancedRifleBullet"
 },{
@@ -4092,13 +4092,13 @@
 },{
 "l":"Transponder Node",
 "t":"Ammunition",
-"id":373,
+"id":369,
 "bp":"PrimalEarth/Test/PrimalItemTransGPSAmmo.PrimalItemTransGPSAmmo",
 "g":"TransGPSAmmo"
 },{
 "l":"Metal Arrow",
 "t":"Ammunition",
-"id":377,
+"id":373,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_CompoundBowArrow.PrimalItemAmmo_CompoundBowArrow",
 "g":"Ammo_CompoundBowArrow"
 },{
@@ -4155,7 +4155,7 @@
 },{
 "l":"Rex Stomped Glasses Saddle Skin",
 "t":"Skins",
-"id":282,
+"id":278,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_StompedGlasses.PrimalItemArmor_RexSaddle_StompedGlasses",
 "g":"RexSaddle_StompedGlasses"
 },{
@@ -4191,7 +4191,7 @@
 },{
 "l":"Trike Bone Helmet Skin",
 "t":"Skins",
-"id":385,
+"id":381,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_TrikeSkullHelmet.PrimalItemSkin_TrikeSkullHelmet",
 "g":"TrikeSkullHelmet"
 },{
@@ -4358,19 +4358,19 @@
 },{
 "l":"Specimen Implant",
 "t":"Artifacts",
-"id":134,
+"id":133,
 "bp":"PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_StartingNote.PrimalItem_StartingNote",
 "g":"StartingNote"
 },{
 "l":"Artifact of the Hunter",
 "t":"Artifacts",
-"id":148,
+"id":146,
 "bp":"PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_01.PrimalItemArtifact_01",
 "g":"Artifact_01"
 },{
 "l":"Artifact of the Pack",
 "t":"Artifacts",
-"id":149,
+"id":147,
 "bp":"PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_02.PrimalItemArtifact_02",
 "g":"Artifact_02"
 },{
@@ -4433,19 +4433,19 @@
 },{
 "l":"Megalodon Tooth",
 "t":"Artifacts",
-"id":159,
+"id":156,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon",
 "g":"ApexDrop_Megalodon"
 },{
 "l":"Tyrannosaurus Arm",
 "t":"Artifacts",
-"id":160,
+"id":157,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex",
 "g":"ApexDrop_Rex"
 },{
 "l":"Sauropod Vertebra",
 "t":"Artifacts",
-"id":161,
+"id":158,
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro",
 "g":"ApexDrop_Sauro"
 },{
@@ -6039,7 +6039,7 @@
 },{
 "l":"Parasaur Stylish Saddle Skin",
 "t":"Skins",
-"id":293,
+"id":289,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ParaSaddle_Launch.PrimalItemArmor_ParaSaddle_Launch",
 "g":"ParaSaddle_Launch"
 },{
