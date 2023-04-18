@@ -1769,7 +1769,7 @@
 },{
 "l":"Wooden Fence Foundation",
 "t":"Wood",
-"id":136,
+"id":135,
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodFenceFoundation.PrimalItemStructure_WoodFenceFoundation",
 "g":"WoodFenceFoundation"
 },{
@@ -2744,7 +2744,7 @@
 },{
 "l":"Purple Coloring",
 "t":"Dyes",
-"id":68,
+"id":62,
 "bp":"PrimalEarth/CoreBlueprints/Items/PrimalItemDye_Purple.PrimalItemDye_Purple",
 "g":"Dye_Purple"
 },{
@@ -3463,7 +3463,7 @@
 },{
 "l":"Rockwell Recipes: Mindwipe Tonic",
 "t":"Recipes",
-"id":416,
+"id":415,
 "bp":"PrimalEarth/CoreBlueprints/Items/Notes/PrimalItem_RecipeNote_RespecSoup.PrimalItem_RecipeNote_RespecSoup",
 "g":"RecipeNote_RespecSoup"
 },{
@@ -3480,7 +3480,7 @@
 },{
 "l":"Ankylo Egg",
 "t":"Eggs",
-"id":344,
+"id":341,
 "bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Ankylo.PrimalItemConsumable_Egg_Ankylo",
 "g":"Egg_Ankylo"
 },{
@@ -4008,7 +4008,7 @@
 },{
 "l":"Scope Attachment",
 "t":"Attachments",
-"id":138,
+"id":137,
 "bp":"PrimalEarth/CoreBlueprints/Items/WeaponAttachments/PrimalItemWeaponAttachment_Scope.PrimalItemWeaponAttachment_Scope",
 "g":"Scope"
 },{
@@ -4080,7 +4080,7 @@
 },{
 "l":"Rocket Propelled Grenade",
 "t":"Ammunition",
-"id":247,
+"id":243,
 "bp":"PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_Rocket.PrimalItemAmmo_Rocket",
 "g":"Ammo_Rocket"
 },{
@@ -4626,7 +4626,7 @@
 },{
 "l":"Titanoboa Egg",
 "t":"Eggs",
-"id":347,
+"id":343,
 "bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Boa.PrimalItemConsumable_Egg_Boa",
 "g":"Egg_Boa"
 },{
