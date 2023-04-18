@@ -13,14 +13,15 @@ This tool is completely open source! Feel free to add missing commands, fix erro
 
 **Attributes:**
 
-| Attribute | Description | Details |
-| -- | -- | -- |
-| **t** | Type (Category) | One of the pre-defined categories listed on the admin page. |
-| **cid** | Creature ID | Dododex's creature ID (the ID is listed the end of its Dododex profile URL: dododex.com/taming/raptor = raptor) |
-| **label** | Name of the item/creature | Should match the in-game name unless the in-game is not consistent. For example, "Turtle Egg" shoudl be "Carbonemys Egg." |
-| **id** | Blueprint ID | As listed in the Dev Kit |
-| **bp** | Blueprint Path | All blueprints are prepended with `/Game/` |
-| **g** | GFI  | A working phrase to use in a GFI command. For example, Allosaurus Kibble	would be "Kibble_Allo" |
+| Attribute | Description | Details | Example
+| -- | -- | -- | -- |
+| **t** | Type (Category) | One of the pre-defined categories listed on the admin page. | `Dinos`
+| **cid** | Creature ID | Dododex's creature ID (the ID is listed the end of its Dododex profile URL: dododex.com/taming/raptor = raptor) | `raptor`
+| **label** | Name of the item/creature | Should match the in-game name unless the in-game is not consistent. For example, "Turtle Egg" should be "Carbonemys Egg." | `Raptor`
+| **id** | Blueprint ID | As listed in the Dev Kit | `Raptor_Character_BP_C`
+| **bp** | Blueprint Path | All blueprints are prepended with `/Game/` | `PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP`
+| **g** | GFI  | A working phrase to use in a GFI command. For example, Allosaurus Kibble	would be "Kibble_Allo" | `Kibble_Allo`
+
 
 ## Editing Ark Admin Commands 
 
