@@ -857,7 +857,7 @@ function initFromID(id){
 
         ${currentBP.id ?
         `<h2 class="marginTop2">${currentBP.l} Spawn Command (Tamed)</h2>
-        <p class="light">The spawn command for the ${currentBP.l} is "${currentBP.id}".</p>
+        <p class="light">The spawn command for a tamed ${currentBP.l} is "${currentBP.id}".</p>
         
         <div class="whiteinputwb"><input type="text" size="100" value="cheat gmsummon &quot;${currentBP.id}&quot; 60" /><a class="whiteinputb copy">COPY</a></div></div>
 
@@ -880,7 +880,7 @@ function initFromID(id){
 
         ${currentBP.bp ?
         `<h2 class="marginTop2">${currentBP.l} Spawn Command (Wild)</h2>
-        <p class="light">The blueprint path for the ${currentBP.l} is "Blueprint'/Game/${currentBP.bp}'"</p>
+        <p class="light">The blueprint path for the ${currentBP.l} is "Blueprint'/Game/${currentBP.bp}'". To spawn a wild ${currentBP.l}, use the following command.</p>
         
         <div class="whiteinputwb"><input type="text" size="100" value="cheat SpawnDino &quot;Blueprint'/Game/${currentBP.bp}'&quot; 500 0 0 150" /><a class="whiteinputb copy">COPY</a></div></div>
 
@@ -935,7 +935,7 @@ function initFromID(id){
         ${currentBP.g ?
         `<h2 class="marginTop2">${currentBP.l} GFI</h2>
 
-        <p class="light">The GFI code for ${currentBP.l} is <b>${currentBP.g}</b>.</p>
+        <p class="light">The GFI code for ${currentBP.l} is <b>${currentBP.g}</b>. Use this command to give yourself one or more ${currentBP.l}.</p>
 
         <div class="whiteinputwb"><input type="text" size="52" value="cheat gfi ${currentBP.g} 1 0 0" /><a class="whiteinputb copy">COPY</a></div>
         
@@ -1030,25 +1030,24 @@ function initFromID(id){
     }
   }
 
-  // REMOVING THIS BECAUSE GOOGLE THOUGHT IT WAS SPAMMY?
-  // var related = filterItems(currentBP.t);
-  // var relatedHTML = '';
-  // var i = 0;
-  // $.each(related, function(k, v) {
-  //   // if(i > 10){
-  //   //   return false;
-  //   // }
-  //   relatedHTML += `<li><a href="?id=${slugify(v.l)}" class="crLink">${v.l}</a></li>`
-  //   i++;
-  // });
+  var related = filterItems(currentBP.t);
+  var relatedHTML = '';
+  var i = 0;
+  $.each(related, function(k, v) {
+    // if(i > 10){
+    //   return false;
+    // }
+    relatedHTML += `<li><a href="?id=${slugify(v.l)}" class="crLink">${v.l}</a></li>`
+    i++;
+  });
 
 
-  // $(resultsEl).append(`
-  //   <h2 class="marginTop2">More ${currentBP.t}</h2>
-  //   <ul class="creaturelist col3 light">
-  //     ${relatedHTML}
-  //   </ul>
-  // `);
+  $(resultsEl).append(`
+    <h2 class="marginTop2">More ${currentBP.t}</h2>
+    <ul class="creaturelist col3 light">
+      ${relatedHTML}
+    </ul>
+  `);
 
 }
 
