@@ -10206,5 +10206,11 @@
 "t":"Fjordur",
 "id":"Steinbjorn_Character_BP_C",
 "bp":"Fjordur/Dinos/Steinbjorn/Steinbjorn_Character_BP.Steinbjorn_Character_BP"       
+},{
+"l":"Rhyniognatha",
+"cid":"rhyniognatha",
+"t":"Dinos",
+"id":"Steinbjorn_Character_BP_C",
+"bp":"PrimalEarth/Dinos/Rhyniognatha/Rhyniognatha_Character_BP.Rhyniognatha_Character_BP"       
 }
 ]}
