@@ -10212,5 +10212,20 @@
 "t":"Dinos",
 "id":"Rhynio_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Rhyniognatha/Rhynio_Character_BP.Rhynio_Character_BP"       
+},{
+"l":"Resin",
+"t":"Resources",
+"bp":"PrimalEarth/Dinos/Rhyniognatha/Resin/PrimalItemResource_Resin.PrimalItemResource_Resin",
+"g":"Resin"
+},{
+"l":"Rhyniognatha Pheromone",
+"t":"Resources",
+"bp":"PrimalEarth/Dinos/Rhyniognatha/Impregnation/PrimalItemConsumableEatable_RhynioPheromone.PrimalItemConsumableEatable_RhynioPheromone",
+"g":"RhynioPher"
+},{
+"l":"Rhyniognatha Saddle",
+"t":"Saddles",
+"bp":"PrimalEarth/Dinos/Rhyniognatha/Saddle/Rhyniognatha_Saddle.Rhyniognatha_Saddle",
+"g":"Rhyniognatha_Saddle"
 }
 ]}
