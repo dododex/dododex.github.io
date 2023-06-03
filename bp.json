@@ -10225,7 +10225,7 @@
 },{
 "l":"Rhyniognatha Saddle",
 "t":"Saddles",
-"bp":"PrimalEarth/Dinos/Rhyniognatha/Saddle/Rhyniognatha_Saddle.Rhyniognatha_Saddle",
-"g":"Rhyniognatha_Saddle"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhynioSaddle.PrimalItemArmor_RhynioSaddle",
+"g":"Rhynio_Saddle"
 }
 ]}
