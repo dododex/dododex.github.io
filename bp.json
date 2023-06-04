@@ -7639,7 +7639,7 @@
 "l":"Ferox (Large)",
 "cid":"ferox",
 "t":"Genesis",
-"id":"Shapeshifter_Small_Character_BP_C",
+"id":"Shapeshifter_Large_Character_BP_C",
 "bp":"Genesis/Dinos/Shapeshifter/Shapeshifter_Small/Shapeshifter_Small_Character_BP.Shapeshifter_Small_Character_BP"
 },{
 "l":"X-Parasaur",
@@ -10193,12 +10193,12 @@
 },{
 "l":"Hati",
 "t":"Fjordur",
-"id":"Andrewsarchus_Character_BP_C",
+"id":"Hati_Character_BP_C",
 "bp":"Fjordur/Dinos/HatiSkoll/Fenrir_Character_BP_MiniBoss_Hati.Fenrir_Character_BP_MiniBoss_Hati"
 },{
 "l":"Skoll",
 "t":"Fjordur",
-"id":"Andrewsarchus_Character_BP_C",
+"id":"Skoll_Character_BP_C",
 "bp":"Fjordur/Dinos/HatiSkoll/Fenrir_Character_BP_MiniBoss_Skoll.Fenrir_Character_BP_MiniBoss_Skoll"
 },{
 "l":"Steinbjorn",
@@ -10227,5 +10227,9 @@
 "t":"Saddles",
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhynioSaddle.PrimalItemArmor_RhynioSaddle",
 "g":"RhynioSaddle"
-}
-]}
+ },{
+"l":"Fasolsuchus",
+"cid":"fasolsuchus",
+"t":"ScorchedEarth",
+"id":"Faso_Character_BP_C",
+"bp":"ScorchedEarth/Dinos/Fasolsuchus/Faso_Character_BP.Faso_Character_BP"
