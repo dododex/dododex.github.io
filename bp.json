@@ -10228,10 +10228,10 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhynioSaddle.PrimalItemArmor_RhynioSaddle",
 "g":"RhynioSaddle"
  },{
-"l":"Fasolsuchus",
-"cid":"fasolsuchus",
+"l":"Fasolasuchus",
+"cid":"fasolasuchus",
 "t":"Dinos",
 "id":"Faso_Character_BP_C",
-"bp":"PrimalEarth/Dinos/Fasolsuchus/Faso_Character_BP.Faso_Character_BP"
-}
-]}
+"bp":"PrimalEarth/Dinos/Fasolasuchus/Faso_Character_BP.Faso_Character_BP"
+ }
+ {}
