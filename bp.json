@@ -10233,5 +10233,11 @@
 "t":"Dinos",
 "id":"Faso_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Fasolasuchus/Faso_Character_BP.Faso_Character_BP"
- }
- ]}
+},{
+"l":"Gigantoraptor",
+"cid":"gigantoraptor",
+"t":"Dinos",
+"id":"Gigantorap_Character_BP_C",
+"bp":"PrimalEarth/Dinos/Gigantoraptor/Gigantorap_Character_BP.Gigantorap_Character_BP" 
+}
+]}
