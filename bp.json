@@ -10233,5 +10233,11 @@
 "t":"Dinos",
 "id":"Faso_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Fasolasuchus/Faso_Character_BP.Faso_Character_BP"
+ },{
+"l":"Carcharodontosaurus",
+"cid":"carcharodontosaurus",
+"t":"Dinos",
+"id":"Carcha_Character_BP_C",
+"bp":"PrimalEarth/Dinos/Carcharodontosaurus/Carcha_Character_BP.Carcha_Character_BP"
  }
  ]}
