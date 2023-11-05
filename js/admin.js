@@ -274,6 +274,11 @@ var cats = {
       "n":"Misc",
       "p":3,
       "l":2
+   },
+   "48":{
+      "n":"Visuals",
+      "p":3,
+      "l":2
    }
 }
 //var catsArray = Object.values(cats)
