@@ -10634,6 +10634,11 @@
 "t":"Dinos",
 "id":"JumpingSpider_Character_BP_C",
 "bp":"Packs/Steampunk/Dinos/JumpingSpider/JumpingSpider_Character_BP.JumpingSpider_Character_BP"
+},{
+"l":"Yi Ling",
+"cid":"yiling",
+"t":"Dinos",
+"id":"YiLing_Character_BP_C",
+"bp":"ASA/Dinos/YiLing/YiLing_Character_BP.YiLing_Character_BP"
 }
-
 ]}
