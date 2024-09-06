@@ -10628,7 +10628,12 @@
 "t":"Dinos",
 "id":"Shastasaurus_Character_BP_C",
 "bp":"ASA/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP"
+},{
+"l":"Cosmo",
+"cid":"cosmo",
+"t":"Dinos",
+"id":"JumpingSpider_Character_BP_C",
+"bp":"Packs/Steampunk/Dinos/JumpingSpider/JumpingSpider_Character_BP.JumpingSpider_Character_BP"
 }
-
 
 ]}
