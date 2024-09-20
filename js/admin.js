@@ -606,16 +606,21 @@ $(document).ready(function() {
 
  // Load blueprints
   $.getJSON( "../bp.json", function( data ) {
-    $.each( data, function( key, val ) {
-      bp = val;
+    bp = data; // Assuming data is an array
+
+    // Build the lookup table
+    bp.forEach(function(item) {
+      if (item.l) { // Ensure the label exists
+        var keySlug = slugify(item.l);
+        bpMap[keySlug] = item;
+      }
     });
+
     bp.sort(sortByType);
 
     // Load commands
-    $.getJSON( "../commands.json", function( data ) {
-      $.each( data, function( key, val ) {
-        commands = val;
-      });
+    $.getJSON("../commands.json", function(data) {
+      commands = data;
       commands.sort(sortByTypeC);
       initFromURL();
     });
@@ -812,16 +817,7 @@ function getCatBySlug(slug, level, parent){
 
 function getBPByID(id){
   var IDSlug = slugify(id);
-
-  $.each(bp, function(k,v) {
-    // console.log(IDSlug,slugify(v.l),slugify(v.l) == IDSlug)
-    if(v.l && slugify(v.l) == IDSlug){
-      matchedBP = v;
-    }
-  });
-
-  return matchedBP;
-
+  return bpMap[IDSlug] || null;
 }
 
 function initFromID(id){
@@ -1160,6 +1156,7 @@ function initFromURL(){
 
 // TODO: Only get this if it's not already defined.
 var bp = [];
+var bpMap = {};
 var commands = [];
 
 function sortByType(a, b) { /* Dinos / Weapons */
