@@ -10640,5 +10640,11 @@
 "t":"Dinos",
 "id":"YiLing_Character_BP_C",
 "bp":"ASA/Dinos/YiLing/YiLing_Character_BP.YiLing_Character_BP"
+},{
+"l":"Archelon",
+"cid":"archelon",
+"t":"Dinos",
+"id":"Archelon_Character_BP_ASA_C",
+"bp":"ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA"
 }
 ]}
