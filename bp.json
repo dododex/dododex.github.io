@@ -10646,5 +10646,15 @@
 "t":"Dinos",
 "id":"Archelon_Character_BP_ASA_C",
 "bp":"ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA"
+},{
+"l":"Archelon Algae",
+"t":"Consumables",
+"bp":"ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
+"g":"TurtleAlgae"
+},{
+"l":"Algae Sushi",
+"t":"Consumables",
+"bp":"ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumableEatable_Sushi_ASA.PrimalItemConsumableEatable_Sushi_ASA",
+"g":"TurtleAlgae"
 }
 ]}
