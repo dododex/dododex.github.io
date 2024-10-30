@@ -9413,11 +9413,11 @@
 "id":"ChalkGolem_Character_BP_C",
 "bp":"Mods/Valguero/Assets/Dinos/RockGolem/ChalkGolem/ChalkGolem_Character_BP.ChalkGolem_Character_BP"
 },{
-"l":"Deinonychus",
+"l":"Deinosuchus",
 "t":"Dinos",
-"id":"deinonychus",
-"id":"Deinonychus_Character_BP_C",
-"bp":"PrimalEarth/Dinos/Raptor/Uberraptor/Deinonychus_Character_BP.Deinonychus_Character_BP"
+"cid":"deinosuchus",
+"id":"Deinosuchusasa_Character_BP_C",
+"bp":"ASA/Dinos/Deinosuchus/Deinosuchusasa_Character_BP.Deinosuchusasa_Character_BP"
 },{
 "l":"Ice Golem",
 "id":"rockelemental",
