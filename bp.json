@@ -9413,11 +9413,11 @@
 "id":"ChalkGolem_Character_BP_C",
 "bp":"Mods/Valguero/Assets/Dinos/RockGolem/ChalkGolem/ChalkGolem_Character_BP.ChalkGolem_Character_BP"
 },{
-"l":"Deinonychus",
+"l":"Deinosuchus",
 "t":"Dinos",
-"id":"deinonychus",
-"id":"Deinonychus_Character_BP_C",
-"bp":"PrimalEarth/Dinos/Raptor/Uberraptor/Deinonychus_Character_BP.Deinonychus_Character_BP"
+"cid":"deinosuchus",
+"id":"Deinosuchusasa_Character_BP_C",
+"bp":"ASA/Dinos/Deinosuchus/Deinosuchusasa_Character_BP.Deinosuchusasa_Character_BP"
 },{
 "l":"Ice Golem",
 "id":"rockelemental",
@@ -10640,5 +10640,27 @@
 "t":"Dinos",
 "id":"YiLing_Character_BP_C",
 "bp":"ASA/Dinos/YiLing/YiLing_Character_BP.YiLing_Character_BP"
+},{
+"l":"Archelon",
+"cid":"archelon",
+"t":"Dinos",
+"id":"Archelon_Character_BP_ASA_C",
+"bp":"ASA/Dinos/Archelon/Dinos/Archelon_Character_BP_ASA.Archelon_Character_BP_ASA"
+},{
+"l":"Archelon Algae",
+"t":"Consumables",
+"bp":"ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
+"g":"TurtleAlgae"
+},{
+"l":"Algae Sushi",
+"t":"Consumables",
+"bp":"ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumableEatable_Sushi_ASA.PrimalItemConsumableEatable_Sushi_ASA",
+"g":"TurtleAlgae"
+},{
+"l":"Dreadmare",
+"cid":"dreadmare",
+"t":"Event Creatures",
+"id":"DarkPegasus_Character_BP_C",
+"bp":"ASA/Dinos/DarkPegasus/DarkPegasus_Character_BP.DarkPegasus_Character_BP"
 }
 ]}
