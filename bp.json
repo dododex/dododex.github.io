@@ -6053,7 +6053,7 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemCostume_BionicRex.PrimalItemCostume_BionicRex",
 "g":"BionicRex"
 },{
-"l":"Scary Skull Helmet",
+"l":"Scary Skull Helmet Skin",
 "t":"Skins",
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ScarySkull.PrimalItemSkin_ScarySkull",
 "g":"ScarySkull"
@@ -7232,12 +7232,12 @@
 "id":304,
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_DinoSpecs.PrimalItemSkin_DinoSpecs"
 },{
-"l":"Easter Chick Hat",
+"l":"Easter Chick Hat Skin",
 "t":"Skins",
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_EasterChick.PrimalItemSkin_EasterChick",
 "g":"ChickHat"
 },{
-"l":"Easter Egg Hat",
+"l":"Easter Egg Hat Skin",
 "t":"Skins",
 "bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_EasterEggHat.PrimalItemSkin_EasterEggHat",
 "g":"EasterEggHat"
@@ -8377,295 +8377,295 @@
 },{
 "l":"Chibi-Allosaurus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Allosaurus.PrimalItemSkin_ChibiDino_Allosaurus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Allosaurus.PrimalItemSkin_ChibiDino_Allosaurus"
 },{
 "l":"Chibi-Ammonite",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Ammonite.PrimalItemSkin_ChibiDino_Ammonite"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Ammonite.PrimalItemSkin_ChibiDino_Ammonite"
 },{
 "l":"Chibi-Ankylosaurus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Ankylosaurus.PrimalItemSkin_ChibiDino_Ankylosaurus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Ankylosaurus.PrimalItemSkin_ChibiDino_Ankylosaurus"
 },{
 "l":"Chibi-Argentavis",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Argent.PrimalItemSkin_ChibiDino_Argent"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Argent.PrimalItemSkin_ChibiDino_Argent"
 },{
 "l":"Chibi-Astrocetus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Astrocetus.PrimalItemSkin_ChibiDino_Astrocetus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Astrocetus.PrimalItemSkin_ChibiDino_Astrocetus"
 },{
 "l":"Chibi-Baryonyx",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Baryonyx.PrimalItemSkin_ChibiDino_Baryonyx"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Baryonyx.PrimalItemSkin_ChibiDino_Baryonyx"
 },{
 "l":"Chibi-Basilisk",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Basilisk.PrimalItemSkin_ChibiDino_Basilisk"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Basilisk.PrimalItemSkin_ChibiDino_Basilisk"
 },{
 "l":"Chibi-Beelzebufo",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Beelzebufo.PrimalItemSkin_ChibiDino_Beelzebufo"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Beelzebufo.PrimalItemSkin_ChibiDino_Beelzebufo"
 },{
 "l":"Chibi-Bloodstalker",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BogSpider.PrimalItemSkin_ChibiDino_BogSpider"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_BogSpider.PrimalItemSkin_ChibiDino_BogSpider"
 },{
 "l":"Chibi-Brontosaurus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bronto.PrimalItemSkin_ChibiDino_Bronto"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bronto.PrimalItemSkin_ChibiDino_Bronto"
 },{
 "l":"Chibi-Bunny",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bunny.PrimalItemSkin_ChibiDino_Bunny"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Bunny.PrimalItemSkin_ChibiDino_Bunny"
 },{
 "l":"Chibi-Carbonemys",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Carbonemys.PrimalItemSkin_ChibiDino_Carbonemys"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Carbonemys.PrimalItemSkin_ChibiDino_Carbonemys"
 },{
 "l":"Chibi-Carno",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Carnotaurus.PrimalItemSkin_ChibiDino_Carnotaurus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Carnotaurus.PrimalItemSkin_ChibiDino_Carnotaurus"
 },{
 "l":"Chibi-Castroides",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Castroides.PrimalItemSkin_ChibiDino_Castroides"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Castroides.PrimalItemSkin_ChibiDino_Castroides"
 },{
 "l":"Chibi-Cnidaria",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Cnidaria.PrimalItemSkin_ChibiDino_Cnidaria"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Cnidaria.PrimalItemSkin_ChibiDino_Cnidaria"
 },{
 "l":"Chibi-Daeodon",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Daeodon.PrimalItemSkin_ChibiDino_Daeodon"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Daeodon.PrimalItemSkin_ChibiDino_Daeodon"
 },{
 "l":"Chibi-Direbear",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Direbear.PrimalItemSkin_ChibiDino_Direbear"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Direbear.PrimalItemSkin_ChibiDino_Direbear"
 },{
 "l":"Chibi-Direwolf",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Direwolf.PrimalItemSkin_ChibiDino_Direwolf"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Direwolf.PrimalItemSkin_ChibiDino_Direwolf"
 },{
 "l":"Chibi-Dodo",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Dodo.PrimalItemSkin_ChibiDino_Dodo"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Dodo.PrimalItemSkin_ChibiDino_Dodo"
 },{
 "l":"Chibi-Doedicurus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Doedicurus.PrimalItemSkin_ChibiDino_Doedicurus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Doedicurus.PrimalItemSkin_ChibiDino_Doedicurus"
 },{
 "l":"Chibi-Equus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Equus.PrimalItemSkin_ChibiDino_Equus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Equus.PrimalItemSkin_ChibiDino_Equus"
 },{
 "l":"Chibi-Ferox (Large)",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shapeshifter_Large.PrimalItemSkin_ChibiDino_Shapeshifter_Large"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shapeshifter_Large.PrimalItemSkin_ChibiDino_Shapeshifter_Large"
 },{
 "l":"Chibi-Ferox (Small)",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shapeshifter_Small.PrimalItemSkin_ChibiDino_Shapeshifter_Small"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Shapeshifter_Small.PrimalItemSkin_ChibiDino_Shapeshifter_Small"
 },{
 "l":"Chibi-Gasbag",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gasbag.PrimalItemSkin_ChibiDino_Gasbag"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gasbag.PrimalItemSkin_ChibiDino_Gasbag"
 },{
 "l":"Chibi-Giganotosaurus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gigant.PrimalItemSkin_ChibiDino_Gigant"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gigant.PrimalItemSkin_ChibiDino_Gigant"
 },{
 "l":"Chibi-Gigantopithecus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gigantopithecus.PrimalItemSkin_ChibiDino_Gigantopithecus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Gigantopithecus.PrimalItemSkin_ChibiDino_Gigantopithecus"
 },{
 "l":"Chibi-Griffin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Griffin.PrimalItemSkin_ChibiDino_Griffin"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Griffin.PrimalItemSkin_ChibiDino_Griffin"
 },{
 "l":"Chibi-Iguanodon",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Iguanodon.PrimalItemSkin_ChibiDino_Iguanodon"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Iguanodon.PrimalItemSkin_ChibiDino_Iguanodon"
 },{
 "l":"Chibi-Karkinos",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Karkinos.PrimalItemSkin_ChibiDino_Karkinos"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Karkinos.PrimalItemSkin_ChibiDino_Karkinos"
 },{
 "l":"Chibi-Kentrosaurus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Kentrosaurus.PrimalItemSkin_ChibiDino_Kentrosaurus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Kentrosaurus.PrimalItemSkin_ChibiDino_Kentrosaurus"
 },{
 "l":"Chibi-Magmasaur",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Cherufe.PrimalItemSkin_ChibiDino_Cherufe"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Cherufe.PrimalItemSkin_ChibiDino_Cherufe"
 },{
 "l":"Chibi-Mammoth",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Mammoth.PrimalItemSkin_ChibiDino_Mammoth"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Mammoth.PrimalItemSkin_ChibiDino_Mammoth"
 },{
 "l":"Chibi-Managarmr",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Managarmr.PrimalItemSkin_ChibiDino_Managarmr"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Managarmr.PrimalItemSkin_ChibiDino_Managarmr"
 },{
 "l":"Chibi-Manta",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Manta.PrimalItemSkin_ChibiDino_Manta"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Manta.PrimalItemSkin_ChibiDino_Manta"
 },{
 "l":"Chibi-Megalania",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megalania.PrimalItemSkin_ChibiDino_Megalania"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megalania.PrimalItemSkin_ChibiDino_Megalania"
 },{
 "l":"Chibi-Megaloceros",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megaloceros.PrimalItemSkin_ChibiDino_Megaloceros"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megaloceros.PrimalItemSkin_ChibiDino_Megaloceros"
 },{
 "l":"Chibi-Megalodon",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megalodon.PrimalItemSkin_ChibiDino_Megalodon"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megalodon.PrimalItemSkin_ChibiDino_Megalodon"
 },{
 "l":"Chibi-Megatherium",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megatherium.PrimalItemSkin_ChibiDino_Megatherium"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Megatherium.PrimalItemSkin_ChibiDino_Megatherium"
 },{
 "l":"Chibi-Moschops",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Moschops.PrimalItemSkin_ChibiDino_Moschops"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Moschops.PrimalItemSkin_ChibiDino_Moschops"
 },{
 "l":"Chibi-Oviraptor",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Oviraptor.PrimalItemSkin_ChibiDino_Oviraptor"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Oviraptor.PrimalItemSkin_ChibiDino_Oviraptor"
 },{
 "l":"Chibi-Ovus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Sheep.PrimalItemSkin_ChibiDino_Sheep"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Sheep.PrimalItemSkin_ChibiDino_Sheep"
 },{
 "l":"Chibi-Paraceratherium",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Paraceratherium.PrimalItemSkin_ChibiDino_Paraceratherium"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Paraceratherium.PrimalItemSkin_ChibiDino_Paraceratherium"
 },{
 "l":"Chibi-Parasaur",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Parasaur.PrimalItemSkin_ChibiDino_Parasaur"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Parasaur.PrimalItemSkin_ChibiDino_Parasaur"
 },{
 "l":"Chibi-Phiomia",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Phiomia.PrimalItemSkin_ChibiDino_Phiomia"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Phiomia.PrimalItemSkin_ChibiDino_Phiomia"
 },{
 "l":"Chibi-Phoenix",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Phoenix.PrimalItemSkin_ChibiDino_Phoenix"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Phoenix.PrimalItemSkin_ChibiDino_Phoenix"
 },{
 "l":"Chibi-Plesiosaur",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Plesiosaur.PrimalItemSkin_ChibiDino_Plesiosaur"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Plesiosaur.PrimalItemSkin_ChibiDino_Plesiosaur"
 },{
 "l":"Chibi-Procoptodon",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Procoptodon.PrimalItemSkin_ChibiDino_Procoptodon"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Procoptodon.PrimalItemSkin_ChibiDino_Procoptodon"
 },{
 "l":"Chibi-Pteranodon",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pteranodon.PrimalItemSkin_ChibiDino_Pteranodon"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pteranodon.PrimalItemSkin_ChibiDino_Pteranodon"
 },{
 "l":"Chibi-Pulmonoscorpius",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pulmonoscorpius.PrimalItemSkin_ChibiDino_Pulmonoscorpius"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Pulmonoscorpius.PrimalItemSkin_ChibiDino_Pulmonoscorpius"
 },{
 "l":"Chibi-Quetzal",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Quetzal.PrimalItemSkin_ChibiDino_Quetzal"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Quetzal.PrimalItemSkin_ChibiDino_Quetzal"
 },{
 "l":"Chibi-Raptor",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Raptor.PrimalItemSkin_ChibiDino_Raptor"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Raptor.PrimalItemSkin_ChibiDino_Raptor"
 },{
 "l":"Chibi-Reaper",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Reaper.PrimalItemSkin_ChibiDino_Reaper"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Reaper.PrimalItemSkin_ChibiDino_Reaper"
 },{
 "l":"Chibi-Rex",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Rex.PrimalItemSkin_ChibiDino_Rex"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Rex.PrimalItemSkin_ChibiDino_Rex"
 },{
 "l":"Chibi-Rhino",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_WoollyRhino.PrimalItemSkin_ChibiDino_WoollyRhino"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_WoollyRhino.PrimalItemSkin_ChibiDino_WoollyRhino"
 },{
 "l":"Chibi-Rock Drake",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RockDrake.PrimalItemSkin_ChibiDino_RockDrake"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RockDrake.PrimalItemSkin_ChibiDino_RockDrake"
 },{
 "l":"Chibi-Rock Golem",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RockGolem.PrimalItemSkin_ChibiDino_RockGolem"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RockGolem.PrimalItemSkin_ChibiDino_RockGolem"
 },{
 "l":"Chibi-Rollrat",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_MoleRat.PrimalItemSkin_ChibiDino_MoleRat"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_MoleRat.PrimalItemSkin_ChibiDino_MoleRat"
 },{
 "l":"Chibi-Sabertooth",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Saber.PrimalItemSkin_ChibiDino_Saber"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Saber.PrimalItemSkin_ChibiDino_Saber"
 },{
 "l":"Chibi-Sarco",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Sarco.PrimalItemSkin_ChibiDino_Sarco"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Sarco.PrimalItemSkin_ChibiDino_Sarco"
 },{
 "l":"Chibi-Seeker",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Seeker.PrimalItemSkin_ChibiDino_Seeker"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Seeker.PrimalItemSkin_ChibiDino_Seeker"
 },{
 "l":"Chibi-Snow Owl",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_SnowOwl.PrimalItemSkin_ChibiDino_SnowOwl"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_SnowOwl.PrimalItemSkin_ChibiDino_SnowOwl"
 },{
 "l":"Chibi-Spino",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Spino.PrimalItemSkin_ChibiDino_Spino"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Spino.PrimalItemSkin_ChibiDino_Spino"
 },{
 "l":"Chibi-Stego",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Stego.PrimalItemSkin_ChibiDino_Stego"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Stego.PrimalItemSkin_ChibiDino_Stego"
 },{
 "l":"Chibi-Tapejara",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Tapejara.PrimalItemSkin_ChibiDino_Tapejara"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Tapejara.PrimalItemSkin_ChibiDino_Tapejara"
 },{
 "l":"Chibi-Terror Bird",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_TerrorBird.PrimalItemSkin_ChibiDino_TerrorBird"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_TerrorBird.PrimalItemSkin_ChibiDino_TerrorBird"
 },{
 "l":"Chibi-Therizino",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Therizino.PrimalItemSkin_ChibiDino_Therizino"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Therizino.PrimalItemSkin_ChibiDino_Therizino"
 },{
 "l":"Chibi-Thylacoleo",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Thylacoleo.PrimalItemSkin_ChibiDino_Thylacoleo"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Thylacoleo.PrimalItemSkin_ChibiDino_Thylacoleo"
 },{
 "l":"Chibi-Trike",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Trike.PrimalItemSkin_ChibiDino_Trike"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Trike.PrimalItemSkin_ChibiDino_Trike"
 },{
 "l":"Chibi-Troodon",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Troodon.PrimalItemSkin_ChibiDino_Troodon"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Troodon.PrimalItemSkin_ChibiDino_Troodon"
 },{
 "l":"Chibi-Tropeognathus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Tropeognathus.PrimalItemSkin_ChibiDino_Tropeognathus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Tropeognathus.PrimalItemSkin_ChibiDino_Tropeognathus"
 },{
 "l":"Chibi-Unicorn",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Unicorn.PrimalItemSkin_ChibiDino_Unicorn"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Unicorn.PrimalItemSkin_ChibiDino_Unicorn"
 },{
 "l":"Chibi-Wyvern",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Wyvern.PrimalItemSkin_ChibiDino_Wyvern"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Wyvern.PrimalItemSkin_ChibiDino_Wyvern"
 },{
 "l":"Chibi-Yutyrannus",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Skins/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Yutyrannus.PrimalItemSkin_ChibiDino_Yutyrannus"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Yutyrannus.PrimalItemSkin_ChibiDino_Yutyrannus"
 },{
 "l":"Chili Helmet Skin",
 "t":"Skins",
@@ -9198,7 +9198,7 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Structures/Christmas/PrimalItemStructure_StorageBox_ChristmasGift.PrimalItemStructure_StorageBox_ChristmasGift",
 "g":"StorageBox_ChristmasGift"
 },{
-"l":"Snowball Emote",
+"l":"\"Snowball\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Snowball.PrimalItemConsumable_UnlockEmote_Snowball",
 "g":"UnlockEmote_Snowball"
@@ -9223,7 +9223,7 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Heart.PrimalItemConsumable_UnlockEmote_Heart",
 "g":"UnlockEmote_Heart"
 },{
-"l":"Romantic Head Hair Style",
+"l":"\"Romantic\" Head Hair Style",
 "t":"Consumables",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockHairstyle_Head_Romantic.PrimalItemConsumable_UnlockHairstyle_Head_Romantic",
 "g":"UnlockHairstyle_Head_Romantic"
@@ -9251,12 +9251,12 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_EasterDinoCandy.PrimalItemConsumable_EasterDinoCandy",
 "g":"EasterDinoCandy"
 },{
-"l":"Archer Flex Emote",
+"l":"\"Archer Flex\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex2.PrimalItemConsumable_UnlockEmote_Flex2",
 "g":"UnlockEmote_Flex2"
 },{
-"l":"Bicep Smooch Emote",
+"l":"\"Bicep Smooch\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flex1.PrimalItemConsumable_UnlockEmote_Flex1",
 "g":"UnlockEmote_Flex1"
@@ -9266,12 +9266,12 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Crafted_FourthOfJulyDinoCandy.PrimalItemConsumable_Crafted_FourthOfJulyDinoCandy",
 "g":"FourthOfJulyDinoCandy"
 },{
-"l":"Dance Emote",
+"l":"\"Dance\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Dance.PrimalItemConsumable_UnlockEmote_Dance",
 "g":"UnlockEmote_Dance"
 },{
-"l":"Panic Emote",
+"l":"\"Panic\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Panic.PrimalItemConsumable_UnlockEmote_Panic",
 "g":"UnlockEmote_Panic"
@@ -9286,17 +9286,17 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_FE_Crafted_CandyCorn.PrimalItemConsumable_FE_Crafted_CandyCorn",
 "g":"CandyCorn"
 },{
-"l":"Belly Rub Emote",
+"l":"\"Belly Rub\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BellyRub.PrimalItemConsumable_UnlockEmote_BellyRub",
 "g":"UnlockEmote_BellyRub"
 },{
-"l":"Food Coma Emote",
+"l":"\"Food Coma\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_FoodComa.PrimalItemConsumable_UnlockEmote_FoodComa",
 "g":"UnlockEmote_FoodComa"
 },{
-"l":"Hungry Emote",
+"l":"\"Hungry\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Hungry.PrimalItemConsumable_UnlockEmote_Hungry",
 "g":"UnlockEmote_Hungry"
@@ -9306,27 +9306,27 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_TT_Crafted_ThanksgivingCandy.PrimalItemConsumable_TT_Crafted_ThanksgivingCandy",
 "g":"ThanksgivingCandy"
 },{
-"l":"Caroling Emote",
+"l":"\"Caroling\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Caroling.PrimalItemConsumable_UnlockEmote_Caroling",
 "g":"UnlockEmote_Caroling"
 },{
-"l":"Happy Clap Emote",
+"l":"\"Happy Clap\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_HappyClap.PrimalItemConsumable_UnlockEmote_HappyClap",
 "g":"UnlockEmote_HappyClap"
 },{
-"l":"Nutcracker Dance Emote",
+"l":"\"Nutcracker Dance\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_NutcrackerDance.PrimalItemConsumable_UnlockEmote_NutcrackerDance",
 "g":"UnlockEmote_NutcrackerDance"
 },{
-"l":"Flirty Emote",
+"l":"\"Flirty\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Flirt.PrimalItemConsumable_UnlockEmote_Flirt",
 "g":"UnlockEmote_Flirt"
 },{
-"l":"Bunny Hop Dance Emote",
+"l":"\"Bunny Hop Dance\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_BunnyHopDance.PrimalItemConsumable_UnlockEmote_BunnyHopDance",
 "g":"UnlockEmote_BunnyHopDance"
@@ -9341,17 +9341,17 @@
 "bp":"PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_CakeSlice.PrimalItemResource_CakeSlice",
 "g":"CakeSlice"
 },{
-"l":"Air Drums Emote",
+"l":"\"Air Drums\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirDrum.PrimalItemConsumable_UnlockEmote_AirDrum",
 "g":"UnlockEmote_AirDrum"
 },{
-"l":"Air Guitar Emote",
+"l":"\"Air Guitar\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_AirGuitar.PrimalItemConsumable_UnlockEmote_AirGuitar",
 "g":"UnlockEmote_AirGuitar"
 },{
-"l":"Mosh Pit Emote",
+"l":"\"Mosh Pit\" Emote",
 "t":"Emotes",
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_MoshPit.PrimalItemConsumable_UnlockEmote_MoshPit",
 "g":"UnlockEmote_MoshPit"
@@ -10529,11 +10529,6 @@
 "t":"Genesis",
 "id":"Ocean_Megalodon_Character_BP_Retrieve_Brute_C",
 "bp":"Genesis/Dinos/MissionVariants/Retrieve/Ocean/Ocean_Megalodon_Character_BP_Retrieve_Brute.Ocean_Megalodon_Character_BP_Retrieve_Brute"
-},{
-"l":"Golden Striped Megalodon",
-"t":"X-Creatures",
-"id":"Ocean_Megalodon_Character_BP_Retrieve_C",
-"bp":"Genesis/Dinos/MissionVariants/Retrieve/Ocean/Ocean_Megalodon_Character_BP_Retrieve.Ocean_Megalodon_Character_BP_Retrieve"
 },{
 "l":"Injured Brute Reaper King",
 "t":"Genesis",
