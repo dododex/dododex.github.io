@@ -620,7 +620,7 @@ $(document).ready(function() {
 
     // Load commands
     $.getJSON("../commands.json", function(data) {
-      commands = data;
+      commands = data.BP;
       commands.sort(sortByTypeC);
       initFromURL();
     });
