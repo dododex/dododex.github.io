@@ -1740,7 +1740,7 @@
 "l":"Smithy",
 "t":"Structures",
 "id":125,
-"bp":"P5imalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AnvilBench.PrimalItemStructure_AnvilBench",
+"bp":"PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_AnvilBench.PrimalItemStructure_AnvilBench",
 "g":"AnvilBench"
 },{
 "l":"Compost Bin",
@@ -3072,11 +3072,6 @@
 "bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar",
 "g":"BeerJar"
 },{
-"l":"Beer Jar (alt)",
-"t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt",
-"g":"BeerJarAlt"
-},{
 "l":"Medical Brew",
 "t":"Consumables",
 "id":52,
@@ -3647,7 +3642,7 @@
 },{
 "l":"Terror Bird Egg",
 "t":"Eggs",
-"bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_TerrorBird.PrimalItemConsumable_Egg_Terrorbird",
+"bp":"PrimalEarth/Test/PrimalItemConsumable_Egg_Terrorbird.PrimalItemConsumable_Egg_Terrorbird",
 "g":"Egg_Terrorbird"
 },{
 "l":"Thorny Dragon Egg (Scorched Earth)",
@@ -4959,7 +4954,7 @@
 },{
 "l":"Tek Shield",
 "t":"Armor",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_TekShield.PrimalItemArmor_TekShield",
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_ShieldTek.PrimalItemArmor_ShieldTek",
 "g":"ShieldTek"
 },{
 "l":"Tek Shirt",
