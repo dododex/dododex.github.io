@@ -606,7 +606,7 @@ $(document).ready(function() {
 
  // Load blueprints
   $.getJSON( "../bp.json", function( data ) {
-    bp = data; // Assuming data is an array
+    bp = data.bp; // Assuming data is an array
 
     // Build the lookup table
     bp.forEach(function(item) {
