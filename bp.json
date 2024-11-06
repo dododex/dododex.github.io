@@ -10287,12 +10287,6 @@
 "id":"Ghost_Rex_Character_BP_C",
 "bp":"PrimalEarth/Dinos/Rex/Ghost_Rex_Character_BP.Ghost_Rex_Character_BP"
 },{
-"l":"Rhyniognatha",
-"cid":"rhyniognatha",
-"t":"Invertebrates",
-"id":"Rhynio_Character_BP_C",
-"bp":"PrimalEarth/Dinos/Rhyniognatha/Rhynio_Character_BP.Rhynio_Character_BP"
-},{
 "l":"Therizinosaur",
 "cid":"therizinosaur",
 "t":"Dinos",
@@ -10365,11 +10359,6 @@
 "t":"Bosses",
 "id":"EelBoss_Character_BP_Hard_C",
 "bp":"Genesis/Dinos/EelBoss/EelBoss_Character_BP_Hard.EelBoss_Character_BP_Hard"
-},{
-"l":"Alpha X-Triceratops",
-"t":"Alpha Creatures",
-"id":"Volcano_Trike_Character_BP_Retrieve_Alpha_C",
-"bp":"Genesis/Dinos/MissionVariants/Retrieve/Volcanic/Volcano_Trike_Character_BP_Retrieve_Alpha.Volcano_Trike_Character_BP_Retrieve_Alpha"
 },{
 "l":"Beta Corrupted Master Controller",
 "t":"Bosses",
