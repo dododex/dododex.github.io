@@ -4806,7 +4806,7 @@
 },{
 "l":"ARK Tester Hat Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItem_Skin_Accountester.PrimalItem_Skin_Accountester",
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItem_Skin_Account_GameTester.PrimalItem_Skin_Account_GameTester",
 "g":"Skin_Accountester"
 },{
 "l":"ARK Wildcard Admin Hat Skin",
@@ -10000,32 +10000,32 @@
 },{
 "l":"Extraordinary Maewing Egg",
 "t":"Eggs",
-"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Special.PrimalItemConsumable_Egg_MilkGlider_Special",
+"bp":"Genesis2/Dinos/MilkGlider/Eggs/PrimalItemConsumable_Egg_MilkGlider_Special.PrimalItemConsumable_Egg_MilkGlider_Special",
 "g":"kglider_sp"
 },{
 "l":"Exceptional Maewing Egg",
 "t":"Eggs",
-"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_XLarge.PrimalItemConsumable_Egg_MilkGlider_XLarge",
+"bp":"Genesis2/Dinos/MilkGlider/Eggs/PrimalItemConsumable_Egg_MilkGlider_XLarge.PrimalItemConsumable_Egg_MilkGlider_XLarge",
 "g":"kglider_xl"
 },{
 "l":"Superior Maewing Egg",
 "t":"Eggs",
-"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Large.PrimalItemConsumable_Egg_MilkGlider_Large",
+"bp":"Genesis2/Dinos/MilkGlider/Eggs/PrimalItemConsumable_Egg_MilkGlider_Large.PrimalItemConsumable_Egg_MilkGlider_Large",
 "g":"kglider_L"
 },{
 "l":"Regular Maewing Egg",
 "t":"Eggs",
-"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Medium.PrimalItemConsumable_Egg_MilkGlider_Medium",
+"bp":"Genesis2/Dinos/MilkGlider/Eggs/PrimalItemConsumable_Egg_MilkGlider_Medium.PrimalItemConsumable_Egg_MilkGlider_Medium",
 "g":"kglider_M"
 },{
 "l":"Simple Maewing Egg",
 "t":"Eggs",
-"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_Small.PrimalItemConsumable_Egg_MilkGlider_Small",
+"bp":"Genesis2/Dinos/MilkGlider/Eggs/PrimalItemConsumable_Egg_MilkGlider_Small.PrimalItemConsumable_Egg_MilkGlider_Small",
 "g":"kglider_sm"
 },{
 "l":"Basic Maewing Egg",
 "t":"Eggs",
-"bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_XSmall.PrimalItemConsumable_Egg_MilkGlider_XSmall",
+"bp":"Genesis2/Dinos/MilkGlider/Eggs/PrimalItemConsumable_Egg_MilkGlider_XSmall.PrimalItemConsumable_Egg_MilkGlider_XSmall",
 "g":"kglider_xs"
 },{
 "l":"Extraordinary Maewing Egg (F)",
