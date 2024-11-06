@@ -10058,27 +10058,27 @@
 "bp":"Genesis2/Dinos/MilkGlider/PrimalItemConsumable_Egg_MilkGlider_XSmall_Fertilized.PrimalItemConsumable_Egg_MilkGlider_XSmall_Fertilized",
 "g":"er_xsmall_f"
 },{
-"l":"Federation Exo-Helm Skin",
+"l":"Federation Exo-Helm",
 "t":"Skins",
 "bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekHelmet_Gen2",
 "g":"met_g"
 },{
-"l":"Federation Exo-Chest Skin",
+"l":"Federation Exo-Chest",
 "t":"Skins",
 "bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekShirt_Gen2.PrimalItemArmor_TekShirt_Gen2",
 "g":"irt_g"
 },{
-"l":"Federation Exo-Gloves Skin",
+"l":"Federation Exo-Gloves",
 "t":"Skins",
 "bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekGloves_Gen2.PrimalItemArmor_TekGloves_Gen2",
 "g":"ves_g"
 },{
-"l":"Federation Exo-Leggings Skin",
+"l":"Federation Exo-Leggings",
 "t":"Skins",
 "bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekPants_Gen2.PrimalItemArmor_TekPants_Gen2",
 "g":"nts_g"
 },{
-"l":"Federation Exo-Boots Skin",
+"l":"Federation Exo-Boots",
 "t":"Skins",
 "bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekBoots_Gen2.PrimalItemArmor_TekBoots_Gen2",
 "g":"ots_g"
@@ -10640,8 +10640,8 @@
 },{
 "l":"Archelon Algae",
 "t":"Consumables",
-"bp":"ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
-"g":"TurtleAlgae"
+"bp":"ASA/Dinos/Archelon/Dinos/Consumables/PrimalItemConsumable_Veggie_TurtleAlgae_ASA.PrimalItemConsumable_Veggie_TurtleAlgae_ASA",
+"g":"Veggie_TurtleAlgae"
 },{
 "l":"Algae Sushi",
 "t":"Consumables",
