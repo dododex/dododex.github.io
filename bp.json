@@ -3160,7 +3160,7 @@
 },{
 "l":"Cooked Lamb Chop",
 "t":"Consumables",
-"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableS_CookedLambChop.PrimalItemConsumableS_CookedLambChop",
+"bp":"PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedLambChop.PrimalItemConsumable_CookedLambChop",
 "g":"ConsumableS_CookedLambChop"
 },{
 "l":"Sweet Vegetable Cake",
@@ -8756,7 +8756,7 @@
 },{
 "l":"Gray-Ball Winter Beanie Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemSkin_WW_WinterHatB.PrimalItemSkin_WW_WinterHatB"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_WinterHatB.PrimalItemSkin_WW_WinterHatB"
 },{
 "l":"Grilling Spatula Skin",
 "t":"Skins",
@@ -8816,7 +8816,7 @@
 },{
 "l":"Nutcracker Slingshot Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_WW_Nutcracker_Slingshot.PrimalItemSkin_WW_Nutcracker_Slingshot"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_Nutcracker_Slingshot.PrimalItemSkin_WW_Nutcracker_Slingshot"
 },{
 "l":"Onyc Swim Bottom Skin",
 "t":"Skins",
@@ -8840,7 +8840,7 @@
 },{
 "l":"Purple-Ball Winter Beanie Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_WW_WinterHatC.PrimalItemSkin_WW_WinterHatC"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_WinterHatC.PrimalItemSkin_WW_WinterHatC"
 },{
 "l":"Reaper Helmet Skin",
 "t":"Skins",
@@ -8848,7 +8848,7 @@
 },{
 "l":"Red-Ball Winter Beanie Skin",
 "t":"Skins",
-"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_WW_WinterHatA.PrimalItemSkin_WW_WinterHatA"
+"bp":"PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WW_WinterHatA.PrimalItemSkin_WW_WinterHatA"
 },{
 "l":"Scary Pumpkin Helmet Skin",
 "t":"Skins",
@@ -10060,27 +10060,27 @@
 },{
 "l":"Federation Exo-Helm",
 "t":"Skins",
-"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekHelmet_Gen2",
+"bp":"Genesis2/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekHelmet_Gen2.PrimalItemArmor_TekHelmet_Gen2",
 "g":"met_g"
 },{
 "l":"Federation Exo-Chest",
 "t":"Skins",
-"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekShirt_Gen2.PrimalItemArmor_TekShirt_Gen2",
+"bp":"Genesis2/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekShirt_Gen2.PrimalItemArmor_TekShirt_Gen2",
 "g":"irt_g"
 },{
 "l":"Federation Exo-Gloves",
 "t":"Skins",
-"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekGloves_Gen2.PrimalItemArmor_TekGloves_Gen2",
+"bp":"Genesis2/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekGloves_Gen2.PrimalItemArmor_TekGloves_Gen2",
 "g":"ves_g"
 },{
 "l":"Federation Exo-Leggings",
 "t":"Skins",
-"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekPants_Gen2.PrimalItemArmor_TekPants_Gen2",
+"bp":"Genesis2/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekPants_Gen2.PrimalItemArmor_TekPants_Gen2",
 "g":"nts_g"
 },{
 "l":"Federation Exo-Boots",
 "t":"Skins",
-"bp":"Genesis2/CoreBlueprints/items/Armor/TEK/PrimalItemArmor_TekBoots_Gen2.PrimalItemArmor_TekBoots_Gen2",
+"bp":"Genesis2/CoreBlueprints/Items/Armor/TEK/PrimalItemArmor_TekBoots_Gen2.PrimalItemArmor_TekBoots_Gen2",
 "g":"ots_g"
 },{
 "l":"Viking Canoe skin",
