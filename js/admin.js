@@ -609,7 +609,7 @@ $(document).ready(function() {
 
 
  // Load blueprints
-  const cacheBreaker = Math.floor(Date.now() / (1000 * 60 * 60)); 
+  const cacheBreaker = Math.floor(Date.now() / (1000 * 60)); 
   $.getJSON( `https://www.dododex.com/api/bp.json?${cacheBreaker}`, function( data ) {
     bp = data.BP; // Assuming data is an array
 
