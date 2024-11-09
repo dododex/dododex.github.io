@@ -7,7 +7,7 @@ This tool is completely open source! Feel free to add missing commands, fix erro
 
 **To contribute:**
 
-1. Open [bp.json](bp.json)
+1. Open [creatures.json](creatures.json)
 2. Click "Edit"
 3. Add new blueprints to the end of the file matching the file's format. (Order does not matter)
 
@@ -15,13 +15,13 @@ This tool is completely open source! Feel free to add missing commands, fix erro
 
 | Attribute | Description | Details | Example
 | -- | -- | -- | -- |
-| **t** | Type (Category) | One of the pre-defined categories listed on the admin page. | `Dinos`
+| **t** | Type (Category) | One of the pre-defined categories listed on the admin commands page. | `Dinos`
 | **cid** | Creature ID | Dododex's creature ID (the ID is listed the end of its Dododex profile URL: dododex.com/taming/raptor = raptor) | `raptor`
-| **label** | Name of the item/creature | Should match the in-game name unless the in-game is not consistent. For example, "Turtle Egg" should be "Carbonemys Egg." | `Raptor`
+| **l** | Name of the item/creature | Should match the in-game name unless the in-game is not consistent. For example, "Turtle Egg" should be "Carbonemys Egg." | `Raptor`
 | **id** | Blueprint ID | As listed in the Dev Kit | `Raptor_Character_BP_C`
-| **bp** | Blueprint Path | All blueprints are prepended with `/Game/` | `PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP`
-| **g** | GFI  | A working phrase to use in a GFI command. For example, Allosaurus Kibble	would be "Kibble_Allo" | `Kibble_Allo`
+| **bp** | Blueprint Path | | `PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP`
 
+Note: Items are now pulled from Dododex's database rather than Github. Report any issues through the admin commands tool.
 
 ## Editing Ark Admin Commands 
 

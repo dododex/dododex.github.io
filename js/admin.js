@@ -356,6 +356,10 @@ function updateAttr() {
 function isDinoCat(category){
   // Checks if a category (string) is a dino category
   // Returns true or false
+  if (typeof category !== "string") {
+    return false;
+  }
+
   return category.toUpperCase() == "DINOS" || category.toUpperCase() == "ABERRATION" || category.toUpperCase() == "GENESIS" || category.toUpperCase() == "GENESIS 2" || category.toUpperCase() == "EXTINCTION" || category.toUpperCase() == "LOST ISLAND" || category.toUpperCase() == "FJORDUR" || category.toUpperCase() == "ALPHAS" || category.toUpperCase() == "TEK CREATURES" || category.toUpperCase() == "BOSSES" || category.toUpperCase() == "EVENT CREATURES";
 
 }
@@ -526,7 +530,7 @@ function searchBP(){
           if(tamed){
             var theBP = 'admincheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
           } else {
-            var theBP = "admincheat SpawnDino \"Blueprint'/Game/" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
+            var theBP = "admincheat SpawnDino \"Blueprint'" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
           }
           rowClass += 'bprd';
           // if(item.cid){
@@ -539,7 +543,7 @@ function searchBP(){
           var theBP = 'admincheat giveitemnum <span class="bpbi" data-id="' + item.id + '">' + (xbox ? item.id-1 : item.id) + '</span> <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
           rowClass += 'bprw';
         } else {
-          var theBP = "admincheat giveitem \"Blueprint'/Game/" + item.bp + '\'" <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
+          var theBP = "admincheat giveitem \"Blueprint'" + item.bp + '\'" <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
           rowClass += 'bprw';
         }
         // console.log(theBP);
@@ -605,7 +609,8 @@ $(document).ready(function() {
 
 
  // Load blueprints
-  $.getJSON( "../bp.json", function( data ) {
+  const cacheBreaker = Math.floor(Date.now() / (1000 * 60 * 60)); 
+  $.getJSON( `https://www.dododex.com/api/bp.json?${cacheBreaker}`, function( data ) {
     bp = data.BP; // Assuming data is an array
 
     // Build the lookup table
@@ -831,7 +836,7 @@ function initFromID(id){
 // "id":"triceratops",
 // "t":"Tek Creatures",
 // "id":"BionicTrike_Character_BP_Malfunctioned_C",
-// "bp":"/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP_Malfunctioned.BionicTrike_Character_BP_Malfunctioned"
+// "bp":"PrimalEarth/Dinos/Trike/BionicTrike_Character_BP_Malfunctioned.BionicTrike_Character_BP_Malfunctioned"
 
 
   
@@ -881,9 +886,9 @@ function initFromID(id){
 
         ${currentBP.bp ?
         `<h2 class="marginTop2">${currentBP.l} Spawn Command (Wild)</h2>
-        <p class="light">The blueprint path for the ${currentBP.l} is "Blueprint'/Game/${currentBP.bp}'". To spawn a wild ${currentBP.l}, use the following command.</p>
+        <p class="light">The blueprint path for the ${currentBP.l} is "Blueprint'${currentBP.bp}'". To spawn a wild ${currentBP.l}, use the following command.</p>
         
-        <div class="whiteinputwb"><input type="text" size="100" value="cheat SpawnDino &quot;Blueprint'/Game/${currentBP.bp}'&quot; 500 0 0 150" /><a class="whiteinputb copy">COPY</a></div></div>
+        <div class="whiteinputwb"><input type="text" size="100" value="cheat SpawnDino &quot;Blueprint'${currentBP.bp}'&quot; 500 0 0 150" /><a class="whiteinputb copy">COPY</a></div></div>
 
 
         <div class="cmdi lightbox marginTop row">
@@ -892,7 +897,7 @@ function initFromID(id){
             <div class="cmdi_d"></div>
           </div>
           <div class="cmdi_td">
-            <div class="cmdi_t">"Blueprint'/Game/${currentBP.bp}'"</div>
+            <div class="cmdi_t">"Blueprint'${currentBP.bp}'"</div>
             <div class="cmdi_d">Blueprint Path</div>
           </div>
           <div class="cmdi_td">
@@ -998,9 +1003,9 @@ function initFromID(id){
 
         ${currentBP.bp ?
         `<h2 class="marginTop2">${currentBP.l} Blueprint Path</h2>
-        <p class="light">The blueprint path for ${currentBP.l} is "Blueprint'/Game/${currentBP.bp}'"</p>
+        <p class="light">The blueprint path for ${currentBP.l} is "Blueprint'${currentBP.bp}'"</p>
         
-        <div class="whiteinputwb"><input type="text" size="100" value="cheat giveitem &quot;Blueprint'/Game/${currentBP.bp}'&quot; 1 0 0 " /><a class="whiteinputb copy">COPY</a></div></div>
+        <div class="whiteinputwb"><input type="text" size="100" value="cheat giveitem &quot;Blueprint'${currentBP.bp}'&quot; 1 0 0 " /><a class="whiteinputb copy">COPY</a></div></div>
 
         <div class="cmdi lightbox marginTop row">
           <div class="cmdi_td">
@@ -1008,7 +1013,7 @@ function initFromID(id){
             <div class="cmdi_d"></div>
           </div>
           <div class="cmdi_td">
-            <div class="cmdi_t">"Blueprint'/Game/${currentBP.bp}'"</div>
+            <div class="cmdi_t">"Blueprint'${currentBP.bp}'"</div>
             <div class="cmdi_d">Part of Blueprint Path</div>
           </div>
           <div class="cmdi_td">
