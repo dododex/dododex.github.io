@@ -562,6 +562,30 @@ function searchBP(){
 }
 
 $(document).ready(function() {
+
+  // Extract existing URL parameters
+  const preserveParams = ['pro', 'app']; // List of params you want to preserve
+
+  function getPreservedParams() {
+    const urlParams = new URLSearchParams(window.location.search);
+    let preservedParamsArray = [];
+
+    preserveParams.forEach(param => {
+      if (urlParams.has(param)) {
+        preservedParamsArray.push(`${param}=${urlParams.get(param)}`);
+      }
+    });
+
+    return preservedParamsArray.join('&');
+  }
+
+  function updateURLWithPreservedParams(newPath) {
+    const preservedParamsString = getPreservedParams();
+    // Replace URL while preserving parameters, if any
+    const newUrl = preservedParamsString ? `${newPath}?${preservedParamsString}` : newPath;
+    window.history.replaceState(null, null, newUrl);
+  }
+
   // Display the header only if user is not in app
   var urlParams = new URLSearchParams(window.location.search);
   if(urlParams.get('app') != "1"){
@@ -761,9 +785,9 @@ $(document).ready(function() {
     //console.log('click on category',cat1,catID,cat)
 
     // For Dinos top level cat, default to Dinos subcat
-    if(catID == 1){
-      $('*[data-cat="4"]').trigger("click");
-    }
+    // if(catID == 1){
+    //   $('*[data-cat="4"]').trigger("click");
+    // }
 
     // cat = 'Dinos';
     if(catID == 3){
@@ -789,7 +813,9 @@ $(document).ready(function() {
       i--;
     }
 
-    window.history.replaceState(null, null, "/admin-commands/?commands=" + categorySlug);
+    let newPath = "/admin-commands/?commands=" + categorySlug;
+    updateURLWithPreservedParams(newPath);
+
     if(catID == 3){
       document.title = cat.n + " | Admin Commands | Dododex";
     } else {
@@ -800,9 +826,6 @@ $(document).ready(function() {
       event.preventDefault()
     }
   })
-
-
-
 
 
 
