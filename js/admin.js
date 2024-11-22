@@ -817,9 +817,9 @@ $(document).ready(function() {
     updateURLWithPreservedParams(newPath);
 
     if(catID == 3){
-      document.title = cat.n + " | Admin Commands | Dododex";
+      document.title = cat.n + " | ARK Admin Commands | Dododex";
     } else {
-      document.title = cat.n + " | Spawn Codes | Dododex";
+      document.title = cat.n + " | ARK Spawn Codes | Dododex";
     }
     if(typeof event == "object"){
       // console.log("PREVENT");
@@ -852,7 +852,7 @@ function initFromID(id){
   currentBP = getBPByID(id);
   // console.log('currentBP',currentBP)
   if(currentBP){
-    document.title = currentBP.l + " Admin Command ID & GFI | Dododex";
+    document.title = currentBP.l + " Admin Command ID & GFI | ARK: Survival Ascended & Evolved | Dododex";
 
 
 // "l":"Malfunctioned Tek Triceratops",
@@ -862,8 +862,6 @@ function initFromID(id){
 // "bp":"PrimalEarth/Dinos/Trike/BionicTrike_Character_BP_Malfunctioned.BionicTrike_Character_BP_Malfunctioned"
 
 
-  
-
 
     $(resultsEl).html('');
 
@@ -871,18 +869,25 @@ function initFromID(id){
     if(isDinoCat(currentBP.t)){
 
       $(resultsEl).html(`
-        <h1 class="marginBottom0 center">${currentBP.l} Spawn Commands</h1>
-        ${currentBP.t ?
-        `<p class="marginTop0 center">Type: <em class="light">${currentBP.t}</em></p>`
-        : ``}
-
-        ${currentBP.cid ?
-          `<div class="marginTop2"><img src="https://www.dododex.com/media/creature/${currentBP.cid}.png" alt="ARK ${currentBP.l}" height="200" /></div>`
-        : ``}
+        <div class="itemHead" style="display:flex;flex-direction:row;align-items:flex-end;">
+          <div class="rowItem">
+            <h1 class="marginBottom0">${currentBP.l} Spawn Commands</h1>
+            ${currentBP.t ?
+            `<p class="marginTop0">Type: <em class="light">${currentBP.t}</em></p>`
+            : ``}
+            ${currentBP.cid ?
+              `<div class="marginTop marginBottom"><a class="actionButton" href="https://www.dododex.com/taming/${currentBP.cid}">${currentBP.l} on Dododex</a></div>`
+            : ``}
+          </div>
+          ${currentBP.cid ?
+            `<div><img src="https://www.dododex.com/media/creature/${currentBP.cid}.png" alt="ARK ${currentBP.l}" height="140" /></div>`
+          : ``}
+        </div>
 
         ${currentBP.id ?
           `<p class="light">To spawn a ${currentBP.l}, you can use the GMSummon command "${currentBP.id}".</p>`
         : ``}
+
 
         ${currentBP.id ?
         `<h2 class="marginTop2">${currentBP.l} Spawn Command (Tamed)</h2>
@@ -943,9 +948,6 @@ function initFromID(id){
         ` : ``}
 
 
-        ${currentBP.cid ?
-          `<div class="marginTop2"><a class="actionButton" href="https://www.dododex.com/taming/${currentBP.cid}">${currentBP.l} on Dododex &raquo;</a></div>`
-        : ``}
 
 
 
@@ -953,11 +955,22 @@ function initFromID(id){
 
 
     } else {
+      var theItemURL = "http://www.dododex.com" + itemURL({ id: currentBP.item_id, name: currentBP.l });
+
+
       $(resultsEl).html(`
-        <h1 class="marginBottom0">${currentBP.l}</h1>
-        ${currentBP.t ?
-        `<p class="marginTop0">Type: <em class="light">${currentBP.t}</em></p>`
-        : ``}
+        <div class="itemHead" style="display:flex;flex-direction:row;align-items:flex-end;">
+          <div class="rowItem">
+            <h1 class="marginBottom0">${currentBP.l}</h1>
+            ${currentBP.t ?
+            `<p class="marginTop0">Type: <em class="light">${currentBP.t}</em></p>`
+            : ``}
+            <div class="marginTop marginBottom"><a class="actionButton" href="${theItemURL}">${currentBP.l} on Dododex</a></div>
+          </div>
+          ${currentBP.img ?
+          `<div class="rowItemN"><a href="${theItemURL}"><img src="https://www.dododex.com/media/item/${currentBP.img}" alt="${currentBP.l}" width="130"></a></div>`
+          : ``}
+        </div>
 
 
 
