@@ -886,6 +886,6 @@ Hide, Fur, Desert, Ghillie, Riot, Scuba, Hazard) (Quality: 0-20)"
 "c": "GiveWeaponSet <Tier> <Quality>",
 "e": "admincheat GiveWeaponSet 0 1",
 "t": "Items",
-"d": "Gives yourself all weapons in the specified tier along with the correct ammo for them. (Tier: 0 or "Primitive", 1 or "Basic", 2 or "Advanced", 3 or "Tek") (Quality: 0-20)"
+"d": "Gives yourself all weapons in the specified tier along with the correct ammo for them. (Tier: 0 or \"Primitive\", 1 or \"Basic\", 2 or \"Advanced\", 3 or \"Tek\") (Quality: 0-20)"
 
 }]}
