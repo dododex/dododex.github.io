@@ -874,4 +874,18 @@
 "e":"gamma 2.2",
 "t":"Visuals",
 "d":"Change gamma (2.2: Default, Range: 0-5)" 
+},{
+"id":"GiveArmorSet",
+"c":"GiveArmorSet <Tier> <Quality>",
+"e":"admincheat GiveArmorSet Metal 20",
+"t":"Items",
+"d":"Gives yourself a full set of armor of the given Tier at the given quality level. (Tier: Cloth, Chitin, Metal, Tek
+Hide, Fur, Desert, Ghillie, Riot, Scuba, Hazard) (Quality: 0-20)"
+},{
+"id": "GiveWeaponSet",
+"c": "GiveWeaponSet <Tier> <Quality>",
+"e": "admincheat GiveWeaponSet 0 1",
+"t": "Items",
+"d": "Gives yourself all weapons in the specified tier along with the correct ammo for them. (Tier: 0 or "Primitive", 1 or "Basic", 2 or "Advanced", 3 or "Tek") (Quality: 0-20)"
+
 }]}
