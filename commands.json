@@ -886,5 +886,550 @@
 "e": "admincheat GiveWeaponSet 0 1",
 "t": "Items",
 "d": "Gives yourself all weapons in the specified tier along with the correct ammo for them. (Tier: 0 or \"Primitive\", 1 or \"Basic\", 2 or \"Advanced\", 3 or \"Tek\") (Quality: 0-20)"
-
+},
+    {
+        "id": "DCMSet",
+        "c": "dcmset <property> <value>",
+        "e": "admincheat dcmset skybox 0",
+        "t": "Environment",
+        "d": "Adjusts a Day Cycle Manager setting. On Genesis: Part 2, using 'skybox' lets you change asteroid configurations, like 0 for Ambergris or 1 for Crystal."
+    },
+    {
+        "id": "FindMutagenDrops",
+        "c": "FindMutagenDrops",
+        "e": "admincheat FindMutagenDrops",
+        "t": "Items",
+        "d": "Shows the locations of Mutagen Bulbs nearby. Only works on Genesis: Part 2."
+    },
+    {
+        "id": "ForceGiveBuff",
+        "c": "ForceGiveBuff <BuffID> <Enable>",
+        "e": "admincheat ForceGiveBuff Buff_NamelessPreggers 1",
+        "t": "Player Status",
+        "d": "Adds a status effect to you or your current dino. Use ListMyBuffs to get the correct Buff ID."
+    },
+    {
+        "id": "ForceMutagenSpawn",
+        "c": "ForceMutagenSpawn",
+        "e": "admincheat ForceMutagenSpawn",
+        "t": "Items",
+        "d": "Forces a Mutagen Bulb to appear nearby."
+    },
+    {
+        "id": "GetEgg",
+        "c": "GetEgg <NumMutationsToAdd>",
+        "e": "admincheat GetEgg 5",
+        "t": "Items",
+        "d": "Creates a fertilized egg from the selected dino at your location."
+    },
+    {
+        "id": "HatchEgg",
+        "c": "HatchEgg",
+        "e": "admincheat HatchEgg",
+        "t": "Items",
+        "d": "Sets the incubation progress of the selected egg to 0%. You still need the correct temperature for it to hatch."
+    },
+    {
+        "id": "ListActiveHordeEvents",
+        "c": "ListActiveHordeEvents",
+        "e": "admincheat ListActiveHordeEvents",
+        "t": "Environment",
+        "d": "Displays a list of all active Orbital Supply Drops and Element Nodes. Only works on Extinction."
+    },
+    {
+        "id": "ListPlayers",
+        "c": "ListPlayers",
+        "e": "admincheat ListPlayers",
+        "t": "Server",
+        "d": "Lists all players currently connected to the server along with their ARK IDs."
+    },
+    {
+        "id": "Open",
+        "c": "Open <IP:Port>",
+        "e": "admincheat Open 123.45.67.89:7777?Password",
+        "t": "Server",
+        "d": "Connects you to a specific server using its IP and port. Add '?Password' to include a server password."
+    },
+    {
+        "id": "previewmode",
+        "c": "previewmode",
+        "e": "previewmode",
+        "t": "Visuals",
+        "d": "Switches graphics settings to a preview mode. The exact effect may vary."
+    },
+    {
+        "id": "r.shadowquality",
+        "c": "r.shadowquality <Quality>",
+        "e": "admincheat r.shadowquality 3",
+        "t": "Visuals",
+        "d": "Adjusts shadow quality. Use values from 0 (off) to 5 (epic)."
+    },
+    {
+        "id": "RemoveAllWorldBuffs",
+        "c": "RemoveAllWorldBuffs",
+        "e": "admincheat RemoveAllWorldBuffs",
+        "t": "Environment",
+        "d": "Removes all active world buffs on Genesis: Part 2."
+    },
+    {
+        "id": "SetDifficultyValue",
+        "c": "SetDifficultyValue <Value>",
+        "e": "admincheat SetDifficultyValue 5",
+        "t": "Dinos",
+        "d": "Changes the max level of wild dinos that can spawn. Use DestroyWildDinos to reset spawns."
+    },
+    {
+        "id": "StartNearestHorde",
+        "c": "StartNearestHorde <Type> <Difficulty>",
+        "e": "admincheat StartNearestHorde Crate 2",
+        "t": "Environment",
+        "d": "Starts an Orbital Supply Drop or Element Node event at the nearest spawn point. Only works on Extinction."
+    },
+    {
+        "id": "ToggleDamageNumbers",
+        "c": "ToggleDamageNumbers",
+        "e": "admincheat ToggleDamageNumbers",
+        "t": "Misc",
+        "d": "Turns floating damage numbers on or off for the server."
+    },
+    {
+        "id": "TribeMessage",
+        "c": "TribeMessage <TribeId> <Message>",
+        "e": "admincheat TribeMessage 12345 \"Hello Tribe!\"",
+        "t": "Tribe & Player Administration",
+        "d": "Adds a custom message to a tribe's log. Use the tribe's ID to target it."
+    },
+    {
+        "id": "TribeStructureAudit",
+        "c": "TribeStructureAudit <TribeId>",
+        "e": "admincheat TribeStructureAudit 12345",
+        "t": "Tribe & Player Administration",
+        "d": "Lists the types and counts of structures owned by a specific tribe."
+    },
+    {
+        "id": "TribeDinoAudit",
+        "c": "TribeDinoAudit <TribeId>",
+        "e": "admincheat TribeDinoAudit 12345",
+        "t": "Tribe & Player Administration",
+        "d": "Lists the types and counts of dinos owned by a specific tribe."
+    },
+    {
+        "id": "SetDay",
+        "c": "SetDay <Day>",
+        "e": "admincheat SetDay 100",
+        "t": "Environment",
+        "d": "Changes the in-game day to the specified value."
+    },
+    {
+        "id": "RenamePlayerId",
+        "c": "RenamePlayerId <PlayerID> <NewName>",
+        "e": "admincheat RenamePlayerId 12345 \"NewName\"",
+        "t": "Player Status",
+        "d": "Changes the name of a player using their ARK ID."
+    },
+    {
+        "id": "RenameTribeID",
+        "c": "RenameTribeID <TribeID> <NewName>",
+        "e": "admincheat RenameTribeID 67890 \"BetterTribe\"",
+        "t": "Tribe & Player Administration",
+        "d": "Renames a tribe using its Tribe ID."
+    },
+    {
+        "id": "LevelUp",
+        "c": "LevelUp <StatName> <NumLevels>",
+        "e": "admincheat LevelUp Health 10",
+        "t": "Player Status",
+        "d": "Adds levels to a specific stat on your character or current dino."
+    },
+    {
+        "id": "LevelUpAOE",
+        "c": "LevelUpAOE <StatName> <Radius> <NumLevels>",
+        "e": "admincheat LevelUpAOE Health 1000 5",
+        "t": "Player Status",
+        "d": "Adds levels to a stat for all players and dinos in a specified radius."
+    },
+    {
+        "id": "LevelUpTarget",
+        "c": "LevelUpTarget <StatName> <NumLevels>",
+        "e": "admincheat LevelUpTarget MeleeDamageMultiplier 15",
+        "t": "Player Status",
+        "d": "Increases a specific stat on the targeted player or dino by the specified number of levels."
+    },
+    {
+        "id": "ForceUpdateDynamicConfig",
+        "c": "ForceUpdateDynamicConfig",
+        "e": "admincheat ForceUpdateDynamicConfig",
+        "t": "Server",
+        "d": "Forces the server to reload dynamic config settings."
+    },
+    {
+        "id": "TeleportToPlayerName",
+        "c": "TeleportToPlayerName <PlayerName>",
+        "e": "admincheat TeleportToPlayerName Bob",
+        "t": "Movement",
+        "d": "Teleports you to the player with the specified name."
+    },
+    {
+        "id": "TeleportToActorLocation",
+        "c": "TeleportToActorLocation <ActorType>",
+        "e": "admincheat TeleportToActorLocation Rex_Character_BP_C",
+        "t": "Movement",
+        "d": "Teleports you to a specific actor in the game world. Requires the actor's blueprint path and number."
+    },
+    {
+        "id": "TP",
+        "c": "TP <LocationName>",
+        "e": "admincheat TP red",
+        "t": "Movement",
+        "d": "Quickly teleports you to predefined locations, like the red obelisk."
+    },
+    {
+        "id": "SPI",
+        "c": "SPI <X> <Y> <Z> <Yaw> <Pitch>",
+        "e": "admincheat SPI -1000 500 0 90 30",
+        "t": "Movement",
+        "d": "Teleports you to specific coordinates and adjusts your view's yaw and pitch."
+    },
+    {
+        "id": "MoveTargetTo",
+        "c": "MoveTargetTo <X> <Y> <Z>",
+        "e": "admincheat MoveTargetTo 100 200 50",
+        "t": "Movement",
+        "d": "Moves the targeted player or dino to specific coordinates."
+    },
+    {
+        "id": "TeleportToActiveHorde",
+        "c": "TeleportToActiveHorde <EventIndex>",
+        "e": "admincheat TeleportToActiveHorde 3",
+        "t": "Movement",
+        "d": "Teleports you to the specified active horde event. Use ListActiveHordeEvents to find event indices."
+    },
+    {
+        "id": "DestroyWildDinoClasses",
+        "c": "DestroyWildDinoClasses <ClassName> <ExactMatch>",
+        "e": "admincheat DestroyWildDinoClasses \"Rex_Character_BP_C\" 1",
+        "t": "Dinos",
+        "d": "Removes all wild dinos of a specific class. Use 1 for an exact match."
+    },
+    {
+        "id": "DestroyFoliage",
+        "c": "DestroyFoliage <Radius> <PutResourcesInInventory>",
+        "e": "admincheat DestroyFoliage 2000 1",
+        "t": "Environment",
+        "d": "Clears all foliage and resource nodes within a specified radius. Optionally adds resources to your inventory."
+    },
+    {
+        "id": "DestroyTribeId",
+        "c": "DestroyTribeId <TribeID>",
+        "e": "admincheat DestroyTribeId 56789",
+        "t": "Tribe & Player Administration",
+        "d": "Destroys all assets of a specific tribe using their Tribe ID."
+    },
+    {
+        "id": "DestroyTribeIdDinos",
+        "c": "DestroyTribeIdDinos <TribeID>",
+        "e": "admincheat DestroyTribeIdDinos 56789",
+        "t": "Tribe & Player Administration",
+        "d": "Removes all tamed dinos owned by the specified tribe."
+    },
+    {
+        "id": "DestroyTribeIdPlayers",
+        "c": "DestroyTribeIdPlayers <TribeID>",
+        "e": "admincheat DestroyTribeIdPlayers 56789",
+        "t": "Tribe & Player Administration",
+        "d": "Eliminates all players belonging to a specific tribe."
+    },
+    {
+        "id": "DestroyTribeIdStructures",
+        "c": "DestroyTribeIdStructures <TribeID>",
+        "e": "admincheat DestroyTribeIdStructures 56789",
+        "t": "Tribe & Player Administration",
+        "d": "Destroys all structures owned by a specific tribe."
+    },
+    {
+        "id": "DestroyTribeStructuresLessThan",
+        "c": "DestroyTribeStructuresLessThan <TribeID> <Connections>",
+        "e": "admincheat DestroyTribeStructuresLessThan 56789 2",
+        "t": "Tribe & Player Administration",
+        "d": "Removes structures with fewer than the specified number of connections for a specific tribe."
+    },
+    {
+        "id": "DestroyActors",
+        "c": "DestroyActors <Type> <ExactMatch>",
+        "e": "admincheat DestroyActors \"ActorName\" 1",
+        "t": "Dinos",
+        "d": "Eliminates all actors of the specified type. Use 1 for exact matches."
+    },
+    {
+        "id": "ForcePlayerToJoinTribeID",
+        "c": "ForcePlayerToJoinTribeID <PlayerID> <TribeTeamID>",
+        "e": "admincheat ForcePlayerToJoinTribeID 12345 67890",
+        "t": "Player Status",
+        "d": "Forces a player to join a specific tribe using their player and tribe IDs."
+    },
+    {
+        "id": "ForceJoinTribe",
+        "c": "ForceJoinTribe",
+        "e": "admincheat ForceJoinTribe",
+        "t": "Tribe & Player Administration",
+        "d": "Allows you to join the targeted tribe. Works as a shortcut for ForcePlayerToJoinTargetTribe."
+    },
+    {
+        "id": "TakeTribe",
+        "c": "TakeTribe <TribeID>",
+        "e": "admincheat TakeTribe 56789",
+        "t": "Tribe & Player Administration",
+        "d": "Transfers all dinos and structures from the specified tribe to your control. If no ID is provided, it defaults to the targeted tribe."
+    },
+    {
+        "id": "AddChibiExp",
+        "c": "AddChibiExp <Amount>",
+        "e": "admincheat AddChibiExp 1000",
+        "t": "Dinos",
+        "d": "Adds experience to the equipped Chibi-Pet and your character."
+    },
+    {
+        "id": "AddChibiExpToPlayer",
+        "c": "AddChibiExpToPlayer <PlayerID> <Amount>",
+        "e": "admincheat AddChibiExpToPlayer 12345 1000",
+        "t": "Dinos",
+        "d": "Adds experience to a specified player's Chibi-Pet and character."
+    },
+    {
+        "id": "DebugAllowvrMissionTeleport",
+        "c": "DebugAllowvrMissionTeleport",
+        "e": "admincheat DebugAllowvrMissionTeleport",
+        "t": "Cheats",
+        "d": "Allows you to teleport directly to the final boss arena on Genesis: Part 1 without completing missions."
+    },
+    {
+        "id": "ForceCompleteActiveMission",
+        "c": "ForceCompleteActiveMission",
+        "e": "admincheat ForceCompleteActiveMission",
+        "t": "Cheats",
+        "d": "Instantly completes the active mission, usually placing you at the top of the scoreboard."
+    },
+    {
+        "id": "HideRiders",
+        "c": "HideRiders <Visible>",
+        "e": "admincheat HideRiders 1",
+        "t": "Visuals",
+        "d": "Hides or reveals the rider of a dino. Use 1 to hide and 0 to reveal."
+    },
+    {
+        "id": "GiveEngramsTekOnly",
+        "c": "GiveEngramsTekOnly",
+        "e": "admincheat GiveEngramsTekOnly",
+        "t": "Player Status",
+        "d": "Unlocks all Tek Engrams for your character until you disconnect."
+    },
+    {
+        "id": "GiveTekengramsTo",
+        "c": "GiveTekengramsTo <PlayerID> <PartialName>",
+        "e": "admincheat GiveTekengramsTo 12345 tek",
+        "t": "Player Status",
+        "d": "Unlocks specific Tek Engrams for a player using a partial blueprint name."
+    },
+    {
+        "id": "EnvQA",
+        "c": "EnvQA",
+        "e": "admincheat EnvQA",
+        "t": "Player Status",
+        "d": "Enables a combination of cheats, including Tek Armor, FPS stats, and GMBuff."
+    },
+    {
+        "id": "Playercommand",
+        "c": "Playercommand <CommandName>",
+        "e": "admincheat Playercommand Ascend1",
+        "t": "Player Status",
+        "d": "Performs a specific ascension command for your character. Available values are: Ascend1 (Gamma difficulty), Ascend2 (Beta difficulty), Ascend3 (Alpha difficulty), AbAscend1 (Aberration Gamma), AbAscend2 (Aberration Beta), AbAscend3 (Aberration Alpha), EXTAscend1 (Extinction Gamma), EXTAscend2 (Extinction Beta), EXTAscend3 (Extinction Alpha), Genascend1 (Genesis: Part 1 Gamma), Genascend2 (Genesis: Part 1 Beta), Genascend3 (Genesis: Part 1 Alpha), Gen2Ascend1 (Genesis: Part 2 Gamma), Gen2Ascend2 (Genesis: Part 2 Beta), Gen2Ascend3 (Genesis: Part 2 Alpha)."
+    },
+    {
+        "id": "RefillStats",
+        "c": "RefillStats",
+        "e": "admincheat RefillStats",
+        "t": "Player Status",
+        "d": "Maximizes your health, stamina, food, water, and other stats."
+    },
+    {
+        "id": "GiveItemSet",
+        "c": "GiveItemSet <Tier>",
+        "e": "admincheat GiveItemSet 2",
+        "t": "Player Status",
+        "d": "Gives you a pre-defined set of items based on the specified tier."
+    },
+    {
+        "id": "ClearMyBuffs",
+        "c": "ClearMyBuffs",
+        "e": "admincheat ClearMyBuffs",
+        "t": "Player Status",
+        "d": "Removes all buffs from your character. Not all buffs are affected."
+    },
+    {
+        "id": "SetMyTargetSleeping",
+        "c": "SetMyTargetSleeping <Value>",
+        "e": "admincheat SetMyTargetSleeping 1",
+        "t": "Dinos",
+        "d": "Knocks out the targeted player or dino. Use 1 to knock out and 0 to wake up."
+    },
+    {
+        "id": "MaxAscend",
+        "c": "MaxAscend <PlayerID>",
+        "e": "admincheat MaxAscend 0",
+        "t": "Player Status",
+        "d": "Unlocks Alpha Ascension for Overseer and Rockwell for the specified player."
+    },
+    {
+        "id": "DefeatBoss",
+        "c": "DefeatBoss <PlayerID> <BossName> <Difficulty>",
+        "e": "admincheat DefeatBoss 0 \"Broodmother\" 2",
+        "t": "Player Status",
+        "d": "Grants the specified player the rewards for defeating a boss at the chosen difficulty."
+    },
+    {
+        "id": "DefeatAllBosses",
+        "c": "DefeatAllBosses <PlayerID>",
+        "e": "admincheat DefeatAllBosses 0",
+        "t": "Player Status",
+        "d": "Unlocks rewards for all alpha-level bosses for the specified player."
+    },
+    {
+        "id": "GiveAllExplorerNotes",
+        "c": "GiveAllExplorerNotes",
+        "e": "admincheat GiveAllExplorerNotes",
+        "t": "Player Status",
+        "d": "Unlocks all Explorer Notes and Fjordur Runes for your character. May cause temporary freezing."
+    },
+    {
+        "id": "GiveExplorerNote",
+        "c": "GiveExplorerNote <NoteIndex>",
+        "e": "admincheat GiveExplorerNote 17",
+        "t": "Player Status",
+        "d": "Unlocks a specific Explorer Note based on the index number provided."
+    },
+    {
+        "id": "AddHexagons",
+        "c": "AddHexagons <Amount>",
+        "e": "admincheat AddHexagons 1000",
+        "t": "Player Status",
+        "d": "Adds a specified amount of hexagons to your inventory."
+    },
+    {
+        "id": "DebugMyDinoTarget",
+        "c": "DebugMyDinoTarget",
+        "e": "admincheat DebugMyDinoTarget",
+        "t": "Dinos",
+        "d": "Prints detailed stats of the targeted dino in the console. Be cautious, as this command destroys all other dinos."
+    },
+    {
+        "id": "DumpDinoStats",
+        "c": "DumpDinoStats",
+        "e": "admincheat DumpDinoStats",
+        "t": "Dinos",
+        "d": "Outputs the stats of the targeted or ridden dino to the console."
+    },
+    {
+        "id": "RainDinos",
+        "c": "RainDinos <NumDinos> <SpreadAmount> <ZOffset>",
+        "e": "admincheat RainDinos 10 500 50",
+        "t": "Misc",
+        "d": "Spawns a mix of dinos like trikes and parasaurs above you. Customize the number, spread, and height."
+    },
+    {
+        "id": "RainDanger",
+        "c": "RainDanger <NumDinos> <SpreadAmount> <ZOffset>",
+        "e": "admincheat RainDanger 5 300 100",
+        "t": "Misc",
+        "d": "Spawns aggressive dinos like rexes and allos above you. Specify the number, spread, and height."
+    },
+    {
+        "id": "RainMonkeys",
+        "c": "RainMonkeys <NumDinos> <SpreadAmount> <ZOffset>",
+        "e": "admincheat RainMonkeys 15 400 150",
+        "t": "Misc",
+        "d": "Drops a group of Dinopithecus above you."
+    },
+    {
+        "id": "SetImprintedPlayer",
+        "c": "SetImprintedPlayer <Name> <PlayerID>",
+        "e": "admincheat SetImprintedPlayer \"NewOwner\" 12345",
+        "t": "Dinos",
+        "d": "Transfers imprint ownership of a dino to the specified player."
+    },
+    {
+        "id": "SetStatOnTarget",
+        "c": "SetStatOnTarget <StatName> <Value>",
+        "e": "admincheat SetStatOnTarget Health 1000",
+        "t": "Dinos",
+        "d": "Changes the current value of a specific stat on the targeted dino. Possible values: Health, Stamina, Torpidity, Oxygen, Food, Weight, Speed, Torpidity."
+    },
+    {
+        "id": "TransferImprints",
+        "c": "TransferImprints <OldPlayerID> <NewPlayerID> <NewImprinterName>",
+        "e": "admincheat TransferImprints 12345 67890 \"NewOwner\"",
+        "t": "Dinos",
+        "d": "Transfers all dino imprints from one player to another, optionally updating the imprint name."
+    },
+    {
+        "id": "SetTamingEffectivenessModifier",
+        "c": "SetTamingEffectivenessModifier <Value>",
+        "e": "admincheat SetTamingEffectivenessModifier 1.0",
+        "t": "Dinos",
+        "d": "Sets the taming effectiveness of a dino currently being tamed. Use values from 0 to 1.0 (100%)."
+    },
+    {
+        "id": "AddMutations",
+        "c": "AddMutations <StatType> <HowMany>",
+        "e": "admincheat AddMutations 0 5",
+        "t": "Dinos",
+        "d": "Adds mutation points to a specific stat of the targeted dino. Maximum 255 mutations per stat."
+    },
+    {
+        "id": "CopyCoordsToClipboard",
+        "c": "CopyCoordsToClipboard",
+        "e": "CopyCoordsToClipboard",
+        "t": "Player Status",
+        "d": "Copies your current coordinates and camera rotation to your clipboard in X Y Z Yaw Pitch format. (Shortcut: ccc)"
+    },
+    {
+        "id": "SpawnActorSpreadTamed",
+        "c": "SpawnActorSpreadTamed <BlueprintPath> <SpawnDistance> <SpawnYOffset> <ZOffset> <NumberActors> <SpreadAmount>",
+        "e": "admincheat SpawnActorSpreadTamed \"Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'\" 500 10 0 10 100",
+        "t": "Dinos",
+        "d": "Spawns multiple tamed creatures at a specified distance and spread using a blueprint path."
+    },
+    {
+        "id": "GiveDinoSet",
+        "c": "GiveDinoSet <Tier> <Quantity>",
+        "e": "admincheat GiveDinoSet Mek 0",
+        "t": "Dinos",
+        "d": "Spawns a predefined set of dinos based on the specified tier. Use 0 for the full set."
+    },
+    {
+        "id": "SpawnExactDino",
+        "c": "SpawnExactDino <BlueprintPath> <SaddlePath> <SaddleQuality> <BaseLevel> <ExtraLevels> <BaseStats> <AddedStats> <Name>",
+        "e": "admincheat SpawnExactDino \"Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'\" \"\" 1 100 0 \"0,0,0,0,0,0,0,0\" \"0,0,0,0,0,0,0,0\" \"AlphaRaptor\"",
+        "t": "Dinos",
+        "d": "Spawns a fully customized dino with specific stats, saddle, and name. Requires accurate blueprint paths."
+    },
+    {
+        "id": "SpawnSetupDino",
+        "c": "SpawnSetupDino <BlueprintPath> <SaddlePath> <SaddleQuality> <DinoLevel> <DinoStats> <SpawnDistance> <YOffset> <ZOffset>",
+        "e": "admincheat SpawnSetupDino \"Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'\" \"\" 1 50 \"Health=100,Weight=50\" 100 0 0",
+        "t": "Dinos",
+        "d": "Spawns a tamed dino with specific stats and optional saddle at the given location."
+    },
+    {
+        "id": "ForcePoop",
+        "c": "ForcePoop",
+        "e": "admincheat ForcePoop",
+        "t": "Dinos",
+        "d": "Forces the targeted or ridden dino to poop immediately."
+    },
+    {
+        "id": "CryoMyTarget",
+        "c": "CryoMyTarget",
+        "e": "admincheat CryoMyTarget",
+        "t": "Dinos",
+        "d": "Places the targeted dino into a cryopod."
 }]}
