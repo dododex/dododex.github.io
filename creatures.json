@@ -3004,5 +3004,17 @@
 "t":"Event Creatures",
 "id":"DarkPegasus_Character_BP_C",
 "bp":"/Game/ASA/Dinos/DarkPegasus/DarkPegasus_Character_BP.DarkPegasus_Character_BP"
+},{
+"l":"Armadoggo",
+"cid":"armadoggo",
+"t":"Dinos",
+"id":"Doggo_Character_BP_C",
+"bp":"/Game/Packs/Wasteland/Dinos/Doggo/Doggo_Character_BP.Doggo_Character_BP"
+},{
+"l":"Dreadnoughtus",
+"cid":"dreadnoughtus",
+"t":"Dinos",
+"id":"Dreadnoughtus_Character_BP_C",
+"bp":"/Game/ASA/Dinos/Dreadnoughtus/Dreadnoughtus_Character_BP.Dreadnoughtus_Character_BP"
 }
 ]}
