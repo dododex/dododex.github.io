@@ -40,6 +40,11 @@ var cats = {
       "p":1,
       "l":2
    },
+   "55":{
+      "n":"Chibis",
+      "p":1,
+      "l":2
+   },
    "56":{
       "n":"Genesis",
       "p":1,
@@ -1238,3 +1243,72 @@ function sortByTypeC(a, b) { /* Commands */
   }
   return 0;
 }
+
+function debugAdminCommands(bp, cats) {
+	// Find duplicates for a specific key
+	function findDuplicates(array, key) {
+		const seen = new Set();
+		const duplicates = new Set();
+		array.forEach(item => {
+			if (seen.has(item[key])) {
+				duplicates.add(item[key]);
+			} else {
+				seen.add(item[key]);
+			}
+		});
+		return Array.from(duplicates);
+	}
+
+	// Find exact duplicate objects
+	function findExactDuplicates(array) {
+		const seen = new Map();
+		const duplicates = [];
+		array.forEach(item => {
+			const stringifiedItem = JSON.stringify(item);
+			if (seen.has(stringifiedItem)) {
+				duplicates.push(item);
+			} else {
+				seen.set(stringifiedItem, true);
+			}
+		});
+		return duplicates;
+	}
+
+	// Find objects missing a specific key
+	function findMissingKey(array, key) {
+		return array.filter(item => !item.hasOwnProperty(key));
+	}
+
+	// Validate "t" types against cats
+	function findInvalidTypes(array, cats) {
+		const validTypes = new Set(Object.values(cats).map(cat => cat.n));
+		return array.filter(item => item.t && !validTypes.has(item.t));
+	}
+
+	// Debugging logic
+	const idDuplicates = findDuplicates(bp, "id");
+	const bpDuplicates = findDuplicates(bp, "bp");
+	const exactDuplicates = findExactDuplicates(bp);
+	const missingCid = findMissingKey(bp, "cid");
+	const missingType = findMissingKey(bp, "t");
+	const invalidTypes = findInvalidTypes(bp, cats);
+
+	// Log results
+	if (idDuplicates.length) console.log("Duplicate ids:", idDuplicates);
+	if (bpDuplicates.length) console.log("Duplicate bps:", bpDuplicates);
+	if (exactDuplicates.length) console.log("Exact duplicates:", exactDuplicates);
+	if (missingCid.length) console.log("Missing creature ids:", missingCid);
+	if (missingType.length) console.log("Missing type:", missingType);
+	if (invalidTypes.length) console.log("Invalid types:", invalidTypes);
+	if (
+		!idDuplicates.length &&
+		!bpDuplicates.length &&
+		!exactDuplicates.length &&
+		!missingCid.length &&
+		!missingType.length &&
+		!invalidTypes.length
+	) {
+		console.log("No issues found!");
+	}
+}
+
