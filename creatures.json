@@ -94,6 +94,216 @@
 "id":"SpiderL_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP.SpiderL_Character_BP"
 },{
+"t":"Bosses",
+"l":"Broodmother Lysrix (Gamma)",
+"cid":"broodmotherlysrix",
+"id":"SpiderL_Character_BP_Easy_C",
+"bp":"/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP_Easy.SpiderL_Character_BP_Easy"
+},{
+"t":"Bosses",
+"l":"Broodmother Lysrix (Beta)",
+"cid":"broodmotherlysrix",
+"id":"SpiderL_Character_BP_Medium_C",
+"bp":"/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP_Medium.SpiderL_Character_BP_Medium"
+},{
+"t":"Bosses",
+"l":"Broodmother Lysrix (Alpha)",
+"cid":"broodmotherlysrix",
+"id":"SpiderL_Character_BP_Hard_C",
+"bp":"/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP_Hard.SpiderL_Character_BP_Hard"
+},{
+"t":"Bosses",
+"l":"Broodmother Lysrix (Gamma, The Center)",
+"cid":"broodmotherlysrix",
+"id":"SpiderL_Character_BP_TheCenter_C",
+"bp":"/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP_TheCenter.SpiderL_Character_BP_TheCenter"
+},{
+"t":"Bosses",
+"l":"Broodmother Lysrix (Beta, The Center)",
+"cid":"broodmotherlysrix",
+"id":"SpiderL_Character_BP_TheCenterMedium_C",
+"bp":"/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP_TheCenterMedium.SpiderL_Character_BP_TheCenterMedium"
+},{
+"t":"Bosses",
+"l":"Broodmother Lysrix (Alpha, The Center)",
+"cid":"broodmotherlysrix",
+"id":"SpiderL_Character_BP_TheCenterHard_C",
+"bp":"/Game/PrimalEarth/Dinos/Spider-Large/SpiderL_Character_BP_TheCenterHard.SpiderL_Character_BP_TheCenterHard"
+},{
+"t":"Bosses",
+"l":"Broodmother Lysrix (Valguero)",
+"cid":"broodmotherlysrix",
+"id":"SpiderL_VAL_Character_BP_C",
+"bp":"/Game/Mods/Valguero/Assets/Dinos/SpiderL/SpiderL_VAL_Character_BP.SpiderL_VAL_Character_BP"
+},{
+"t":"Bosses",
+"l":"Broodmother Lysrix (Gauntlet)",
+"cid":"broodmotherlysrix",
+"id":"SpiderL_Character_BP_Gauntlet_C",
+"bp":"/Game/Genesis/Dinos/MissionVariants/Gauntlet/Bog/SpiderL_Character_BP_Gauntlet.SpiderL_Character_BP_Gauntlet"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus",
+"id":"Gorila_Character_BP_C",
+"bp":"/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP.Gorilla_Character_BP"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Gamma)",
+"id":"Gorilla_Character_BP_Easy_C",
+"bp":"/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP_Easy.Gorilla_Character_BP_Easy"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Beta)",
+"id":"Gorilla_Character_BP_Medium_C",
+"bp":"/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP_Medium.Gorilla_Character_BP_Medium"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Alpha)",
+"id":"Gorilla_Character_BP_Hard_C",
+"bp":"/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP_Hard.Gorilla_Character_BP_Hard"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Gamma, The Center)",
+"id":"Gorilla_Character_BP_TheCenter_C",
+"bp":"/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP_TheCenter.Gorilla_Character_BP_TheCenter"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Beta, The Center)",
+"id":"Gorilla_Character_BP_TheCenter_Medium_C",
+"bp":"/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP_TheCenter_Medium.Gorilla_Character_BP_TheCenter_Medium"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Alpha, The Center)",
+"id":"Gorilla_Character_BP_TheCenter_Hard_C",
+"bp":"/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP_TheCenter_Hard.Gorilla_Character_BP_TheCenter_Hard"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Gamma, Valguero)",
+"id":"Gorilla_Character_BP_Easy_C",
+"bp":"/Game/Mods/Valguero/Assets/CoreBlueprints/Boss/Gorilla_Character_BP_Easy.Gorilla_Character_BP_Easy"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Beta, Valguero)",
+"id":"Gorilla_Character_BP_Medium_C",
+"bp":"/Game/Mods/Valguero/Assets/CoreBlueprints/Boss/Gorilla_Character_BP_Medium.Gorilla_Character_BP_Medium"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Alpha, Valguero)",
+"id":"Gorilla_Character_BP_Hard_C",
+"bp":"/Game/Mods/Valguero/Assets/CoreBlueprints/Boss/Gorilla_Character_BP_Hard.Gorilla_Character_BP_Hard"
+},{
+"t":"Bosses",
+"cid":"megapithecus",
+"l":"Megapithecus (Gauntlet)",
+"id":"Gorilla_Character_BP_Gauntlet_C",
+"bp":"/Game/Genesis/Dinos/MissionVariants/Gauntlet/Arctic/Gorilla_Character_BP_Gauntlet.Gorilla_Character_BP_Gauntlet"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer",
+"id":"EndBoss_Character_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndBoss_Character.EndBoss_Character"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer (Gamma)",
+"id":"EndBoss_Character_Easy_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndBoss_Character_Easy.EndBoss_Character_Easy"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer (Beta)",
+"id":"EndBoss_Character_Medium_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndBoss_Character_Medium.EndBoss_Character_Medium"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer (Alpha)",
+"id":"EndBoss_Character_Hard_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndBoss_Character_Hard.EndBoss_Character_Hard"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Broodmother Guardian",
+"id":"EndBossSpiderL_Character_BP_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossSpider/EndBossSpiderL_Character_BP.EndBossSpiderL_Character_BP"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Broodmother Guardian (Gamma)",
+"id":"EndBossSpiderL_Character_BP_Easy_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossSpider/EndBossSpiderL_Character_BP_Easy.EndBossSpiderL_Character_BP_Easy"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Broodmother Guardian (Beta)",
+"id":"EndBossSpiderL_Character_BP_Medium_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossSpider/EndBossSpiderL_Character_BP_Medium.EndBossSpiderL_Character_BP_Medium"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Broodmother Guardian (Alpha)",
+"id":"EndBossSpiderL_Character_BP_Hard_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossSpider/EndBossSpiderL_Character_BP_Hard.EndBossSpiderL_Character_BP_Hard"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Dragon Guardian",
+"id":"EndBossDragon_Character_BP_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossDragon/EndBossDragon_Character_BP.EndBossDragon_Character_BP"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Dragon Guardian (Gamma)",
+"id":"EndBossDragon_Character_BP_Easy_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossDragon/EndBossDragon_Character_BP_Easy.EndBossDragon_Character_BP_Easy"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Dragon Guardian (Beta)",
+"id":"EndBossDragon_Character_BP_Medium_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossDragon/EndBossDragon_Character_BP_Medium.EndBossDragon_Character_BP_Medium"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Dragon Guardian (Alpha)",
+"id":"EndBossDragon_Character_BP_Hard_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossDragon/EndBossDragon_Character_BP_Hard.EndBossDragon_Character_BP_Hard"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Megapithecus Guardian",
+"id":"EndBossGorilla_Character_BP_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossGorilla/EndBossGorilla_Character_BP.EndBossGorilla_Character_BP"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Megapithecus Guardian (Gamma)",
+"id":"EndBossGorilla_Character_BP_Easy_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossGorilla/EndBossGorilla_Character_BP_Easy.EndBossGorilla_Character_BP_Easy"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Megapithecus Guardian (Beta)",
+"id":"EndBossGorilla_Character_BP_Medium_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossGorilla/EndBossGorilla_Character_BP_Medium.EndBossGorilla_Character_BP_Medium"
+},{
+"t":"Bosses",
+"cid":"overseer",
+"l":"Overseer Megapithecus Guardian (Alpha)",
+"id":"EndBossGorilla_Character_BP_Hard_C",
+"bp":"/Game/EndGame/Dinos/Endboss/EndbossGorilla/EndBossGorilla_Character_BP_Hard.EndBossGorilla_Character_BP_Hard"
+},{
 "t":"Dinos",
 "cid":"carbonemys",
 "l":"Carbonemys",
@@ -184,6 +394,60 @@
 "id":"Dragon_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP.Dragon_Character_BP"
 },{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Gamma)",
+"id":"Dragon_Character_BP_Boss_Easy_C",
+"bp":"/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Easy.Dragon_Character_BP_Boss_Easy"
+},{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Beta)",
+"id":"Dragon_Character_BP_Boss_Medium_C",
+"bp":"/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Medium.Dragon_Character_BP_Boss_Medium"
+},{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Alpha)",
+"id":"Dragon_Character_BP_Boss_Hard_C",
+"bp":"/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP_Boss_Hard.Dragon_Character_BP_Boss_Hard"
+},{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Gamma, Ragnarok)",
+"id":"Dragon_Character_BP_Boss_Easy_Ragnarok_C",
+"bp":"/Game/Mods/Ragnarok/Custom_Assets/Bosses/Dragon_Character_BP_Boss_Easy_Ragnarok.Dragon_Character_BP_Boss_Easy_Ragnarok"
+},{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Beta, Ragnarok)",
+"id":"Dragon_Character_BP_Boss_Medium_Ragnarok_C",
+"bp":"/Game/Mods/Ragnarok/Custom_Assets/Bosses/Dragon_Character_BP_Boss_Medium_Ragnarok.Dragon_Character_BP_Boss_Medium_Ragnarok"
+},{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Alpha, Ragnarok)",
+"id":"Dragon_Character_BP_Boss_Hard_Ragnarok_C",
+"bp":"/Game/Mods/Ragnarok/Custom_Assets/Bosses/Dragon_Character_BP_Boss_Hard_Ragnarok.Dragon_Character_BP_Boss_Hard_Ragnarok"
+},{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Gamma, Valguero)",
+"id":"Dragon_Character_BP_Boss_Easy_C",
+"bp":"/Game/Mods/Valguero/Assets/CoreBlueprints/Boss/Dragon_Character_BP_Boss_Easy.Dragon_Character_BP_Boss_Easy"
+},{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Beta, Valguero)",
+"id":"Dragon_Character_BP_Boss_Medium_C",
+"bp":"/Game/Mods/Valguero/Assets/CoreBlueprints/Boss/Dragon_Character_BP_Boss_Medium.Dragon_Character_BP_Boss_Medium"
+},{
+"t":"Bosses",
+"cid":"dragon",
+"l":"Dragon (Alpha, Valguero)",
+"id":"Dragon_Character_BP_Boss_Hard_C",
+"bp":"/Game/Mods/Valguero/Assets/CoreBlueprints/Boss/Dragon_Character_BP_Boss_Hard.Dragon_Character_BP_Boss_Hard"
+},{
 "t":"Dinos",
 "cid":"dung beetle",
 "l":"Dung Beetle",
@@ -241,10 +505,12 @@
 },{
 "t":"Dinos",
 "l":"Jug Bug",
+"cid":"jugbug",
 "id":"Jugbug_Character_BaseBP_C",
 "bp":"/Game/ScorchedEarth/Dinos/Jugbug/JugBug_Character_BaseBP.JugBug_Character_BaseBP"
 },{
 "t":"Dinos",
+"cid":"jugbug",
 "l":"Oil Jug Bug",
 "id":"Jugbug_Oil_Character_BP_C",
 "bp":"/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Oil_Character_BP.Jugbug_Oil_Character_BP"
@@ -326,12 +592,6 @@
 "l":"Meganeura",
 "id":"Dragonfly_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP.Dragonfly_Character_BP"
-},{
-"t":"Bosses",
-"cid":"megapithecus",
-"l":"Megapithecus",
-"id":"Gorila_Character_BP_C",
-"bp":"/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP.Gorilla_Character_BP"
 },{
 "t":"Dinos",
 "cid":"mesopithecus",
@@ -1531,56 +1791,67 @@
 },{
 "l":"Corrupted Dilophosaur",
 "t":"Extinction",
+"cid":"dilophosaur",
 "id":"Dilo_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Dilo/Dilo_Character_BP_Corrupt.Dilo_Character_BP_Corrupt"
 },{
 "l":"Corrupted Dimorphodon",
 "t":"Extinction",
+"cid":"dimorphodon",
 "id":"Dimorph_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Dimorphodon/Dimorph_Character_BP_Corrupt.Dimorph_Character_BP_Corrupt"
 },{
 "l":"Corrupted Giganotosaurus",
 "t":"Extinction",
+"cid":"giganotosaurus",
 "id":"Gigant_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Giganotosaurus/Gigant_Character_BP_Corrupt.Gigant_Character_BP_Corrupt"
 },{
 "l":"Corrupted Paraceratherium",
 "t":"Extinction",
+"cid":"paracer",
 "id":"Paracer_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Paraceratherium/Paracer_Character_BP_Corrupt.Paracer_Character_BP_Corrupt"
 },{
 "l":"Corrupted Pteranodon",
 "t":"Extinction",
+"cid":"pteranodon",
 "id":"Ptero_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Ptero/Ptero_Character_BP_Corrupt.Ptero_Character_BP_Corrupt"
 },{
 "l":"Corrupted Raptor",
 "t":"Extinction",
+"cid":"raptor",
 "id":"Raptor_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Raptor/Raptor_Character_BP_Corrupt.Raptor_Character_BP_Corrupt"
 },{
 "l":"Corrupted Reaper King",
+"cid":"reaper",
 "t":"Extinction",
 "id":"Xenomorph_Character_BP_Male_Tamed_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Nameless/Xenomorph_Character_BP_Male_Tamed_Corrupt.Xenomorph_Character_BP_Male_Tamed_Corrupt"
 },{
 "l":"Corrupted Rex",
 "t":"Extinction",
+"cid":"rex",
 "id":"Rex_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Rex/Rex_Character_BP_Corrupt.Rex_Character_BP_Corrupt"
 },{
 "l":"Corrupted Rock Drake",
 "t":"Extinction",
+"cid":"rockdrake",
 "id":"RockDrake_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/RockDrake/RockDrake_Character_BP_Corrupt.RockDrake_Character_BP_Corrupt"
 },{
 "l":"Corrupted Spino",
 "t":"Extinction",
+"cid":"spinosaur",
 "id":"Spino_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Spino/Spino_Character_BP_Corrupt.Spino_Character_BP_Corrupt"
 },{
 "l":"Corrupted Stegosaurus",
 "t":"Extinction",
+"cid":"stegosaurus",
 "id":"Stego_Character_BP_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Stego/Stego_Character_BP_Corrupt.Stego_Character_BP_Corrupt"
 },{
@@ -1592,6 +1863,7 @@
 },{
 "l":"Corrupted Wyvern",
 "t":"Extinction",
+"cid":"wyvern",
 "id":"Wyvern_Character_BP_Fire_Corrupt_C",
 "bp":"/Game/Extinction/Dinos/Corrupt/Wyvern/Wyvern_Character_BP_Fire_Corrupt.Wyvern_Character_BP_Fire_Corrupt"
 },{
@@ -2051,12 +2323,6 @@
 "id":"Volcano_Trike_Character_BP_Retrieve_Alpha_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Retrieve/Volcanic/Volcano_Trike_Character_BP_Retrieve_Alpha.Volcano_Trike_Character_BP_Retrieve_Alpha"
 },{
-"l":"Beta Corrupted Master Controller",
-"cid":"corruptedmastercontroller",
-"t":"Bosses",
-"id":"VRMainBoss_Character_Medium_C",
-"bp":"/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Medium.VRMainBoss_Character_Medium"
-},{
 "l":"Beta Moeder, Master of the Ocean",
 "cid":"moeder",
 "t":"Bosses",
@@ -2170,16 +2436,13 @@
 "bp":"/Game/Genesis/Dinos/Bots/Bot_Character_BP.Bot_Character_BP"
 },{
 "l":"Corrupted Master Controller",
+"cid":"corruptedmastercontroller",
 "t":"Bosses",
 "id":"VRMainBoss_Character_C",
 "bp":"/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character.VRMainBoss_Character"
 },{
-"l":"Gamma Corrupted Master Controller",
-"t":"Bosses",
-"id":"VRMainBoss_Character_Easy_C",
-"bp":"/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Easy.VRMainBoss_Character_Easy"
-},{
 "l":"Gamma Moeder, Master of the Ocean",
+"cid":"moeder",
 "t":"Bosses",
 "id":"EelBoss_Character_BP_Easy_C",
 "bp":"/Game/Genesis/Dinos/EelBoss/EelBoss_Character_BP_Easy.EelBoss_Character_BP_Easy"
@@ -2194,11 +2457,6 @@
 "id":"Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Retrieve/Lunar/Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve.Xenomorph_Character_BP_Male_InitialBuryOnly_Brute_Retrieve"
 },{
-"l":"Malfunctioned Tek Giganotosaurus",
-"t":"Tek Creatures",
-"id":"BionicGigant_Character_BP_Malfunctioned_Gauntlet_C",
-"bp":"/Game/Genesis/Dinos/MissionVariants/Gauntlet/Lunar/BionicGigant_Character_BP_Malfunctioned_Gauntlet.BionicGigant_Character_BP_Malfunctioned_Gauntlet"
-},{
 "l":"Malfunctioned Tek Parasaur",
 "t":"Tek Creatures",
 "id":"BionicPara_Character_BP_Malfunctioned_C",
@@ -2209,23 +2467,11 @@
 "id":"BionicRex_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP_Malfunctioned.BionicRex_Character_BP_Malfunctioned"
 },{
-"l":"Malfunctioned Tek Stegosaurus",
-"cid":"stegosaurus",
-"t":"Tek Creatures",
-"id":"BionicStego_Character_BP_Malfunctioned_C",
-"bp":"/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP_Malfunctioned.BionicStego_Character_BP_Malfunctioned"
-},{
 "l":"Malfunctioned Tek Triceratops",
 "cid":"triceratops",
 "t":"Tek Creatures",
 "id":"BionicTrike_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP_Malfunctioned.BionicTrike_Character_BP_Malfunctioned"
-},{
-"l":"Parakeet Fish School",
-"cid":"parakeetfishschool",
-"t":"Dinos",
-"id":"MicrobeSwarmChar_BP_C",
-"bp":"/Game/Genesis/Dinos/Swarms/MicrobeSwarmChar_BP.MicrobeSwarmChar_BP"
 },{
 "l":"Reaper Prince",
 "cid":"reaper",
@@ -2698,11 +2944,6 @@
 "id":"Plesiosaur_Character_BP_Hunt_C",
 "bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Ocean/Plesiosaur_Character_BP_Hunt.Plesiosaur_Character_BP_Hunt"
 },{
-"l":"Brute Reaper King",
-"t":"Genesis",
-"id":"Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt_C",
-"bp":"/Game/Genesis/Dinos/MissionVariants/Hunt/Lunar/Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt.Xenomorph_Character_BP_Male_InitialBuryOnly_Hunt"
-},{
 "l":"Brute Sarco",
 "t":"Genesis",
 "id":"Sarco_Character_BP_Hunt_C",
@@ -2769,11 +3010,6 @@
 "id":"VRMainBoss_Character_Easy_C",
 "bp":"/Game/Genesis/Dinos/VRMainBoss/VRMainBoss_Character_Easy.VRMainBoss_Character_Easy"
 },{
-"l":"Gamma Moeder, Master of the Ocean",
-"t":"Bosses",
-"id":"EelBoss_Character_BP_Easy_C",
-"bp":"/Game/Genesis/Dinos/EelBoss/EelBoss_Character_BP_Easy.EelBoss_Character_BP_Easy"
-},{
 "l":"Golden Striped Brute Megalodon",
 "t":"Genesis",
 "cid":"megalodon",
@@ -2798,57 +3034,56 @@
 "id":"BionicGigant_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP_Malfunctioned.BionicGigant_Character_BP_Malfunctioned"
 },{
-"l":"Malfunctioned Tek Parasaur",
-"t":"Tek Creatures",
-"id":"BionicPara_Character_BP_Malfunctioned_C",
-"bp":"/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP_Malfunctioned.BionicPara_Character_BP_Malfunctioned"
-},{
 "l":"Malfunctioned Tek Quetzal",
+"cid":"quetzal",
 "t":"Tek Creatures",
 "id":"BionicQuetz_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP_Malfunctioned.BionicQuetz_Character_BP_Malfunctioned"
 },{
 "l":"Malfunctioned Tek Raptor",
+"cid":"raptor",
 "t":"Tek Creatures",
 "id":"BionicRaptor_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Raptor/BionicRaptor_Character_BP_Malfunctioned.BionicRaptor_Character_BP_Malfunctioned"
 },{
-"l":"Malfunctioned Tek Rex",
-"t":"Tek Creatures",
-"id":"BionicRex_Character_BP_Malfunctioned_C",
-"bp":"/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP_Malfunctioned.BionicRex_Character_BP_Malfunctioned"
-},{
 "l":"Malfunctioned Tek Stegosaurus",
+"cid":"stegosaurus",
 "t":"Tek Creatures",
 "id":"BionicStego_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP_Malfunctioned.BionicStego_Character_BP_Malfunctioned"
 },{
 "l":"Malfunctioned Tek Triceratops",
+"cid":"triceratops",
 "t":"Tek Creatures",
 "id":"BionicTrike_Character_BP_Malfunctioned_C",
 "bp":"/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP_Malfunctioned.BionicTrike_Character_BP_Malfunctioned"
 },{
 "l":"Parakeet Fish School",
+"cid":"parakeetfishschool",
 "t":"Dinos",
 "id":"MicrobeSwarmChar_BP_C",
 "bp":"/Game/Genesis/Dinos/Swarms/MicrobeSwarmChar_BP.MicrobeSwarmChar_BP"
 },{
 "l":"Reaper Prince",
+"cid":"reaper",
 "t":"Dinos",
 "id":"Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent_C",
 "bp":"/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent.Xenomorph_Character_BP_Male_InitialBuryOnly_Adolescent"
 },{
 "l":"Tek Giganotosaurus",
+"cid":"giganotosaurus",
 "t":"Tek Creatures",
 "id":"BionicGigant_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Giganotosaurus/BionicGigant_Character_BP.BionicGigant_Character_BP"
 },{
 "l":"Tek Triceratops",
+"cid":"triceratops",
 "t":"Tek Creatures",
 "id":"BionicTrike_Character_BP_C",
 "bp":"/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP"
 },{
 "l":"Rare X-Sabertooth Salmon",
+"cid":"sabertoothsalmon",
 "t":"Genesis",
 "id":"Rare_Lunar_Salmon_Character_BP_C",
 "bp":"/Game/Genesis/Dinos/BiomeVariants/Lunar_Salmon/Rare_Lunar_Salmon_Character_BP.Rare_Lunar_Salmon_Character_BP"
