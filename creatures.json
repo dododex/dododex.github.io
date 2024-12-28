@@ -3147,5 +3147,23 @@
 "t":"Dinos",
 "id":"Dreadnoughtus_Character_BP_C",
 "bp":"/Game/ASA/Dinos/Dreadnoughtus/Dreadnoughtus_Character_BP.Dreadnoughtus_Character_BP"
-}
+},{
+"t": "Bosses",
+"l": "Dinopithecus King (Gamma)",
+"cid": "dinopithecusking",
+"id": "BossDinopithecus_Character_BP_Easy_C",
+"bp": "/Game/LostIsland/Boss/BossDinopithecus_Character_BP_Easy.BossDinopithecus_Character_BP_Easy"
+},{
+"t": "Bosses",
+"l": "Dinopithecus King (Beta)",
+"cid": "dinopithecusking",
+"id": "BossDinopithecus_Character_BP_Medium_C",
+"bp": "/Game/LostIsland/Boss/BossDinopithecus_Character_BP_Medium.BossDinopithecus_Character_BP_Medium"
+},{
+"t": "Bosses",
+"l": "Dinopithecus King (Alpha)",
+"cid": "dinopithecusking",
+"id": "BossDinopithecus_Character_BP_Hard_C",
+"bp": "/Game/LostIsland/Boss/BossDinopithecus_Character_BP_Hard.BossDinopithecus_Character_BP_Hard"
+}  
 ]}
