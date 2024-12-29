@@ -326,8 +326,12 @@ function updateAttr() {
 
   tame = tamed ? " | admincheat forcetame" : "";
 
+  var previousUme = ume;
+  ume = $("#admin-search input[name=ume]")[0].checked
+
+
   // If GFI toggle changes, we need to refresh the search results since it's a whole new command
-  if(previousGFI != gfi || previousTamed != tamed){
+  if(previousGFI != gfi || previousTamed != tamed || previousUme != ume){
     // console.log('GFI OR TAMED CHANGED')
     // if(cats[catID].n){
     //   searchBP(cats[catID].n);
@@ -514,6 +518,7 @@ function searchBP(){
     gfi = $("#admin-search input[name=gfi]")[0].checked;
     xbox = $("#admin-search input[name=xbox]")[0].checked; // -1 for Xbox
 
+    ume = $("#admin-search input[name=ume]")[0].checked
     tamed = $("#admin-search input[name=tame]")[0].checked
     tame = tamed ? " | admincheat forcetame" : "";
 
@@ -535,7 +540,11 @@ function searchBP(){
           if(tamed){
             var theBP = 'admincheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
           } else {
-            var theBP = "admincheat SpawnDino \"Blueprint'" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
+            if(ume){
+              var theBP = "admincheat SpawnDino \"Blueprint'" + item.bp + '" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
+            } else {
+              var theBP = "admincheat SpawnDino \"Blueprint'" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
+            }
           }
           rowClass += 'bprd';
           // if(item.cid){

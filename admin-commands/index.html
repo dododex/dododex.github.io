@@ -17,6 +17,7 @@
 	<script src="https://code.jquery.com/jquery-1.12.1.min.js" type="text/javascript"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
 	<script src="https://www.dododex.com/js/dododex.js" type="text/javascript"></script>
+	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 	<script src="../js/admin.js" type="text/javascript"></script>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-246960-18"></script>
 	<script>
@@ -133,7 +134,7 @@ p {
 				              <input type="text" name="distancez" class="whiteinput spinner100" size="4" value="0" />
 				            </div>
 				            <div class="light small marginTopS center">
-				              <label for="distance">Spawn Distance (X, Y, Z) </label>
+				              <label for="distance">Spawn Distance (X, Y, Z) <a data-tooltip="" title="Where the creature will spawn in relation to you."><i class="bx bx-xs bxs-help-circle light"></i></a></label>
 				              <div class="marginTopS"><img src="https://www.dododex.com/media/ui/xyz.png" height="40" /></div>
 				            </div>
 				          </div>
@@ -143,7 +144,11 @@ p {
 				          </div>
 				          <div class="padded">
 				            <div><input type="checkbox" name="tame" /></div>
-				            <div class="light small marginTopS"><label for="tame">Tamed</label></div>
+				            <div class="light small marginTopS"><label for="tame">Tamed <a data-tooltip="" title="Spawn the creature tamed."><i class="bx bx-xs bxs-help-circle light"></i></a></label></div>
+				          </div>
+				          <div class="padded">
+				            <div><input type="checkbox" name="ume" /></div>
+				            <div class="light small marginTopS"><label for="ume">ARK Mobile Format <a data-tooltip="" title="Some commands don't seem to work in ARK: Utimate Mobile Edition. Enabling this checkbox removes an apostrophe at the end of the command which makes them work for some reason."><i class="bx bx-xs bxs-help-circle light"></i></a></label></div>
 				          </div>
 				        </div>
 				      </div>
@@ -154,23 +159,23 @@ p {
 				        <div class="row center" style="padding:1.2em .5em .7em;">
 				          <div class="padded">
 				            <div><input type="text" name="quantity" class="whiteinput spinner" size="3" value="1" /></div>
-				            <div class="light small marginTopS"><label for="quantity">Quantity</label></div>
+				            <div class="light small marginTopS"><label for="quantity">Quantity <a data-tooltip="" title="The number of items to spawn."><i class="bx bx-xs bxs-help-circle light"></i></a></label></div>
 				          </div>
 				          <div class="padded">
 				            <div><input type="text" name="quality" class="whiteinput spinner" size="3" value="0" /></div>
-				            <div class="light small marginTopS"><label for="quality">Quality (0-100)</label></div>
+				            <div class="light small marginTopS"><label for="quality">Quality (0-100) <a data-tooltip="" title="The quality of the items to spawn (only available for weapons, tools, armor, shields, and saddles). A higher number means a better quality item with better stats. 1 is the standard of 100% quality."><i class="bx bx-xs bxs-help-circle light"></i></a></label></div>
 				          </div>
 				          <div class="padded" style="align-self:flex-end">
 				            <div><input type="checkbox" name="blueprint" /></div>
-				            <div class="light small marginTopS"><label for="blueprint">Blueprint</label></div>
+				            <div class="light small marginTopS"><label for="blueprint">Blueprint <a data-tooltip="" title="Give yourself a blueprint for this item instead of the item itself (available only for some items)."><i class="bx bx-xs bxs-help-circle light"></i></a></label></div>
 				          </div>
 				          <div class="padded" style="align-self:flex-end">
 				            <div><input type="checkbox" name="gfi" checked="checked" /></div>
-				            <div class="light small marginTopS"><label for="gfi">GFI</label></div>
+				            <div class="light small marginTopS"><label for="gfi">GFI <a data-tooltip="" title="GFI commands are a shortened version of a command, making it easier to type in just a small portion of an item's ID."><i class="bx bx-xs bxs-help-circle light"></i></a></label></div>
 				          </div>
 				          <div class="padded" style="align-self:flex-end">
 				            <div><input type="checkbox" name="xbox" /></div>
-				            <div class="light small marginTopS"><label for="xbox">Xbox IDs</label></div>
+				            <div class="light small marginTopS"><label for="xbox">Xbox IDs <a data-tooltip="" title="Xbox has different item IDs. When using the giveitemnum command, you use an item's ID such as 5. However, on Xbox, these item IDs are all offset by 1. This checkbox will use the correct IDs for Xbox."><i class="bx bx-xs bxs-help-circle light"></i></a></label></div>
 				          </div>
 				        </div>
 				      </div>
