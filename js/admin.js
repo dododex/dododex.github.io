@@ -324,7 +324,7 @@ function updateAttr() {
   var previousGFI = gfi;
   gfi = $("#admin-search input[name=gfi]")[0].checked == true ? 1 : 0;
 
-  tame = tamed ? " | admincheat forcetame" : "";
+  tame = tamed ? " | cheat forcetame" : "";
 
   var previousUme = ume;
   ume = $("#admin-search input[name=ume]")[0].checked
@@ -520,7 +520,7 @@ function searchBP(){
 
     ume = $("#admin-search input[name=ume]")[0].checked
     tamed = $("#admin-search input[name=tame]")[0].checked
-    tame = tamed ? " | admincheat forcetame" : "";
+    tame = tamed ? " | cheat forcetame" : "";
 
     // console.log('res',res)
 
@@ -538,12 +538,12 @@ function searchBP(){
         var theLabel = item.l;
         if(isDinoCat(item.t)) {
           if(tamed){
-            var theBP = 'admincheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
+            var theBP = 'cheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
           } else {
             if(ume){
-              var theBP = "admincheat SpawnDino \"Blueprint'" + item.bp + '" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
+              var theBP = "cheat SpawnDino \"Blueprint'" + item.bp + '" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
             } else {
-              var theBP = "admincheat SpawnDino \"Blueprint'" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
+              var theBP = "cheat SpawnDino \"Blueprint'" + item.bp + '\'" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
             }
           }
           rowClass += 'bprd';
@@ -551,13 +551,13 @@ function searchBP(){
           //   var theLabel = '<a href="https://www.dododex.com/taming/' + item.cid + '">' + item.l + '</a>';
           // }
         } else if (gfi && item.g){
-          var theBP = 'admincheat GFI ' + (item.g) + ' <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
+          var theBP = 'cheat GFI ' + (item.g) + ' <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
           rowClass += 'bprw';
         } else if (item.id){
-          var theBP = 'admincheat giveitemnum <span class="bpbi" data-id="' + item.id + '">' + (xbox ? item.id-1 : item.id) + '</span> <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
+          var theBP = 'cheat giveitemnum <span class="bpbi" data-id="' + item.id + '">' + (xbox ? item.id-1 : item.id) + '</span> <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
           rowClass += 'bprw';
         } else {
-          var theBP = "admincheat giveitem \"Blueprint'" + item.bp + '\'" <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
+          var theBP = "cheat giveitem \"Blueprint'" + item.bp + '\'" <span class="bpbe">' + quantity + " " + quality + " " + blueprint + "</span>";
           rowClass += 'bprw';
         }
         // console.log(theBP);
@@ -618,7 +618,7 @@ $(document).ready(function() {
   var xbox = $("#admin-search input[name=xbox]")[0].checked; // -1 for Xbox
   var gfi = $("#admin-search input[name=gfi]")[0].checked;
   var tamed = $("#admin-search input[name=tame]")[0].checked;
-  var tame = tamed ? " | admincheat forcetame" : "";
+  var tame = tamed ? " | cheat forcetame" : "";
  
   resultsEl = $("#admin-results");
 
