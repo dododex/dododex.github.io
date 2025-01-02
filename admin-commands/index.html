@@ -64,6 +64,28 @@ p {
 .admin-subnav {
 	display: none;
 }
+.whiteinputwb .editableCommand {
+    border: 0;
+    color: inherit;
+    font-size: inherit;
+    vertical-align: middle;
+    flex: 1;
+    width: 200px;
+    display: flex;
+    align-self: stretch;
+    width: 100%;
+    padding: 0.5em;
+    flex: 1;
+        word-break: break-word;
+}
+.editableCommand:focus {
+    outline: none;
+}
+
+.whiteinputwb .whiteinputb {
+    align-items: center;
+    display: flex;
+}
 	</style>
 	<script>window.nitroAds=window.nitroAds||{createAd:function(){window.nitroAds.queue.push(["createAd",arguments])},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
 	<script async src="https://s.nitropay.com/ads-50.js"></script>
@@ -235,8 +257,16 @@ p {
 			});
 			new Clipboard('.copy', {
 			    text: function(trigger) {
-			      return $(trigger).parent().find('input').val();
-			      this.destroy();
+			        // Try to find input in parent first (old method)
+			        var inputVal = $(trigger).parent().find('input').val();
+			        
+			        // If no input value found, try to find editableCommand (new method)
+			        if (!inputVal) {
+			            inputVal = $(trigger).parent().find('.editableCommand').text();
+			        }
+			        
+			        return inputVal;
+			        this.destroy();
 			    }
 			});
 		</script>

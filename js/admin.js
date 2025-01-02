@@ -1,4 +1,3 @@
-
 var ctrlOn = true;
 var cat1 = 3; // Top level cat
 var category = null;
@@ -458,7 +457,7 @@ function searchBP(){
         // Escape entities
         var eEscaped = item.e.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-        theHTML += '<div class="marginTop"><div class="whiteinputwb"><input type="text" size="52" value="' + eEscaped + '" /><a class="whiteinputb">COPY</a></div></div></div>';
+        theHTML += '<div class="marginTop"><div class="whiteinputwb"><div contenteditable="true" class="editableCommand">' + eEscaped + '</div><a class="whiteinputb copy">COPY</a></div></div></div>';
         
         // Append the HTML to the results element
         $('<li class="bpr ' + rowClass + '">')
@@ -907,7 +906,7 @@ function initFromID(id){
         `<h2 class="marginTop2">${currentBP.l} Spawn Command (Tamed)</h2>
         <p class="light">The spawn command for a tamed ${currentBP.l} is "${currentBP.id}".</p>
         
-        <div class="whiteinputwb"><input type="text" size="100" value="cheat gmsummon &quot;${currentBP.id}&quot; 60" /><a class="whiteinputb copy">COPY</a></div></div>
+        <div class="whiteinputwb"><div contenteditable="true" class="editableCommand">cheat gmsummon "${currentBP.id}" 60</div><a class="whiteinputb copy">COPY</a></div></div>
 
 
         <div class="cmdi lightbox marginTop row">
@@ -930,7 +929,7 @@ function initFromID(id){
         `<h2 class="marginTop2">${currentBP.l} Spawn Command (Wild)</h2>
         <p class="light">The blueprint path for the ${currentBP.l} is "Blueprint'${currentBP.bp}'". To spawn a wild ${currentBP.l}, use the following command.</p>
         
-        <div class="whiteinputwb"><input type="text" size="100" value="cheat SpawnDino &quot;Blueprint'${currentBP.bp}'&quot; 500 0 0 150" /><a class="whiteinputb copy">COPY</a></div></div>
+        <div class="whiteinputwb"><div contenteditable="true" class="editableCommand">cheat SpawnDino "Blueprint'${currentBP.bp}'" 500 0 0 150</div><a class="whiteinputb copy">COPY</a></div></div>
 
 
         <div class="cmdi lightbox marginTop row">
@@ -989,11 +988,11 @@ function initFromID(id){
 
 
         ${currentBP.g ?
-        `<h2 class="marginTop2">${currentBP.l} GFI</h2>
+        `<div><h2 class="marginTop2">${currentBP.l} GFI</h2>
 
         <p class="light">The GFI code for ${currentBP.l} is <b>${currentBP.g}</b>. Use this command to give yourself one or more ${currentBP.l}.</p>
 
-        <div class="whiteinputwb"><input type="text" size="52" value="cheat gfi ${currentBP.g} 1 0 0" /><a class="whiteinputb copy">COPY</a></div>
+        <div class="whiteinputwb"><div contenteditable="true" class="editableCommand">cheat gfi ${currentBP.g} 1 0 0</div><a class="whiteinputb copy">COPY</a></div>
         
         <div class="cmdi lightbox marginTop row">
           <div class="cmdi_td">
@@ -1017,15 +1016,15 @@ function initFromID(id){
             <div class="cmdi_d">Item Blueprint? (0=No, 1=Yes)</div>
           </div>
         </div>
-        ` : ``}
+        </div>` : ``}
 
 
         ${currentBP.id ?
-        `<h2 class="marginTop2">${currentBP.l} ID</h2>
+        `<div><h2 class="marginTop2">${currentBP.l} ID</h2>
 
         <p class="light">The item ID for ${currentBP.l} is <b>${currentBP.id}</b>.</p>
 
-        <div class="whiteinputwb"><input type="text" size="52" value="cheat GiveItemNum ${currentBP.id} 1 0 0" /><a class="whiteinputb copy">COPY</a></div>
+        <div class="whiteinputwb"><div contenteditable="true" class="editableCommand">cheat GiveItemNum ${currentBP.id} 1 0 0</div><a class="whiteinputb copy">COPY</a></div>
 
         <div class="cmdi lightbox marginTop row">
           <div class="cmdi_td">
@@ -1048,14 +1047,14 @@ function initFromID(id){
             <div class="cmdi_t">0</div>
             <div class="cmdi_d">Item Blueprint? (0=No, 1=Yes)</div>
           </div>
-        </div>` : ``}
+        </div></div>` : ``}
 
 
         ${currentBP.bp ?
-        `<h2 class="marginTop2">${currentBP.l} Blueprint Path</h2>
+        `<div><h2 class="marginTop2">${currentBP.l} Blueprint Path</h2>
         <p class="light">The blueprint path for ${currentBP.l} is "Blueprint'${currentBP.bp}'"</p>
         
-        <div class="whiteinputwb"><input type="text" size="100" value="cheat giveitem &quot;Blueprint'${currentBP.bp}'&quot; 1 0 0 " /><a class="whiteinputb copy">COPY</a></div></div>
+        <div class="whiteinputwb"><div contenteditable="true" class="editableCommand">cheat giveitem "Blueprint'${currentBP.bp}'" 1 0 0</div><a class="whiteinputb copy">COPY</a></div></div>
 
         <div class="cmdi lightbox marginTop row">
           <div class="cmdi_td">
@@ -1079,7 +1078,7 @@ function initFromID(id){
             <div class="cmdi_d">Item Blueprint? (0=No, 1=Yes)</div>
           </div>
         </div>
-        ` : ``}
+       </div>` : ``}
 
         `
       );
@@ -1320,4 +1319,3 @@ function debugAdminCommands(bp, cats) {
 		console.log("No issues found!");
 	}
 }
-
