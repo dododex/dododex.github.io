@@ -976,16 +976,32 @@ function initFromID(id){
 
         <div class="cmdi lightbox marginTop row">
           <div class="cmdi_td">
-            <div class="cmdi_t">GMSummon</div>
+            <div class="cmdi_t">SpawnDino</div>
             <div class="cmdi_d"></div>
           </div>
           <div class="cmdi_td">
-            <div class="cmdi_t">"${currentBP.id}"</div>
-            <div class="cmdi_d">Blueprint ID</div>
+            <div class="cmdi_t">"Blueprint'${currentBP.bp}'"</div>
+            <div class="cmdi_d">Blueprint Path</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">500</div>
+            <div class="cmdi_d">Spawn Distance (X) (larger number = further away from you)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Spawn Distance (Y) (negative number = left, positive number = right)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Spawn Distance (Z) (negative number = lower, positive number = higher)</div>
           </div>
           <div class="cmdi_td">
             <div class="cmdi_t">150</div>
             <div class="cmdi_d">${currentBP.l} Level</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">| forcetame</div>
+            <div class="cmdi_d">Taming Command (Mobile Only)</div>
           </div>
         </div>
         ` : ``}
