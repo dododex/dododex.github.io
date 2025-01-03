@@ -537,7 +537,11 @@ function searchBP(){
         var theLabel = item.l;
         if(isDinoCat(item.t)) {
           if(tamed){
-            var theBP = 'cheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
+            if(ume){
+              var theBP = 'cheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
+            } else{
+              var theBP = "cheat SpawnDino \"Blueprint'" + item.bp + '" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + (level/1.5) + " | forcetame</span>";
+            }
           } else {
             if(ume){
               var theBP = "cheat SpawnDino \"Blueprint'" + item.bp + '" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + level + "" + tame + "</span>";
@@ -930,6 +934,66 @@ function initFromID(id){
         <p class="light">The blueprint path for the ${currentBP.l} is "Blueprint'${currentBP.bp}'". To spawn a wild ${currentBP.l}, use the following command.</p>
         
         <div class="whiteinputwb"><div contenteditable="true" class="editableCommand">cheat SpawnDino "Blueprint'${currentBP.bp}'" 500 0 0 150</div><a class="whiteinputb copy">COPY</a></div></div>
+
+
+        <div class="cmdi lightbox marginTop row">
+          <div class="cmdi_td">
+            <div class="cmdi_t">SpawnDino</div>
+            <div class="cmdi_d"></div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">"Blueprint'${currentBP.bp}'"</div>
+            <div class="cmdi_d">Blueprint Path</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">500</div>
+            <div class="cmdi_d">Spawn Distance (X) (larger number = further away from you)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Spawn Distance (Y) (negative number = left, positive number = right)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">0</div>
+            <div class="cmdi_d">Spawn Distance (Z) (negative number = lower, positive number = higher)</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">150</div>
+            <div class="cmdi_d">${currentBP.l} Level</div>
+          </div>
+        </div>
+        ` : ``}
+
+
+
+        ${currentBP.id ?
+        `<hr style="margin-top:3em" /><h2 class="marginTop2">ARK: Ultimate Mobile Edition</h2>
+        <h3 class="marginTop2">Tamed</h3>
+        
+        <p class="light">Note: Because of command differences in ARK: Ultimate Mobile edition, the only foolproof way to spawn tamed creatures is to spawn it wild and then forcetame them. This command chains the two commands so it will immediately tame the wild ${currentBP.l}. This will cause the ${currentBP.l} to get a +50% level bonus.</p>
+
+        <div class="whiteinputwb"><div contenteditable="true" class="editableCommand">cheat SpawnDino "Blueprint'${currentBP.bp}" 500 0 0 150 | forcetame</div><a class="whiteinputb copy">COPY</a></div></div>
+
+        <div class="cmdi lightbox marginTop row">
+          <div class="cmdi_td">
+            <div class="cmdi_t">GMSummon</div>
+            <div class="cmdi_d"></div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">"${currentBP.id}"</div>
+            <div class="cmdi_d">Blueprint ID</div>
+          </div>
+          <div class="cmdi_td">
+            <div class="cmdi_t">150</div>
+            <div class="cmdi_d">${currentBP.l} Level</div>
+          </div>
+        </div>
+        ` : ``}
+
+        ${currentBP.bp ?
+        `<h3 class="marginTop2">Wild</h3>
+        
+        <div class="whiteinputwb"><div contenteditable="true" class="editableCommand">cheat SpawnDino "Blueprint'${currentBP.bp}" 500 0 0 150</div><a class="whiteinputb copy">COPY</a></div></div>
 
 
         <div class="cmdi lightbox marginTop row">
