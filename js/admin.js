@@ -538,9 +538,9 @@ function searchBP(){
         if(isDinoCat(item.t)) {
           if(tamed){
             if(ume){
-              var theBP = 'cheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
+              var theBP = "cheat SpawnDino \"Blueprint'" + item.bp + '" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + Math.round(level/1.5) + " | forcetame</span>";
             } else{
-              var theBP = "cheat SpawnDino \"Blueprint'" + item.bp + '" <span class="bpbe">' + distance + " " + distancey + " " + distancez + " " + (level/1.5) + " | forcetame</span>";
+              var theBP = 'cheat gmsummon "' + item.id + '" <span class="bpbe">' + level + '</span>';
             }
           } else {
             if(ume){
