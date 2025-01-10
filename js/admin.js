@@ -869,8 +869,13 @@ function initFromID(id){
   currentBP = getBPByID(id);
   // console.log('currentBP',currentBP)
   if(currentBP){
-    document.title = currentBP.l + " Admin Command ID & GFI | ARK: Survival Ascended & Evolved | Dododex";
 
+
+    if(isDinoCat(currentBP.t)){
+      document.title = currentBP.l + " Spawn Command | ARK: Survival Ascended & Evolved | Dododex";
+    } else {
+      document.title = currentBP.l + " GFI & Spawn Command | ARK: Survival Ascended & Evolved | Dododex";
+    }
 
 // "l":"Malfunctioned Tek Triceratops",
 // "id":"triceratops",
@@ -1213,10 +1218,10 @@ function initFromURL(){
   var commandPath = commandPathString.split("/");
 
   if(commandPath[0] == 'dinos'){
-    title = 'Spawn Codes';
+    title = 'Spawn Commands';
     cat1id = 1;
   } else if (commandPath[0] == 'items') {
-    title = 'Spawn Codes';
+    title = 'GFI & Spawn Commands';
     cat1id = 2;
   } else {
     title = 'Admin Commands';
