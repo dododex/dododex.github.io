@@ -980,8 +980,8 @@
     },
     {
         "id": "StartNearestHorde",
-        "c": "StartNearestHorde <Type> <Difficulty>",
-        "e": "admincheat StartNearestHorde Crate 2",
+        "c": "StartNearestHorde <Type> <Difficulty> <Teleport>",
+        "e": "admincheat StartNearestHorde Crate 2 0",
         "t": "Environment",
         "d": "Starts an Orbital Supply Drop or Element Node event at the nearest spawn point. Only works on Extinction."
     },
