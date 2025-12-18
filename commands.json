@@ -1382,7 +1382,7 @@
         "c": "AddMutations <StatType> <HowMany>",
         "e": "admincheat AddMutations 0 5",
         "t": "Dinos",
-        "d": "Adds mutation points to a specific stat of the targeted dino. Maximum 255 mutations per stat."
+        "d": "Adds mutation points to a specific stat of the targeted dino. Maximum 255 mutations per stat.  (ARK: Survival Ascended only, does not work on ARK: Survival Evolved.)"
     },
     {
         "id": "CopyCoordsToClipboard",
