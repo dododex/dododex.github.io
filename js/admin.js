@@ -655,12 +655,19 @@ $(document).ready(function() {
     bp = data.BP; // Assuming data is an array
 
     // Build the lookup table
-    bp.forEach(function(item) {
-      if (item.l) { // Ensure the label exists
-        var keySlug = slugify(item.l);
-        bpMap[keySlug] = item;
-      }
-    });
+	bp.forEach(function(item) {
+		if (item.l) { // Ensure the label exists
+			var keySlug = slugify(item.l);
+			bpMap[keySlug] = item;
+	
+			// Add compact key lookup too
+			bpMapCompact[compactKey(item.l)] = item;
+	
+			// Optional: also index by item.id / creature cid if you want those to work too
+			if(item.cid) bpMapCompact[compactKey(item.cid)] = item;
+			if(item.id)  bpMapCompact[compactKey(item.id)] = item;
+		}
+	});
 
     bp.sort(sortByType);
 
@@ -860,9 +867,23 @@ function getCatBySlug(slug, level, parent){
   }
 }
 
+// Normalize to a compact key that ignores separators/punctuation
+function compactKey(str){
+	if(typeof str !== "string") return "";
+	return decodeURIComponent(str)
+		.toLowerCase()
+		.trim()
+		.replace(/[^a-z0-9]/g, ""); // removes spaces, dashes, underscores, punctuation, etc.
+}
+
 function getBPByID(id){
-  var IDSlug = slugify(id);
-  return bpMap[IDSlug] || null;
+	// Primary: existing slug behavior
+	var IDSlug = slugify(id);
+	if(bpMap[IDSlug]) return bpMap[IDSlug];
+
+	// Fallback: separator-insensitive match
+	var compact = compactKey(id);
+	return bpMapCompact[compact] || null;
 }
 
 function initFromID(id){
@@ -1296,6 +1317,7 @@ function initFromURL(){
 // TODO: Only get this if it's not already defined.
 var bp = [];
 var bpMap = {};
+var bpMapCompact = {};
 var commands = [];
 
 function sortByType(a, b) { /* Dinos / Weapons */
