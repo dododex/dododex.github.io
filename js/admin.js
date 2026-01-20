@@ -2,6 +2,7 @@ var ctrlOn = true;
 var cat1 = 3; // Top level cat
 var category = null;
 var noDataHTML = '<div class="light center marginTop2 marginBottom2"><b class="white">No results found.</b> Please <a href="https://docs.google.com/forms/d/e/1FAIpQLScdkF2Mtu0nfAsTxYa7eUMwXx-dyBGVMrj57kZomxgAhAHqsQ/viewform" target="_blank">report it</a> or <a href="https://github.com/dododex/dododex.github.io">add it</a>.</div>'
+var serverErrorHTML = '<div class="light center marginTop2 marginBottom2"><b class="white">Having trouble reaching Dododex\'s data.</b> Please try again in a few minutes. If the problem persists for an extended period of time, <a href="https://docs.google.com/forms/d/e/1FAIpQLScdkF2Mtu0nfAsTxYa7eUMwXx-dyBGVMrj57kZomxgAhAHqsQ/viewform" target="_blank">report a data error</a>.</div>'
 
 var cats = {
    "1":{
@@ -54,13 +55,8 @@ var cats = {
       "p":1,
       "l":2
    },
-   "58":{
-      "n":"Lost Island",
-      "p":1,
-      "l":2
-   },
-   "59":{
-      "n":"Fjordur",
+   "61":{
+      "n":"Lost Colony",
       "p":1,
       "l":2
    },
@@ -649,25 +645,48 @@ $(document).ready(function() {
   //   var categorySlug = categoryName.replace(/\s+/g, '-').toLowerCase();
 
 
- // Load blueprints
-  const cacheBreaker = Math.floor(Date.now() / (1000 * 60)); 
-  $.getJSON( `https://www.dododex.com/api/bp.json?${cacheBreaker}`, function( data ) {
+  // LocalStorage cache helpers for bp.json
+  function getCachedBP() {
+    try {
+      var cached = localStorage.getItem('dododex_bp_cache');
+      if (cached) {
+        return JSON.parse(cached);
+      }
+    } catch (e) {
+      console.error('Error reading cached BP data:', e);
+    }
+    return null;
+  }
+
+  function setCachedBP(data) {
+    try {
+      var cacheData = {
+        data: data,
+        timestamp: Date.now()
+      };
+      localStorage.setItem('dododex_bp_cache', JSON.stringify(cacheData));
+    } catch (e) {
+      console.error('Error caching BP data:', e);
+    }
+  }
+
+  function processBPData(data) {
     bp = data.BP; // Assuming data is an array
 
     // Build the lookup table
-	bp.forEach(function(item) {
-		if (item.l) { // Ensure the label exists
-			var keySlug = slugify(item.l);
-			bpMap[keySlug] = item;
-	
-			// Add compact key lookup too
-			bpMapCompact[compactKey(item.l)] = item;
-	
-			// Optional: also index by item.id / creature cid if you want those to work too
-			if(item.cid) bpMapCompact[compactKey(item.cid)] = item;
-			if(item.id)  bpMapCompact[compactKey(item.id)] = item;
-		}
-	});
+    bp.forEach(function(item) {
+      if (item.l) { // Ensure the label exists
+        var keySlug = slugify(item.l);
+        bpMap[keySlug] = item;
+    
+        // Add compact key lookup too
+        bpMapCompact[compactKey(item.l)] = item;
+    
+        // Optional: also index by item.id / creature cid if you want those to work too
+        if(item.cid) bpMapCompact[compactKey(item.cid)] = item;
+        if(item.id)  bpMapCompact[compactKey(item.id)] = item;
+      }
+    });
 
     bp.sort(sortByType);
 
@@ -676,7 +695,38 @@ $(document).ready(function() {
       commands = data.BP;
       commands.sort(sortByTypeC);
       initFromURL();
+    }).fail(function() {
+      // If commands.json also fails, still try to initialize with cached BP data
+      initFromURL();
     });
+  }
+
+  // Load blueprints with caching and fallback
+  const cacheBreaker = Math.floor(Date.now() / (1000 * 60));
+  var cachedBP = getCachedBP();
+  
+  // Try to load from server
+  $.getJSON( `https://www.dododex.com/api/bp.json?${cacheBreaker}`, function( data ) {
+    // Success: cache the data and process it
+    setCachedBP(data);
+    processBPData(data);
+  }).fail(function(jqXHR, textStatus, errorThrown) {
+    // Server request failed: try to use cached data
+    if (cachedBP && cachedBP.data) {
+      console.log('Server unavailable, using cached BP data');
+      processBPData(cachedBP.data);
+    } else {
+      // No cache available and server is down: show error message
+      console.error('Failed to load BP data and no cache available:', textStatus, errorThrown);
+      $(resultsEl).html(serverErrorHTML);
+      
+      // Still try to load commands (they might work)
+      $.getJSON("../commands.json", function(data) {
+        commands = data.BP;
+        commands.sort(sortByTypeC);
+        // Don't call initFromURL() since we don't have BP data
+      });
+    }
   });
 
   function spinStop(event, ui){
