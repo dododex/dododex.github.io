@@ -364,7 +364,7 @@ function isDinoCat(category){
     return false;
   }
 
-  return category.toUpperCase() == "DINOS" || category.toUpperCase() == "ABERRATION" || category.toUpperCase() == "GENESIS" || category.toUpperCase() == "GENESIS 2" || category.toUpperCase() == "EXTINCTION" || category.toUpperCase() == "LOST ISLAND" || category.toUpperCase() == "FJORDUR" || category.toUpperCase() == "ALPHAS" || category.toUpperCase() == "TEK CREATURES" || category.toUpperCase() == "BOSSES" || category.toUpperCase() == "EVENT CREATURES";
+  return category.toUpperCase() == "DINOS" || category.toUpperCase() == "ABERRATION" || category.toUpperCase() == "LOST COLONY" || category.toUpperCase() == "GENESIS" || category.toUpperCase() == "GENESIS 2" || category.toUpperCase() == "EXTINCTION" || category.toUpperCase() == "LOST ISLAND" || category.toUpperCase() == "FJORDUR" || category.toUpperCase() == "ALPHAS" || category.toUpperCase() == "TEK CREATURES" || category.toUpperCase() == "BOSSES" || category.toUpperCase() == "EVENT CREATURES";
 
 }
 
